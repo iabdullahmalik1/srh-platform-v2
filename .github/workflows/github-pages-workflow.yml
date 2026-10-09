@@ -37,7 +37,7 @@ jobs:
         env:
           STATIC_EXPORT: "1"
           # The site is served from https://<user>.github.io/<repository-name>/
-          NEXT_PUBLIC_BASE_PATH: /${{ github.event.repository.name }}
+         NEXT_PUBLIC_BASE_PATH: ""}}
           NEXT_TELEMETRY_DISABLED: "1"
         run: npx next build
 
