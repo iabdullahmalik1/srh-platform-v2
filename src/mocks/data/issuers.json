@@ -1,0 +1,309 @@
+[
+  {
+    "id": "iss_srhlf",
+    "name": "SRH Liquidity Fund SPC",
+    "type": "fund",
+    "jurisdiction": "AE-ADGM",
+    "registrationNumber": "000004120",
+    "sponsor": "SRH Asset Management",
+    "contact": "funds@srh.inc",
+    "kybStatus": "approved",
+    "assetsCount": 1,
+    "createdAt": "2025-05-01T00:00:00Z",
+    "licence": "FSRA qualified investor fund",
+    "serviceProviders": [
+      {
+        "role": "Fund administrator",
+        "name": "Apex Group"
+      },
+      {
+        "role": "Custodian",
+        "name": "BNY"
+      },
+      {
+        "role": "Auditor",
+        "name": "KPMG Lower Gulf"
+      },
+      {
+        "role": "Legal counsel",
+        "name": "Clifford Chance"
+      }
+    ]
+  },
+  {
+    "id": "iss_wpk",
+    "name": "Whitworth Park Residences SPV Ltd",
+    "type": "spv",
+    "jurisdiction": "AE-ADGM",
+    "registrationNumber": "000013377",
+    "sponsor": "The University of Manchester",
+    "contact": "sara.kim@whitworthpark-spv.com",
+    "kybStatus": "approved",
+    "assetsCount": 1,
+    "createdAt": "2026-05-04T00:00:00Z",
+    "serviceProviders": [
+      {
+        "role": "Operator and lessee",
+        "name": "The University of Manchester"
+      },
+      {
+        "role": "Valuer",
+        "name": "Knight Frank"
+      },
+      {
+        "role": "Corporate services",
+        "name": "IQ-EQ"
+      },
+      {
+        "role": "Security trustee",
+        "name": "Apex Group"
+      },
+      {
+        "role": "Auditor",
+        "name": "Deloitte"
+      },
+      {
+        "role": "Legal counsel",
+        "name": "Pinsent Masons"
+      }
+    ]
+  },
+  {
+    "id": "iss_gold",
+    "name": "SRH Gold Trust",
+    "type": "trust",
+    "jurisdiction": "AE-ADGM",
+    "registrationNumber": "000008841",
+    "sponsor": "SRH Asset Management",
+    "contact": "gold@srh.inc",
+    "kybStatus": "approved",
+    "assetsCount": 1,
+    "createdAt": "2024-12-02T00:00:00Z",
+    "serviceProviders": [
+      {
+        "role": "Vault operator",
+        "name": "Brink's Global Services (Dubai)"
+      },
+      {
+        "role": "Refiner (LBMA Good Delivery)",
+        "name": "Emirates Gold DMCC"
+      },
+      {
+        "role": "Bar audit",
+        "name": "Inspectorate (Bureau Veritas)"
+      },
+      {
+        "role": "Trustee",
+        "name": "Apex Group"
+      }
+    ]
+  },
+  {
+    "id": "iss_ads",
+    "name": "Al Dhafra Solar Sukuk Ltd",
+    "type": "spv",
+    "jurisdiction": "AE-ADGM",
+    "registrationNumber": "000011245",
+    "sponsor": "Masdar",
+    "contact": "sukuk@aldhafrasukuk.ae",
+    "kybStatus": "approved",
+    "assetsCount": 1,
+    "createdAt": "2025-12-15T00:00:00Z",
+    "serviceProviders": [
+      {
+        "role": "Obligor and co-owner",
+        "name": "Masdar"
+      },
+      {
+        "role": "Offtaker",
+        "name": "Emirates Water and Electricity Company (EWEC)"
+      },
+      {
+        "role": "Sharia adviser",
+        "name": "Dar Al Sharia"
+      },
+      {
+        "role": "Delegate and trustee",
+        "name": "Apex Group"
+      },
+      {
+        "role": "Legal counsel",
+        "name": "Allen Overy Shearman"
+      }
+    ]
+  },
+  {
+    "id": "iss_acred",
+    "name": "Securitize Tokenized Apollo Diversified Credit Fund, Ltd.",
+    "type": "fund",
+    "jurisdiction": "VG",
+    "registrationNumber": "2156443",
+    "sponsor": "Apollo Global Management",
+    "contact": "investors@securitize.io",
+    "kybStatus": "approved",
+    "assetsCount": 1,
+    "createdAt": "2025-01-29T00:00:00Z",
+    "licence": "Feeder into Apollo Diversified Credit Fund",
+    "serviceProviders": [
+      {
+        "role": "Investment manager (master fund)",
+        "name": "Apollo Global Management"
+      },
+      {
+        "role": "Transfer agent and tokenisation",
+        "name": "Securitize"
+      },
+      {
+        "role": "Administrator",
+        "name": "Apex Group"
+      }
+    ]
+  },
+  {
+    "id": "iss_hl",
+    "name": "Hamilton Lane Global Private Assets Fund",
+    "type": "fund",
+    "jurisdiction": "EU-LU",
+    "registrationNumber": "B259102",
+    "sponsor": "Hamilton Lane",
+    "contact": "gpa@hamiltonlane.com",
+    "kybStatus": "approved",
+    "assetsCount": 1,
+    "createdAt": "2025-03-10T00:00:00Z",
+    "licence": "Luxembourg SICAV, CSSF supervised",
+    "serviceProviders": [
+      {
+        "role": "Investment manager",
+        "name": "Hamilton Lane"
+      },
+      {
+        "role": "Tokenised access",
+        "name": "Securitize"
+      },
+      {
+        "role": "Depositary",
+        "name": "State Street Bank International"
+      },
+      {
+        "role": "Auditor",
+        "name": "PwC Luxembourg"
+      }
+    ]
+  },
+  {
+    "id": "iss_kafd",
+    "name": "KAFD Grade-A Office Income Fund",
+    "type": "fund",
+    "jurisdiction": "SA",
+    "registrationNumber": "CMA-REF-1147",
+    "sponsor": "Riyad Capital",
+    "contact": "realestate@riyadcapital.com",
+    "kybStatus": "in-review",
+    "assetsCount": 1,
+    "createdAt": "2026-06-20T00:00:00Z",
+    "licence": "CMA private real estate fund",
+    "serviceProviders": [
+      {
+        "role": "Fund manager",
+        "name": "Riyad Capital"
+      },
+      {
+        "role": "Valuer",
+        "name": "JLL"
+      },
+      {
+        "role": "Custodian",
+        "name": "Albilad Capital"
+      }
+    ]
+  },
+  {
+    "id": "iss_mbr",
+    "name": "MBR Solar Phase 6 Notes Issuer Ltd",
+    "type": "spv",
+    "jurisdiction": "AE-ADGM",
+    "registrationNumber": "Pending",
+    "sponsor": "Masdar",
+    "contact": "notes@mbr6-issuer.ae",
+    "kybStatus": "pending",
+    "assetsCount": 1,
+    "createdAt": "2026-09-14T00:00:00Z",
+    "serviceProviders": [
+      {
+        "role": "Project sponsor",
+        "name": "Masdar"
+      },
+      {
+        "role": "Offtaker",
+        "name": "Dubai Electricity and Water Authority (DEWA)"
+      },
+      {
+        "role": "Technical adviser",
+        "name": "DNV"
+      }
+    ]
+  },
+  {
+    "id": "iss_bbr",
+    "name": "Business Bay Residences SPV Ltd",
+    "type": "spv",
+    "jurisdiction": "AE-VARA",
+    "registrationNumber": "DLD-SPV-2026-0418",
+    "sponsor": "SRH Real Estate Partners",
+    "contact": "spv@srh.inc",
+    "kybStatus": "approved",
+    "assetsCount": 1,
+    "createdAt": "2026-06-01T00:00:00Z",
+    "licence": "Dubai Land Department property tokenisation programme",
+    "serviceProviders": [
+      {
+        "role": "Property manager",
+        "name": "Betterhomes"
+      },
+      {
+        "role": "Valuer",
+        "name": "Cavendish Maxwell"
+      },
+      {
+        "role": "Title registration",
+        "name": "Dubai Land Department"
+      }
+    ]
+  },
+  {
+    "id": "iss_xyz",
+    "name": "Talara Structured Products SPV",
+    "type": "spv",
+    "jurisdiction": "AE-DIFC",
+    "registrationNumber": "CL9004",
+    "sponsor": "Talara Securities LLC",
+    "contact": "spv@talarasecurities.example",
+    "kybStatus": "approved",
+    "assetsCount": 2,
+    "createdAt": "2026-05-20T00:00:00Z"
+  },
+  {
+    "id": "iss_ngt",
+    "name": "Northgate Fund Vehicles",
+    "type": "fund",
+    "jurisdiction": "SA",
+    "registrationNumber": "CMA-FND-5512",
+    "sponsor": "Northgate Asset Management Co.",
+    "contact": "funds@northgate-am.example",
+    "kybStatus": "approved",
+    "assetsCount": 2,
+    "createdAt": "2026-01-25T00:00:00Z"
+  },
+  {
+    "id": "iss_mrd",
+    "name": "Meridian Bank B.S.C.",
+    "type": "corporate",
+    "jurisdiction": "BH",
+    "registrationNumber": "CR-11203",
+    "sponsor": "Meridian Bank",
+    "contact": "treasury@meridianbank.example",
+    "kybStatus": "approved",
+    "assetsCount": 1,
+    "createdAt": "2026-03-01T00:00:00Z"
+  }
+]

@@ -1,0 +1,465 @@
+[
+  {
+    "id": "apr_301",
+    "tenantId": "tnt_srh",
+    "type": "mint",
+    "title": "Mint 1,842,105.26 SRHT on Base",
+    "summary": "Batch mint for 7 allocated subscriptions in the Treasury Fund continuous offering.",
+    "objectType": "TokenClass",
+    "objectId": "tok_srht",
+    "requestedBy": "Allocation service",
+    "requestedAt": "2026-10-06T15:00:00.000Z",
+    "risk": "medium",
+    "status": "pending",
+    "steps": [
+      {
+        "role": "operations",
+        "label": "Operations approval",
+        "approver": "Layla Haddad",
+        "decision": "approved",
+        "at": "2026-10-06T15:00:00.000Z"
+      },
+      {
+        "role": "compliance-officer",
+        "label": "Compliance approval"
+      },
+      {
+        "role": "authorized-signer",
+        "label": "Authorised signer (HSM quorum 3 of 5)"
+      }
+    ],
+    "payload": {
+      "chain": "base",
+      "amount": "1,842,105.26",
+      "orders": 7
+    }
+  },
+  {
+    "id": "apr_302",
+    "tenantId": "tnt_srh",
+    "type": "distribution",
+    "title": "Approve first quarterly distribution, Whitworth Park",
+    "summary": "GBP 139,670 to senior unit holders, paid by SWIFT and USDC.",
+    "objectType": "Distribution",
+    "objectId": "dst_wpk_q3",
+    "requestedBy": "Sara Kim",
+    "requestedAt": "2026-10-05T14:00:00.000Z",
+    "risk": "medium",
+    "status": "pending",
+    "steps": [
+      {
+        "role": "issuer-admin",
+        "label": "Issuer approval",
+        "approver": "Sara Kim",
+        "decision": "approved",
+        "at": "2026-10-05T14:00:00.000Z"
+      },
+      {
+        "role": "operations",
+        "label": "Operations approval"
+      },
+      {
+        "role": "compliance-officer",
+        "label": "Compliance approval"
+      }
+    ],
+    "payload": {
+      "amount": "139670.49",
+      "holders": 8
+    }
+  },
+  {
+    "id": "apr_303",
+    "tenantId": "tnt_srh",
+    "type": "freeze",
+    "title": "Freeze wallets holding SRHG and SRHT",
+    "summary": "Investor under a confirmed sanctions match. Freeze positions pending regulator guidance.",
+    "objectType": "Investor",
+    "objectId": "inv_kestrelopportuniti",
+    "requestedBy": "Omar Siddiqui",
+    "requestedAt": "2026-10-06T15:00:00.000Z",
+    "risk": "high",
+    "status": "pending",
+    "steps": [
+      {
+        "role": "compliance-officer",
+        "label": "MLRO approval",
+        "approver": "Omar Siddiqui",
+        "decision": "approved",
+        "at": "2026-10-06T12:00:00.000Z"
+      },
+      {
+        "role": "operations",
+        "label": "Operations approval"
+      },
+      {
+        "role": "authorized-signer",
+        "label": "Authorised signer (HSM quorum 3 of 5)"
+      }
+    ],
+    "payload": {
+      "wallets": 2,
+      "tokenClasses": "SRHG, SRHT"
+    }
+  },
+  {
+    "id": "apr_304",
+    "tenantId": "tnt_srh",
+    "type": "forced-transfer",
+    "title": "Forced transfer 1,250 SRHG (estate succession)",
+    "summary": "Court-certified succession. Transfer from the deceased holder's wallet to the executor's wallet.",
+    "objectType": "Holding",
+    "objectId": "hld_estate",
+    "requestedBy": "Layla Haddad",
+    "requestedAt": "2026-10-04T13:00:00.000Z",
+    "risk": "high",
+    "status": "pending",
+    "steps": [
+      {
+        "role": "operations",
+        "label": "Operations approval",
+        "approver": "Layla Haddad",
+        "decision": "approved",
+        "at": "2026-10-04T15:00:00.000Z"
+      },
+      {
+        "role": "compliance-officer",
+        "label": "Compliance approval"
+      },
+      {
+        "role": "platform-admin",
+        "label": "Legal sign-off"
+      },
+      {
+        "role": "authorized-signer",
+        "label": "Authorised signer"
+      }
+    ],
+    "payload": {
+      "amount": "1,250",
+      "chain": "ethereum"
+    }
+  },
+  {
+    "id": "apr_305",
+    "tenantId": "tnt_srh",
+    "type": "policy-change",
+    "title": "Raise wallet risk threshold from 60 to 70",
+    "summary": "Proposed change to G-005 in Global core rules v4.3.0.",
+    "objectType": "PolicyPack",
+    "objectId": "pol_global",
+    "requestedBy": "Omar Siddiqui",
+    "requestedAt": "2026-10-03T16:00:00.000Z",
+    "risk": "medium",
+    "status": "pending",
+    "steps": [
+      {
+        "role": "compliance-officer",
+        "label": "Proposer",
+        "approver": "Omar Siddiqui",
+        "decision": "approved",
+        "at": "2026-10-03T16:00:00.000Z"
+      },
+      {
+        "role": "platform-admin",
+        "label": "Second line review"
+      }
+    ],
+    "payload": {
+      "rule": "G-005",
+      "from": 60,
+      "to": 70
+    }
+  },
+  {
+    "id": "apr_306",
+    "tenantId": "tnt_srh",
+    "type": "asset-launch",
+    "title": "Launch KAFD Grade-A Office Income Fund",
+    "summary": "Deploy the KAFD token on Ethereum and Base and open the primary offering once CMA approval is received.",
+    "objectType": "Asset",
+    "objectId": "ast_kafd",
+    "requestedBy": "Layla Haddad",
+    "requestedAt": "2026-10-02T16:00:00.000Z",
+    "risk": "high",
+    "status": "pending",
+    "steps": [
+      {
+        "role": "operations",
+        "label": "Operations approval",
+        "approver": "Layla Haddad",
+        "decision": "approved",
+        "at": "2026-10-02T16:00:00.000Z"
+      },
+      {
+        "role": "compliance-officer",
+        "label": "Compliance approval"
+      },
+      {
+        "role": "platform-admin",
+        "label": "Regulatory permission confirmed"
+      }
+    ],
+    "payload": {
+      "chains": "ethereum, base",
+      "target": "SAR 200,000,000"
+    }
+  },
+  {
+    "id": "apr_307",
+    "tenantId": "tnt_srh",
+    "type": "verification-override",
+    "title": "Accept bank account with name mismatch",
+    "summary": "Zainab Malik: statement shows the name in a different order. Identity and address are verified; the account is held at the investor's own bank.",
+    "objectType": "Investor",
+    "objectId": "inv_zainabmalik",
+    "requestedBy": "Omar Siddiqui",
+    "requestedAt": "2026-10-06T14:00:00.000Z",
+    "risk": "medium",
+    "status": "pending",
+    "steps": [
+      {
+        "role": "compliance-officer",
+        "label": "Compliance approval",
+        "approver": "Omar Siddiqui",
+        "decision": "approved",
+        "at": "2026-10-06T14:00:00.000Z",
+        "comment": "Name order differs only. Spoke to the investor and the bank."
+      },
+      {
+        "role": "operations",
+        "label": "Second approver"
+      }
+    ],
+    "payload": {
+      "item": "bank-account",
+      "action": "approve manually"
+    }
+  },
+  {
+    "id": "apr_308",
+    "tenantId": "tnt_srh",
+    "type": "manual-valuation",
+    "title": "Q3 valuation for Business Bay Residences",
+    "summary": "Cavendish Maxwell valuation of AED 15.1m. NAV per share moves from 10.42 to 10.58 (+1.5%).",
+    "objectType": "Asset",
+    "objectId": "ast_bbr",
+    "requestedBy": "Layla Haddad",
+    "requestedAt": "2026-10-05T15:00:00.000Z",
+    "risk": "low",
+    "status": "pending",
+    "steps": [
+      {
+        "role": "operations",
+        "label": "Entered by",
+        "approver": "Layla Haddad",
+        "decision": "approved",
+        "at": "2026-10-05T15:00:00.000Z"
+      },
+      {
+        "role": "compliance-officer",
+        "label": "Checker"
+      }
+    ],
+    "payload": {
+      "from": 10.42,
+      "to": 10.58,
+      "source": "Cavendish Maxwell"
+    }
+  },
+  {
+    "id": "apr_309",
+    "tenantId": "tnt_srh",
+    "type": "listing-override",
+    "title": "Move MBR Solar 6 to review",
+    "summary": "Term sheet signed with Masdar and pre-filing meeting held with FSRA. Valuation report to follow.",
+    "objectType": "Asset",
+    "objectId": "ast_mbr6",
+    "requestedBy": "Layla Haddad",
+    "requestedAt": "2026-10-06T11:00:00.000Z",
+    "risk": "medium",
+    "status": "pending",
+    "steps": [
+      {
+        "role": "operations",
+        "label": "Requester",
+        "approver": "Layla Haddad",
+        "decision": "approved",
+        "at": "2026-10-06T10:00:00.000Z"
+      },
+      {
+        "role": "compliance-officer",
+        "label": "Compliance approval"
+      }
+    ],
+    "payload": {
+      "from": "structuring",
+      "to": "in-review"
+    }
+  },
+  {
+    "id": "apr_293",
+    "tenantId": "tnt_srh",
+    "type": "verification-override",
+    "title": "Waive proof of address upload",
+    "summary": "Priya Nair: residential address supplied by Singpass Myinfo, a government source.",
+    "objectType": "Investor",
+    "objectId": "inv_priyanair",
+    "requestedBy": "Omar Siddiqui",
+    "requestedAt": "2026-09-22T16:00:00.000Z",
+    "risk": "low",
+    "status": "executed",
+    "steps": [
+      {
+        "role": "compliance-officer",
+        "label": "Compliance approval",
+        "approver": "Omar Siddiqui",
+        "decision": "approved",
+        "at": "2026-09-22T16:00:00.000Z"
+      }
+    ],
+    "payload": {
+      "item": "address",
+      "action": "waive"
+    }
+  },
+  {
+    "id": "apr_290",
+    "tenantId": "tnt_srh",
+    "type": "treasury-movement",
+    "title": "Top up gas treasury 25 ETH",
+    "summary": "Gas treasury below 7 day runway.",
+    "objectType": "CustodyAccount",
+    "objectId": "cus_7",
+    "requestedBy": "Daniel Reyes",
+    "requestedAt": "2026-09-30T16:00:00.000Z",
+    "risk": "low",
+    "status": "executed",
+    "steps": [
+      {
+        "role": "platform-admin",
+        "label": "Requester",
+        "approver": "Daniel Reyes",
+        "decision": "approved",
+        "at": "2026-09-30T16:00:00.000Z"
+      },
+      {
+        "role": "operations",
+        "label": "Operations approval",
+        "approver": "Layla Haddad",
+        "decision": "approved",
+        "at": "2026-09-30T16:00:00.000Z"
+      }
+    ],
+    "payload": {
+      "amount": "25 ETH"
+    },
+    "txHash": "0x03c8def96b7c427ace3d7090723b354accc12f0e30ac3d2e9cf2c723e5d85e44"
+  },
+  {
+    "id": "apr_289",
+    "tenantId": "tnt_srh",
+    "type": "pause",
+    "title": "Pause ACRED transfers on Avalanche during upgrade",
+    "summary": "Compliance module upgrade v2.3.",
+    "objectType": "TokenClass",
+    "objectId": "tok_acred",
+    "requestedBy": "Daniel Reyes",
+    "requestedAt": "2026-09-27T16:00:00.000Z",
+    "risk": "medium",
+    "status": "executed",
+    "steps": [
+      {
+        "role": "platform-admin",
+        "label": "Requester",
+        "approver": "Daniel Reyes",
+        "decision": "approved",
+        "at": "2026-09-27T16:00:00.000Z"
+      },
+      {
+        "role": "compliance-officer",
+        "label": "Compliance approval",
+        "approver": "Omar Siddiqui",
+        "decision": "approved",
+        "at": "2026-09-27T16:00:00.000Z"
+      },
+      {
+        "role": "authorized-signer",
+        "label": "Authorised signer",
+        "approver": "HSM quorum 3/5",
+        "decision": "approved",
+        "at": "2026-09-27T16:00:00.000Z"
+      }
+    ],
+    "payload": {
+      "chain": "avalanche"
+    },
+    "txHash": "0xb1d49444569ecdc92b143169b13bb935711a347ac7171786a5a9624a8292de32"
+  },
+  {
+    "id": "apr_281",
+    "tenantId": "tnt_srh",
+    "type": "burn",
+    "title": "Burn 120,000 SRHT for same-day redemptions",
+    "summary": "Redemption batch settled in USDC.",
+    "objectType": "TokenClass",
+    "objectId": "tok_srht",
+    "requestedBy": "Redemption service",
+    "requestedAt": "2026-09-24T16:00:00.000Z",
+    "risk": "low",
+    "status": "executed",
+    "steps": [
+      {
+        "role": "operations",
+        "label": "Operations approval",
+        "approver": "Layla Haddad",
+        "decision": "approved",
+        "at": "2026-09-24T16:00:00.000Z"
+      },
+      {
+        "role": "authorized-signer",
+        "label": "Authorised signer",
+        "approver": "HSM quorum 3/5",
+        "decision": "approved",
+        "at": "2026-09-24T16:00:00.000Z"
+      }
+    ],
+    "payload": {
+      "amount": "120,000"
+    },
+    "txHash": "0x300bdd74cefde454b0f43a0ab54445c49e02cd41298aae25d274a585a59486ca"
+  },
+  {
+    "id": "apr_276",
+    "tenantId": "tnt_srh",
+    "type": "config-change",
+    "title": "Enable Base deployment for SRHG",
+    "summary": "Add an ERC-3643 deployment on Base with Chainlink Proof of Reserve.",
+    "objectType": "TokenClass",
+    "objectId": "tok_srhg",
+    "requestedBy": "Daniel Reyes",
+    "requestedAt": "2026-09-06T16:00:00.000Z",
+    "risk": "medium",
+    "status": "rejected",
+    "steps": [
+      {
+        "role": "platform-admin",
+        "label": "Requester",
+        "approver": "Daniel Reyes",
+        "decision": "approved",
+        "at": "2026-09-06T16:00:00.000Z"
+      },
+      {
+        "role": "compliance-officer",
+        "label": "Compliance approval",
+        "approver": "Omar Siddiqui",
+        "decision": "rejected",
+        "at": "2026-09-07T16:00:00.000Z",
+        "comment": "Proof of Reserve feed not yet live on Base. Resubmit when it is."
+      }
+    ],
+    "payload": {
+      "chain": "base"
+    }
+  }
+]

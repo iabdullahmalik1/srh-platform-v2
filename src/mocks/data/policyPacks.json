@@ -1,0 +1,414 @@
+[
+  {
+    "id": "pol_global",
+    "jurisdiction": "AE-ADGM",
+    "name": "Global core rules",
+    "regulator": "Platform",
+    "version": "4.2.0",
+    "status": "active",
+    "effectiveFrom": "2026-08-01T00:00:00Z",
+    "updatedAt": "2026-08-01T16:00:00.000Z",
+    "updatedBy": "Omar Siddiqui",
+    "rules": [
+      {
+        "id": "rul_1d82e12",
+        "code": "G-001",
+        "name": "KYC or KYB approved",
+        "layer": "global",
+        "description": "Investor identity verification must be approved and in date.",
+        "enabled": true,
+        "severity": "block"
+      },
+      {
+        "id": "rul_1d9726e",
+        "code": "G-002",
+        "name": "Sanctions screening clear",
+        "layer": "global",
+        "description": "No confirmed match on consolidated sanctions lists (UN, OFAC, EU, UK HMT, UAE local list).",
+        "enabled": true,
+        "severity": "block"
+      },
+      {
+        "id": "rul_1da30e9",
+        "code": "G-003",
+        "name": "PEP review",
+        "layer": "global",
+        "description": "Politically exposed persons require enhanced due diligence sign-off.",
+        "enabled": true,
+        "severity": "review"
+      },
+      {
+        "id": "rul_1dbecc0",
+        "code": "G-004",
+        "name": "AML risk tolerance",
+        "layer": "global",
+        "description": "High AML risk investors require MLRO approval per transaction.",
+        "enabled": true,
+        "severity": "review",
+        "params": {
+          "maxAutoApprove": "medium"
+        }
+      },
+      {
+        "id": "rul_1dc4c6f",
+        "code": "G-005",
+        "name": "Wallet risk score",
+        "layer": "global",
+        "description": "Destination wallet risk score must be under threshold and wallet whitelisted.",
+        "enabled": true,
+        "severity": "block",
+        "params": {
+          "maxScore": 60
+        }
+      },
+      {
+        "id": "rul_1ddbaef",
+        "code": "G-006",
+        "name": "Blocked jurisdictions",
+        "layer": "global",
+        "description": "Comprehensive sanctions jurisdictions are blocked platform-wide.",
+        "enabled": true,
+        "severity": "block",
+        "params": {
+          "countries": [
+            "KP",
+            "IR",
+            "SY",
+            "CU"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "pol_adgm",
+    "jurisdiction": "AE-ADGM",
+    "name": "ADGM FSRA pack",
+    "regulator": "FSRA",
+    "version": "2.1.0",
+    "status": "active",
+    "effectiveFrom": "2026-06-01T00:00:00Z",
+    "updatedAt": "2026-06-08T16:00:00.000Z",
+    "updatedBy": "Omar Siddiqui",
+    "rules": [
+      {
+        "id": "rul_1de5299",
+        "code": "ADGM-01",
+        "name": "Client classification",
+        "layer": "jurisdiction",
+        "description": "Products marked Professional only may not be distributed to Retail Clients.",
+        "enabled": true,
+        "severity": "block"
+      },
+      {
+        "id": "rul_1dfd934",
+        "code": "ADGM-02",
+        "name": "Appropriateness assessment",
+        "layer": "jurisdiction",
+        "description": "Complex products require a passed appropriateness test for Retail Clients.",
+        "enabled": true,
+        "severity": "review"
+      },
+      {
+        "id": "rul_1dg2a1e",
+        "code": "ADGM-03",
+        "name": "Client money handling",
+        "layer": "jurisdiction",
+        "description": "Subscription cash must be received into designated client money accounts.",
+        "enabled": true,
+        "severity": "info"
+      }
+    ]
+  },
+  {
+    "id": "pol_difc",
+    "jurisdiction": "AE-DIFC",
+    "name": "DIFC DFSA pack",
+    "regulator": "DFSA",
+    "version": "1.8.0",
+    "status": "active",
+    "effectiveFrom": "2026-04-15T00:00:00Z",
+    "updatedAt": "2026-04-29T16:00:00.000Z",
+    "updatedBy": "Omar Siddiqui",
+    "rules": [
+      {
+        "id": "rul_1dh2873",
+        "code": "DIFC-01",
+        "name": "Professional client test",
+        "layer": "jurisdiction",
+        "description": "Investor must meet the DFSA Professional Client assets or experience test.",
+        "enabled": true,
+        "severity": "block"
+      },
+      {
+        "id": "rul_1di579f",
+        "code": "DIFC-02",
+        "name": "Exempt offer limit",
+        "layer": "offering",
+        "description": "Exempt offers limited to Professional Clients with a minimum subscription of USD 100,000 where applicable.",
+        "enabled": true,
+        "severity": "review",
+        "params": {
+          "minUsd": 100000
+        }
+      },
+      {
+        "id": "rul_1dj8c29",
+        "code": "DIFC-03",
+        "name": "Investment token rules",
+        "layer": "product",
+        "description": "Security tokens must follow the Investment Token regime record-keeping requirements.",
+        "enabled": true,
+        "severity": "info"
+      }
+    ]
+  },
+  {
+    "id": "pol_vara",
+    "jurisdiction": "AE-VARA",
+    "name": "VARA virtual asset pack",
+    "regulator": "VARA",
+    "version": "1.3.0",
+    "status": "active",
+    "effectiveFrom": "2026-02-01T00:00:00Z",
+    "updatedAt": "2026-02-08T16:00:00.000Z",
+    "updatedBy": "Omar Siddiqui",
+    "rules": [
+      {
+        "id": "rul_1dk52d7",
+        "code": "VARA-01",
+        "name": "Travel rule data",
+        "layer": "global",
+        "description": "Transfers above AED 3,500 require originator and beneficiary data.",
+        "enabled": true,
+        "severity": "block",
+        "params": {
+          "thresholdAed": 3500
+        }
+      },
+      {
+        "id": "rul_1dl3c16",
+        "code": "VARA-02",
+        "name": "Marketing restrictions",
+        "layer": "jurisdiction",
+        "description": "Retail marketing of virtual assets requires risk disclosures.",
+        "enabled": true,
+        "severity": "info"
+      }
+    ]
+  },
+  {
+    "id": "pol_cma",
+    "jurisdiction": "SA",
+    "name": "Saudi CMA pack",
+    "regulator": "CMA",
+    "version": "1.0.4",
+    "status": "active",
+    "effectiveFrom": "2026-05-01T00:00:00Z",
+    "updatedAt": "2026-05-09T16:00:00.000Z",
+    "updatedBy": "Northgate Compliance",
+    "rules": [
+      {
+        "id": "rul_1dmee7c",
+        "code": "CMA-01",
+        "name": "Sophisticated investor",
+        "layer": "jurisdiction",
+        "description": "Private placements limited to Sophisticated Investors under Rules on the Offer of Securities.",
+        "enabled": true,
+        "severity": "block"
+      },
+      {
+        "id": "rul_1dnec9c",
+        "code": "CMA-02",
+        "name": "Saudi withholding tax",
+        "layer": "product",
+        "description": "5% withholding on distributions to non-resident holders.",
+        "enabled": true,
+        "severity": "info",
+        "params": {
+          "whtPct": 5
+        }
+      }
+    ]
+  },
+  {
+    "id": "pol_eu",
+    "jurisdiction": "EU-LU",
+    "name": "EU AIFMD and MiFID pack",
+    "regulator": "CSSF",
+    "version": "2.0.1",
+    "status": "active",
+    "effectiveFrom": "2026-01-10T00:00:00Z",
+    "updatedAt": "2026-01-09T16:00:00.000Z",
+    "updatedBy": "Omar Siddiqui",
+    "rules": [
+      {
+        "id": "rul_1do95c6",
+        "code": "EU-01",
+        "name": "AIF marketing passport",
+        "layer": "jurisdiction",
+        "description": "AIF units may only be marketed to Professional Investors in notified member states.",
+        "enabled": true,
+        "severity": "block"
+      },
+      {
+        "id": "rul_1dp9f62",
+        "code": "EU-02",
+        "name": "PRIIPs KID",
+        "layer": "product",
+        "description": "Retail access requires a Key Information Document.",
+        "enabled": true,
+        "severity": "review"
+      }
+    ]
+  },
+  {
+    "id": "pol_ch",
+    "jurisdiction": "CH",
+    "name": "Swiss DLT pack",
+    "regulator": "FINMA",
+    "version": "1.1.0",
+    "status": "active",
+    "effectiveFrom": "2025-09-01T00:00:00Z",
+    "updatedAt": "2025-09-01T16:00:00.000Z",
+    "updatedBy": "Omar Siddiqui",
+    "rules": [
+      {
+        "id": "rul_1dq37b2",
+        "code": "CH-01",
+        "name": "Ledger-based security register",
+        "layer": "product",
+        "description": "Register must satisfy DLT Act integrity and access requirements.",
+        "enabled": true,
+        "severity": "info"
+      }
+    ]
+  },
+  {
+    "id": "pol_cbb",
+    "jurisdiction": "BH",
+    "name": "CBB pack",
+    "regulator": "CBB",
+    "version": "1.0.0",
+    "status": "active",
+    "effectiveFrom": "2026-03-01T00:00:00Z",
+    "updatedAt": "2026-03-10T16:00:00.000Z",
+    "updatedBy": "Meridian Group Compliance",
+    "rules": [
+      {
+        "id": "rul_1dre69c",
+        "code": "CBB-01",
+        "name": "Accredited investor",
+        "layer": "jurisdiction",
+        "description": "Tokenised deposit notes restricted to accredited corporate clients of the bank.",
+        "enabled": true,
+        "severity": "block"
+      }
+    ]
+  },
+  {
+    "id": "pol_us",
+    "jurisdiction": "US",
+    "name": "US Reg D / Reg S pack",
+    "regulator": "SEC",
+    "version": "0.9.0",
+    "status": "draft",
+    "effectiveFrom": "2026-11-01T00:00:00Z",
+    "updatedAt": "2026-09-27T16:00:00.000Z",
+    "updatedBy": "Omar Siddiqui",
+    "rules": [
+      {
+        "id": "rul_1ds3feb",
+        "code": "US-01",
+        "name": "Reg S offshore transaction",
+        "layer": "offering",
+        "description": "Reg S offerings may not be sold to US persons during the distribution compliance period.",
+        "enabled": true,
+        "severity": "block"
+      },
+      {
+        "id": "rul_1dtad6c",
+        "code": "US-02",
+        "name": "Reg D 506(c) verification",
+        "layer": "investor",
+        "description": "US persons must be verified accredited investors.",
+        "enabled": true,
+        "severity": "block"
+      },
+      {
+        "id": "rul_1ducae9",
+        "code": "US-03",
+        "name": "Rule 144 holding period",
+        "layer": "product",
+        "description": "Restricted securities subject to 12 month holding period for resale.",
+        "enabled": true,
+        "severity": "block",
+        "params": {
+          "months": 12
+        }
+      }
+    ]
+  },
+  {
+    "id": "pol_uk",
+    "jurisdiction": "GB",
+    "name": "UK FCA pack",
+    "regulator": "FCA",
+    "version": "1.0.2",
+    "status": "active",
+    "effectiveFrom": "2026-05-01T00:00:00Z",
+    "updatedAt": "2026-05-29T16:00:00.000Z",
+    "updatedBy": "Omar Siddiqui",
+    "rules": [
+      {
+        "id": "rul_1dv5b81",
+        "code": "UK-01",
+        "name": "Financial promotion",
+        "layer": "jurisdiction",
+        "description": "Promotions to UK persons must be approved by an authorised person or meet an exemption.",
+        "enabled": true,
+        "severity": "review"
+      },
+      {
+        "id": "rul_1dw193f",
+        "code": "UK-02",
+        "name": "Restricted mass market",
+        "layer": "jurisdiction",
+        "description": "Non-mainstream products limited to certified high net worth or sophisticated investors.",
+        "enabled": true,
+        "severity": "block"
+      }
+    ]
+  },
+  {
+    "id": "pol_sharia",
+    "jurisdiction": "AE-DIFC",
+    "name": "Sharia compliance overlay",
+    "regulator": "Sharia Supervisory Board",
+    "version": "1.2.0",
+    "status": "active",
+    "effectiveFrom": "2026-01-01T00:00:00Z",
+    "updatedAt": "2025-12-30T16:00:00.000Z",
+    "updatedBy": "Omar Siddiqui",
+    "rules": [
+      {
+        "id": "rul_1dxdb48",
+        "code": "SH-01",
+        "name": "Permissible trading",
+        "layer": "product",
+        "description": "Sukuk certificates may only trade at prices consistent with the Sharia pronouncement.",
+        "enabled": true,
+        "severity": "info"
+      },
+      {
+        "id": "rul_1dy0858",
+        "code": "SH-02",
+        "name": "No interest-bearing leverage",
+        "layer": "product",
+        "description": "Sukuk may not be used as collateral in interest-bearing lending pools.",
+        "enabled": true,
+        "severity": "block"
+      }
+    ]
+  }
+]

@@ -1,0 +1,3849 @@
+[
+  {
+    "id": "ord_40397",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_srhg",
+    "assetId": "ast_vgld",
+    "investorId": "inv_priyanair",
+    "investorName": "Priya Nair",
+    "side": "subscribe",
+    "amount": 7000,
+    "currency": "USD",
+    "tokens": 51,
+    "pricePerToken": 136.8,
+    "rail": "card",
+    "settlement": "atomic",
+    "chain": "ethereum",
+    "stage": "payment-confirmed",
+    "status": "active",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-10-06T12:38:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-10-06T12:39:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-10-06T12:42:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-10-06T12:43:00.000Z",
+        "actor": "Checkout.com webhook",
+        "note": "Card payment authorised and captured (3-D Secure)"
+      }
+    ],
+    "idempotencyKey": "idem_886c667fd920e185",
+    "createdAt": "2026-10-06T12:36:00.000Z",
+    "updatedAt": "2026-10-06T12:43:00.000Z",
+    "paymentId": "pay_19qf827"
+  },
+  {
+    "id": "ord_40290",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_srht",
+    "assetId": "ast_tbill",
+    "investorId": "inv_indusgrowthpartner",
+    "investorName": "Indus Growth Partners",
+    "side": "subscribe",
+    "amount": 72000,
+    "currency": "USD",
+    "tokens": 68846.82,
+    "pricePerToken": 1.0458,
+    "rail": "usdc",
+    "settlement": "atomic",
+    "chain": "ethereum",
+    "stage": "eligibility",
+    "status": "manual-review",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-10-06T04:28:56.638Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-10-06T04:34:56.638Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      }
+    ],
+    "idempotencyKey": "idem_1b8b6ba5ead26edc",
+    "createdAt": "2026-10-06T04:24:56.638Z",
+    "updatedAt": "2026-10-06T04:34:56.638Z",
+    "exceptionReason": "Accreditation expires within 30 days of lock-up end"
+  },
+  {
+    "id": "ord_40325",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_bbrs",
+    "assetId": "ast_bbr",
+    "investorId": "inv_desertroseprivateo",
+    "investorName": "Desert Rose Private Office",
+    "side": "subscribe",
+    "amount": 6000,
+    "currency": "AED",
+    "tokens": 576,
+    "pricePerToken": 10.42,
+    "rail": "card",
+    "settlement": "dvp",
+    "chain": "polygon",
+    "stage": "payment-confirmed",
+    "status": "active",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-10-06T03:24:48.694Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-10-06T03:29:48.694Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-10-06T03:32:48.694Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-10-06T03:34:48.694Z",
+        "actor": "Checkout.com webhook",
+        "note": "Card payment authorised and captured (3-D Secure)"
+      }
+    ],
+    "idempotencyKey": "idem_053aea25a9b259dd",
+    "createdAt": "2026-10-06T03:19:48.694Z",
+    "updatedAt": "2026-10-06T03:34:48.694Z",
+    "paymentId": "pay_19ie3c5"
+  },
+  {
+    "id": "ord_40346",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_srht",
+    "assetId": "ast_tbill",
+    "investorId": "inv_ahmed",
+    "investorName": "Ahmed Al Mansoori",
+    "side": "subscribe",
+    "amount": 282000,
+    "currency": "USD",
+    "tokens": 269650.03,
+    "pricePerToken": 1.0458,
+    "rail": "usdt",
+    "settlement": "atomic",
+    "chain": "ethereum",
+    "stage": "settled",
+    "status": "active",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-10-05T19:46:14.806Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-10-05T19:49:14.806Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-10-05T19:51:14.806Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-10-05T20:00:14.806Z",
+        "actor": "Bank adapter webhook",
+        "note": "USDT credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-10-05T20:30:14.806Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-10-05T21:16:14.806Z",
+        "actor": "Settlement engine"
+      }
+    ],
+    "idempotencyKey": "idem_db1b94bb7fc0c686",
+    "createdAt": "2026-10-05T19:46:14.806Z",
+    "updatedAt": "2026-10-05T21:16:14.806Z",
+    "paymentId": "pay_19l7fcd"
+  },
+  {
+    "id": "ord_40337",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_srhg",
+    "assetId": "ast_vgld",
+    "investorId": "inv_tariqmahmood",
+    "investorName": "Tariq Mahmood",
+    "side": "subscribe",
+    "amount": 9000,
+    "currency": "USD",
+    "tokens": 66,
+    "pricePerToken": 136.8,
+    "rail": "card",
+    "settlement": "atomic",
+    "chain": "ethereum",
+    "stage": "allocated",
+    "status": "active",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-10-05T15:21:24.067Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-10-05T15:22:24.067Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-10-05T15:29:24.067Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-10-05T15:34:24.067Z",
+        "actor": "Checkout.com webhook",
+        "note": "Card payment authorised and captured (3-D Secure)"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-10-05T16:06:24.067Z",
+        "actor": "Allocation service"
+      }
+    ],
+    "idempotencyKey": "idem_5d936067e328ce99",
+    "createdAt": "2026-10-05T15:18:24.067Z",
+    "updatedAt": "2026-10-05T16:06:24.067Z",
+    "paymentId": "pay_19k8557"
+  },
+  {
+    "id": "ord_40280",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_wpks",
+    "assetId": "ast_wpk",
+    "investorId": "inv_leilakarimi",
+    "investorName": "Leila Karimi",
+    "side": "subscribe",
+    "amount": 23000,
+    "currency": "GBP",
+    "tokens": 2300,
+    "pricePerToken": 10,
+    "rail": "card",
+    "settlement": "dvp",
+    "chain": "ethereum",
+    "stage": "eligibility",
+    "status": "active",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-10-05T10:02:09.792Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-10-05T10:08:09.792Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      }
+    ],
+    "idempotencyKey": "idem_33dbedb6929d399c",
+    "createdAt": "2026-10-05T10:00:09.792Z",
+    "updatedAt": "2026-10-05T10:08:09.792Z"
+  },
+  {
+    "id": "ord_40388",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_bbrs",
+    "assetId": "ast_bbr",
+    "investorId": "inv_zainabmalik",
+    "investorName": "Zainab Malik",
+    "side": "subscribe",
+    "amount": 14000,
+    "currency": "AED",
+    "tokens": 1344,
+    "pricePerToken": 10.42,
+    "rail": "card",
+    "settlement": "dvp",
+    "chain": "polygon",
+    "stage": "eligibility",
+    "status": "manual-review",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-10-05T09:22:47.018Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-10-05T09:27:47.018Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      }
+    ],
+    "idempotencyKey": "idem_30389a32038984c8",
+    "createdAt": "2026-10-05T09:21:47.018Z",
+    "updatedAt": "2026-10-05T09:27:47.018Z",
+    "exceptionReason": "Profile incomplete: bank account in investor's name. Held for compliance review."
+  },
+  {
+    "id": "ord_40380",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_srhg",
+    "assetId": "ast_vgld",
+    "investorId": "inv_meilintan",
+    "investorName": "Mei Lin Tan",
+    "side": "subscribe",
+    "amount": 20000,
+    "currency": "USD",
+    "tokens": 146,
+    "pricePerToken": 136.8,
+    "rail": "card",
+    "settlement": "atomic",
+    "chain": "ethereum",
+    "stage": "eligibility",
+    "status": "manual-review",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-10-05T05:36:04.096Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-10-05T05:41:04.096Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      }
+    ],
+    "idempotencyKey": "idem_c0df27cb7a1bb77e",
+    "createdAt": "2026-10-05T05:35:04.096Z",
+    "updatedAt": "2026-10-05T05:41:04.096Z",
+    "exceptionReason": "Profile incomplete: proof of address. Held for compliance review."
+  },
+  {
+    "id": "ord_40375",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_acred",
+    "assetId": "ast_acred",
+    "investorId": "inv_leilakarimi",
+    "investorName": "Leila Karimi",
+    "side": "subscribe",
+    "amount": 1057000,
+    "currency": "USD",
+    "tokens": 953,
+    "pricePerToken": 1109.4,
+    "rail": "swift",
+    "settlement": "async",
+    "chain": "ethereum",
+    "stage": "settled",
+    "status": "exception",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-10-05T05:33:00.660Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-10-05T05:37:00.660Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-10-05T05:44:00.660Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-10-06T07:48:00.660Z",
+        "actor": "Bank adapter webhook",
+        "note": "SWIFT credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-10-06T08:18:00.660Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-10-06T09:06:00.660Z",
+        "actor": "Settlement engine"
+      }
+    ],
+    "idempotencyKey": "idem_bbf4796e251c6607",
+    "createdAt": "2026-10-05T05:33:00.660Z",
+    "updatedAt": "2026-10-06T09:06:00.660Z",
+    "exceptionReason": "Settlement instruction rejected by custodian: wallet not whitelisted on target chain",
+    "paymentId": "pay_19pa57c"
+  },
+  {
+    "id": "ord_40368",
+    "tenantId": "tnt_ngt",
+    "offeringId": "off_nspc",
+    "assetId": "ast_ngt_pc",
+    "investorId": "inv_granitehillcapital",
+    "investorName": "Granite Hill Capital",
+    "side": "subscribe",
+    "amount": 5508000,
+    "currency": "SAR",
+    "tokens": 526074,
+    "pricePerToken": 10.47,
+    "rail": "local-rail",
+    "settlement": "async",
+    "chain": "ethereum",
+    "stage": "payment-instructed",
+    "status": "exception",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-10-05T01:37:11.623Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-10-05T01:39:11.623Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-10-05T01:44:11.623Z",
+        "actor": "Payment orchestrator"
+      }
+    ],
+    "idempotencyKey": "idem_913abb691db47363",
+    "createdAt": "2026-10-05T01:33:11.623Z",
+    "updatedAt": "2026-10-05T01:44:11.623Z",
+    "exceptionReason": "Payment received 1,250.00 short of instructed amount",
+    "paymentId": "pay_19oee38"
+  },
+  {
+    "id": "ord_40303",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_bbrs",
+    "assetId": "ast_bbr",
+    "investorId": "inv_tariqmahmood",
+    "investorName": "Tariq Mahmood",
+    "side": "subscribe",
+    "amount": 39000,
+    "currency": "AED",
+    "tokens": 3743,
+    "pricePerToken": 10.42,
+    "rail": "local-rail",
+    "settlement": "dvp",
+    "chain": "polygon",
+    "stage": "payment-instructed",
+    "status": "active",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-10-05T01:25:03.251Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-10-05T01:26:03.251Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-10-05T01:31:03.251Z",
+        "actor": "Payment orchestrator"
+      }
+    ],
+    "idempotencyKey": "idem_943b099a9f40f3cf",
+    "createdAt": "2026-10-05T01:20:03.251Z",
+    "updatedAt": "2026-10-05T01:31:03.251Z",
+    "paymentId": "pay_19f8b69"
+  },
+  {
+    "id": "ord_40278",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_srhg",
+    "assetId": "ast_vgld",
+    "investorId": "inv_ahmed",
+    "investorName": "Ahmed Al Mansoori",
+    "side": "subscribe",
+    "amount": 14000,
+    "currency": "USD",
+    "tokens": 102,
+    "pricePerToken": 136.8,
+    "rail": "swift",
+    "settlement": "atomic",
+    "chain": "ethereum",
+    "stage": "submitted",
+    "status": "active",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-10-05T00:07:23.353Z",
+        "actor": "Investor portal"
+      }
+    ],
+    "idempotencyKey": "idem_5cef28a33230b5d4",
+    "createdAt": "2026-10-05T00:04:23.353Z",
+    "updatedAt": "2026-10-05T00:07:23.353Z"
+  },
+  {
+    "id": "ord_40362",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_acred",
+    "assetId": "ast_acred",
+    "investorId": "inv_sablecreekfamilytr",
+    "investorName": "Sable Creek Family Trust",
+    "side": "subscribe",
+    "amount": 1769000,
+    "currency": "USD",
+    "tokens": 1595,
+    "pricePerToken": 1109.4,
+    "rail": "swift",
+    "settlement": "async",
+    "chain": "ethereum",
+    "stage": "minted",
+    "status": "active",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-10-04T22:35:48.266Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-10-04T22:36:48.266Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-10-04T22:41:48.266Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-10-06T00:41:48.266Z",
+        "actor": "Bank adapter webhook",
+        "note": "SWIFT credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-10-06T01:13:48.266Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-10-06T02:03:48.266Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-10-06T02:11:48.266Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xeca29c512b0b0e2673f743b5c8fb9dfc1bccda4c6e50e4a3b2737f80d4c34dcc"
+      }
+    ],
+    "idempotencyKey": "idem_16dd3aeab2a8435c",
+    "createdAt": "2026-10-04T22:30:48.266Z",
+    "updatedAt": "2026-10-06T02:11:48.266Z",
+    "mintTxHash": "0xeca29c512b0b0e2673f743b5c8fb9dfc1bccda4c6e50e4a3b2737f80d4c34dcc",
+    "paymentId": "pay_19n332d"
+  },
+  {
+    "id": "ord_40355",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_hlgpa",
+    "assetId": "ast_hlpaf",
+    "investorId": "inv_priyanair",
+    "investorName": "Priya Nair",
+    "side": "subscribe",
+    "amount": 428000,
+    "currency": "USD",
+    "tokens": 326220,
+    "pricePerToken": 1.312,
+    "rail": "usdc",
+    "settlement": "async",
+    "chain": "ethereum",
+    "stage": "minted",
+    "status": "active",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-10-04T07:24:53.593Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-10-04T07:26:53.593Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-10-04T07:29:53.593Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-10-04T07:38:53.593Z",
+        "actor": "Bank adapter webhook",
+        "note": "USDC credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-10-04T08:12:53.593Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-10-04T09:00:53.593Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-10-04T09:05:53.593Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xc5e757fd7b1898656242515aa590316b33e33205ad04044700ee9f1d6a9e5524"
+      }
+    ],
+    "idempotencyKey": "idem_8b09f82ab68f8634",
+    "createdAt": "2026-10-04T07:24:53.593Z",
+    "updatedAt": "2026-10-04T09:05:53.593Z",
+    "mintTxHash": "0xc5e757fd7b1898656242515aa590316b33e33205ad04044700ee9f1d6a9e5524",
+    "paymentId": "pay_19m3619"
+  },
+  {
+    "id": "ord_40316",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_wpks",
+    "assetId": "ast_wpk",
+    "investorId": "inv_priyanair",
+    "investorName": "Priya Nair",
+    "side": "subscribe",
+    "amount": 52000,
+    "currency": "GBP",
+    "tokens": 5200,
+    "pricePerToken": 10,
+    "rail": "sepa",
+    "settlement": "dvp",
+    "chain": "ethereum",
+    "stage": "payment-confirmed",
+    "status": "active",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-10-04T05:11:37.406Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-10-04T05:13:37.406Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-10-04T05:15:37.406Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-10-05T07:15:37.406Z",
+        "actor": "Bank adapter webhook",
+        "note": "SEPA credit matched to instruction"
+      }
+    ],
+    "idempotencyKey": "idem_dae81a76b93f7a6b",
+    "createdAt": "2026-10-04T05:10:37.406Z",
+    "updatedAt": "2026-10-05T07:15:37.406Z",
+    "paymentId": "pay_19he42f"
+  },
+  {
+    "id": "ord_40298",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_acred",
+    "assetId": "ast_acred",
+    "investorId": "inv_bluewatertreasuryl",
+    "investorName": "Bluewater Treasury Ltd",
+    "side": "subscribe",
+    "amount": 1754000,
+    "currency": "USD",
+    "tokens": 1581,
+    "pricePerToken": 1109.4,
+    "rail": "swift",
+    "settlement": "async",
+    "chain": "ethereum",
+    "stage": "payment-instructed",
+    "status": "active",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-10-04T05:10:33.704Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-10-04T05:16:33.704Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-10-04T05:19:33.704Z",
+        "actor": "Payment orchestrator"
+      }
+    ],
+    "idempotencyKey": "idem_03c49599d1cb6e65",
+    "createdAt": "2026-10-04T05:09:33.704Z",
+    "updatedAt": "2026-10-04T05:19:33.704Z",
+    "paymentId": "pay_19e62ef"
+  },
+  {
+    "id": "ord_40310",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_acred",
+    "assetId": "ast_acred",
+    "investorId": "inv_leilakarimi",
+    "investorName": "Leila Karimi",
+    "side": "subscribe",
+    "amount": 365000,
+    "currency": "USD",
+    "tokens": 329,
+    "pricePerToken": 1109.4,
+    "rail": "usdc",
+    "settlement": "async",
+    "chain": "ethereum",
+    "stage": "payment-instructed",
+    "status": "active",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-10-03T15:39:11.838Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-10-03T15:42:11.838Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-10-03T15:49:11.838Z",
+        "actor": "Payment orchestrator"
+      }
+    ],
+    "idempotencyKey": "idem_c182812115604817",
+    "createdAt": "2026-10-03T15:34:11.838Z",
+    "updatedAt": "2026-10-03T15:49:11.838Z",
+    "paymentId": "pay_19g7682"
+  },
+  {
+    "id": "ord_40331",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_srhg",
+    "assetId": "ast_vgld",
+    "investorId": "inv_alnoorfamilyoffice",
+    "investorName": "Al Noor Family Office",
+    "side": "subscribe",
+    "amount": 4000,
+    "currency": "USD",
+    "tokens": 29,
+    "pricePerToken": 136.8,
+    "rail": "swift",
+    "settlement": "atomic",
+    "chain": "ethereum",
+    "stage": "allocated",
+    "status": "active",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-10-03T14:29:42.185Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-10-03T14:33:42.185Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-10-03T14:39:42.185Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-10-04T16:44:42.185Z",
+        "actor": "Bank adapter webhook",
+        "note": "SWIFT credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-10-04T17:14:42.185Z",
+        "actor": "Allocation service"
+      }
+    ],
+    "idempotencyKey": "idem_2bbe6f02d72c1889",
+    "createdAt": "2026-10-03T14:27:42.185Z",
+    "updatedAt": "2026-10-04T17:14:42.185Z",
+    "paymentId": "pay_19jb5e9"
+  },
+  {
+    "id": "ord_40430",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_srht",
+    "assetId": "ast_tbill",
+    "investorId": "inv_omarfarouk",
+    "investorName": "Omar Farouk",
+    "side": "subscribe",
+    "amount": 282000,
+    "currency": "USD",
+    "tokens": 269650.03,
+    "pricePerToken": 1.0458,
+    "rail": "aed-stablecoin",
+    "settlement": "atomic",
+    "chain": "ethereum",
+    "stage": "eligibility",
+    "status": "rejected",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-10-02T23:03:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-10-02T23:09:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      }
+    ],
+    "idempotencyKey": "idem_3dad7d95d932f97c",
+    "createdAt": "2026-10-02T23:00:00.000Z",
+    "updatedAt": "2026-10-02T23:09:00.000Z",
+    "exceptionReason": "Retail investors are not eligible for this offering"
+  },
+  {
+    "id": "ord_40002",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_srhg",
+    "assetId": "ast_vgld",
+    "investorId": "inv_pearlcoastholdings",
+    "investorName": "Pearl Coast Holdings",
+    "side": "subscribe",
+    "amount": 1000,
+    "currency": "USD",
+    "tokens": 7,
+    "pricePerToken": 136.8,
+    "rail": "aed-stablecoin",
+    "settlement": "atomic",
+    "chain": "ethereum",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-10-01T02:04:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-10-01T02:06:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-10-01T02:10:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-10-01T02:19:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "AED-STABLECOIN credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-10-01T02:50:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-10-01T03:39:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-10-01T03:45:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xd96e64a9a5de53a9fdc6696bda9379329da2800e04aab813008a6cb0f87b9b35"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-10-01T05:49:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_d0ff7ac45706030f",
+    "createdAt": "2026-10-01T02:00:00.000Z",
+    "updatedAt": "2026-10-01T05:49:00.000Z",
+    "mintTxHash": "0xd96e64a9a5de53a9fdc6696bda9379329da2800e04aab813008a6cb0f87b9b35",
+    "paymentId": "pay_18b7009"
+  },
+  {
+    "id": "ord_40416",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_bbrs",
+    "assetId": "ast_bbr",
+    "investorId": "inv_pearlcoastholdings",
+    "investorName": "Pearl Coast Holdings",
+    "side": "subscribe",
+    "amount": 4000,
+    "currency": "AED",
+    "tokens": 384,
+    "pricePerToken": 10.42,
+    "rail": "card",
+    "settlement": "dvp",
+    "chain": "polygon",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-09-30T23:05:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-09-30T23:10:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-09-30T23:17:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-09-30T23:23:00.000Z",
+        "actor": "Checkout.com webhook",
+        "note": "Card payment authorised and captured (3-D Secure)"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-09-30T23:57:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-10-01T00:44:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-10-01T00:52:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0x3b81a14474d4bb425ce269852313205a5c65b95ad7b722ff72aa97a6e14d2dc3"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-10-01T02:56:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_d6e934dfc26eae1f",
+    "createdAt": "2026-09-30T23:00:00.000Z",
+    "updatedAt": "2026-10-01T02:56:00.000Z",
+    "mintTxHash": "0x3b81a14474d4bb425ce269852313205a5c65b95ad7b722ff72aa97a6e14d2dc3",
+    "paymentId": "pay_19tb7cd"
+  },
+  {
+    "id": "ord_40253",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_hlgpa",
+    "assetId": "ast_hlpaf",
+    "investorId": "inv_priyanair",
+    "investorName": "Priya Nair",
+    "side": "subscribe",
+    "amount": 474000,
+    "currency": "USD",
+    "tokens": 361280,
+    "pricePerToken": 1.312,
+    "rail": "swift",
+    "settlement": "async",
+    "chain": "ethereum",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-09-28T21:03:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-09-28T21:07:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-09-28T21:09:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-09-29T23:13:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "SWIFT credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-09-29T23:43:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-09-30T00:29:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-09-30T00:37:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xccb56cf57ccd7de7bed5ddbde7021f1f64238fabe1e4509e43bf60966a779426"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-09-30T02:37:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_1f5adf7b19738612",
+    "createdAt": "2026-09-28T21:00:00.000Z",
+    "updatedAt": "2026-09-30T02:37:00.000Z",
+    "mintTxHash": "0xccb56cf57ccd7de7bed5ddbde7021f1f64238fabe1e4509e43bf60966a779426",
+    "paymentId": "pay_19b3e6c"
+  },
+  {
+    "id": "ord_40127",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_ads31",
+    "assetId": "ast_ads",
+    "investorId": "inv_ahmed",
+    "investorName": "Ahmed Al Mansoori",
+    "side": "subscribe",
+    "amount": 1099000,
+    "currency": "USD",
+    "tokens": 1099,
+    "pricePerToken": 1000,
+    "rail": "aed-stablecoin",
+    "settlement": "dvp",
+    "chain": "ethereum",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-09-28T06:03:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-09-28T06:07:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-09-28T06:11:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-09-28T06:18:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "AED-STABLECOIN credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-09-28T06:48:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-09-28T07:36:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-09-28T07:40:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xcf39bad1cd5c0cece8907aafc023722087c97b3231d3dc23ac39a1371da5e6bc"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-09-28T09:40:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_2a5e029a8cbe1d9a",
+    "createdAt": "2026-09-28T06:00:00.000Z",
+    "updatedAt": "2026-09-28T09:40:00.000Z",
+    "mintTxHash": "0xcf39bad1cd5c0cece8907aafc023722087c97b3231d3dc23ac39a1371da5e6bc",
+    "paymentId": "pay_18t5fdf"
+  },
+  {
+    "id": "ord_40437",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_wpks",
+    "assetId": "ast_wpk",
+    "investorId": "inv_arjunmehta",
+    "investorName": "Arjun Mehta",
+    "side": "subscribe",
+    "amount": 304000,
+    "currency": "GBP",
+    "tokens": 30400,
+    "pricePerToken": 10,
+    "rail": "usdc",
+    "settlement": "dvp",
+    "chain": "ethereum",
+    "stage": "eligibility",
+    "status": "rejected",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-09-26T09:04:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-09-26T09:07:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      }
+    ],
+    "idempotencyKey": "idem_9196fbb13ac00486",
+    "createdAt": "2026-09-26T09:00:00.000Z",
+    "updatedAt": "2026-09-26T09:07:00.000Z",
+    "exceptionReason": "Retail investors are not eligible for this offering"
+  },
+  {
+    "id": "ord_40444",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_srht",
+    "assetId": "ast_tbill",
+    "investorId": "inv_marcusbauer",
+    "investorName": "Marcus Bauer",
+    "side": "subscribe",
+    "amount": 196000,
+    "currency": "USD",
+    "tokens": 187416.33,
+    "pricePerToken": 1.0458,
+    "rail": "tokenized-deposit",
+    "settlement": "atomic",
+    "chain": "ethereum",
+    "stage": "eligibility",
+    "status": "rejected",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-09-25T16:02:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-09-25T16:05:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      }
+    ],
+    "idempotencyKey": "idem_a5e0b4c4ac353b72",
+    "createdAt": "2026-09-25T16:00:00.000Z",
+    "updatedAt": "2026-09-25T16:05:00.000Z",
+    "exceptionReason": "Retail investors are not eligible for this offering"
+  },
+  {
+    "id": "ord_40426",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_wpks",
+    "assetId": "ast_wpk",
+    "investorId": "inv_yousefhaddad",
+    "investorName": "Yousef Haddad",
+    "side": "subscribe",
+    "amount": 337000,
+    "currency": "GBP",
+    "tokens": 33700,
+    "pricePerToken": 10,
+    "rail": "usdc",
+    "settlement": "dvp",
+    "chain": "ethereum",
+    "stage": "eligibility",
+    "status": "rejected",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-09-25T04:01:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-09-25T04:03:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      }
+    ],
+    "idempotencyKey": "idem_b636e0c778bcb1e4",
+    "createdAt": "2026-09-25T04:00:00.000Z",
+    "updatedAt": "2026-09-25T04:03:00.000Z",
+    "exceptionReason": "Retail investors are not eligible for this offering"
+  },
+  {
+    "id": "ord_40403",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_bbrs",
+    "assetId": "ast_bbr",
+    "investorId": "inv_westmarchpensionsc",
+    "investorName": "Westmarch Pension Scheme",
+    "side": "subscribe",
+    "amount": 11000,
+    "currency": "AED",
+    "tokens": 1056,
+    "pricePerToken": 10.42,
+    "rail": "card",
+    "settlement": "dvp",
+    "chain": "polygon",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-09-24T07:05:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-09-24T07:10:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-09-24T07:12:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-09-24T07:18:00.000Z",
+        "actor": "Checkout.com webhook",
+        "note": "Card payment authorised and captured (3-D Secure)"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-09-24T07:50:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-09-24T08:38:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-09-24T08:41:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0x6d185e7f34c631b46c54021536088e18b57b4108a97912d2593c626ec7ff132f"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-09-24T10:44:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_ed0c5dc9b3f92283",
+    "createdAt": "2026-09-24T07:00:00.000Z",
+    "updatedAt": "2026-09-24T10:44:00.000Z",
+    "mintTxHash": "0x6d185e7f34c631b46c54021536088e18b57b4108a97912d2593c626ec7ff132f",
+    "paymentId": "pay_19rd1ae"
+  },
+  {
+    "id": "ord_40100",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_bbrs",
+    "assetId": "ast_bbr",
+    "investorId": "inv_bluewatertreasuryl",
+    "investorName": "Bluewater Treasury Ltd",
+    "side": "subscribe",
+    "amount": 58000,
+    "currency": "AED",
+    "tokens": 5566,
+    "pricePerToken": 10.42,
+    "rail": "aed-stablecoin",
+    "settlement": "dvp",
+    "chain": "polygon",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-09-23T21:04:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-09-23T21:09:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-09-23T21:13:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-09-23T21:22:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "AED-STABLECOIN credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-09-23T21:55:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-09-23T22:45:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-09-23T22:49:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xf03e00ae6ae0e27623e5c96b8ffebd3c7067b681c9af1d157fb7200cf255ce22"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-09-24T00:51:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_2caf31a01ca67ce3",
+    "createdAt": "2026-09-23T21:00:00.000Z",
+    "updatedAt": "2026-09-24T00:51:00.000Z",
+    "mintTxHash": "0xf03e00ae6ae0e27623e5c96b8ffebd3c7067b681c9af1d157fb7200cf255ce22",
+    "paymentId": "pay_18p3e13"
+  },
+  {
+    "id": "ord_40118",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_ads31",
+    "assetId": "ast_ads",
+    "investorId": "inv_tariqmahmood",
+    "investorName": "Tariq Mahmood",
+    "side": "subscribe",
+    "amount": 1957000,
+    "currency": "USD",
+    "tokens": 1957,
+    "pricePerToken": 1000,
+    "rail": "aed-stablecoin",
+    "settlement": "dvp",
+    "chain": "ethereum",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-09-19T06:01:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-09-19T06:07:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-09-19T06:14:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-09-19T06:19:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "AED-STABLECOIN credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-09-19T06:50:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-09-19T07:37:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-09-19T07:42:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xf740c5964a8d369f6d0338d8ae62083a129c1e4fdf7bcaf7067e157ca9bc2513"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-09-19T09:44:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_0e3839b30bb63a67",
+    "createdAt": "2026-09-19T06:00:00.000Z",
+    "updatedAt": "2026-09-19T09:44:00.000Z",
+    "mintTxHash": "0xf740c5964a8d369f6d0338d8ae62083a129c1e4fdf7bcaf7067e157ca9bc2513",
+    "paymentId": "pay_18rcea9"
+  },
+  {
+    "id": "ord_40223",
+    "tenantId": "tnt_xyz",
+    "offeringId": "off_xmcr",
+    "assetId": "ast_xyz_res",
+    "investorId": "inv_crescentbaycapital",
+    "investorName": "Crescent Bay Capital",
+    "side": "subscribe",
+    "amount": 12000,
+    "currency": "USD",
+    "tokens": 2308,
+    "pricePerToken": 5.2,
+    "rail": "card",
+    "settlement": "async",
+    "chain": "polygon",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-09-14T09:02:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-09-14T09:08:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-09-14T09:14:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-09-14T09:20:00.000Z",
+        "actor": "Checkout.com webhook",
+        "note": "Card payment authorised and captured (3-D Secure)"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-09-14T09:52:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-09-14T10:39:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-09-14T10:42:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0x44c1a55602ea0ac758fd1170374fd4fa1284cc4867696dda2e39bbfb6c457fef"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-09-14T12:47:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_90c254e296498deb",
+    "createdAt": "2026-09-14T09:00:00.000Z",
+    "updatedAt": "2026-09-14T12:47:00.000Z",
+    "mintTxHash": "0x44c1a55602ea0ac758fd1170374fd4fa1284cc4867696dda2e39bbfb6c457fef",
+    "paymentId": "pay_196fb0c"
+  },
+  {
+    "id": "ord_40145",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_hlgpa",
+    "assetId": "ast_hlpaf",
+    "investorId": "inv_ahmed",
+    "investorName": "Ahmed Al Mansoori",
+    "side": "subscribe",
+    "amount": 269000,
+    "currency": "USD",
+    "tokens": 205030,
+    "pricePerToken": 1.312,
+    "rail": "sepa",
+    "settlement": "async",
+    "chain": "ethereum",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-09-12T20:02:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-09-12T20:07:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-09-12T20:09:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-09-13T22:10:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "SEPA credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-09-13T22:40:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-09-13T23:26:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-09-13T23:32:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xe8f03fe89ea9911ce1b1b4f99d68f63ff26b02dba790af1fabe9053ec231f184"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-09-14T01:34:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_bd1d4c4ce10c0456",
+    "createdAt": "2026-09-12T20:00:00.000Z",
+    "updatedAt": "2026-09-14T01:34:00.000Z",
+    "mintTxHash": "0xe8f03fe89ea9911ce1b1b4f99d68f63ff26b02dba790af1fabe9053ec231f184",
+    "paymentId": "pay_18vd79d"
+  },
+  {
+    "id": "ord_40172",
+    "tenantId": "tnt_xyz",
+    "offeringId": "off_xmcr",
+    "assetId": "ast_xyz_res",
+    "investorId": "inv_northlightinsuranc",
+    "investorName": "Northlight Insurance Co",
+    "side": "subscribe",
+    "amount": 28000,
+    "currency": "USD",
+    "tokens": 5385,
+    "pricePerToken": 5.2,
+    "rail": "local-rail",
+    "settlement": "async",
+    "chain": "polygon",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-09-11T00:02:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-09-11T00:03:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-09-11T00:10:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-09-12T02:12:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "LOCAL-RAIL credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-09-12T02:47:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-09-12T03:35:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-09-12T03:43:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xd9740d51161a04dc8f7d3fae8d7748054cb2bf7a503fa045b325b6d7e1016767"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-09-12T05:44:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_1d830728c669b8bc",
+    "createdAt": "2026-09-11T00:00:00.000Z",
+    "updatedAt": "2026-09-12T05:44:00.000Z",
+    "mintTxHash": "0xd9740d51161a04dc8f7d3fae8d7748054cb2bf7a503fa045b325b6d7e1016767",
+    "paymentId": "pay_18zcc02"
+  },
+  {
+    "id": "ord_40162",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_acred",
+    "assetId": "ast_acred",
+    "investorId": "inv_harbourgateassetma",
+    "investorName": "Harbour Gate Asset Management",
+    "side": "subscribe",
+    "amount": 728000,
+    "currency": "USD",
+    "tokens": 656,
+    "pricePerToken": 1109.4,
+    "rail": "swift",
+    "settlement": "async",
+    "chain": "ethereum",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-09-10T01:05:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-09-10T01:06:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-09-10T01:08:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-09-11T03:12:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "SWIFT credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-09-11T03:43:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-09-11T04:33:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-09-11T04:38:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0x76135bd48ebf5bb31f8d698dad4753db98428b4f80d4559f985978a0a6922327"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-09-11T06:39:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_b0aff7dc04877433",
+    "createdAt": "2026-09-10T01:00:00.000Z",
+    "updatedAt": "2026-09-11T06:39:00.000Z",
+    "mintTxHash": "0x76135bd48ebf5bb31f8d698dad4753db98428b4f80d4559f985978a0a6922327",
+    "paymentId": "pay_18yd5d2"
+  },
+  {
+    "id": "ord_40148",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_ads31",
+    "assetId": "ast_ads",
+    "investorId": "inv_westmarchpensionsc",
+    "investorName": "Westmarch Pension Scheme",
+    "side": "subscribe",
+    "amount": 1967000,
+    "currency": "USD",
+    "tokens": 1967,
+    "pricePerToken": 1000,
+    "rail": "aed-stablecoin",
+    "settlement": "dvp",
+    "chain": "ethereum",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-09-08T20:04:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-09-08T20:10:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-09-08T20:16:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-09-08T20:23:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "AED-STABLECOIN credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-09-08T20:53:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-09-08T21:41:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-09-08T21:49:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0x8f8a668b60f2c99337d69a6d8ed87f242c14e166d483faef18a0fff57298f14b"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-09-08T23:52:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_a3995a20a0deaf3c",
+    "createdAt": "2026-09-08T20:00:00.000Z",
+    "updatedAt": "2026-09-08T23:52:00.000Z",
+    "mintTxHash": "0x8f8a668b60f2c99337d69a6d8ed87f242c14e166d483faef18a0fff57298f14b",
+    "paymentId": "pay_18wb697"
+  },
+  {
+    "id": "ord_40412",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_srhg",
+    "assetId": "ast_vgld",
+    "investorId": "inv_pearlcoastholdings",
+    "investorName": "Pearl Coast Holdings",
+    "side": "subscribe",
+    "amount": 25000,
+    "currency": "USD",
+    "tokens": 183,
+    "pricePerToken": 136.8,
+    "rail": "card",
+    "settlement": "atomic",
+    "chain": "ethereum",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-09-07T22:01:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-09-07T22:04:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-09-07T22:07:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-09-07T22:08:00.000Z",
+        "actor": "Checkout.com webhook",
+        "note": "Card payment authorised and captured (3-D Secure)"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-09-07T22:42:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-09-07T23:32:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-09-07T23:35:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xa84e566cb2bade7c288eb01bf68ac0b21e4238e190ba8e4696f3f38047f56251"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-09-08T01:35:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_83665e2d4929cf3c",
+    "createdAt": "2026-09-07T22:00:00.000Z",
+    "updatedAt": "2026-09-08T01:35:00.000Z",
+    "mintTxHash": "0xa84e566cb2bade7c288eb01bf68ac0b21e4238e190ba8e4696f3f38047f56251",
+    "paymentId": "pay_19sab86"
+  },
+  {
+    "id": "ord_40016",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_srht",
+    "assetId": "ast_tbill",
+    "investorId": "inv_indusgrowthpartner",
+    "investorName": "Indus Growth Partners",
+    "side": "subscribe",
+    "amount": 249000,
+    "currency": "USD",
+    "tokens": 238095.24,
+    "pricePerToken": 1.0458,
+    "rail": "swift",
+    "settlement": "atomic",
+    "chain": "ethereum",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-09-07T21:00:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-09-07T21:06:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-09-07T21:10:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-09-08T23:11:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "SWIFT credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-09-08T23:42:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-09-09T00:30:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-09-09T00:37:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0x8c7cef88f9acbfe4f5a3767c3ccf3a532a69a919620ed968dc0b821c84e2d8d1"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-09-09T02:39:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_bc68c22f5b162b46",
+    "createdAt": "2026-09-07T21:00:00.000Z",
+    "updatedAt": "2026-09-09T02:39:00.000Z",
+    "mintTxHash": "0x8c7cef88f9acbfe4f5a3767c3ccf3a532a69a919620ed968dc0b821c84e2d8d1",
+    "paymentId": "pay_18ddd8d"
+  },
+  {
+    "id": "ord_40214",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_bbrs",
+    "assetId": "ast_bbr",
+    "investorId": "inv_arjunmehta",
+    "investorName": "Arjun Mehta",
+    "side": "subscribe",
+    "amount": 51000,
+    "currency": "AED",
+    "tokens": 4894,
+    "pricePerToken": 10.42,
+    "rail": "aed-stablecoin",
+    "settlement": "dvp",
+    "chain": "polygon",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-09-07T05:05:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-09-07T05:08:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-09-07T05:10:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-09-07T05:19:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "AED-STABLECOIN credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-09-07T05:54:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-09-07T06:43:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-09-07T06:47:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0x4ddd96c991cebfd162241afa85851b02a047c9dab13be142630ec381dd53231d"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-09-07T08:52:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_2c3c6319d9e06ca3",
+    "createdAt": "2026-09-07T05:00:00.000Z",
+    "updatedAt": "2026-09-07T08:52:00.000Z",
+    "mintTxHash": "0x4ddd96c991cebfd162241afa85851b02a047c9dab13be142630ec381dd53231d",
+    "paymentId": "pay_19579a2"
+  },
+  {
+    "id": "ord_40052",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_bbrs",
+    "assetId": "ast_bbr",
+    "investorId": "inv_sablecreekfamilytr",
+    "investorName": "Sable Creek Family Trust",
+    "side": "subscribe",
+    "amount": 13000,
+    "currency": "AED",
+    "tokens": 1248,
+    "pricePerToken": 10.42,
+    "rail": "aed-stablecoin",
+    "settlement": "dvp",
+    "chain": "polygon",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-09-05T05:02:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-09-05T05:06:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-09-05T05:13:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-09-05T05:20:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "AED-STABLECOIN credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-09-05T05:54:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-09-05T06:42:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-09-05T06:48:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0x0c3304950c1b9a2ef0aa618440176aabb0f69d828d61505dded7b2d6cc7da4bb"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-09-05T08:49:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_c338c853106dd41f",
+    "createdAt": "2026-09-05T05:00:00.000Z",
+    "updatedAt": "2026-09-05T08:49:00.000Z",
+    "mintTxHash": "0x0c3304950c1b9a2ef0aa618440176aabb0f69d828d61505dded7b2d6cc7da4bb",
+    "paymentId": "pay_18ic5a5"
+  },
+  {
+    "id": "ord_40083",
+    "tenantId": "tnt_xyz",
+    "offeringId": "off_tz29",
+    "assetId": "ast_xyz_zero",
+    "investorId": "inv_nouraalketbi",
+    "investorName": "Noura Al Ketbi",
+    "side": "subscribe",
+    "amount": 375000,
+    "currency": "USD",
+    "tokens": 4479,
+    "pricePerToken": 83.72,
+    "rail": "local-rail",
+    "settlement": "dvp",
+    "chain": "polygon",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-09-05T00:05:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-09-05T00:06:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-09-05T00:13:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-09-06T02:13:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "LOCAL-RAIL credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-09-06T02:43:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-09-06T03:28:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-09-06T03:31:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xb882e0c17b8d52c00c9bd2719bacba3b8c9308b101b5cfc0ddcdca33485282d8"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-09-06T05:36:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_64fee2c3d21a06f8",
+    "createdAt": "2026-09-05T00:00:00.000Z",
+    "updatedAt": "2026-09-06T05:36:00.000Z",
+    "mintTxHash": "0xb882e0c17b8d52c00c9bd2719bacba3b8c9308b101b5cfc0ddcdca33485282d8",
+    "paymentId": "pay_18me0b3"
+  },
+  {
+    "id": "ord_40045",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_acred",
+    "assetId": "ast_acred",
+    "investorId": "inv_sophielaurent",
+    "investorName": "Sophie Laurent",
+    "side": "subscribe",
+    "amount": 1608000,
+    "currency": "USD",
+    "tokens": 1449,
+    "pricePerToken": 1109.4,
+    "rail": "swift",
+    "settlement": "async",
+    "chain": "ethereum",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-09-03T03:03:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-09-03T03:09:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-09-03T03:16:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-09-04T05:21:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "SWIFT credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-09-04T05:54:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-09-04T06:41:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-09-04T06:45:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0x9e8f71a8c3f455bf1ed1107c9a264b5eb3c99921b20e646373681cf5f515b572"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-09-04T08:46:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_1a72dcfe756078ab",
+    "createdAt": "2026-09-03T03:00:00.000Z",
+    "updatedAt": "2026-09-04T08:46:00.000Z",
+    "mintTxHash": "0x9e8f71a8c3f455bf1ed1107c9a264b5eb3c99921b20e646373681cf5f515b572",
+    "paymentId": "pay_18ha4a4"
+  },
+  {
+    "id": "ord_40009",
+    "tenantId": "tnt_xyz",
+    "offeringId": "off_tz29",
+    "assetId": "ast_xyz_zero",
+    "investorId": "inv_crescentbaycapital",
+    "investorName": "Crescent Bay Capital",
+    "side": "subscribe",
+    "amount": 331000,
+    "currency": "USD",
+    "tokens": 3954,
+    "pricePerToken": 83.72,
+    "rail": "local-rail",
+    "settlement": "dvp",
+    "chain": "polygon",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-09-01T10:03:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-09-01T10:05:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-09-01T10:11:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-09-02T12:12:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "LOCAL-RAIL credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-09-02T12:45:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-09-02T13:34:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-09-02T13:37:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xeb946d05a4d34af494473bf66025004f437afca545669cb61e4975138b43dc02"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-09-02T15:40:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_7f3be9f91ba6fa8e",
+    "createdAt": "2026-09-01T10:00:00.000Z",
+    "updatedAt": "2026-09-02T15:40:00.000Z",
+    "mintTxHash": "0xeb946d05a4d34af494473bf66025004f437afca545669cb61e4975138b43dc02",
+    "paymentId": "pay_18c326e"
+  },
+  {
+    "id": "ord_40225",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_bbrs",
+    "assetId": "ast_bbr",
+    "investorId": "inv_jameswhitfield",
+    "investorName": "James Whitfield",
+    "side": "subscribe",
+    "amount": 28000,
+    "currency": "AED",
+    "tokens": 2687,
+    "pricePerToken": 10.42,
+    "rail": "local-rail",
+    "settlement": "dvp",
+    "chain": "polygon",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-08-31T12:03:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-08-31T12:08:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-08-31T12:12:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-09-01T14:15:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "LOCAL-RAIL credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-09-01T14:48:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-09-01T15:37:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-09-01T15:44:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xe823edf0f0f4b4331ab1d1f5200caa214b9418ae4c83e34e049e185602ab70d2"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-09-01T17:44:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_0d54ace84480b385",
+    "createdAt": "2026-08-31T12:00:00.000Z",
+    "updatedAt": "2026-09-01T17:44:00.000Z",
+    "mintTxHash": "0xe823edf0f0f4b4331ab1d1f5200caa214b9418ae4c83e34e049e185602ab70d2",
+    "paymentId": "pay_197d554"
+  },
+  {
+    "id": "ord_40245",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_hlgpa",
+    "assetId": "ast_hlpaf",
+    "investorId": "inv_bluewatertreasuryl",
+    "investorName": "Bluewater Treasury Ltd",
+    "side": "subscribe",
+    "amount": 180000,
+    "currency": "USD",
+    "tokens": 137195,
+    "pricePerToken": 1.312,
+    "rail": "usdc",
+    "settlement": "async",
+    "chain": "ethereum",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-08-28T05:02:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-08-28T05:05:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-08-28T05:07:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-08-28T05:15:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "USDC credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-08-28T05:45:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-08-28T06:32:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-08-28T06:38:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xf78dc3e5c77639a2cdc652d1427cabf1b742e29ae44412770e238df7e9874023"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-08-28T08:42:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_8ccf96973dc56fee",
+    "createdAt": "2026-08-28T05:00:00.000Z",
+    "updatedAt": "2026-08-28T08:42:00.000Z",
+    "mintTxHash": "0xf78dc3e5c77639a2cdc652d1427cabf1b742e29ae44412770e238df7e9874023",
+    "paymentId": "pay_19ad356"
+  },
+  {
+    "id": "ord_40075",
+    "tenantId": "tnt_xyz",
+    "offeringId": "off_xmcr",
+    "assetId": "ast_xyz_res",
+    "investorId": "inv_crescentbaycapital",
+    "investorName": "Crescent Bay Capital",
+    "side": "subscribe",
+    "amount": 8000,
+    "currency": "USD",
+    "tokens": 1538,
+    "pricePerToken": 5.2,
+    "rail": "card",
+    "settlement": "async",
+    "chain": "polygon",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-08-27T04:00:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-08-27T04:01:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-08-27T04:05:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-08-27T04:11:00.000Z",
+        "actor": "Checkout.com webhook",
+        "note": "Card payment authorised and captured (3-D Secure)"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-08-27T04:46:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-08-27T05:31:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-08-27T05:34:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xb6868ada0e642e6fa59f0d2451ddc629e17d6f9edaad101204948590c8dc3b50"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-08-27T07:39:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_259eed3f664339bf",
+    "createdAt": "2026-08-27T04:00:00.000Z",
+    "updatedAt": "2026-08-27T07:39:00.000Z",
+    "mintTxHash": "0xb6868ada0e642e6fa59f0d2451ddc629e17d6f9edaad101204948590c8dc3b50",
+    "paymentId": "pay_18lebbb"
+  },
+  {
+    "id": "ord_40093",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_ads31",
+    "assetId": "ast_ads",
+    "investorId": "inv_desertroseprivateo",
+    "investorName": "Desert Rose Private Office",
+    "side": "subscribe",
+    "amount": 170000,
+    "currency": "USD",
+    "tokens": 170,
+    "pricePerToken": 1000,
+    "rail": "tokenized-deposit",
+    "settlement": "dvp",
+    "chain": "ethereum",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-08-25T05:05:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-08-25T05:11:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-08-25T05:17:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-08-25T05:21:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "TOKENIZED-DEPOSIT credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-08-25T05:55:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-08-25T06:40:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-08-25T06:46:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0x657ea6116ed5a583f361536917fcfe84eb35eaa385001e184023aa1ef672a18e"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-08-25T08:51:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_40aeda183d242f5f",
+    "createdAt": "2026-08-25T05:00:00.000Z",
+    "updatedAt": "2026-08-25T08:51:00.000Z",
+    "mintTxHash": "0x657ea6116ed5a583f361536917fcfe84eb35eaa385001e184023aa1ef672a18e",
+    "paymentId": "pay_18o130e"
+  },
+  {
+    "id": "ord_40036",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_ads31",
+    "assetId": "ast_ads",
+    "investorId": "inv_zenithendowmentfun",
+    "investorName": "Zenith Endowment Fund",
+    "side": "subscribe",
+    "amount": 1540000,
+    "currency": "USD",
+    "tokens": 1540,
+    "pricePerToken": 1000,
+    "rail": "tokenized-deposit",
+    "settlement": "dvp",
+    "chain": "ethereum",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-08-23T01:02:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-08-23T01:03:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-08-23T01:06:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-08-23T01:12:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "TOKENIZED-DEPOSIT credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-08-23T01:43:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-08-23T02:31:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-08-23T02:39:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xb347bff49ce07245aba8b8d5087706b13a6e746cb7cdac155561824d6ab7dafb"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-08-23T04:39:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_0bbc0337e4484b25",
+    "createdAt": "2026-08-23T01:00:00.000Z",
+    "updatedAt": "2026-08-23T04:39:00.000Z",
+    "mintTxHash": "0xb347bff49ce07245aba8b8d5087706b13a6e746cb7cdac155561824d6ab7dafb",
+    "paymentId": "pay_18g23a1"
+  },
+  {
+    "id": "ord_40189",
+    "tenantId": "tnt_xyz",
+    "offeringId": "off_tz29",
+    "assetId": "ast_xyz_zero",
+    "investorId": "inv_crescentbaycapital",
+    "investorName": "Crescent Bay Capital",
+    "side": "subscribe",
+    "amount": 194000,
+    "currency": "USD",
+    "tokens": 2317,
+    "pricePerToken": 83.72,
+    "rail": "swift",
+    "settlement": "dvp",
+    "chain": "polygon",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-08-22T00:05:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-08-22T00:06:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-08-22T00:12:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-08-23T02:12:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "SWIFT credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-08-23T02:45:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-08-23T03:30:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-08-23T03:36:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xfa679652b3e884f5d32213025694b95d4b3a0e33003c2f2630ed89074fb053f1"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-08-23T05:39:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_352cd8ec897514d5",
+    "createdAt": "2026-08-22T00:00:00.000Z",
+    "updatedAt": "2026-08-23T05:39:00.000Z",
+    "mintTxHash": "0xfa679652b3e884f5d32213025694b95d4b3a0e33003c2f2630ed89074fb053f1",
+    "paymentId": "pay_19258b2"
+  },
+  {
+    "id": "ord_40062",
+    "tenantId": "tnt_xyz",
+    "offeringId": "off_xmcr",
+    "assetId": "ast_xyz_res",
+    "investorId": "inv_crescentbaycapital",
+    "investorName": "Crescent Bay Capital",
+    "side": "subscribe",
+    "amount": 184000,
+    "currency": "USD",
+    "tokens": 35385,
+    "pricePerToken": 5.2,
+    "rail": "swift",
+    "settlement": "async",
+    "chain": "polygon",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-08-18T22:00:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-08-18T22:02:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-08-18T22:05:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-08-20T00:07:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "SWIFT credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-08-20T00:39:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-08-20T01:26:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-08-20T01:29:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0x982e225e4fcabc6c603dccc0c37720ede353004e1958877bfd6bcbe96784c0a4"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-08-20T03:33:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_360c900781b21aa4",
+    "createdAt": "2026-08-18T22:00:00.000Z",
+    "updatedAt": "2026-08-20T03:33:00.000Z",
+    "mintTxHash": "0x982e225e4fcabc6c603dccc0c37720ede353004e1958877bfd6bcbe96784c0a4",
+    "paymentId": "pay_18j54c8"
+  },
+  {
+    "id": "ord_40175",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_acred",
+    "assetId": "ast_acred",
+    "investorId": "inv_priyanair",
+    "investorName": "Priya Nair",
+    "side": "subscribe",
+    "amount": 1211000,
+    "currency": "USD",
+    "tokens": 1092,
+    "pricePerToken": 1109.4,
+    "rail": "swift",
+    "settlement": "async",
+    "chain": "ethereum",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-08-13T09:05:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-08-13T09:09:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-08-13T09:14:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-08-14T11:16:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "SWIFT credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-08-14T11:48:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-08-14T12:36:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-08-14T12:40:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xf30a01792527313d3174bf7ab1b9ef473ab0b1724da10c8d174f63b5f0a25f8b"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-08-14T14:42:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_c034b784862b2945",
+    "createdAt": "2026-08-13T09:00:00.000Z",
+    "updatedAt": "2026-08-14T14:42:00.000Z",
+    "mintTxHash": "0xf30a01792527313d3174bf7ab1b9ef473ab0b1724da10c8d174f63b5f0a25f8b",
+    "paymentId": "pay_190fb93"
+  },
+  {
+    "id": "ord_40069",
+    "tenantId": "tnt_xyz",
+    "offeringId": "off_xmcr",
+    "assetId": "ast_xyz_res",
+    "investorId": "inv_northlightinsuranc",
+    "investorName": "Northlight Insurance Co",
+    "side": "subscribe",
+    "amount": 20000,
+    "currency": "USD",
+    "tokens": 3846,
+    "pricePerToken": 5.2,
+    "rail": "card",
+    "settlement": "async",
+    "chain": "polygon",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-08-07T15:00:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-08-07T15:03:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-08-07T15:08:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-08-07T15:12:00.000Z",
+        "actor": "Checkout.com webhook",
+        "note": "Card payment authorised and captured (3-D Secure)"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-08-07T15:42:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-08-07T16:29:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-08-07T16:36:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xe046a5d7dc4778ea61a6cb5b0ab39a991f24ef3b692cd668d3e27c90d71b397d"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-08-07T18:39:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_eceb63bb386b59be",
+    "createdAt": "2026-08-07T15:00:00.000Z",
+    "updatedAt": "2026-08-07T18:39:00.000Z",
+    "mintTxHash": "0xe046a5d7dc4778ea61a6cb5b0ab39a991f24ef3b692cd668d3e27c90d71b397d",
+    "paymentId": "pay_18kb385"
+  },
+  {
+    "id": "ord_40240",
+    "tenantId": "tnt_xyz",
+    "offeringId": "off_xmcr",
+    "assetId": "ast_xyz_res",
+    "investorId": "inv_northlightinsuranc",
+    "investorName": "Northlight Insurance Co",
+    "side": "subscribe",
+    "amount": 40000,
+    "currency": "USD",
+    "tokens": 7692,
+    "pricePerToken": 5.2,
+    "rail": "local-rail",
+    "settlement": "async",
+    "chain": "polygon",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-08-05T01:02:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-08-05T01:05:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-08-05T01:08:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-08-06T03:11:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "LOCAL-RAIL credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-08-06T03:46:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-08-06T04:32:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-08-06T04:36:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0x05946c4d6af2250444f21115f7f2ffebe6d075d9fdfb57e275af53dc075b3ca4"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-08-06T06:38:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_3ea636d556318698",
+    "createdAt": "2026-08-05T01:00:00.000Z",
+    "updatedAt": "2026-08-06T06:38:00.000Z",
+    "mintTxHash": "0x05946c4d6af2250444f21115f7f2ffebe6d075d9fdfb57e275af53dc075b3ca4",
+    "paymentId": "pay_19907e8"
+  },
+  {
+    "id": "ord_40156",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_ads31",
+    "assetId": "ast_ads",
+    "investorId": "inv_sophielaurent",
+    "investorName": "Sophie Laurent",
+    "side": "subscribe",
+    "amount": 1248000,
+    "currency": "USD",
+    "tokens": 1248,
+    "pricePerToken": 1000,
+    "rail": "swift",
+    "settlement": "dvp",
+    "chain": "ethereum",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-08-04T20:03:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-08-04T20:09:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-08-04T20:11:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-08-05T22:15:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "SWIFT credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-08-05T22:49:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-08-05T23:39:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-08-05T23:46:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xc8995c0087d94e0af80db36c69be6f57bc2dab43061c09931a77ed5c4c58a345"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-08-06T01:50:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_938e891b46a3d259",
+    "createdAt": "2026-08-04T20:00:00.000Z",
+    "updatedAt": "2026-08-06T01:50:00.000Z",
+    "mintTxHash": "0xc8995c0087d94e0af80db36c69be6f57bc2dab43061c09931a77ed5c4c58a345",
+    "paymentId": "pay_18xc221"
+  },
+  {
+    "id": "ord_40030",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_srht",
+    "assetId": "ast_tbill",
+    "investorId": "inv_sablecreekfamilytr",
+    "investorName": "Sable Creek Family Trust",
+    "side": "subscribe",
+    "amount": 289000,
+    "currency": "USD",
+    "tokens": 276343.47,
+    "pricePerToken": 1.0458,
+    "rail": "tokenized-deposit",
+    "settlement": "atomic",
+    "chain": "ethereum",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-07-30T03:00:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-07-30T03:02:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-07-30T03:08:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-07-30T03:17:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "TOKENIZED-DEPOSIT credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-07-30T03:51:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-07-30T04:39:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-07-30T04:43:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xce546a6f3022d8a2b7998dc7914dff97285ddd3d588cd6387d6bed51a2c79715"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-07-30T06:45:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_37f204e8f272bae9",
+    "createdAt": "2026-07-30T03:00:00.000Z",
+    "updatedAt": "2026-07-30T06:45:00.000Z",
+    "mintTxHash": "0xce546a6f3022d8a2b7998dc7914dff97285ddd3d588cd6387d6bed51a2c79715",
+    "paymentId": "pay_18f4a52"
+  },
+  {
+    "id": "ord_40109",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_ads31",
+    "assetId": "ast_ads",
+    "investorId": "inv_alnoorfamilyoffice",
+    "investorName": "Al Noor Family Office",
+    "side": "subscribe",
+    "amount": 1261000,
+    "currency": "USD",
+    "tokens": 1261,
+    "pricePerToken": 1000,
+    "rail": "aed-stablecoin",
+    "settlement": "dvp",
+    "chain": "ethereum",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-07-26T12:03:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-07-26T12:08:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-07-26T12:15:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-07-26T12:24:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "AED-STABLECOIN credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-07-26T12:54:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-07-26T13:41:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-07-26T13:46:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0x646067a42ae51e2fb688d91ac6293cfd63b6cd1734731bef4d79a8512630c785"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-07-26T15:51:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_20e8fbe91d8bd6d9",
+    "createdAt": "2026-07-26T12:00:00.000Z",
+    "updatedAt": "2026-07-26T15:51:00.000Z",
+    "mintTxHash": "0x646067a42ae51e2fb688d91ac6293cfd63b6cd1734731bef4d79a8512630c785",
+    "paymentId": "pay_18q761a"
+  },
+  {
+    "id": "ord_40272",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_ads31",
+    "assetId": "ast_ads",
+    "investorId": "inv_harbourgateassetma",
+    "investorName": "Harbour Gate Asset Management",
+    "side": "subscribe",
+    "amount": 1379000,
+    "currency": "USD",
+    "tokens": 1379,
+    "pricePerToken": 1000,
+    "rail": "tokenized-deposit",
+    "settlement": "dvp",
+    "chain": "ethereum",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-07-21T00:05:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-07-21T00:11:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-07-21T00:18:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-07-21T00:22:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "TOKENIZED-DEPOSIT credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-07-21T00:52:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-07-21T01:40:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-07-21T01:44:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0x188b5922d511e842aa5229c7bad4bf4caf587ef48201f145bd7070ba60f9c959"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-07-21T03:48:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_d085e7d8c81e5585",
+    "createdAt": "2026-07-21T00:00:00.000Z",
+    "updatedAt": "2026-07-21T03:48:00.000Z",
+    "mintTxHash": "0x188b5922d511e842aa5229c7bad4bf4caf587ef48201f145bd7070ba60f9c959",
+    "paymentId": "pay_19d28aa"
+  },
+  {
+    "id": "ord_40122",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_srhg",
+    "assetId": "ast_vgld",
+    "investorId": "inv_sophielaurent",
+    "investorName": "Sophie Laurent",
+    "side": "subscribe",
+    "amount": 2000,
+    "currency": "USD",
+    "tokens": 15,
+    "pricePerToken": 136.8,
+    "rail": "card",
+    "settlement": "atomic",
+    "chain": "ethereum",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-07-16T09:00:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-07-16T09:02:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-07-16T09:08:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-07-16T09:10:00.000Z",
+        "actor": "Checkout.com webhook",
+        "note": "Card payment authorised and captured (3-D Secure)"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-07-16T09:45:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-07-16T10:31:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-07-16T10:35:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0x7c17c018499370069c0c0da94df9c0c7e19e090a2ade522a75b2925bd4a8fcef"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-07-16T12:40:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_ec5211caebf7c9f8",
+    "createdAt": "2026-07-16T09:00:00.000Z",
+    "updatedAt": "2026-07-16T12:40:00.000Z",
+    "mintTxHash": "0x7c17c018499370069c0c0da94df9c0c7e19e090a2ade522a75b2925bd4a8fcef",
+    "paymentId": "pay_18s1475"
+  },
+  {
+    "id": "ord_40264",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_srhg",
+    "assetId": "ast_vgld",
+    "investorId": "inv_aishakhan",
+    "investorName": "Aisha Khan",
+    "side": "subscribe",
+    "amount": 1000,
+    "currency": "USD",
+    "tokens": 7,
+    "pricePerToken": 136.8,
+    "rail": "card",
+    "settlement": "atomic",
+    "chain": "ethereum",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-07-15T22:01:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-07-15T22:05:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-07-15T22:12:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-07-15T22:13:00.000Z",
+        "actor": "Checkout.com webhook",
+        "note": "Card payment authorised and captured (3-D Secure)"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-07-15T22:44:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-07-15T23:31:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-07-15T23:39:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0x6e73e374fdbe83116ff6985b25f7e84faed0f0022fc546d9da22a99e1ca6b0a9"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-07-16T01:41:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_c80460cc8d989709",
+    "createdAt": "2026-07-15T22:00:00.000Z",
+    "updatedAt": "2026-07-16T01:41:00.000Z",
+    "mintTxHash": "0x6e73e374fdbe83116ff6985b25f7e84faed0f0022fc546d9da22a99e1ca6b0a9",
+    "paymentId": "pay_19c624a"
+  },
+  {
+    "id": "ord_40185",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_srhg",
+    "assetId": "ast_vgld",
+    "investorId": "inv_lumentreasurybank",
+    "investorName": "Lumen Treasury Bank",
+    "side": "subscribe",
+    "amount": 2000,
+    "currency": "USD",
+    "tokens": 15,
+    "pricePerToken": 136.8,
+    "rail": "aed-stablecoin",
+    "settlement": "atomic",
+    "chain": "ethereum",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-07-13T01:04:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-07-13T01:05:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-07-13T01:08:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-07-13T01:15:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "AED-STABLECOIN credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-07-13T01:45:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-07-13T02:30:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-07-13T02:36:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xbfda0e0ddfca2797e99b3d7a2d06836e72059e03ed397d05070888de9f7c8d8c"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-07-13T04:38:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_5ead3406358b564d",
+    "createdAt": "2026-07-13T01:00:00.000Z",
+    "updatedAt": "2026-07-13T04:38:00.000Z",
+    "mintTxHash": "0xbfda0e0ddfca2797e99b3d7a2d06836e72059e03ed397d05070888de9f7c8d8c",
+    "paymentId": "pay_1918eed"
+  },
+  {
+    "id": "ord_40237",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_srht",
+    "assetId": "ast_tbill",
+    "investorId": "inv_tariqmahmood",
+    "investorName": "Tariq Mahmood",
+    "side": "subscribe",
+    "amount": 363000,
+    "currency": "USD",
+    "tokens": 347102.7,
+    "pricePerToken": 1.0458,
+    "rail": "usdc",
+    "settlement": "atomic",
+    "chain": "ethereum",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-07-10T00:00:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-07-10T00:02:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-07-10T00:05:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-07-10T00:11:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "USDC credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-07-10T00:42:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-07-10T01:27:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-07-10T01:33:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0x78e8b2b3268186bf160971b52261fb17984a493e98188af06314d52136e78282"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-07-10T03:38:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_b70692784cfc11ca",
+    "createdAt": "2026-07-10T00:00:00.000Z",
+    "updatedAt": "2026-07-10T03:38:00.000Z",
+    "mintTxHash": "0x78e8b2b3268186bf160971b52261fb17984a493e98188af06314d52136e78282",
+    "paymentId": "pay_198470c"
+  },
+  {
+    "id": "ord_40135",
+    "tenantId": "tnt_xyz",
+    "offeringId": "off_xmcr",
+    "assetId": "ast_xyz_res",
+    "investorId": "inv_nouraalketbi",
+    "investorName": "Noura Al Ketbi",
+    "side": "subscribe",
+    "amount": 22000,
+    "currency": "USD",
+    "tokens": 4231,
+    "pricePerToken": 5.2,
+    "rail": "card",
+    "settlement": "async",
+    "chain": "polygon",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-07-01T13:05:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-07-01T13:09:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-07-01T13:12:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-07-01T13:18:00.000Z",
+        "actor": "Checkout.com webhook",
+        "note": "Card payment authorised and captured (3-D Secure)"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-07-01T13:49:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-07-01T14:34:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-07-01T14:38:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0x5d7327c8a0058019579387add904b289ce0169b8f66932a1435aa310dbbb25e8"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-07-01T16:40:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_c3744c6a24dc9c89",
+    "createdAt": "2026-07-01T13:00:00.000Z",
+    "updatedAt": "2026-07-01T16:40:00.000Z",
+    "mintTxHash": "0x5d7327c8a0058019579387add904b289ce0169b8f66932a1435aa310dbbb25e8",
+    "paymentId": "pay_18ufcbe"
+  },
+  {
+    "id": "ord_40202",
+    "tenantId": "tnt_xyz",
+    "offeringId": "off_tz29",
+    "assetId": "ast_xyz_zero",
+    "investorId": "inv_nouraalketbi",
+    "investorName": "Noura Al Ketbi",
+    "side": "subscribe",
+    "amount": 390000,
+    "currency": "USD",
+    "tokens": 4658,
+    "pricePerToken": 83.72,
+    "rail": "swift",
+    "settlement": "dvp",
+    "chain": "polygon",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-06-30T11:00:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-06-30T11:04:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-06-30T11:09:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-07-01T13:12:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "SWIFT credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-07-01T13:44:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-07-01T14:31:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-07-01T14:38:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0x1cc0560cc35c9018788861ffd4eabe2b5f142b6891d25e4518338294902a488a"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-07-01T16:38:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_b0917462bc3153d7",
+    "createdAt": "2026-06-30T11:00:00.000Z",
+    "updatedAt": "2026-07-01T16:38:00.000Z",
+    "mintTxHash": "0x1cc0560cc35c9018788861ffd4eabe2b5f142b6891d25e4518338294902a488a",
+    "paymentId": "pay_1939a60"
+  },
+  {
+    "id": "ord_40023",
+    "tenantId": "tnt_xyz",
+    "offeringId": "off_tz29",
+    "assetId": "ast_xyz_zero",
+    "investorId": "inv_northlightinsuranc",
+    "investorName": "Northlight Insurance Co",
+    "side": "subscribe",
+    "amount": 376000,
+    "currency": "USD",
+    "tokens": 4491,
+    "pricePerToken": 83.72,
+    "rail": "swift",
+    "settlement": "dvp",
+    "chain": "polygon",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-06-29T23:05:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-06-29T23:10:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-06-29T23:17:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-07-01T01:17:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "SWIFT credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-07-01T01:47:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-07-01T02:34:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-07-01T02:38:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xaafc7b44547eacc32f31c9f8776e87888c287a9b4d2e97c612866a2cfb4c97f1"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-07-01T04:39:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_3d6c17cf51f06086",
+    "createdAt": "2026-06-29T23:00:00.000Z",
+    "updatedAt": "2026-07-01T04:39:00.000Z",
+    "mintTxHash": "0xaafc7b44547eacc32f31c9f8776e87888c287a9b4d2e97c612866a2cfb4c97f1",
+    "paymentId": "pay_18e42f1"
+  },
+  {
+    "id": "ord_40084",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_srht",
+    "assetId": "ast_tbill",
+    "investorId": "inv_lumentreasurybank",
+    "investorName": "Lumen Treasury Bank",
+    "side": "subscribe",
+    "amount": 192000,
+    "currency": "USD",
+    "tokens": 183591.51,
+    "pricePerToken": 1.0458,
+    "rail": "usdc",
+    "settlement": "atomic",
+    "chain": "ethereum",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-06-18T23:05:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-06-18T23:08:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-06-18T23:13:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-06-18T23:19:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "USDC credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-06-18T23:52:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-06-19T00:39:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-06-19T00:46:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xc98469b6bcda91ca8e03c07a5876f0334d3da6afcc5f18c36872914fc577523b"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-06-19T02:46:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_4383ace6906ffa5c",
+    "createdAt": "2026-06-18T23:00:00.000Z",
+    "updatedAt": "2026-06-19T02:46:00.000Z",
+    "mintTxHash": "0xc98469b6bcda91ca8e03c07a5876f0334d3da6afcc5f18c36872914fc577523b",
+    "paymentId": "pay_18n122c"
+  },
+  {
+    "id": "ord_40209",
+    "tenantId": "tnt_srh",
+    "offeringId": "off_acred",
+    "assetId": "ast_acred",
+    "investorId": "inv_tidewater",
+    "investorName": "Tidewater Pension Trust",
+    "side": "subscribe",
+    "amount": 1635000,
+    "currency": "USD",
+    "tokens": 1474,
+    "pricePerToken": 1109.4,
+    "rail": "usdc",
+    "settlement": "async",
+    "chain": "ethereum",
+    "stage": "reconciled",
+    "status": "completed",
+    "history": [
+      {
+        "stage": "submitted",
+        "at": "2026-06-09T16:03:00.000Z",
+        "actor": "Investor portal"
+      },
+      {
+        "stage": "eligibility",
+        "at": "2026-06-09T16:06:00.000Z",
+        "actor": "Compliance engine v4.2",
+        "note": "12 of 12 rules passed"
+      },
+      {
+        "stage": "payment-instructed",
+        "at": "2026-06-09T16:12:00.000Z",
+        "actor": "Payment orchestrator"
+      },
+      {
+        "stage": "payment-confirmed",
+        "at": "2026-06-09T16:20:00.000Z",
+        "actor": "Bank adapter webhook",
+        "note": "USDC credit matched to instruction"
+      },
+      {
+        "stage": "allocated",
+        "at": "2026-06-09T16:52:00.000Z",
+        "actor": "Allocation service"
+      },
+      {
+        "stage": "settled",
+        "at": "2026-06-09T17:41:00.000Z",
+        "actor": "Settlement engine"
+      },
+      {
+        "stage": "minted",
+        "at": "2026-06-09T17:45:00.000Z",
+        "actor": "Blockchain transaction manager",
+        "note": "Mint confirmed in block",
+        "ref": "0xb07b6aab0034295785b1f337a56dbbd9d6d5c6390d247dda6fc94707e1ab66d7"
+      },
+      {
+        "stage": "reconciled",
+        "at": "2026-06-09T19:46:00.000Z",
+        "actor": "Reconciliation engine"
+      }
+    ],
+    "idempotencyKey": "idem_42ad134de293361e",
+    "createdAt": "2026-06-09T16:00:00.000Z",
+    "updatedAt": "2026-06-09T19:46:00.000Z",
+    "mintTxHash": "0xb07b6aab0034295785b1f337a56dbbd9d6d5c6390d247dda6fc94707e1ab66d7",
+    "paymentId": "pay_1946d0a"
+  }
+]

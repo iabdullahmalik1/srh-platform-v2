@@ -1,0 +1,110 @@
+[
+  {
+    "code": "AE-ADGM",
+    "name": "Abu Dhabi Global Market",
+    "regulator": "FSRA",
+    "country": "AE"
+  },
+  {
+    "code": "AE-DIFC",
+    "name": "Dubai International Financial Centre",
+    "regulator": "DFSA",
+    "country": "AE"
+  },
+  {
+    "code": "AE-VARA",
+    "name": "Dubai (VARA regime)",
+    "regulator": "VARA",
+    "country": "AE"
+  },
+  {
+    "code": "SA",
+    "name": "Kingdom of Saudi Arabia",
+    "regulator": "CMA",
+    "country": "SA"
+  },
+  {
+    "code": "BH",
+    "name": "Kingdom of Bahrain",
+    "regulator": "CBB",
+    "country": "BH"
+  },
+  {
+    "code": "SG",
+    "name": "Singapore",
+    "regulator": "MAS",
+    "country": "SG"
+  },
+  {
+    "code": "GB",
+    "name": "United Kingdom",
+    "regulator": "FCA",
+    "country": "GB"
+  },
+  {
+    "code": "EU-LU",
+    "name": "Luxembourg (EU)",
+    "regulator": "CSSF",
+    "country": "LU"
+  },
+  {
+    "code": "KY",
+    "name": "Cayman Islands",
+    "regulator": "CIMA",
+    "country": "KY"
+  },
+  {
+    "code": "US",
+    "name": "United States",
+    "regulator": "SEC",
+    "country": "US"
+  },
+  {
+    "code": "PK",
+    "name": "Pakistan",
+    "regulator": "SECP",
+    "country": "PK"
+  },
+  {
+    "code": "CH",
+    "name": "Switzerland",
+    "regulator": "FINMA",
+    "country": "CH"
+  },
+  {
+    "code": "AE-SCA",
+    "name": "UAE onshore (SCA)",
+    "regulator": "SCA",
+    "country": "AE"
+  },
+  {
+    "code": "QA",
+    "name": "Qatar Financial Centre",
+    "regulator": "QFCRA",
+    "country": "QA"
+  },
+  {
+    "code": "HK",
+    "name": "Hong Kong",
+    "regulator": "SFC",
+    "country": "HK"
+  },
+  {
+    "code": "EU",
+    "name": "European Union (MiCA and DLT Pilot)",
+    "regulator": "ESMA and national authorities",
+    "country": "EU"
+  },
+  {
+    "code": "VG",
+    "name": "British Virgin Islands",
+    "regulator": "BVI FSC",
+    "country": "VG"
+  },
+  {
+    "code": "JE",
+    "name": "Jersey",
+    "regulator": "JFSC",
+    "country": "JE"
+  }
+]

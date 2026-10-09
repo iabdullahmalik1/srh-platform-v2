@@ -1,0 +1,519 @@
+[
+  {
+    "id": "tnt_srh",
+    "name": "SRH Markets",
+    "shortName": "SRH",
+    "deploymentModel": "own-platform",
+    "domain": "markets.srh.inc",
+    "brand": {
+      "primary": "#D21F17",
+      "primaryHover": "#B01912",
+      "accentSoft": "#FDECEA",
+      "monogram": "S",
+      "logo": "/brand/srh-mark.png"
+    },
+    "hosting": "SRH Cloud (multi-tenant, me-central-1)",
+    "dataResidency": "UAE",
+    "modules": [
+      "identity",
+      "compliance",
+      "assets",
+      "tokenization",
+      "primary-market",
+      "payments",
+      "custody",
+      "registry",
+      "servicing",
+      "secondary-market",
+      "defi"
+    ],
+    "licences": [
+      {
+        "id": "lic_srh_1",
+        "holder": "SRH Markets Ltd",
+        "regulator": "FSRA",
+        "jurisdiction": "AE-ADGM",
+        "activities": [
+          "distribution",
+          "brokerage"
+        ],
+        "reference": "FSRA-FSP-240318",
+        "status": "active",
+        "grantedAt": "2025-04-11T00:00:00Z",
+        "expiresAt": "2027-04-10T00:00:00Z"
+      },
+      {
+        "id": "lic_srh_2",
+        "holder": "SRH Registrar Ltd",
+        "regulator": "FSRA",
+        "jurisdiction": "AE-ADGM",
+        "activities": [
+          "transfer-agency",
+          "settlement"
+        ],
+        "reference": "FSRA-FSP-250902",
+        "status": "active",
+        "grantedAt": "2025-09-02T00:00:00Z",
+        "expiresAt": "2027-09-01T00:00:00Z"
+      },
+      {
+        "id": "lic_srh_3",
+        "holder": "SRH Digital Markets FZE",
+        "regulator": "VARA",
+        "jurisdiction": "AE-VARA",
+        "activities": [
+          "brokerage",
+          "distribution"
+        ],
+        "reference": "VARA-BD-0119",
+        "status": "active",
+        "grantedAt": "2025-11-20T00:00:00Z",
+        "expiresAt": "2026-11-19T00:00:00Z"
+      },
+      {
+        "id": "lic_srh_4",
+        "holder": "SRH Exchange Ltd",
+        "regulator": "FSRA",
+        "jurisdiction": "AE-ADGM",
+        "activities": [
+          "marketplace-operation"
+        ],
+        "reference": "FSRA-MTF-APP-0412",
+        "status": "pending",
+        "grantedAt": "2026-07-01T00:00:00Z",
+        "expiresAt": "2028-06-30T00:00:00Z"
+      }
+    ],
+    "responsibilities": [
+      {
+        "activity": "issuance",
+        "entity": "Issuer SPV (per product)",
+        "type": "external-provider"
+      },
+      {
+        "activity": "distribution",
+        "entity": "SRH Markets Ltd",
+        "type": "platform-entity",
+        "licenceId": "lic_srh_1"
+      },
+      {
+        "activity": "brokerage",
+        "entity": "SRH Markets Ltd",
+        "type": "platform-entity",
+        "licenceId": "lic_srh_1"
+      },
+      {
+        "activity": "custody",
+        "entity": "Komainu (custody) and Fireblocks (MPC wallets)",
+        "type": "external-provider"
+      },
+      {
+        "activity": "transfer-agency",
+        "entity": "SRH Registrar Ltd",
+        "type": "platform-entity",
+        "licenceId": "lic_srh_2"
+      },
+      {
+        "activity": "payment-handling",
+        "entity": "Emirates NBD (client money), Checkout.com (cards)",
+        "type": "external-provider"
+      },
+      {
+        "activity": "marketplace-operation",
+        "entity": "SRH Exchange Ltd (licence pending)",
+        "type": "platform-entity",
+        "licenceId": "lic_srh_4"
+      },
+      {
+        "activity": "fund-management",
+        "entity": "Appointed fund manager (per product)",
+        "type": "external-provider"
+      },
+      {
+        "activity": "settlement",
+        "entity": "SRH Registrar Ltd",
+        "type": "platform-entity",
+        "licenceId": "lic_srh_2"
+      },
+      {
+        "activity": "compliance",
+        "entity": "SRH Markets Ltd (MLRO)",
+        "type": "platform-entity",
+        "licenceId": "lic_srh_1"
+      },
+      {
+        "activity": "asset-servicing",
+        "entity": "SRH Registrar Ltd",
+        "type": "platform-entity",
+        "licenceId": "lic_srh_2"
+      }
+    ],
+    "apiKeys": [
+      {
+        "id": "key_1",
+        "label": "Production server",
+        "prefix": "srh_live_7Hq2",
+        "scopes": [
+          "investors:write",
+          "orders:write",
+          "tokens:read"
+        ],
+        "createdAt": "2026-02-14T09:00:00Z",
+        "lastUsedAt": "2026-10-06T13:00:00.000Z"
+      },
+      {
+        "id": "key_2",
+        "label": "Reporting warehouse",
+        "prefix": "srh_live_K9mx",
+        "scopes": [
+          "*:read"
+        ],
+        "createdAt": "2026-05-02T09:00:00Z",
+        "lastUsedAt": "2026-10-05T14:00:00.000Z"
+      }
+    ],
+    "createdAt": "2025-03-01T00:00:00Z"
+  },
+  {
+    "id": "tnt_xyz",
+    "name": "Talara Securities",
+    "shortName": "Talara",
+    "deploymentModel": "white-label",
+    "domain": "digital.talarasecurities.ae",
+    "brand": {
+      "primary": "#0E7C7B",
+      "primaryHover": "#0A6362",
+      "accentSoft": "#E3F4F3",
+      "monogram": "T",
+      "logo": "/logos/tenants/talara.svg"
+    },
+    "hosting": "SRH Cloud (white-label tenant)",
+    "dataResidency": "UAE",
+    "modules": [
+      "identity",
+      "compliance",
+      "assets",
+      "tokenization",
+      "primary-market",
+      "payments",
+      "registry",
+      "servicing"
+    ],
+    "licences": [
+      {
+        "id": "lic_xyz_1",
+        "holder": "Talara Securities LLC",
+        "regulator": "DFSA",
+        "jurisdiction": "AE-DIFC",
+        "activities": [
+          "distribution",
+          "brokerage",
+          "custody"
+        ],
+        "reference": "DFSA-F00731",
+        "status": "active",
+        "grantedAt": "2019-06-01T00:00:00Z",
+        "expiresAt": "2027-05-31T00:00:00Z"
+      }
+    ],
+    "responsibilities": [
+      {
+        "activity": "issuance",
+        "entity": "Issuer SPV (per product)",
+        "type": "external-provider"
+      },
+      {
+        "activity": "distribution",
+        "entity": "Talara Securities LLC",
+        "type": "customer-entity",
+        "licenceId": "lic_xyz_1"
+      },
+      {
+        "activity": "brokerage",
+        "entity": "Talara Securities LLC",
+        "type": "customer-entity",
+        "licenceId": "lic_xyz_1"
+      },
+      {
+        "activity": "custody",
+        "entity": "Talara Securities LLC",
+        "type": "customer-entity",
+        "licenceId": "lic_xyz_1"
+      },
+      {
+        "activity": "transfer-agency",
+        "entity": "SRH Registrar Ltd",
+        "type": "platform-entity"
+      },
+      {
+        "activity": "payment-handling",
+        "entity": "Talara banking partner",
+        "type": "external-provider"
+      },
+      {
+        "activity": "marketplace-operation",
+        "entity": "Not enabled",
+        "type": "customer-entity"
+      },
+      {
+        "activity": "fund-management",
+        "entity": "Not applicable",
+        "type": "customer-entity"
+      },
+      {
+        "activity": "settlement",
+        "entity": "SRH settlement engine (technology)",
+        "type": "platform-entity"
+      },
+      {
+        "activity": "compliance",
+        "entity": "Talara Securities LLC (Compliance Officer)",
+        "type": "customer-entity",
+        "licenceId": "lic_xyz_1"
+      },
+      {
+        "activity": "asset-servicing",
+        "entity": "SRH Registrar Ltd",
+        "type": "platform-entity"
+      }
+    ],
+    "apiKeys": [
+      {
+        "id": "key_3",
+        "label": "Talara core banking bridge",
+        "prefix": "tal_live_2bQe",
+        "scopes": [
+          "investors:read",
+          "orders:write"
+        ],
+        "createdAt": "2026-06-10T09:00:00Z",
+        "lastUsedAt": "2026-10-06T16:00:00.000Z"
+      }
+    ],
+    "createdAt": "2026-05-18T00:00:00Z"
+  },
+  {
+    "id": "tnt_mrd",
+    "name": "Meridian Bank",
+    "shortName": "Meridian",
+    "deploymentModel": "headless",
+    "domain": "api.meridianbank.example",
+    "brand": {
+      "primary": "#3346C8",
+      "primaryHover": "#2636A6",
+      "accentSoft": "#E8EBFB",
+      "monogram": "M",
+      "logo": "/logos/tenants/meridian.svg"
+    },
+    "hosting": "SRH Cloud (API only)",
+    "dataResidency": "Bahrain",
+    "modules": [
+      "compliance",
+      "tokenization",
+      "payments",
+      "custody",
+      "registry"
+    ],
+    "licences": [
+      {
+        "id": "lic_mrd_1",
+        "holder": "Meridian Bank B.S.C.",
+        "regulator": "CBB",
+        "jurisdiction": "BH",
+        "activities": [
+          "custody",
+          "payment-handling",
+          "issuance",
+          "settlement"
+        ],
+        "reference": "CBB-RB-0088",
+        "status": "active",
+        "grantedAt": "2008-01-15T00:00:00Z",
+        "expiresAt": "2028-01-14T00:00:00Z"
+      }
+    ],
+    "responsibilities": [
+      {
+        "activity": "issuance",
+        "entity": "Meridian Bank B.S.C.",
+        "type": "customer-entity",
+        "licenceId": "lic_mrd_1"
+      },
+      {
+        "activity": "distribution",
+        "entity": "Meridian Bank (own channels)",
+        "type": "customer-entity"
+      },
+      {
+        "activity": "brokerage",
+        "entity": "Not applicable",
+        "type": "customer-entity"
+      },
+      {
+        "activity": "custody",
+        "entity": "Meridian Bank B.S.C.",
+        "type": "customer-entity",
+        "licenceId": "lic_mrd_1"
+      },
+      {
+        "activity": "transfer-agency",
+        "entity": "Meridian Bank registrar unit",
+        "type": "customer-entity"
+      },
+      {
+        "activity": "payment-handling",
+        "entity": "Meridian Bank B.S.C.",
+        "type": "customer-entity",
+        "licenceId": "lic_mrd_1"
+      },
+      {
+        "activity": "marketplace-operation",
+        "entity": "Not enabled",
+        "type": "customer-entity"
+      },
+      {
+        "activity": "fund-management",
+        "entity": "Not applicable",
+        "type": "customer-entity"
+      },
+      {
+        "activity": "settlement",
+        "entity": "Meridian Bank B.S.C.",
+        "type": "customer-entity",
+        "licenceId": "lic_mrd_1"
+      },
+      {
+        "activity": "compliance",
+        "entity": "Meridian Bank (Group Compliance)",
+        "type": "customer-entity"
+      },
+      {
+        "activity": "asset-servicing",
+        "entity": "SRH servicing engine (technology)",
+        "type": "platform-entity"
+      }
+    ],
+    "apiKeys": [
+      {
+        "id": "key_4",
+        "label": "Mobile banking backend",
+        "prefix": "mrd_live_Pp41",
+        "scopes": [
+          "compliance:check",
+          "tokens:write",
+          "settlements:write"
+        ],
+        "createdAt": "2026-03-03T09:00:00Z",
+        "lastUsedAt": "2026-10-06T15:00:00.000Z"
+      }
+    ],
+    "createdAt": "2026-03-01T00:00:00Z"
+  },
+  {
+    "id": "tnt_ngt",
+    "name": "Northgate Asset Management",
+    "shortName": "Northgate",
+    "deploymentModel": "dedicated",
+    "domain": "tokens.northgate-am.example",
+    "brand": {
+      "primary": "#1F6F43",
+      "primaryHover": "#185835",
+      "accentSoft": "#E4F2EA",
+      "monogram": "N",
+      "logo": "/logos/tenants/northgate.svg"
+    },
+    "hosting": "Dedicated VPC in customer cloud account, customer-managed keys",
+    "dataResidency": "Saudi Arabia",
+    "modules": [
+      "identity",
+      "compliance",
+      "assets",
+      "tokenization",
+      "primary-market",
+      "payments",
+      "custody",
+      "registry",
+      "servicing",
+      "secondary-market"
+    ],
+    "licences": [
+      {
+        "id": "lic_ngt_1",
+        "holder": "Northgate Asset Management Co.",
+        "regulator": "CMA",
+        "jurisdiction": "SA",
+        "activities": [
+          "fund-management",
+          "distribution",
+          "custody"
+        ],
+        "reference": "CMA-37-11192",
+        "status": "active",
+        "grantedAt": "2014-09-01T00:00:00Z",
+        "expiresAt": "2027-08-31T00:00:00Z"
+      }
+    ],
+    "responsibilities": [
+      {
+        "activity": "issuance",
+        "entity": "Northgate fund vehicles",
+        "type": "customer-entity"
+      },
+      {
+        "activity": "distribution",
+        "entity": "Northgate Asset Management Co.",
+        "type": "customer-entity",
+        "licenceId": "lic_ngt_1"
+      },
+      {
+        "activity": "brokerage",
+        "entity": "Not applicable",
+        "type": "customer-entity"
+      },
+      {
+        "activity": "custody",
+        "entity": "Northgate Asset Management Co.",
+        "type": "customer-entity",
+        "licenceId": "lic_ngt_1"
+      },
+      {
+        "activity": "transfer-agency",
+        "entity": "Northgate registrar",
+        "type": "customer-entity"
+      },
+      {
+        "activity": "payment-handling",
+        "entity": "Northgate banking partner",
+        "type": "external-provider"
+      },
+      {
+        "activity": "marketplace-operation",
+        "entity": "External licensed venue",
+        "type": "external-provider"
+      },
+      {
+        "activity": "fund-management",
+        "entity": "Northgate Asset Management Co.",
+        "type": "customer-entity",
+        "licenceId": "lic_ngt_1"
+      },
+      {
+        "activity": "settlement",
+        "entity": "SRH settlement engine (technology)",
+        "type": "platform-entity"
+      },
+      {
+        "activity": "compliance",
+        "entity": "Northgate Compliance",
+        "type": "customer-entity"
+      },
+      {
+        "activity": "asset-servicing",
+        "entity": "Northgate fund administration",
+        "type": "customer-entity"
+      }
+    ],
+    "apiKeys": [],
+    "createdAt": "2026-01-20T00:00:00Z"
+  }
+]

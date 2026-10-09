@@ -1,0 +1,36 @@
+{
+  "mintApprovalThresholdUsd": 250000,
+  "issuanceVerificationRequired": true,
+  "incompleteProfilesGoToReview": true,
+  "autoApproveMaxAmlRisk": "medium",
+  "dualApprovalForHighRiskOverrides": true,
+  "overrideRoles": {
+    "verification": [
+      "compliance-officer"
+    ],
+    "listing": [
+      "platform-admin",
+      "compliance-officer",
+      "operations"
+    ],
+    "valuation": [
+      "operations",
+      "issuer-admin"
+    ]
+  },
+  "riskBands": {
+    "veryLowMax": 4.5,
+    "lowMax": 7,
+    "mediumMax": 10
+  },
+  "card": {
+    "enabled": true,
+    "retailLimitUsd": 10000,
+    "professionalLimitUsd": 25000,
+    "feePct": 2.5,
+    "threeDSecure": true
+  },
+  "manualValuationTolerancePct": 5,
+  "updatedAt": "2026-09-15T16:00:00.000Z",
+  "updatedBy": "Omar Siddiqui"
+}

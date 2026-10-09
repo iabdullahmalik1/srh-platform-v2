@@ -1,0 +1,148 @@
+{
+  "ast_tbill": {
+    "images": [
+      "tbill-cover.webp"
+    ],
+    "credits": "US Treasury Building, Washington. Rchuon24, CC BY-SA 3.0"
+  },
+  "ast_wpk": {
+    "images": [
+      "wpk-cover.webp",
+      "wpk-3.webp",
+      "wpk-2.webp",
+      "wpk-4.webp",
+      "wpk-5.webp",
+      "wpk-6.webp",
+      "wpk-7.webp",
+      "wpk-8.webp"
+    ],
+    "videos": [
+      {
+        "youtubeId": "MO1Obv79W1s",
+        "title": "Whitworth Park halls",
+        "source": "The University of Manchester"
+      }
+    ],
+    "credits": "The University of Manchester"
+  },
+  "ast_vgld": {
+    "images": [
+      "gold-cover.webp",
+      "gold-2.webp"
+    ],
+    "videos": [
+      {
+        "youtubeId": "DcFYNRwU8ak",
+        "title": "Good Delivery",
+        "source": "LBMA"
+      },
+      {
+        "youtubeId": "FVnxhsB92v4",
+        "title": "Inside the Bank of England's gold vaults",
+        "source": "World Gold Council"
+      }
+    ],
+    "credits": "LBMA"
+  },
+  "ast_ads": {
+    "images": [
+      "ads-cover.webp",
+      "ads-2.webp"
+    ],
+    "videos": [
+      {
+        "youtubeId": "bW1AJsRlGZE",
+        "title": "Al Dhafra Solar PV",
+        "source": "Masdar"
+      }
+    ],
+    "credits": "Masdar; Energy News Africa"
+  },
+  "ast_acred": {
+    "images": [
+      "acred-cover.webp"
+    ],
+    "videos": [
+      {
+        "youtubeId": "M0w-yOJx6-g",
+        "title": "What a tokenized future looks like",
+        "source": "Securitize"
+      }
+    ],
+    "credits": "9 West 57th Street, New York. Ajay Suresh, CC BY 2.0"
+  },
+  "ast_hlpaf": {
+    "images": [
+      "hlpaf-cover.webp"
+    ],
+    "videos": [
+      {
+        "youtubeId": "0fe8D4a1KS0",
+        "title": "Hamilton Lane Global Private Assets Fund",
+        "source": "Hamilton Lane"
+      }
+    ],
+    "credits": "Kirchberg, Luxembourg. European Parliament"
+  },
+  "ast_kafd": {
+    "images": [
+      "kafd-cover.webp",
+      "kafd-2.webp"
+    ],
+    "credits": "B.alotaby, CC BY-SA 4.0; Faisal Arif, CC BY-SA 4.0 (Wikimedia Commons)"
+  },
+  "ast_mbr6": {
+    "images": [
+      "mbr6-cover.webp",
+      "mbr6-2.webp"
+    ],
+    "videos": [
+      {
+        "youtubeId": "_cFzAd6FDZA",
+        "title": "Mohammed bin Rashid Al Maktoum Solar Park",
+        "source": "Dubai Electricity and Water Authority"
+      }
+    ],
+    "credits": "Dubai Media Office; Wikimedia Commons"
+  },
+  "ast_bbr": {
+    "images": [
+      "bbr-cover.webp",
+      "bbr-2.webp"
+    ],
+    "videos": [
+      {
+        "youtubeId": "BNtmqdorVFg",
+        "title": "UAE launches first official tokenised real estate project",
+        "source": "Dubai Eye 103.8"
+      }
+    ],
+    "credits": "Savills; Wikimedia Commons"
+  },
+  "ast_xyz_res": {
+    "images": [
+      "marina-cover.webp",
+      "marina-interior.webp"
+    ]
+  },
+  "ast_xyz_zero": {
+    "images": [
+      "bond28-cover.webp"
+    ]
+  },
+  "ast_ngt_pc": {
+    "images": [
+      "nspc-cover.webp"
+    ]
+  },
+  "ast_ngt_rcv": {
+    "images": [
+      "lrp-cover.webp"
+    ]
+  },
+  "ast_mrd_dep": {
+    "images": [
+      "mtdn-cover.webp"
+    ]
+  }
+}

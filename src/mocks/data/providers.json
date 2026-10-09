@@ -1,0 +1,836 @@
+[
+  {
+    "id": "prv_sumsub",
+    "name": "Sumsub",
+    "category": "kyc",
+    "service": "Document, liveness and KYB verification",
+    "adapter": "sumsub@2.2.1",
+    "status": "operational",
+    "latencyMs": 380,
+    "uptimePct": 99.98,
+    "region": "Global",
+    "coverage": [
+      "Global"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "identity"
+    ],
+    "mode": "automated",
+    "website": "sumsub.com"
+  },
+  {
+    "id": "prv_onfido",
+    "name": "Onfido (Entrust)",
+    "category": "kyc",
+    "service": "Document and biometric verification",
+    "adapter": "onfido-entrust@3.1.2",
+    "status": "operational",
+    "latencyMs": 450,
+    "uptimePct": 99.92,
+    "region": "EU / UK / ME",
+    "coverage": [
+      "GB",
+      "EU",
+      "AE"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "identity"
+    ],
+    "mode": "automated",
+    "website": "onfido.com"
+  },
+  {
+    "id": "prv_jumio",
+    "name": "Jumio",
+    "category": "kyc",
+    "service": "Identity verification and eKYC",
+    "adapter": "jumio@2.4.2",
+    "status": "operational",
+    "latencyMs": 520,
+    "uptimePct": 99.99,
+    "region": "Global",
+    "coverage": [
+      "US",
+      "EU",
+      "SG"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "identity"
+    ],
+    "mode": "automated",
+    "website": "jumio.com"
+  },
+  {
+    "id": "prv_uaepass",
+    "name": "UAE Pass",
+    "category": "kyc",
+    "service": "National digital identity (TDRA)",
+    "adapter": "uae-pass@4.4.7",
+    "status": "operational",
+    "latencyMs": 610,
+    "uptimePct": 99.93,
+    "region": "AE",
+    "coverage": [
+      "AE"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "identity"
+    ],
+    "mode": "automated",
+    "website": "uaepass.ae"
+  },
+  {
+    "id": "prv_singpass",
+    "name": "Singpass Myinfo",
+    "category": "kyc",
+    "service": "Government-verified personal data",
+    "adapter": "singpass-myinfo@2.0.6",
+    "status": "operational",
+    "latencyMs": 480,
+    "uptimePct": 99.94,
+    "region": "SG",
+    "coverage": [
+      "SG"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "identity"
+    ],
+    "mode": "automated",
+    "website": "singpass.gov.sg"
+  },
+  {
+    "id": "prv_nafath",
+    "name": "Nafath",
+    "category": "kyc",
+    "service": "Saudi national single sign-on",
+    "adapter": "nafath@1.1.4",
+    "status": "operational",
+    "latencyMs": 690,
+    "uptimePct": 99.92,
+    "region": "SA",
+    "coverage": [
+      "SA"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "identity"
+    ],
+    "mode": "automated",
+    "website": "nafath.sa"
+  },
+  {
+    "id": "prv_kycdesk",
+    "name": "SRH manual review desk",
+    "category": "kyc",
+    "service": "Compliance analysts verify documents by hand",
+    "adapter": "srh-manual-review-desk@2.2.8",
+    "status": "operational",
+    "latencyMs": 0,
+    "uptimePct": 99.97,
+    "region": "Any region",
+    "coverage": [
+      "PK",
+      "BH",
+      "Other"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "identity"
+    ],
+    "mode": "manual"
+  },
+  {
+    "id": "prv_sumsubkyb",
+    "name": "Sumsub KYB",
+    "category": "kyb",
+    "service": "Company verification and UBO discovery",
+    "adapter": "sumsub-kyb@3.0.0",
+    "status": "operational",
+    "latencyMs": 900,
+    "uptimePct": 99.94,
+    "region": "Global",
+    "coverage": [
+      "Global"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "identity"
+    ],
+    "mode": "automated",
+    "website": "sumsub.com"
+  },
+  {
+    "id": "prv_companieshouse",
+    "name": "Companies House API",
+    "category": "kyb",
+    "service": "UK company register and PSC data",
+    "adapter": "companies-house-api@3.3.8",
+    "status": "operational",
+    "latencyMs": 260,
+    "uptimePct": 99.98,
+    "region": "GB",
+    "coverage": [
+      "GB"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "identity"
+    ],
+    "mode": "automated",
+    "website": "companieshouse.gov.uk"
+  },
+  {
+    "id": "prv_acra",
+    "name": "ACRA BizFile",
+    "category": "kyb",
+    "service": "Singapore company profiles",
+    "adapter": "acra-bizfile@2.4.3",
+    "status": "operational",
+    "latencyMs": 540,
+    "uptimePct": 99.96,
+    "region": "SG",
+    "coverage": [
+      "SG"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "identity"
+    ],
+    "mode": "automated",
+    "website": "acra.gov.sg"
+  },
+  {
+    "id": "prv_kyckr",
+    "name": "Kyckr",
+    "category": "kyb",
+    "service": "Live access to 300+ official registries",
+    "adapter": "kyckr@4.0.2",
+    "status": "operational",
+    "latencyMs": 1200,
+    "uptimePct": 99.95,
+    "region": "Global",
+    "coverage": [
+      "EU",
+      "KY",
+      "VG",
+      "LU"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "identity"
+    ],
+    "mode": "automated",
+    "website": "kyckr.com"
+  },
+  {
+    "id": "prv_kybdesk",
+    "name": "SRH registry desk",
+    "category": "kyb",
+    "service": "Manual registry checks where no API exists",
+    "adapter": "srh-registry-desk@1.8.6",
+    "status": "operational",
+    "latencyMs": 0,
+    "uptimePct": 99.94,
+    "region": "Any region",
+    "coverage": [
+      "AE-ML",
+      "PK",
+      "SA",
+      "Other"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "identity"
+    ],
+    "mode": "manual"
+  },
+  {
+    "id": "prv_complyadv",
+    "name": "ComplyAdvantage",
+    "category": "aml",
+    "service": "Sanctions, PEP and adverse media screening",
+    "adapter": "complyadvantage@4.0.5",
+    "status": "operational",
+    "latencyMs": 240,
+    "uptimePct": 99.97,
+    "region": "Global",
+    "coverage": [
+      "Global"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "compliance"
+    ],
+    "mode": "automated",
+    "website": "complyadvantage.com"
+  },
+  {
+    "id": "prv_worldcheck",
+    "name": "LSEG World-Check",
+    "category": "aml",
+    "service": "Risk intelligence and enhanced due diligence",
+    "adapter": "lseg-world-check@2.2.5",
+    "status": "operational",
+    "latencyMs": 330,
+    "uptimePct": 99.99,
+    "region": "Global",
+    "coverage": [
+      "Global"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "compliance"
+    ],
+    "mode": "automated",
+    "website": "lseg.com"
+  },
+  {
+    "id": "prv_chainalysis",
+    "name": "Chainalysis",
+    "category": "aml",
+    "service": "Wallet risk and transaction monitoring (KYT)",
+    "adapter": "chainalysis@4.1.8",
+    "status": "degraded",
+    "latencyMs": 1840,
+    "uptimePct": 99.42,
+    "region": "Global",
+    "coverage": [
+      "Global"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "compliance",
+      "custody"
+    ],
+    "mode": "automated",
+    "website": "chainalysis.com"
+  },
+  {
+    "id": "prv_elliptic",
+    "name": "Elliptic",
+    "category": "aml",
+    "service": "Wallet screening and cross-chain analytics",
+    "adapter": "elliptic@2.2.9",
+    "status": "operational",
+    "latencyMs": 410,
+    "uptimePct": 99.93,
+    "region": "Global",
+    "coverage": [
+      "Global"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "compliance"
+    ],
+    "mode": "automated",
+    "website": "elliptic.co"
+  },
+  {
+    "id": "prv_trm",
+    "name": "TRM Labs",
+    "category": "aml",
+    "service": "Blockchain intelligence and travel rule",
+    "adapter": "trm-labs@1.7.9",
+    "status": "operational",
+    "latencyMs": 380,
+    "uptimePct": 99.93,
+    "region": "Global",
+    "coverage": [
+      "Global"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "compliance"
+    ],
+    "mode": "automated",
+    "website": "trmlabs.com"
+  },
+  {
+    "id": "prv_fireblocks",
+    "name": "Fireblocks",
+    "category": "custody",
+    "service": "MPC wallets, policy engine and tokenisation",
+    "adapter": "fireblocks@3.7.7",
+    "status": "operational",
+    "latencyMs": 190,
+    "uptimePct": 99.97,
+    "region": "Global",
+    "coverage": [
+      "Global"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "custody",
+      "tokenization"
+    ],
+    "mode": "automated",
+    "website": "fireblocks.com"
+  },
+  {
+    "id": "prv_komainu",
+    "name": "Komainu",
+    "category": "custody",
+    "service": "Regulated institutional custody",
+    "adapter": "komainu@1.6.2",
+    "status": "operational",
+    "latencyMs": 350,
+    "uptimePct": 99.94,
+    "region": "AE / JE / GB",
+    "coverage": [
+      "AE",
+      "JE",
+      "GB"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "custody"
+    ],
+    "mode": "automated",
+    "website": "komainu.com"
+  },
+  {
+    "id": "prv_copper",
+    "name": "Copper",
+    "category": "custody",
+    "service": "Custody and ClearLoop off-exchange settlement",
+    "adapter": "copper@3.4.5",
+    "status": "operational",
+    "latencyMs": 300,
+    "uptimePct": 99.99,
+    "region": "CH / GB",
+    "coverage": [
+      "CH",
+      "GB"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "custody"
+    ],
+    "mode": "automated",
+    "website": "copper.co"
+  },
+  {
+    "id": "prv_bitgo",
+    "name": "BitGo",
+    "category": "custody",
+    "service": "Qualified custody and multi-signature wallets",
+    "adapter": "bitgo@1.3.8",
+    "status": "operational",
+    "latencyMs": 420,
+    "uptimePct": 99.9,
+    "region": "US / EU",
+    "coverage": [
+      "US",
+      "EU"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "custody"
+    ],
+    "mode": "automated",
+    "website": "bitgo.com"
+  },
+  {
+    "id": "prv_thales",
+    "name": "Thales Luna HSM",
+    "category": "custody",
+    "service": "Hardware security modules for token admin keys",
+    "adapter": "thales-luna-hsm@3.9.4",
+    "status": "operational",
+    "latencyMs": 45,
+    "uptimePct": 100,
+    "region": "me-central-1",
+    "coverage": [
+      "AE"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "custody",
+      "tokenization"
+    ],
+    "mode": "automated",
+    "website": "thalesgroup.com"
+  },
+  {
+    "id": "prv_tokeny",
+    "name": "Tokeny (ERC-3643)",
+    "category": "tokenization",
+    "service": "Permissioned token standard and onchain identity",
+    "adapter": "tokeny-erc-3643@2.5.0",
+    "status": "operational",
+    "latencyMs": 210,
+    "uptimePct": 99.93,
+    "region": "EU",
+    "coverage": [
+      "Global"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "tokenization"
+    ],
+    "mode": "automated",
+    "website": "tokeny.com"
+  },
+  {
+    "id": "prv_securitize",
+    "name": "Securitize",
+    "category": "tokenization",
+    "service": "Transfer agent and tokenised fund distribution",
+    "adapter": "securitize@1.8.9",
+    "status": "operational",
+    "latencyMs": 340,
+    "uptimePct": 99.95,
+    "region": "US / EU",
+    "coverage": [
+      "US",
+      "EU"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "tokenization",
+      "registry"
+    ],
+    "mode": "automated",
+    "website": "securitize.io"
+  },
+  {
+    "id": "prv_enbd",
+    "name": "Emirates NBD",
+    "category": "banking",
+    "service": "Client money accounts, SWIFT and UAEFTS",
+    "adapter": "emirates-nbd@2.8.1",
+    "status": "operational",
+    "latencyMs": 900,
+    "uptimePct": 99.94,
+    "region": "AE",
+    "coverage": [
+      "AE"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "payments"
+    ],
+    "mode": "automated",
+    "website": "emiratesnbd.com"
+  },
+  {
+    "id": "prv_hsbc",
+    "name": "HSBC",
+    "category": "banking",
+    "service": "GBP and EUR collections, CHAPS and SEPA",
+    "adapter": "hsbc@4.9.8",
+    "status": "operational",
+    "latencyMs": 820,
+    "uptimePct": 99.96,
+    "region": "GB / EU",
+    "coverage": [
+      "GB",
+      "EU"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "payments"
+    ],
+    "mode": "automated",
+    "website": "hsbc.com"
+  },
+  {
+    "id": "prv_lean",
+    "name": "Lean Technologies",
+    "category": "banking",
+    "service": "Open banking account verification and pay-by-bank",
+    "adapter": "lean-technologies@1.7.8",
+    "status": "operational",
+    "latencyMs": 640,
+    "uptimePct": 99.95,
+    "region": "AE / SA",
+    "coverage": [
+      "AE",
+      "SA"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "payments",
+      "identity"
+    ],
+    "mode": "automated",
+    "website": "leantech.me"
+  },
+  {
+    "id": "prv_bankdesk",
+    "name": "SRH treasury desk",
+    "category": "banking",
+    "service": "Manual statement matching for banks without APIs",
+    "adapter": "srh-treasury-desk@2.3.6",
+    "status": "operational",
+    "latencyMs": 0,
+    "uptimePct": 99.97,
+    "region": "Any region",
+    "coverage": [
+      "PK",
+      "Other"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "payments"
+    ],
+    "mode": "manual"
+  },
+  {
+    "id": "prv_checkout",
+    "name": "Checkout.com",
+    "category": "payments",
+    "service": "Card acquiring, Apple Pay and Google Pay",
+    "adapter": "checkout-com@4.3.5",
+    "status": "operational",
+    "latencyMs": 310,
+    "uptimePct": 99.92,
+    "region": "Global",
+    "coverage": [
+      "AE",
+      "GB",
+      "EU",
+      "SA"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "payments"
+    ],
+    "mode": "automated",
+    "website": "checkout.com"
+  },
+  {
+    "id": "prv_stripe",
+    "name": "Stripe",
+    "category": "payments",
+    "service": "Card payments and 3-D Secure",
+    "adapter": "stripe@3.9.6",
+    "status": "operational",
+    "latencyMs": 280,
+    "uptimePct": 99.95,
+    "region": "Global",
+    "coverage": [
+      "GB",
+      "EU",
+      "US",
+      "SG",
+      "AE"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "payments"
+    ],
+    "mode": "automated",
+    "website": "stripe.com"
+  },
+  {
+    "id": "prv_adyen",
+    "name": "Adyen",
+    "category": "payments",
+    "service": "Card acquiring and local payment methods",
+    "adapter": "adyen@2.5.4",
+    "status": "operational",
+    "latencyMs": 300,
+    "uptimePct": 99.99,
+    "region": "Global",
+    "coverage": [
+      "EU",
+      "GB",
+      "US",
+      "SG"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "payments"
+    ],
+    "mode": "automated",
+    "website": "adyen.com"
+  },
+  {
+    "id": "prv_netint",
+    "name": "Network International",
+    "category": "payments",
+    "service": "Card acquiring in the UAE and Saudi Arabia",
+    "adapter": "network-international@4.2.3",
+    "status": "operational",
+    "latencyMs": 520,
+    "uptimePct": 99.97,
+    "region": "AE / SA",
+    "coverage": [
+      "AE",
+      "SA"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "payments"
+    ],
+    "mode": "automated",
+    "website": "network.ae"
+  },
+  {
+    "id": "prv_circle",
+    "name": "Circle (USDC)",
+    "category": "payments",
+    "service": "USDC minting, redemption and payouts",
+    "adapter": "circle-usdc@1.4.2",
+    "status": "operational",
+    "latencyMs": 240,
+    "uptimePct": 99.91,
+    "region": "Global",
+    "coverage": [
+      "Global"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "payments"
+    ],
+    "mode": "automated",
+    "website": "circle.com"
+  },
+  {
+    "id": "prv_aecoin",
+    "name": "AE Coin",
+    "category": "payments",
+    "service": "Dirham stablecoin licensed by the CBUAE",
+    "adapter": "ae-coin@4.6.7",
+    "status": "operational",
+    "latencyMs": 260,
+    "uptimePct": 99.95,
+    "region": "AE",
+    "coverage": [
+      "AE"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "payments"
+    ],
+    "mode": "automated",
+    "website": "aecoin.com"
+  },
+  {
+    "id": "prv_chainlink",
+    "name": "Chainlink",
+    "category": "oracle",
+    "service": "Price feeds, NAV data and Proof of Reserve",
+    "adapter": "chainlink@2.6.7",
+    "status": "operational",
+    "latencyMs": 130,
+    "uptimePct": 99.99,
+    "region": "Global",
+    "coverage": [
+      "Global"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "servicing",
+      "defi"
+    ],
+    "mode": "automated",
+    "website": "chain.link"
+  },
+  {
+    "id": "prv_lbma",
+    "name": "LBMA Gold Price",
+    "category": "oracle",
+    "service": "Daily LBMA gold auction reference",
+    "adapter": "lbma-gold-price@3.7.2",
+    "status": "operational",
+    "latencyMs": 600,
+    "uptimePct": 99.96,
+    "region": "Global",
+    "coverage": [
+      "Global"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "servicing"
+    ],
+    "mode": "automated",
+    "website": "lbma.org.uk"
+  },
+  {
+    "id": "prv_valdesk",
+    "name": "SRH valuation desk",
+    "category": "oracle",
+    "service": "Manual NAV entry with maker-checker approval",
+    "adapter": "srh-valuation-desk@3.0.5",
+    "status": "operational",
+    "latencyMs": 0,
+    "uptimePct": 99.92,
+    "region": "Any region",
+    "coverage": [
+      "Global"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "servicing"
+    ],
+    "mode": "manual"
+  },
+  {
+    "id": "prv_archax",
+    "name": "Archax",
+    "category": "market",
+    "service": "FCA-regulated digital securities exchange",
+    "adapter": "archax@2.8.5",
+    "status": "operational",
+    "latencyMs": 75,
+    "uptimePct": 99.91,
+    "region": "GB",
+    "coverage": [
+      "GB",
+      "EU"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "secondary-market"
+    ],
+    "mode": "automated",
+    "website": "archax.com"
+  },
+  {
+    "id": "prv_alchemy",
+    "name": "Alchemy",
+    "category": "blockchain",
+    "service": "EVM node infrastructure and webhooks",
+    "adapter": "alchemy@2.1.0",
+    "status": "operational",
+    "latencyMs": 160,
+    "uptimePct": 99.98,
+    "region": "Multi-region",
+    "coverage": [
+      "Global"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "tokenization"
+    ],
+    "mode": "automated",
+    "website": "alchemy.com"
+  },
+  {
+    "id": "prv_helius",
+    "name": "Helius",
+    "category": "blockchain",
+    "service": "Solana RPC and indexing",
+    "adapter": "helius@4.4.8",
+    "status": "operational",
+    "latencyMs": 90,
+    "uptimePct": 99.98,
+    "region": "Multi-region",
+    "coverage": [
+      "Global"
+    ],
+    "lastSyncAt": "2026-10-06T16:00:00.000Z",
+    "usedBy": [
+      "tokenization"
+    ],
+    "mode": "automated",
+    "website": "helius.dev"
+  }
+]

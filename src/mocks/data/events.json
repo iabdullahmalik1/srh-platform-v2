@@ -1,0 +1,233 @@
+[
+  {
+    "id": "evt_1og40f1",
+    "type": "provider.degraded",
+    "at": "2026-10-06T16:00:00.000Z",
+    "title": "Provider degraded",
+    "detail": "Chainalysis p95 latency 1.8s (threshold 1.0s). Wallet screening falls back to Elliptic.",
+    "objectType": "Provider",
+    "objectId": "prv_chainalysis",
+    "href": "/custody/providers",
+    "severity": "warning"
+  },
+  {
+    "id": "evt_1ofa31b",
+    "type": "recon.break_detected",
+    "at": "2026-10-06T15:00:00.000Z",
+    "title": "Reconciliation break detected",
+    "detail": "On-chain supply on Polygon exceeds the register by 2,000 WPKS after a bridge retry.",
+    "objectType": "ReconciliationBreak",
+    "objectId": "brk_1",
+    "href": "/registry/reconciliation",
+    "severity": "critical"
+  },
+  {
+    "id": "evt_1nx459f",
+    "type": "payment.confirmed",
+    "at": "2026-10-06T12:43:00.000Z",
+    "title": "Payment confirmed",
+    "detail": "Priya Nair · Allocated Gold · USD 7,000",
+    "objectType": "Order",
+    "objectId": "ord_40397",
+    "href": "/orders/ord_40397",
+    "severity": "success"
+  },
+  {
+    "id": "evt_1o5f0d4",
+    "type": "settlement.completed",
+    "at": "2026-10-06T09:06:00.660Z",
+    "title": "Settlement completed",
+    "detail": "Leila Karimi · Apollo Credit · USD 1,057,000",
+    "objectType": "Order",
+    "objectId": "ord_40375",
+    "href": "/orders/ord_40375",
+    "severity": "info"
+  },
+  {
+    "id": "evt_1ny9507",
+    "type": "order.eligibility_passed",
+    "at": "2026-10-06T04:34:56.638Z",
+    "title": "Eligibility passed",
+    "detail": "Indus Growth Partners · Treasury Fund · USD 72,000",
+    "objectType": "Order",
+    "objectId": "ord_40290",
+    "href": "/orders/ord_40290",
+    "severity": "info"
+  },
+  {
+    "id": "evt_1nzc990",
+    "type": "payment.confirmed",
+    "at": "2026-10-06T03:34:48.694Z",
+    "title": "Payment confirmed",
+    "detail": "Desert Rose Private Office · Business Bay · AED 6,000",
+    "objectType": "Order",
+    "objectId": "ord_40325",
+    "href": "/orders/ord_40325",
+    "severity": "success"
+  },
+  {
+    "id": "evt_1o9963c",
+    "type": "token.minted",
+    "at": "2026-10-06T02:11:48.266Z",
+    "title": "Tokens minted",
+    "detail": "Sable Creek Family Trust · Apollo Credit · USD 1,769,000",
+    "objectType": "Order",
+    "objectId": "ord_40362",
+    "href": "/orders/ord_40362",
+    "severity": "success"
+  },
+  {
+    "id": "evt_1o0f15c",
+    "type": "settlement.completed",
+    "at": "2026-10-05T21:16:14.806Z",
+    "title": "Settlement completed",
+    "detail": "Ahmed Al Mansoori · Treasury Fund · USD 282,000",
+    "objectType": "Order",
+    "objectId": "ord_40346",
+    "href": "/orders/ord_40346",
+    "severity": "info"
+  },
+  {
+    "id": "evt_1o16697",
+    "type": "order.allocated",
+    "at": "2026-10-05T16:06:24.067Z",
+    "title": "Allocated",
+    "detail": "Tariq Mahmood · Allocated Gold · USD 9,000",
+    "objectType": "Order",
+    "objectId": "ord_40337",
+    "href": "/orders/ord_40337",
+    "severity": "info"
+  },
+  {
+    "id": "evt_1ohd3f7",
+    "type": "screening.alert",
+    "at": "2026-10-05T13:00:00.000Z",
+    "title": "Sanctions screening alert",
+    "detail": "Kestrel Opportunities Fund · match score 83",
+    "objectType": "ScreeningAlert",
+    "objectId": "alt_900",
+    "href": "/compliance/screening",
+    "severity": "critical"
+  },
+  {
+    "id": "evt_1o2ccf9",
+    "type": "order.eligibility_passed",
+    "at": "2026-10-05T10:08:09.792Z",
+    "title": "Eligibility passed",
+    "detail": "Leila Karimi · Whitworth Park · GBP 23,000",
+    "objectType": "Order",
+    "objectId": "ord_40280",
+    "href": "/orders/ord_40280",
+    "severity": "info"
+  },
+  {
+    "id": "evt_1o30a3e",
+    "type": "order.eligibility_passed",
+    "at": "2026-10-05T09:27:47.018Z",
+    "title": "Eligibility passed",
+    "detail": "Zainab Malik · Business Bay · AED 14,000",
+    "objectType": "Order",
+    "objectId": "ord_40388",
+    "href": "/orders/ord_40388",
+    "severity": "info"
+  },
+  {
+    "id": "evt_1ob27a5",
+    "type": "payment.confirmed",
+    "at": "2026-10-05T07:15:37.406Z",
+    "title": "Payment confirmed",
+    "detail": "Priya Nair · Whitworth Park · GBP 52,000",
+    "objectType": "Order",
+    "objectId": "ord_40316",
+    "href": "/orders/ord_40316",
+    "severity": "success"
+  },
+  {
+    "id": "evt_1o4ce3a",
+    "type": "order.eligibility_passed",
+    "at": "2026-10-05T05:41:04.096Z",
+    "title": "Eligibility passed",
+    "detail": "Mei Lin Tan · Allocated Gold · USD 20,000",
+    "objectType": "Order",
+    "objectId": "ord_40380",
+    "href": "/orders/ord_40380",
+    "severity": "info"
+  },
+  {
+    "id": "evt_1o68a87",
+    "type": "payment.instructed",
+    "at": "2026-10-05T01:44:11.623Z",
+    "title": "Payment instructed",
+    "detail": "Granite Hill Capital · Northgate Credit · SAR 5,508,000",
+    "objectType": "Order",
+    "objectId": "ord_40368",
+    "href": "/orders/ord_40368",
+    "severity": "info"
+  },
+  {
+    "id": "evt_1o74243",
+    "type": "payment.instructed",
+    "at": "2026-10-05T01:31:03.251Z",
+    "title": "Payment instructed",
+    "detail": "Tariq Mahmood · Business Bay · AED 39,000",
+    "objectType": "Order",
+    "objectId": "ord_40303",
+    "href": "/orders/ord_40303",
+    "severity": "info"
+  },
+  {
+    "id": "evt_1o89708",
+    "type": "order.submitted",
+    "at": "2026-10-05T00:07:23.353Z",
+    "title": "Order received",
+    "detail": "Ahmed Al Mansoori · Allocated Gold · USD 14,000",
+    "objectType": "Order",
+    "objectId": "ord_40278",
+    "href": "/orders/ord_40278",
+    "severity": "info"
+  },
+  {
+    "id": "evt_1oedc18",
+    "type": "order.allocated",
+    "at": "2026-10-04T17:14:42.185Z",
+    "title": "Allocated",
+    "detail": "Al Noor Family Office · Allocated Gold · USD 4,000",
+    "objectType": "Order",
+    "objectId": "ord_40331",
+    "href": "/orders/ord_40331",
+    "severity": "info"
+  },
+  {
+    "id": "evt_1oafebe",
+    "type": "token.minted",
+    "at": "2026-10-04T09:05:53.593Z",
+    "title": "Tokens minted",
+    "detail": "Priya Nair · Hamilton Lane GPA · USD 428,000",
+    "objectType": "Order",
+    "objectId": "ord_40355",
+    "href": "/orders/ord_40355",
+    "severity": "success"
+  },
+  {
+    "id": "evt_1ocb332",
+    "type": "payment.instructed",
+    "at": "2026-10-04T05:19:33.704Z",
+    "title": "Payment instructed",
+    "detail": "Bluewater Treasury Ltd · Apollo Credit · USD 1,754,000",
+    "objectType": "Order",
+    "objectId": "ord_40298",
+    "href": "/orders/ord_40298",
+    "severity": "info"
+  },
+  {
+    "id": "evt_1od8001",
+    "type": "payment.instructed",
+    "at": "2026-10-03T15:49:11.838Z",
+    "title": "Payment instructed",
+    "detail": "Leila Karimi · Apollo Credit · USD 365,000",
+    "objectType": "Order",
+    "objectId": "ord_40310",
+    "href": "/orders/ord_40310",
+    "severity": "info"
+  }
+]

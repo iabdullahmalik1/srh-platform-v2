@@ -1,0 +1,72 @@
+[
+  {
+    "id": "usr_ops",
+    "name": "Layla Haddad",
+    "email": "layla.haddad@srh.inc",
+    "role": "operations",
+    "title": "Head of Platform Operations",
+    "organization": "SRH Markets Ltd",
+    "initials": "LH",
+    "avatar": "/media/people/layla-haddad.webp"
+  },
+  {
+    "id": "usr_cco",
+    "name": "Omar Siddiqui",
+    "email": "omar.siddiqui@srh.inc",
+    "role": "compliance-officer",
+    "title": "Chief Compliance Officer and MLRO",
+    "organization": "SRH Markets Ltd",
+    "initials": "OS",
+    "avatar": "/media/people/omar-siddiqui.webp"
+  },
+  {
+    "id": "usr_adm",
+    "name": "Daniel Reyes",
+    "email": "daniel.reyes@srh.inc",
+    "role": "platform-admin",
+    "title": "Platform Administrator",
+    "organization": "SRH Inc",
+    "initials": "DR",
+    "avatar": "/media/people/daniel-reyes.webp"
+  },
+  {
+    "id": "usr_iss",
+    "name": "Sara Kim",
+    "email": "sara.kim@whitworthpark-spv.com",
+    "role": "issuer-admin",
+    "title": "Director, Investor Relations",
+    "organization": "Whitworth Park Residences SPV Ltd",
+    "initials": "SK",
+    "avatar": "/media/people/sara-kim.webp"
+  },
+  {
+    "id": "usr_inv",
+    "name": "Ahmed Al Mansoori",
+    "email": "ahmed.mansoori@example.ae",
+    "role": "investor",
+    "title": "Professional Investor",
+    "organization": "Individual",
+    "initials": "AM",
+    "avatar": "/media/people/ahmed-al-mansoori.webp"
+  },
+  {
+    "id": "usr_corp",
+    "name": "Victor Lindqvist",
+    "email": "victor.lindqvist@tidewaterpension.co.uk",
+    "role": "investor",
+    "title": "Treasurer, authorised signatory",
+    "organization": "Tidewater Pension Trust",
+    "initials": "VL",
+    "avatar": "/media/people/victor-lindqvist.webp"
+  },
+  {
+    "id": "usr_aud",
+    "name": "Grace Okafor",
+    "email": "grace.okafor@auditpartners.example",
+    "role": "auditor",
+    "title": "Engagement Partner",
+    "organization": "Okafor & Lane Audit",
+    "initials": "GO",
+    "avatar": "/media/people/grace-okafor.webp"
+  }
+]

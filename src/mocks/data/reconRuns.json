@@ -1,0 +1,122 @@
+[
+  {
+    "id": "rcr_1b87af7",
+    "startedAt": "2026-10-06T15:50:00.000Z",
+    "finishedAt": "2026-10-06T15:53:00.000Z",
+    "scope": "All live token classes x blockchain, transfer agent, custodian, bank, ledger",
+    "recordsCompared": 25269,
+    "matched": 25266,
+    "breaks": 3,
+    "status": "breaks-found"
+  },
+  {
+    "id": "rcr_1b91b71",
+    "startedAt": "2026-10-06T11:50:00.000Z",
+    "finishedAt": "2026-10-06T11:53:00.000Z",
+    "scope": "All live token classes x blockchain, transfer agent, custodian, bank, ledger",
+    "recordsCompared": 20883,
+    "matched": 20881,
+    "breaks": 2,
+    "status": "breaks-found"
+  },
+  {
+    "id": "rcr_1bad822",
+    "startedAt": "2026-10-06T07:50:00.000Z",
+    "finishedAt": "2026-10-06T07:53:00.000Z",
+    "scope": "All live token classes x blockchain, transfer agent, custodian, bank, ledger",
+    "recordsCompared": 23785,
+    "matched": 23785,
+    "breaks": 0,
+    "status": "clean"
+  },
+  {
+    "id": "rcr_1bbd1f9",
+    "startedAt": "2026-10-06T03:50:00.000Z",
+    "finishedAt": "2026-10-06T03:53:00.000Z",
+    "scope": "All live token classes x blockchain, transfer agent, custodian, bank, ledger",
+    "recordsCompared": 18493,
+    "matched": 18493,
+    "breaks": 0,
+    "status": "clean"
+  },
+  {
+    "id": "rcr_1bcec3b",
+    "startedAt": "2026-10-05T23:50:00.000Z",
+    "finishedAt": "2026-10-05T23:53:00.000Z",
+    "scope": "All live token classes x blockchain, transfer agent, custodian, bank, ledger",
+    "recordsCompared": 23416,
+    "matched": 23415,
+    "breaks": 1,
+    "status": "breaks-found"
+  },
+  {
+    "id": "rcr_1bdc34d",
+    "startedAt": "2026-10-05T19:50:00.000Z",
+    "finishedAt": "2026-10-05T19:53:00.000Z",
+    "scope": "All live token classes x blockchain, transfer agent, custodian, bank, ledger",
+    "recordsCompared": 21204,
+    "matched": 21204,
+    "breaks": 0,
+    "status": "clean"
+  },
+  {
+    "id": "rcr_1befc77",
+    "startedAt": "2026-10-05T15:50:00.000Z",
+    "finishedAt": "2026-10-05T15:53:00.000Z",
+    "scope": "All live token classes x blockchain, transfer agent, custodian, bank, ledger",
+    "recordsCompared": 24104,
+    "matched": 24104,
+    "breaks": 0,
+    "status": "clean"
+  },
+  {
+    "id": "rcr_1bfe96f",
+    "startedAt": "2026-10-05T11:50:00.000Z",
+    "finishedAt": "2026-10-05T11:53:00.000Z",
+    "scope": "All live token classes x blockchain, transfer agent, custodian, bank, ledger",
+    "recordsCompared": 20784,
+    "matched": 20784,
+    "breaks": 0,
+    "status": "clean"
+  },
+  {
+    "id": "rcr_1bgaf51",
+    "startedAt": "2026-10-05T07:50:00.000Z",
+    "finishedAt": "2026-10-05T07:53:00.000Z",
+    "scope": "All live token classes x blockchain, transfer agent, custodian, bank, ledger",
+    "recordsCompared": 23196,
+    "matched": 23196,
+    "breaks": 0,
+    "status": "clean"
+  },
+  {
+    "id": "rcr_1bha0bf",
+    "startedAt": "2026-10-05T03:50:00.000Z",
+    "finishedAt": "2026-10-05T03:53:00.000Z",
+    "scope": "All live token classes x blockchain, transfer agent, custodian, bank, ledger",
+    "recordsCompared": 20927,
+    "matched": 20927,
+    "breaks": 0,
+    "status": "clean"
+  },
+  {
+    "id": "rcr_1bi5bcf",
+    "startedAt": "2026-10-04T23:50:00.000Z",
+    "finishedAt": "2026-10-04T23:53:00.000Z",
+    "scope": "All live token classes x blockchain, transfer agent, custodian, bank, ledger",
+    "recordsCompared": 18507,
+    "matched": 18507,
+    "breaks": 0,
+    "status": "clean"
+  },
+  {
+    "id": "rcr_1bj9a0b",
+    "startedAt": "2026-10-04T19:50:00.000Z",
+    "finishedAt": "2026-10-04T19:53:00.000Z",
+    "scope": "All live token classes x blockchain, transfer agent, custodian, bank, ledger",
+    "recordsCompared": 19901,
+    "matched": 19901,
+    "breaks": 0,
+    "status": "clean"
+  }
+]

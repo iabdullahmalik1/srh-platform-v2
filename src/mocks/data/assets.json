@@ -1,0 +1,4974 @@
+[
+  {
+    "id": "ast_tbill",
+    "tenantId": "tnt_srh",
+    "name": "SRH Short Duration Treasury Fund",
+    "shortName": "Treasury Fund",
+    "template": "treasury-fund",
+    "status": "live",
+    "issuerId": "iss_srhlf",
+    "description": "Open-ended fund holding US Treasury bills with under 12 months to maturity. Daily NAV, daily subscriptions and same-day redemptions on stablecoin rails.",
+    "underlying": {
+      "description": "US Treasury bills, 0 to 12 month tenor, held at BNY",
+      "appraisedValue": 148200000,
+      "appraiser": "Daily NAV by Apex Group",
+      "metrics": [
+        {
+          "label": "Weighted average maturity",
+          "value": "71 days"
+        },
+        {
+          "label": "3-month T-bill rate",
+          "value": "3.95%"
+        },
+        {
+          "label": "Holdings",
+          "value": "23 T-bill lines"
+        },
+        {
+          "label": "Cash buffer",
+          "value": "3.1%"
+        }
+      ]
+    },
+    "legalEntity": {
+      "name": "SRH Liquidity Fund SPC, Class I Segregated Portfolio",
+      "structure": "Fund",
+      "jurisdiction": "AE-ADGM",
+      "registrationNumber": "000004120-SP1"
+    },
+    "instrument": {
+      "type": "fund-unit",
+      "votingRights": false
+    },
+    "valuation": {
+      "method": "Daily NAV (amortised cost plus accrued yield)",
+      "nav": 148200000,
+      "navPerToken": 1.0458,
+      "currency": "USD",
+      "frequency": "daily",
+      "lastUpdated": "2026-10-06T16:00:00.000Z",
+      "oracle": "Chainlink"
+    },
+    "income": {
+      "type": "Accumulating yield",
+      "frequency": "daily-accrual",
+      "targetYieldPct": 3.7
+    },
+    "servicer": "Apex Group",
+    "ownershipModel": "hybrid",
+    "jurisdiction": "AE-ADGM",
+    "regimes": [
+      "AE-ADGM",
+      "AE-VARA"
+    ],
+    "oracleMode": "automated",
+    "rules": {
+      "lockupDays": 0,
+      "holdingLimitPct": 20,
+      "minInvestment": 10000,
+      "eligibleClassifications": [
+        "professional",
+        "accredited",
+        "qualified-purchaser",
+        "institutional",
+        "market-counterparty"
+      ],
+      "blockedCountries": [
+        "US",
+        "KP",
+        "IR",
+        "SY"
+      ]
+    },
+    "createdAt": "2025-05-10T00:00:00Z",
+    "launchedAt": "2025-07-01T00:00:00Z",
+    "visual": "treasury",
+    "highlights": [
+      "Daily liquidity",
+      "US government credit",
+      "Same-day redemption in USDC"
+    ],
+    "shareClasses": [
+      {
+        "id": "scl_11ec22f",
+        "name": "Class I (Institutional)",
+        "currency": "USD",
+        "managementFeeBps": 15,
+        "minInvestment": 250000,
+        "eligibleClassifications": [
+          "institutional",
+          "qualified-purchaser",
+          "market-counterparty"
+        ],
+        "tokenClassId": "tok_srht"
+      },
+      {
+        "id": "scl_11f6453",
+        "name": "Class P (Professional)",
+        "currency": "USD",
+        "managementFeeBps": 35,
+        "minInvestment": 10000,
+        "eligibleClassifications": [
+          "professional",
+          "accredited"
+        ],
+        "tokenClassId": "tok_srht"
+      }
+    ],
+    "tokenClassIds": [
+      "tok_srht"
+    ],
+    "documents": [
+      {
+        "id": "adoc_11ga7ca",
+        "name": "Offering memorandum and supplement",
+        "kind": "offering-memorandum",
+        "version": "v3.2",
+        "status": "final",
+        "updatedAt": "2026-05-13T16:00:00.000Z",
+        "hash": "0xc76e3785b58fa0f784db714329e1fdf4ae90a42c02d68a55267c33a1207cafcf",
+        "visibility": "public",
+        "sizeKb": 429,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_11h4590",
+        "name": "Term sheet",
+        "kind": "term-sheet",
+        "version": "v2.0",
+        "status": "signed",
+        "updatedAt": "2026-07-31T16:00:00.000Z",
+        "hash": "0x9f2f2c5175b79e31f0dc656d8d97194140d89f6cc7f9373b59603e4e8f27e789",
+        "visibility": "public",
+        "sizeKb": 1253,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_11i942b",
+        "name": "Fund constitutional documents",
+        "kind": "spv-constitution",
+        "version": "v1.0",
+        "status": "signed",
+        "updatedAt": "2026-03-31T16:00:00.000Z",
+        "hash": "0x91c3edf644bf44a462f3e54f0fd822c433ad0fb37ec1fa944c63e1e147715064",
+        "visibility": "holders",
+        "sizeKb": 2567,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_11j2a3d",
+        "name": "Legal opinion on token characterisation",
+        "kind": "legal-opinion",
+        "version": "v1.1",
+        "status": "signed",
+        "updatedAt": "2026-04-09T16:00:00.000Z",
+        "hash": "0x2e233c4550ae3c5645f3f41da9bfbb6797781592f68a66035dd80dc13f5676d9",
+        "visibility": "internal",
+        "sizeKb": 1608,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_11ke383",
+        "name": "Latest valuation report",
+        "kind": "valuation-report",
+        "version": "Q3 2026",
+        "status": "final",
+        "updatedAt": "2026-09-11T16:00:00.000Z",
+        "hash": "0x3b3d084d3e57d5c3f6edea842eb894726eca71e54f5f0bdc2d83362d04915f3b",
+        "visibility": "holders",
+        "sizeKb": 2927,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_11l425d",
+        "name": "Q2 2026 investor report",
+        "kind": "investor-report",
+        "version": "Q2 2026",
+        "status": "final",
+        "updatedAt": "2026-08-06T16:00:00.000Z",
+        "hash": "0x59cb8d9a984aef4384f6cfd2302d93c94f2bbdcd05f5e7d59d0af34cdc2bdc40",
+        "visibility": "holders",
+        "sizeKb": 1756,
+        "uploadedBy": "Sara Kim"
+      }
+    ],
+    "policyPackIds": [
+      "pol_global",
+      "pol_adgm"
+    ],
+    "aum": 148200000,
+    "investorsCount": 17,
+    "navHistory": [
+      {
+        "date": "2025-09-01T16:00:00.000Z",
+        "nav": 1.0068
+      },
+      {
+        "date": "2025-09-05T16:00:00.000Z",
+        "nav": 1.0072
+      },
+      {
+        "date": "2025-09-09T16:00:00.000Z",
+        "nav": 1.0076
+      },
+      {
+        "date": "2025-09-13T16:00:00.000Z",
+        "nav": 1.008
+      },
+      {
+        "date": "2025-09-17T16:00:00.000Z",
+        "nav": 1.0084
+      },
+      {
+        "date": "2025-09-21T16:00:00.000Z",
+        "nav": 1.0088
+      },
+      {
+        "date": "2025-09-25T16:00:00.000Z",
+        "nav": 1.0092
+      },
+      {
+        "date": "2025-09-29T16:00:00.000Z",
+        "nav": 1.0096
+      },
+      {
+        "date": "2025-10-03T16:00:00.000Z",
+        "nav": 1.01
+      },
+      {
+        "date": "2025-10-07T16:00:00.000Z",
+        "nav": 1.0104
+      },
+      {
+        "date": "2025-10-11T16:00:00.000Z",
+        "nav": 1.0108
+      },
+      {
+        "date": "2025-10-15T16:00:00.000Z",
+        "nav": 1.0112
+      },
+      {
+        "date": "2025-10-19T16:00:00.000Z",
+        "nav": 1.0116
+      },
+      {
+        "date": "2025-10-23T16:00:00.000Z",
+        "nav": 1.012
+      },
+      {
+        "date": "2025-10-27T16:00:00.000Z",
+        "nav": 1.0124
+      },
+      {
+        "date": "2025-10-31T16:00:00.000Z",
+        "nav": 1.0128
+      },
+      {
+        "date": "2025-11-04T16:00:00.000Z",
+        "nav": 1.0132
+      },
+      {
+        "date": "2025-11-08T16:00:00.000Z",
+        "nav": 1.0136
+      },
+      {
+        "date": "2025-11-12T16:00:00.000Z",
+        "nav": 1.014
+      },
+      {
+        "date": "2025-11-16T16:00:00.000Z",
+        "nav": 1.0144
+      },
+      {
+        "date": "2025-11-20T16:00:00.000Z",
+        "nav": 1.0148
+      },
+      {
+        "date": "2025-11-24T16:00:00.000Z",
+        "nav": 1.0151
+      },
+      {
+        "date": "2025-11-28T16:00:00.000Z",
+        "nav": 1.0155
+      },
+      {
+        "date": "2025-12-02T16:00:00.000Z",
+        "nav": 1.0159
+      },
+      {
+        "date": "2025-12-06T16:00:00.000Z",
+        "nav": 1.0163
+      },
+      {
+        "date": "2025-12-10T16:00:00.000Z",
+        "nav": 1.0167
+      },
+      {
+        "date": "2025-12-14T16:00:00.000Z",
+        "nav": 1.0171
+      },
+      {
+        "date": "2025-12-18T16:00:00.000Z",
+        "nav": 1.0174
+      },
+      {
+        "date": "2025-12-22T16:00:00.000Z",
+        "nav": 1.0178
+      },
+      {
+        "date": "2025-12-26T16:00:00.000Z",
+        "nav": 1.0182
+      },
+      {
+        "date": "2025-12-30T16:00:00.000Z",
+        "nav": 1.0186
+      },
+      {
+        "date": "2026-01-03T16:00:00.000Z",
+        "nav": 1.0189
+      },
+      {
+        "date": "2026-01-07T16:00:00.000Z",
+        "nav": 1.0193
+      },
+      {
+        "date": "2026-01-11T16:00:00.000Z",
+        "nav": 1.0197
+      },
+      {
+        "date": "2026-01-15T16:00:00.000Z",
+        "nav": 1.0201
+      },
+      {
+        "date": "2026-01-19T16:00:00.000Z",
+        "nav": 1.0204
+      },
+      {
+        "date": "2026-01-23T16:00:00.000Z",
+        "nav": 1.0208
+      },
+      {
+        "date": "2026-01-27T16:00:00.000Z",
+        "nav": 1.0212
+      },
+      {
+        "date": "2026-01-31T16:00:00.000Z",
+        "nav": 1.0216
+      },
+      {
+        "date": "2026-02-04T16:00:00.000Z",
+        "nav": 1.0219
+      },
+      {
+        "date": "2026-02-08T16:00:00.000Z",
+        "nav": 1.0223
+      },
+      {
+        "date": "2026-02-12T16:00:00.000Z",
+        "nav": 1.0227
+      },
+      {
+        "date": "2026-02-16T16:00:00.000Z",
+        "nav": 1.0231
+      },
+      {
+        "date": "2026-02-20T16:00:00.000Z",
+        "nav": 1.0234
+      },
+      {
+        "date": "2026-02-24T16:00:00.000Z",
+        "nav": 1.0238
+      },
+      {
+        "date": "2026-02-28T16:00:00.000Z",
+        "nav": 1.0242
+      },
+      {
+        "date": "2026-03-04T16:00:00.000Z",
+        "nav": 1.0246
+      },
+      {
+        "date": "2026-03-08T16:00:00.000Z",
+        "nav": 1.025
+      },
+      {
+        "date": "2026-03-12T16:00:00.000Z",
+        "nav": 1.0253
+      },
+      {
+        "date": "2026-03-16T16:00:00.000Z",
+        "nav": 1.0257
+      },
+      {
+        "date": "2026-03-20T16:00:00.000Z",
+        "nav": 1.0261
+      },
+      {
+        "date": "2026-03-24T16:00:00.000Z",
+        "nav": 1.0265
+      },
+      {
+        "date": "2026-03-28T16:00:00.000Z",
+        "nav": 1.0269
+      },
+      {
+        "date": "2026-04-01T16:00:00.000Z",
+        "nav": 1.0273
+      },
+      {
+        "date": "2026-04-05T16:00:00.000Z",
+        "nav": 1.0276
+      },
+      {
+        "date": "2026-04-09T16:00:00.000Z",
+        "nav": 1.028
+      },
+      {
+        "date": "2026-04-13T16:00:00.000Z",
+        "nav": 1.0284
+      },
+      {
+        "date": "2026-04-17T16:00:00.000Z",
+        "nav": 1.0288
+      },
+      {
+        "date": "2026-04-21T16:00:00.000Z",
+        "nav": 1.0292
+      },
+      {
+        "date": "2026-04-25T16:00:00.000Z",
+        "nav": 1.0295
+      },
+      {
+        "date": "2026-04-29T16:00:00.000Z",
+        "nav": 1.0299
+      },
+      {
+        "date": "2026-05-03T16:00:00.000Z",
+        "nav": 1.0303
+      },
+      {
+        "date": "2026-05-07T16:00:00.000Z",
+        "nav": 1.0307
+      },
+      {
+        "date": "2026-05-11T16:00:00.000Z",
+        "nav": 1.031
+      },
+      {
+        "date": "2026-05-15T16:00:00.000Z",
+        "nav": 1.0314
+      },
+      {
+        "date": "2026-05-19T16:00:00.000Z",
+        "nav": 1.0318
+      },
+      {
+        "date": "2026-05-23T16:00:00.000Z",
+        "nav": 1.0322
+      },
+      {
+        "date": "2026-05-27T16:00:00.000Z",
+        "nav": 1.0326
+      },
+      {
+        "date": "2026-05-31T16:00:00.000Z",
+        "nav": 1.0329
+      },
+      {
+        "date": "2026-06-04T16:00:00.000Z",
+        "nav": 1.0333
+      },
+      {
+        "date": "2026-06-08T16:00:00.000Z",
+        "nav": 1.0337
+      },
+      {
+        "date": "2026-06-12T16:00:00.000Z",
+        "nav": 1.0341
+      },
+      {
+        "date": "2026-06-16T16:00:00.000Z",
+        "nav": 1.0345
+      },
+      {
+        "date": "2026-06-20T16:00:00.000Z",
+        "nav": 1.0349
+      },
+      {
+        "date": "2026-06-24T16:00:00.000Z",
+        "nav": 1.0353
+      },
+      {
+        "date": "2026-06-28T16:00:00.000Z",
+        "nav": 1.0357
+      },
+      {
+        "date": "2026-07-02T16:00:00.000Z",
+        "nav": 1.036
+      },
+      {
+        "date": "2026-07-06T16:00:00.000Z",
+        "nav": 1.0364
+      },
+      {
+        "date": "2026-07-10T16:00:00.000Z",
+        "nav": 1.0368
+      },
+      {
+        "date": "2026-07-14T16:00:00.000Z",
+        "nav": 1.0372
+      },
+      {
+        "date": "2026-07-18T16:00:00.000Z",
+        "nav": 1.0376
+      },
+      {
+        "date": "2026-07-22T16:00:00.000Z",
+        "nav": 1.038
+      },
+      {
+        "date": "2026-07-26T16:00:00.000Z",
+        "nav": 1.0384
+      },
+      {
+        "date": "2026-07-30T16:00:00.000Z",
+        "nav": 1.0388
+      },
+      {
+        "date": "2026-08-03T16:00:00.000Z",
+        "nav": 1.0392
+      },
+      {
+        "date": "2026-08-07T16:00:00.000Z",
+        "nav": 1.0396
+      },
+      {
+        "date": "2026-08-11T16:00:00.000Z",
+        "nav": 1.04
+      },
+      {
+        "date": "2026-08-15T16:00:00.000Z",
+        "nav": 1.0404
+      },
+      {
+        "date": "2026-08-19T16:00:00.000Z",
+        "nav": 1.0408
+      },
+      {
+        "date": "2026-08-23T16:00:00.000Z",
+        "nav": 1.0412
+      },
+      {
+        "date": "2026-08-27T16:00:00.000Z",
+        "nav": 1.0416
+      },
+      {
+        "date": "2026-08-31T16:00:00.000Z",
+        "nav": 1.042
+      },
+      {
+        "date": "2026-09-04T16:00:00.000Z",
+        "nav": 1.0424
+      },
+      {
+        "date": "2026-09-08T16:00:00.000Z",
+        "nav": 1.0428
+      },
+      {
+        "date": "2026-09-12T16:00:00.000Z",
+        "nav": 1.0432
+      },
+      {
+        "date": "2026-09-16T16:00:00.000Z",
+        "nav": 1.0437
+      },
+      {
+        "date": "2026-09-20T16:00:00.000Z",
+        "nav": 1.0441
+      },
+      {
+        "date": "2026-09-24T16:00:00.000Z",
+        "nav": 1.0445
+      },
+      {
+        "date": "2026-09-28T16:00:00.000Z",
+        "nav": 1.0449
+      },
+      {
+        "date": "2026-10-02T16:00:00.000Z",
+        "nav": 1.0454
+      },
+      {
+        "date": "2026-10-06T16:00:00.000Z",
+        "nav": 1.0458
+      }
+    ],
+    "tokenomics": {
+      "allocation": [
+        {
+          "label": "Offered to investors",
+          "pct": 100
+        }
+      ],
+      "fees": [
+        {
+          "label": "Subscription fee",
+          "value": "None"
+        },
+        {
+          "label": "Management fee",
+          "value": "0.15% to 0.35% a year"
+        }
+      ],
+      "lockups": [
+        {
+          "label": "None",
+          "detail": "Units can be redeemed or transferred at any time"
+        }
+      ],
+      "distributionPolicy": "Yield accrues daily into the NAV.",
+      "redemption": "Same-day redemption in USDC, next-day by SWIFT.",
+      "transferRules": "Transfers between verified, whitelisted wallets only. Holding limit 20% per investor."
+    },
+    "media": {
+      "cover": "/media/assets/tbill-cover.webp",
+      "gallery": [
+        "/media/assets/tbill-cover.webp"
+      ],
+      "credits": "US Treasury Building, Washington. Rchuon24, CC BY-SA 3.0"
+    }
+  },
+  {
+    "id": "ast_wpk",
+    "tenantId": "tnt_srh",
+    "name": "Whitworth Park Student Residences",
+    "shortName": "Whitworth Park",
+    "template": "real-estate",
+    "status": "live",
+    "issuerId": "iss_wpk",
+    "description": "Long-leasehold income interest in Whitworth Park, the University of Manchester's 1,243-room undergraduate halls on Oxford Road. The University operates the halls under a 35-year lease with index-linked rent.",
+    "underlying": {
+      "description": "Eight low-rise residential blocks of 7 to 9 bedroom flats with shared kitchens, a bar, gym, squash court and music room",
+      "location": "316 Oxford Road, Manchester M13 9WJ, United Kingdom",
+      "appraisedValue": 81000000,
+      "appraiser": "Knight Frank (RICS Red Book)",
+      "metrics": [
+        {
+          "label": "Rooms",
+          "value": "1,243"
+        },
+        {
+          "label": "Weekly rent",
+          "value": "GBP 122 to 145"
+        },
+        {
+          "label": "Contract",
+          "value": "41 weeks, utilities included"
+        },
+        {
+          "label": "Occupancy (2025/26)",
+          "value": "98%"
+        },
+        {
+          "label": "Net initial yield",
+          "value": "5.25%"
+        },
+        {
+          "label": "Walk to campus",
+          "value": "9 minutes"
+        }
+      ]
+    },
+    "legalEntity": {
+      "name": "Whitworth Park Residences SPV Ltd",
+      "structure": "SPV",
+      "jurisdiction": "AE-ADGM",
+      "registrationNumber": "000013377"
+    },
+    "instrument": {
+      "type": "equity",
+      "votingRights": true
+    },
+    "valuation": {
+      "method": "Semi-annual RICS Red Book valuation (income approach)",
+      "nav": 32387152,
+      "navPerToken": 10.24,
+      "currency": "GBP",
+      "frequency": "quarterly",
+      "lastUpdated": "2026-09-27T16:00:00.000Z"
+    },
+    "income": {
+      "type": "Rental distributions",
+      "frequency": "quarterly",
+      "targetYieldPct": 6.25
+    },
+    "servicer": "The University of Manchester Accommodation Office",
+    "ownershipModel": "transfer-agent",
+    "jurisdiction": "AE-ADGM",
+    "regimes": [
+      "AE-ADGM",
+      "GB"
+    ],
+    "oracleMode": "manual",
+    "sponsorName": "The University of Manchester",
+    "rules": {
+      "lockupDays": 180,
+      "holdingLimitPct": 10,
+      "minInvestment": 10000,
+      "eligibleClassifications": [
+        "professional",
+        "accredited",
+        "qualified-purchaser",
+        "institutional",
+        "market-counterparty"
+      ],
+      "blockedCountries": [
+        "US",
+        "KP",
+        "IR",
+        "SY"
+      ]
+    },
+    "createdAt": "2026-05-06T00:00:00Z",
+    "launchedAt": "2026-08-18T00:00:00Z",
+    "visual": "tower",
+    "profile": [
+      {
+        "label": "Property type",
+        "value": "Purpose-built student accommodation"
+      },
+      {
+        "label": "Tenure",
+        "value": "Long leasehold income strip, 35 years"
+      },
+      {
+        "label": "Rooms",
+        "value": "1,243"
+      },
+      {
+        "label": "Blocks",
+        "value": "8"
+      },
+      {
+        "label": "Year built",
+        "value": "1970s, refurbished 2015 to 2019"
+      },
+      {
+        "label": "Operator",
+        "value": "The University of Manchester"
+      }
+    ],
+    "highlights": [
+      "University-operated halls",
+      "Index-linked rent",
+      "Senior income units"
+    ],
+    "shareClasses": [
+      {
+        "id": "scl_11q38c4",
+        "name": "Senior income units",
+        "currency": "GBP",
+        "managementFeeBps": 50,
+        "minInvestment": 10000,
+        "eligibleClassifications": [
+          "professional",
+          "accredited",
+          "qualified-purchaser",
+          "institutional",
+          "market-counterparty"
+        ],
+        "tokenClassId": "tok_wpks"
+      },
+      {
+        "id": "scl_11ra014",
+        "name": "Ordinary Units",
+        "currency": "GBP",
+        "managementFeeBps": 50,
+        "minInvestment": 50000,
+        "eligibleClassifications": [
+          "professional",
+          "accredited",
+          "qualified-purchaser",
+          "institutional",
+          "market-counterparty"
+        ],
+        "tokenClassId": "tok_wpko"
+      }
+    ],
+    "tokenClassIds": [
+      "tok_wpks",
+      "tok_wpko"
+    ],
+    "documents": [
+      {
+        "id": "adoc_11s4c55",
+        "name": "Information memorandum",
+        "kind": "offering-memorandum",
+        "version": "v3.2",
+        "status": "final",
+        "updatedAt": "2026-09-07T16:00:00.000Z",
+        "hash": "0xd0b57231dc4210bbf7cbe019f3ccacf24998a691f86c3e5bab47883c7f74b40c",
+        "visibility": "public",
+        "sizeKb": 2096,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_11ta136",
+        "name": "Term sheet",
+        "kind": "term-sheet",
+        "version": "v2.0",
+        "status": "signed",
+        "updatedAt": "2026-09-15T16:00:00.000Z",
+        "hash": "0xca4b7b32d534961417c9c78c47c7ab9233a4a35c9b3cbb318c3ae09bcfc31d89",
+        "visibility": "public",
+        "sizeKb": 2751,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_11u737a",
+        "name": "SPV constitutional documents",
+        "kind": "spv-constitution",
+        "version": "v1.0",
+        "status": "signed",
+        "updatedAt": "2026-01-01T16:00:00.000Z",
+        "hash": "0x99c079d956598cd5ef1a583b25d2ff31e082bbf914a719315ee92850dc295777",
+        "visibility": "holders",
+        "sizeKb": 888,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_11v75d4",
+        "name": "Legal opinion on token characterisation",
+        "kind": "legal-opinion",
+        "version": "v1.1",
+        "status": "signed",
+        "updatedAt": "2026-04-11T16:00:00.000Z",
+        "hash": "0xfd25d9a0eae16b0128a07e3559be741381ca58d18323631bbb5a4e75bbb5f8d3",
+        "visibility": "internal",
+        "sizeKb": 3989,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_11wbbc8",
+        "name": "Latest valuation report",
+        "kind": "valuation-report",
+        "version": "Q3 2026",
+        "status": "final",
+        "updatedAt": "2026-09-02T16:00:00.000Z",
+        "hash": "0x8cb1da736a416acb3d3904d13205b7f051d3d8b93d0060b6e3874497bf302ed9",
+        "visibility": "holders",
+        "sizeKb": 753,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_11xc7ca",
+        "name": "Lease and title documents",
+        "kind": "title-deed",
+        "version": "v1.0",
+        "status": "signed",
+        "updatedAt": "2026-06-15T16:00:00.000Z",
+        "hash": "0x3e5b07f5d45e3b40a0331b4958369705112f0301ea26b7a4c6c90191539530b1",
+        "visibility": "internal",
+        "sizeKb": 3723,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_11y30b1",
+        "name": "Buildings insurance schedule",
+        "kind": "insurance",
+        "version": "2026/27",
+        "status": "final",
+        "updatedAt": "2026-07-08T16:00:00.000Z",
+        "hash": "0x424f5b2c1a7212b5ba6127da163cb4f1cf29bd46ba425a440889628f95d749d9",
+        "visibility": "holders",
+        "sizeKb": 3738,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_11z23bc",
+        "name": "Q2 2026 investor report",
+        "kind": "investor-report",
+        "version": "Q2 2026",
+        "status": "final",
+        "updatedAt": "2026-08-04T16:00:00.000Z",
+        "hash": "0x6f4b8d6330f8b163c78c429221e30eeab46e7b7fea67fa0a27d6f82d2249541a",
+        "visibility": "holders",
+        "sizeKb": 582,
+        "uploadedBy": "Sara Kim"
+      }
+    ],
+    "policyPackIds": [
+      "pol_global",
+      "pol_adgm",
+      "pol_uk"
+    ],
+    "aum": 32387152,
+    "investorsCount": 11,
+    "navHistory": [
+      {
+        "date": "2026-08-18T00:00:00.000Z",
+        "nav": 10
+      },
+      {
+        "date": "2026-08-25T00:00:00.000Z",
+        "nav": 10.04
+      },
+      {
+        "date": "2026-09-01T00:00:00.000Z",
+        "nav": 10
+      },
+      {
+        "date": "2026-09-08T00:00:00.000Z",
+        "nav": 10.09
+      },
+      {
+        "date": "2026-09-15T00:00:00.000Z",
+        "nav": 10.2
+      },
+      {
+        "date": "2026-09-22T00:00:00.000Z",
+        "nav": 10.18
+      },
+      {
+        "date": "2026-09-29T00:00:00.000Z",
+        "nav": 10.17
+      },
+      {
+        "date": "2026-10-06T00:00:00.000Z",
+        "nav": 10.24
+      },
+      {
+        "date": "2026-10-06T16:00:00.000Z",
+        "nav": 10.24
+      }
+    ],
+    "tokenomics": {
+      "allocation": [
+        {
+          "label": "Senior income units (WPKS), offered",
+          "pct": 62.5
+        },
+        {
+          "label": "Ordinary units (WPKO), offered",
+          "pct": 12.5
+        },
+        {
+          "label": "Ordinary units (WPKO), retained by sponsor vehicle",
+          "pct": 25
+        }
+      ],
+      "fees": [
+        {
+          "label": "Subscription fee",
+          "value": "1.00%"
+        },
+        {
+          "label": "Asset management fee",
+          "value": "0.50% a year of gross asset value"
+        },
+        {
+          "label": "Platform and registrar fee",
+          "value": "0.35% a year"
+        },
+        {
+          "label": "Exit fee",
+          "value": "None after lock-up"
+        }
+      ],
+      "lockups": [
+        {
+          "label": "Senior units",
+          "detail": "180 days from issue"
+        },
+        {
+          "label": "Sponsor ordinary units",
+          "detail": "3 years from issue"
+        }
+      ],
+      "distributionPolicy": "Quarterly from net rent. Senior units are paid 6.25% a year first; ordinary units receive what remains after the reserve top-up.",
+      "redemption": "No redemption. After the lock-up, units can be sold on the SRH secondary market. Capital is returned on sale of the interest or at the end of the lease.",
+      "transferRules": "Whitelisted wallets of verified professional investors only. 10% holding limit per investor. US persons excluded."
+    },
+    "waterfall": [
+      {
+        "label": "Property costs",
+        "detail": "Ground rent, insurance, maintenance and the University's operating fee"
+      },
+      {
+        "label": "SPV expenses",
+        "detail": "Trustee, audit, registrar and platform fees"
+      },
+      {
+        "label": "Senior income units",
+        "detail": "6.25% a year on paid-in capital, cumulative",
+        "tokenClassId": "tok_wpks"
+      },
+      {
+        "label": "Reserve",
+        "detail": "2% of gross rent until the reserve equals 6 months of senior income"
+      },
+      {
+        "label": "Ordinary units",
+        "detail": "All remaining income",
+        "tokenClassId": "tok_wpko"
+      },
+      {
+        "label": "On exit",
+        "detail": "Senior units repaid at par first, then the balance to ordinary units"
+      }
+    ],
+    "media": {
+      "cover": "/media/assets/wpk-cover.webp",
+      "gallery": [
+        "/media/assets/wpk-cover.webp",
+        "/media/assets/wpk-3.webp",
+        "/media/assets/wpk-2.webp",
+        "/media/assets/wpk-4.webp",
+        "/media/assets/wpk-5.webp",
+        "/media/assets/wpk-6.webp",
+        "/media/assets/wpk-7.webp",
+        "/media/assets/wpk-8.webp"
+      ],
+      "videos": [
+        {
+          "youtubeId": "MO1Obv79W1s",
+          "title": "Whitworth Park halls",
+          "source": "The University of Manchester"
+        }
+      ],
+      "credits": "The University of Manchester"
+    }
+  },
+  {
+    "id": "ast_vgld",
+    "tenantId": "tnt_srh",
+    "name": "SRH Allocated Gold",
+    "shortName": "Allocated Gold",
+    "template": "commodity",
+    "status": "live",
+    "issuerId": "iss_gold",
+    "description": "Each token is one gram of LBMA Good Delivery gold held allocated and insured at Brink's in Dubai. Physical delivery available from one kilobar.",
+    "underlying": {
+      "description": "Allocated LBMA Good Delivery kilobars and 400 oz bars, serial-numbered",
+      "location": "Brink's vault, Dubai, UAE",
+      "appraisedValue": 46928693,
+      "appraiser": "LBMA Gold Price PM",
+      "metrics": [
+        {
+          "label": "Gold held",
+          "value": "343.0 kg"
+        },
+        {
+          "label": "Bars",
+          "value": "27"
+        },
+        {
+          "label": "Last bar audit",
+          "value": "18 days ago (Inspectorate)"
+        },
+        {
+          "label": "Proof of reserve",
+          "value": "Chainlink, daily"
+        }
+      ]
+    },
+    "legalEntity": {
+      "name": "SRH Gold Trust",
+      "structure": "Trust",
+      "jurisdiction": "AE-ADGM",
+      "registrationNumber": "000008841"
+    },
+    "instrument": {
+      "type": "fund-unit",
+      "votingRights": false
+    },
+    "valuation": {
+      "method": "LBMA Gold Price PM per gram",
+      "nav": 46928693,
+      "navPerToken": 136.8,
+      "currency": "USD",
+      "frequency": "daily",
+      "lastUpdated": "2026-10-06T16:00:00.000Z",
+      "oracle": "LBMA Gold Price"
+    },
+    "income": {
+      "type": "Non-distributing",
+      "frequency": "annual",
+      "targetYieldPct": 0
+    },
+    "servicer": "Brink's Global Services",
+    "ownershipModel": "custodian",
+    "jurisdiction": "AE-ADGM",
+    "regimes": [
+      "AE-ADGM",
+      "AE-VARA"
+    ],
+    "oracleMode": "automated",
+    "rules": {
+      "lockupDays": 0,
+      "holdingLimitPct": 30,
+      "minInvestment": 500,
+      "eligibleClassifications": [
+        "retail",
+        "professional",
+        "accredited",
+        "qualified-purchaser",
+        "institutional",
+        "market-counterparty"
+      ],
+      "blockedCountries": [
+        "KP",
+        "IR",
+        "SY"
+      ]
+    },
+    "createdAt": "2024-12-09T00:00:00Z",
+    "launchedAt": "2025-01-15T00:00:00Z",
+    "visual": "gold",
+    "profile": [
+      {
+        "label": "Metal",
+        "value": "Gold, 995.0 fineness or better"
+      },
+      {
+        "label": "Unit",
+        "value": "1 gram per token"
+      },
+      {
+        "label": "Vault",
+        "value": "Brink's, Dubai"
+      },
+      {
+        "label": "Insurance",
+        "value": "Full replacement value, Lloyd's"
+      }
+    ],
+    "highlights": [
+      "One gram per token",
+      "Allocated, audited bars",
+      "Delivery from 1 kg"
+    ],
+    "shareClasses": [
+      {
+        "id": "scl_122c533",
+        "name": "Ordinary",
+        "currency": "USD",
+        "managementFeeBps": 75,
+        "minInvestment": 500,
+        "eligibleClassifications": [
+          "retail",
+          "professional",
+          "accredited",
+          "qualified-purchaser",
+          "institutional",
+          "market-counterparty"
+        ],
+        "tokenClassId": "tok_srhg"
+      }
+    ],
+    "tokenClassIds": [
+      "tok_srhg"
+    ],
+    "documents": [
+      {
+        "id": "adoc_12300ea",
+        "name": "Information memorandum",
+        "kind": "offering-memorandum",
+        "version": "v3.2",
+        "status": "final",
+        "updatedAt": "2026-09-01T16:00:00.000Z",
+        "hash": "0x002332a902da3f6c32417b0c8bb9ac2ef13bc95130db65ea68c8b8c82ec3853f",
+        "visibility": "public",
+        "sizeKb": 1957,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_12479ef",
+        "name": "Term sheet",
+        "kind": "term-sheet",
+        "version": "v2.0",
+        "status": "signed",
+        "updatedAt": "2026-06-13T16:00:00.000Z",
+        "hash": "0x448fddb05acfb5a9822f57a00ca434a8661bbba85cc399387817394a767247d5",
+        "visibility": "public",
+        "sizeKb": 1520,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_12595e5",
+        "name": "Trust constitutional documents",
+        "kind": "spv-constitution",
+        "version": "v1.0",
+        "status": "signed",
+        "updatedAt": "2026-04-10T16:00:00.000Z",
+        "hash": "0x4f487da0e6977b06b2a1697a7a99dca8fb33578475952f32f26ef98e08a0b1c7",
+        "visibility": "holders",
+        "sizeKb": 4015,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_126fa67",
+        "name": "Legal opinion on token characterisation",
+        "kind": "legal-opinion",
+        "version": "v1.1",
+        "status": "signed",
+        "updatedAt": "2026-07-29T16:00:00.000Z",
+        "hash": "0x8d74b104d23301ac0ff288283d6ad31c685a94f2029cd3ac133f90ae501851c9",
+        "visibility": "internal",
+        "sizeKb": 2780,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_127dfab",
+        "name": "Latest valuation report",
+        "kind": "valuation-report",
+        "version": "Q3 2026",
+        "status": "final",
+        "updatedAt": "2026-09-07T16:00:00.000Z",
+        "hash": "0x5d42daa2f32c7c9517d403c30cf12284450982d2c817404b5e7ae7e1d0e2894f",
+        "visibility": "holders",
+        "sizeKb": 1699,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_1280ed1",
+        "name": "Brink's vault certificate and bar list",
+        "kind": "vault-certificate",
+        "version": "Sep 2026",
+        "status": "final",
+        "updatedAt": "2026-09-18T16:00:00.000Z",
+        "hash": "0x6ed433d5704a2d96a6b06ad9b536a2118468b5ab4c4733d3e7c9f7b17e99035a",
+        "visibility": "holders",
+        "sizeKb": 502,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_1299bbd",
+        "name": "Inspectorate bar audit",
+        "kind": "audit-report",
+        "version": "H1 2026",
+        "status": "final",
+        "updatedAt": "2026-09-18T16:00:00.000Z",
+        "hash": "0xe2c53a5397bdb007e989a4dff2fd1e9e1ab685af8c0d7ef722adfd8514ec87d3",
+        "visibility": "holders",
+        "sizeKb": 3836,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_12a443b",
+        "name": "Insurance certificate (Lloyd's)",
+        "kind": "insurance",
+        "version": "2026",
+        "status": "final",
+        "updatedAt": "2026-05-19T16:00:00.000Z",
+        "hash": "0x3c1490e4e4b06b9a866272d76de4c8332ee3061a57b531dd210a5f2d7d02a96c",
+        "visibility": "holders",
+        "sizeKb": 2162,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_12b479a",
+        "name": "Q2 2026 investor report",
+        "kind": "investor-report",
+        "version": "Q2 2026",
+        "status": "final",
+        "updatedAt": "2026-08-01T16:00:00.000Z",
+        "hash": "0x689af0cd929b496f13b8ecff6d224d8ab8b8dd3460c03297a5c1bbe14e726cce",
+        "visibility": "holders",
+        "sizeKb": 2152,
+        "uploadedBy": "Sara Kim"
+      }
+    ],
+    "policyPackIds": [
+      "pol_global",
+      "pol_adgm"
+    ],
+    "aum": 46928693,
+    "investorsCount": 11,
+    "navHistory": [
+      {
+        "date": "2025-09-01T16:00:00.000Z",
+        "nav": 111.4
+      },
+      {
+        "date": "2025-09-06T16:00:00.000Z",
+        "nav": 114.24
+      },
+      {
+        "date": "2025-09-11T16:00:00.000Z",
+        "nav": 115.89
+      },
+      {
+        "date": "2025-09-16T16:00:00.000Z",
+        "nav": 117.18
+      },
+      {
+        "date": "2025-09-21T16:00:00.000Z",
+        "nav": 119.67
+      },
+      {
+        "date": "2025-09-26T16:00:00.000Z",
+        "nav": 120.55
+      },
+      {
+        "date": "2025-10-01T16:00:00.000Z",
+        "nav": 122.77
+      },
+      {
+        "date": "2025-10-06T16:00:00.000Z",
+        "nav": 123.54
+      },
+      {
+        "date": "2025-10-11T16:00:00.000Z",
+        "nav": 125.61
+      },
+      {
+        "date": "2025-10-16T16:00:00.000Z",
+        "nav": 125.84
+      },
+      {
+        "date": "2025-10-21T16:00:00.000Z",
+        "nav": 127.92
+      },
+      {
+        "date": "2025-10-26T16:00:00.000Z",
+        "nav": 128.91
+      },
+      {
+        "date": "2025-10-31T16:00:00.000Z",
+        "nav": 128.49
+      },
+      {
+        "date": "2025-11-05T16:00:00.000Z",
+        "nav": 130.75
+      },
+      {
+        "date": "2025-11-10T16:00:00.000Z",
+        "nav": 129.7
+      },
+      {
+        "date": "2025-11-15T16:00:00.000Z",
+        "nav": 132.4
+      },
+      {
+        "date": "2025-11-20T16:00:00.000Z",
+        "nav": 133.04
+      },
+      {
+        "date": "2025-11-25T16:00:00.000Z",
+        "nav": 132.6
+      },
+      {
+        "date": "2025-11-30T16:00:00.000Z",
+        "nav": 134.18
+      },
+      {
+        "date": "2025-12-05T16:00:00.000Z",
+        "nav": 135.51
+      },
+      {
+        "date": "2025-12-10T16:00:00.000Z",
+        "nav": 136.59
+      },
+      {
+        "date": "2025-12-15T16:00:00.000Z",
+        "nav": 138.1
+      },
+      {
+        "date": "2025-12-20T16:00:00.000Z",
+        "nav": 138.75
+      },
+      {
+        "date": "2025-12-25T16:00:00.000Z",
+        "nav": 139.12
+      },
+      {
+        "date": "2025-12-30T16:00:00.000Z",
+        "nav": 141.01
+      },
+      {
+        "date": "2026-01-04T16:00:00.000Z",
+        "nav": 142.97
+      },
+      {
+        "date": "2026-01-09T16:00:00.000Z",
+        "nav": 146.25
+      },
+      {
+        "date": "2026-01-14T16:00:00.000Z",
+        "nav": 150.8
+      },
+      {
+        "date": "2026-01-19T16:00:00.000Z",
+        "nav": 153.15
+      },
+      {
+        "date": "2026-01-24T16:00:00.000Z",
+        "nav": 156.14
+      },
+      {
+        "date": "2026-01-29T16:00:00.000Z",
+        "nav": 160.35
+      },
+      {
+        "date": "2026-02-03T16:00:00.000Z",
+        "nav": 160.36
+      },
+      {
+        "date": "2026-02-08T16:00:00.000Z",
+        "nav": 163.62
+      },
+      {
+        "date": "2026-02-13T16:00:00.000Z",
+        "nav": 164.22
+      },
+      {
+        "date": "2026-02-18T16:00:00.000Z",
+        "nav": 164.97
+      },
+      {
+        "date": "2026-02-23T16:00:00.000Z",
+        "nav": 166.97
+      },
+      {
+        "date": "2026-02-28T16:00:00.000Z",
+        "nav": 166.93
+      },
+      {
+        "date": "2026-03-05T16:00:00.000Z",
+        "nav": 165.89
+      },
+      {
+        "date": "2026-03-10T16:00:00.000Z",
+        "nav": 164.66
+      },
+      {
+        "date": "2026-03-15T16:00:00.000Z",
+        "nav": 163.18
+      },
+      {
+        "date": "2026-03-20T16:00:00.000Z",
+        "nav": 159.31
+      },
+      {
+        "date": "2026-03-25T16:00:00.000Z",
+        "nav": 157.44
+      },
+      {
+        "date": "2026-03-30T16:00:00.000Z",
+        "nav": 155.96
+      },
+      {
+        "date": "2026-04-04T16:00:00.000Z",
+        "nav": 153.92
+      },
+      {
+        "date": "2026-04-09T16:00:00.000Z",
+        "nav": 153.32
+      },
+      {
+        "date": "2026-04-14T16:00:00.000Z",
+        "nav": 151.23
+      },
+      {
+        "date": "2026-04-19T16:00:00.000Z",
+        "nav": 150.94
+      },
+      {
+        "date": "2026-04-24T16:00:00.000Z",
+        "nav": 148.39
+      },
+      {
+        "date": "2026-04-29T16:00:00.000Z",
+        "nav": 146.1
+      },
+      {
+        "date": "2026-05-04T16:00:00.000Z",
+        "nav": 144.96
+      },
+      {
+        "date": "2026-05-09T16:00:00.000Z",
+        "nav": 144.23
+      },
+      {
+        "date": "2026-05-14T16:00:00.000Z",
+        "nav": 142.47
+      },
+      {
+        "date": "2026-05-19T16:00:00.000Z",
+        "nav": 139.79
+      },
+      {
+        "date": "2026-05-24T16:00:00.000Z",
+        "nav": 138.32
+      },
+      {
+        "date": "2026-05-29T16:00:00.000Z",
+        "nav": 137.53
+      },
+      {
+        "date": "2026-06-03T16:00:00.000Z",
+        "nav": 135.36
+      },
+      {
+        "date": "2026-06-08T16:00:00.000Z",
+        "nav": 135.32
+      },
+      {
+        "date": "2026-06-13T16:00:00.000Z",
+        "nav": 134.7
+      },
+      {
+        "date": "2026-06-18T16:00:00.000Z",
+        "nav": 131.89
+      },
+      {
+        "date": "2026-06-23T16:00:00.000Z",
+        "nav": 130.32
+      },
+      {
+        "date": "2026-06-28T16:00:00.000Z",
+        "nav": 129.13
+      },
+      {
+        "date": "2026-07-03T16:00:00.000Z",
+        "nav": 130.47
+      },
+      {
+        "date": "2026-07-08T16:00:00.000Z",
+        "nav": 130.42
+      },
+      {
+        "date": "2026-07-13T16:00:00.000Z",
+        "nav": 130.72
+      },
+      {
+        "date": "2026-07-18T16:00:00.000Z",
+        "nav": 130.87
+      },
+      {
+        "date": "2026-07-23T16:00:00.000Z",
+        "nav": 132.51
+      },
+      {
+        "date": "2026-07-28T16:00:00.000Z",
+        "nav": 132.79
+      },
+      {
+        "date": "2026-08-02T16:00:00.000Z",
+        "nav": 133.74
+      },
+      {
+        "date": "2026-08-07T16:00:00.000Z",
+        "nav": 133.62
+      },
+      {
+        "date": "2026-08-12T16:00:00.000Z",
+        "nav": 134.17
+      },
+      {
+        "date": "2026-08-17T16:00:00.000Z",
+        "nav": 134.37
+      },
+      {
+        "date": "2026-08-22T16:00:00.000Z",
+        "nav": 133.6
+      },
+      {
+        "date": "2026-08-27T16:00:00.000Z",
+        "nav": 135.31
+      },
+      {
+        "date": "2026-09-01T16:00:00.000Z",
+        "nav": 135.77
+      },
+      {
+        "date": "2026-09-06T16:00:00.000Z",
+        "nav": 134.52
+      },
+      {
+        "date": "2026-09-11T16:00:00.000Z",
+        "nav": 136.85
+      },
+      {
+        "date": "2026-09-16T16:00:00.000Z",
+        "nav": 135.57
+      },
+      {
+        "date": "2026-09-21T16:00:00.000Z",
+        "nav": 136.91
+      },
+      {
+        "date": "2026-09-26T16:00:00.000Z",
+        "nav": 137.24
+      },
+      {
+        "date": "2026-10-01T16:00:00.000Z",
+        "nav": 137.1
+      },
+      {
+        "date": "2026-10-06T16:00:00.000Z",
+        "nav": 136.8
+      }
+    ],
+    "tokenomics": {
+      "allocation": [
+        {
+          "label": "Offered to investors",
+          "pct": 100
+        }
+      ],
+      "fees": [
+        {
+          "label": "Subscription fee",
+          "value": "Up to 1.00%"
+        },
+        {
+          "label": "Management fee",
+          "value": "0.25% a year storage and insurance"
+        }
+      ],
+      "lockups": [
+        {
+          "label": "None",
+          "detail": "Units can be redeemed or transferred at any time"
+        }
+      ],
+      "distributionPolicy": "No distributions. Value follows the underlying.",
+      "redemption": "Redeem for cash at the LBMA price, or for physical bars from 1 kg.",
+      "transferRules": "Transfers between verified, whitelisted wallets only. Holding limit 30% per investor."
+    },
+    "media": {
+      "cover": "/media/assets/gold-cover.webp",
+      "gallery": [
+        "/media/assets/gold-cover.webp",
+        "/media/assets/gold-2.webp"
+      ],
+      "videos": [
+        {
+          "youtubeId": "DcFYNRwU8ak",
+          "title": "Good Delivery",
+          "source": "LBMA"
+        },
+        {
+          "youtubeId": "FVnxhsB92v4",
+          "title": "Inside the Bank of England's gold vaults",
+          "source": "World Gold Council"
+        }
+      ],
+      "credits": "LBMA"
+    }
+  },
+  {
+    "id": "ast_ads",
+    "tenantId": "tnt_srh",
+    "name": "Al Dhafra Solar Green Sukuk 2031",
+    "shortName": "Al Dhafra Sukuk 31",
+    "template": "sukuk",
+    "status": "live",
+    "issuerId": "iss_ads",
+    "description": "Ijara green sukuk over a share of the 2 GW Al Dhafra Solar PV plant, which sells its output to EWEC under a long-term power purchase agreement.",
+    "underlying": {
+      "description": "Ijara over generation assets of Al Dhafra Solar PV",
+      "location": "Al Dhafra, 35 km from Abu Dhabi city",
+      "appraisedValue": 210000000,
+      "appraiser": "Independent technical and financial adviser",
+      "metrics": [
+        {
+          "label": "Plant capacity",
+          "value": "2 GW (DC)"
+        },
+        {
+          "label": "Panels",
+          "value": "About 4 million bifacial"
+        },
+        {
+          "label": "Homes powered",
+          "value": "About 200,000"
+        },
+        {
+          "label": "Tariff",
+          "value": "1.32 US cents per kWh"
+        },
+        {
+          "label": "Fully operational",
+          "value": "June 2023"
+        }
+      ]
+    },
+    "legalEntity": {
+      "name": "Al Dhafra Solar Sukuk Ltd",
+      "structure": "Sukuk SPV",
+      "jurisdiction": "AE-ADGM",
+      "registrationNumber": "000011245"
+    },
+    "instrument": {
+      "type": "sukuk-certificate",
+      "couponPct": 5.4,
+      "maturity": "2031-06-30T00:00:00Z",
+      "seniority": "senior",
+      "votingRights": false
+    },
+    "valuation": {
+      "method": "Mark to model against the GCC sukuk curve",
+      "nav": 75600000,
+      "navPerToken": 1004.6,
+      "currency": "USD",
+      "frequency": "daily",
+      "lastUpdated": "2026-10-06T16:00:00.000Z"
+    },
+    "income": {
+      "type": "Periodic distribution amount",
+      "frequency": "semi-annual",
+      "targetYieldPct": 5.4
+    },
+    "servicer": "SRH Registrar Ltd",
+    "ownershipModel": "csd",
+    "jurisdiction": "AE-ADGM",
+    "regimes": [
+      "AE-ADGM",
+      "AE-DIFC"
+    ],
+    "oracleMode": "automated",
+    "sponsorName": "Masdar",
+    "rules": {
+      "lockupDays": 0,
+      "holdingLimitPct": 25,
+      "minInvestment": 50000,
+      "eligibleClassifications": [
+        "professional",
+        "institutional",
+        "market-counterparty",
+        "qualified-purchaser"
+      ],
+      "blockedCountries": [
+        "KP",
+        "IR",
+        "SY"
+      ]
+    },
+    "createdAt": "2025-12-18T00:00:00Z",
+    "launchedAt": "2026-03-02T00:00:00Z",
+    "visual": "sukuk",
+    "profile": [
+      {
+        "label": "Sukuk structure",
+        "value": "Ijara"
+      },
+      {
+        "label": "Sharia adviser",
+        "value": "Dar Al Sharia"
+      },
+      {
+        "label": "Offtaker",
+        "value": "EWEC"
+      },
+      {
+        "label": "Green framework",
+        "value": "ICMA Green Bond Principles"
+      }
+    ],
+    "highlights": [
+      "Sharia compliant",
+      "Contracted solar revenue",
+      "Semi-annual profit"
+    ],
+    "shareClasses": [
+      {
+        "id": "scl_12eef26",
+        "name": "Ordinary",
+        "currency": "USD",
+        "managementFeeBps": 75,
+        "minInvestment": 50000,
+        "eligibleClassifications": [
+          "professional",
+          "institutional",
+          "market-counterparty",
+          "qualified-purchaser"
+        ],
+        "tokenClassId": "tok_ads31"
+      }
+    ],
+    "tokenClassIds": [
+      "tok_ads31"
+    ],
+    "documents": [
+      {
+        "id": "adoc_12f4836",
+        "name": "Information memorandum",
+        "kind": "offering-memorandum",
+        "version": "v3.2",
+        "status": "final",
+        "updatedAt": "2026-08-06T16:00:00.000Z",
+        "hash": "0x40b242d8c3ad439e018713643e08200ad530b872b84e1192d518322d83260753",
+        "visibility": "public",
+        "sizeKb": 419,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_12g469b",
+        "name": "Term sheet",
+        "kind": "term-sheet",
+        "version": "v2.0",
+        "status": "signed",
+        "updatedAt": "2026-06-10T16:00:00.000Z",
+        "hash": "0xa4b85a44febf5d82e97817b58775c2e12ebdb526e1b0c504afc9813def2f9246",
+        "visibility": "public",
+        "sizeKb": 2504,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_12hb083",
+        "name": "Sukuk SPV constitutional documents",
+        "kind": "spv-constitution",
+        "version": "v1.0",
+        "status": "signed",
+        "updatedAt": "2026-02-23T16:00:00.000Z",
+        "hash": "0x8a350f6879d5752ba06f246bfffd1a71fdc0859844c975bfdb324f6bbe3c194f",
+        "visibility": "holders",
+        "sizeKb": 2825,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_12i0123",
+        "name": "Legal opinion on token characterisation",
+        "kind": "legal-opinion",
+        "version": "v1.1",
+        "status": "signed",
+        "updatedAt": "2026-08-25T16:00:00.000Z",
+        "hash": "0x564a2c40cd9b81252afe5df6511eb5b644e9b45541dec744f2e88c43a006343e",
+        "visibility": "internal",
+        "sizeKb": 972,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_12j8c59",
+        "name": "Latest valuation report",
+        "kind": "valuation-report",
+        "version": "Q3 2026",
+        "status": "final",
+        "updatedAt": "2026-08-27T16:00:00.000Z",
+        "hash": "0xf45dc25a104cb1a9b357c139dc3bd2a08761443c0357074db6da90f5b628a47c",
+        "visibility": "holders",
+        "sizeKb": 4077,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_12k9e7e",
+        "name": "Sharia pronouncement (Dar Al Sharia)",
+        "kind": "sharia-opinion",
+        "version": "v1.0",
+        "status": "signed",
+        "updatedAt": "2026-02-08T16:00:00.000Z",
+        "hash": "0x768e7dff710a62565cd314d4cf46774761393d671a67ea80c3fc46deab0988cd",
+        "visibility": "public",
+        "sizeKb": 1573,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_12l529f",
+        "name": "Technical adviser report",
+        "kind": "technical-report",
+        "version": "v1.0",
+        "status": "final",
+        "updatedAt": "2026-06-30T16:00:00.000Z",
+        "hash": "0xb57eb4a51f46260282fcdca671194d3b59f19ac41ea9bbb86cf9b31d004333c4",
+        "visibility": "holders",
+        "sizeKb": 1497,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_12mb59b",
+        "name": "Q2 2026 investor report",
+        "kind": "investor-report",
+        "version": "Q2 2026",
+        "status": "final",
+        "updatedAt": "2026-07-29T16:00:00.000Z",
+        "hash": "0x812280fb6f0c09c90d4adf9ed676be0a2ec75a5bc4c48a41b4047b20ced2814d",
+        "visibility": "holders",
+        "sizeKb": 1274,
+        "uploadedBy": "Sara Kim"
+      }
+    ],
+    "policyPackIds": [
+      "pol_global",
+      "pol_adgm",
+      "pol_sharia"
+    ],
+    "aum": 75600000,
+    "investorsCount": 8,
+    "navHistory": [
+      {
+        "date": "2026-03-02T00:00:00.000Z",
+        "nav": 1000
+      },
+      {
+        "date": "2026-03-07T00:00:00.000Z",
+        "nav": 1017.22
+      },
+      {
+        "date": "2026-03-12T00:00:00.000Z",
+        "nav": 1016.45
+      },
+      {
+        "date": "2026-03-17T00:00:00.000Z",
+        "nav": 1017.24
+      },
+      {
+        "date": "2026-03-22T00:00:00.000Z",
+        "nav": 1016.83
+      },
+      {
+        "date": "2026-03-27T00:00:00.000Z",
+        "nav": 1018.05
+      },
+      {
+        "date": "2026-04-01T00:00:00.000Z",
+        "nav": 1018.91
+      },
+      {
+        "date": "2026-04-06T00:00:00.000Z",
+        "nav": 1017.22
+      },
+      {
+        "date": "2026-04-11T00:00:00.000Z",
+        "nav": 1019.19
+      },
+      {
+        "date": "2026-04-16T00:00:00.000Z",
+        "nav": 1018.88
+      },
+      {
+        "date": "2026-04-21T00:00:00.000Z",
+        "nav": 1018.07
+      },
+      {
+        "date": "2026-04-26T00:00:00.000Z",
+        "nav": 1019.96
+      },
+      {
+        "date": "2026-05-01T00:00:00.000Z",
+        "nav": 1019.66
+      },
+      {
+        "date": "2026-05-06T00:00:00.000Z",
+        "nav": 1019.26
+      },
+      {
+        "date": "2026-05-11T00:00:00.000Z",
+        "nav": 1018.99
+      },
+      {
+        "date": "2026-05-16T00:00:00.000Z",
+        "nav": 1019.5
+      },
+      {
+        "date": "2026-05-21T00:00:00.000Z",
+        "nav": 1018.64
+      },
+      {
+        "date": "2026-05-26T00:00:00.000Z",
+        "nav": 1018.38
+      },
+      {
+        "date": "2026-05-31T00:00:00.000Z",
+        "nav": 1019.2
+      },
+      {
+        "date": "2026-06-05T00:00:00.000Z",
+        "nav": 1017.84
+      },
+      {
+        "date": "2026-06-10T00:00:00.000Z",
+        "nav": 1017.14
+      },
+      {
+        "date": "2026-06-15T00:00:00.000Z",
+        "nav": 1016.48
+      },
+      {
+        "date": "2026-06-20T00:00:00.000Z",
+        "nav": 1016.17
+      },
+      {
+        "date": "2026-06-25T00:00:00.000Z",
+        "nav": 1016.81
+      },
+      {
+        "date": "2026-06-30T00:00:00.000Z",
+        "nav": 1016.35
+      },
+      {
+        "date": "2026-07-05T00:00:00.000Z",
+        "nav": 1016.02
+      },
+      {
+        "date": "2026-07-10T00:00:00.000Z",
+        "nav": 1015.44
+      },
+      {
+        "date": "2026-07-15T00:00:00.000Z",
+        "nav": 1013.53
+      },
+      {
+        "date": "2026-07-20T00:00:00.000Z",
+        "nav": 1015
+      },
+      {
+        "date": "2026-07-25T00:00:00.000Z",
+        "nav": 1014.59
+      },
+      {
+        "date": "2026-07-30T00:00:00.000Z",
+        "nav": 1014.6
+      },
+      {
+        "date": "2026-08-04T00:00:00.000Z",
+        "nav": 1015.22
+      },
+      {
+        "date": "2026-08-09T00:00:00.000Z",
+        "nav": 1014.6
+      },
+      {
+        "date": "2026-08-14T00:00:00.000Z",
+        "nav": 1015.28
+      },
+      {
+        "date": "2026-08-19T00:00:00.000Z",
+        "nav": 1013.54
+      },
+      {
+        "date": "2026-08-24T00:00:00.000Z",
+        "nav": 1012.51
+      },
+      {
+        "date": "2026-08-29T00:00:00.000Z",
+        "nav": 1009.91
+      },
+      {
+        "date": "2026-09-03T00:00:00.000Z",
+        "nav": 1009.21
+      },
+      {
+        "date": "2026-09-08T00:00:00.000Z",
+        "nav": 1006.28
+      },
+      {
+        "date": "2026-09-13T00:00:00.000Z",
+        "nav": 1005.14
+      },
+      {
+        "date": "2026-09-18T00:00:00.000Z",
+        "nav": 1004.28
+      },
+      {
+        "date": "2026-09-23T00:00:00.000Z",
+        "nav": 1005.43
+      },
+      {
+        "date": "2026-09-28T00:00:00.000Z",
+        "nav": 1004.91
+      },
+      {
+        "date": "2026-10-03T00:00:00.000Z",
+        "nav": 1005.05
+      },
+      {
+        "date": "2026-10-06T16:00:00.000Z",
+        "nav": 1004.6
+      }
+    ],
+    "debt": {
+      "faceValue": 1000,
+      "couponPct": 5.4,
+      "couponFrequency": "semi-annual",
+      "issueDate": "2026-03-02T00:00:00Z",
+      "maturity": "2031-06-30T00:00:00Z",
+      "yieldPct": 5.29,
+      "issuePrice": 1000,
+      "dayCount": "30/360"
+    },
+    "tokenomics": {
+      "allocation": [
+        {
+          "label": "Offered to investors",
+          "pct": 90
+        },
+        {
+          "label": "Sponsor co-investment",
+          "pct": 10
+        }
+      ],
+      "fees": [
+        {
+          "label": "Subscription fee",
+          "value": "Up to 1.00%"
+        },
+        {
+          "label": "Management fee",
+          "value": "0.75% a year"
+        }
+      ],
+      "lockups": [
+        {
+          "label": "None",
+          "detail": "Units can be redeemed or transferred at any time"
+        }
+      ],
+      "distributionPolicy": "Periodic distribution amount, paid semi annual.",
+      "redemption": "Repaid at face value on 2031-06-30.",
+      "transferRules": "Transfers between verified, whitelisted wallets only. Holding limit 25% per investor."
+    },
+    "media": {
+      "cover": "/media/assets/ads-cover.webp",
+      "gallery": [
+        "/media/assets/ads-cover.webp",
+        "/media/assets/ads-2.webp"
+      ],
+      "videos": [
+        {
+          "youtubeId": "bW1AJsRlGZE",
+          "title": "Al Dhafra Solar PV",
+          "source": "Masdar"
+        }
+      ],
+      "credits": "Masdar; Energy News Africa"
+    }
+  },
+  {
+    "id": "ast_acred",
+    "tenantId": "tnt_srh",
+    "name": "Apollo Diversified Credit (ACRED)",
+    "shortName": "Apollo Credit",
+    "template": "private-credit",
+    "status": "live",
+    "issuerId": "iss_acred",
+    "description": "Tokenised feeder into Apollo Diversified Credit Fund: corporate direct lending, asset-backed lending, performing credit and dislocated credit across Apollo's platform.",
+    "underlying": {
+      "description": "Units of Apollo Diversified Credit Fund",
+      "appraisedValue": 95300000,
+      "appraiser": "Monthly NAV by the fund administrator",
+      "metrics": [
+        {
+          "label": "Strategy",
+          "value": "Diversified private credit"
+        },
+        {
+          "label": "Sleeves",
+          "value": "Direct lending, asset-backed, performing, dislocated"
+        },
+        {
+          "label": "Liquidity",
+          "value": "Quarterly, subject to limits"
+        },
+        {
+          "label": "Chains",
+          "value": "7 networks"
+        }
+      ]
+    },
+    "legalEntity": {
+      "name": "Securitize Tokenized Apollo Diversified Credit Fund, Ltd.",
+      "structure": "Fund",
+      "jurisdiction": "VG",
+      "registrationNumber": "2156443"
+    },
+    "instrument": {
+      "type": "fund-unit",
+      "votingRights": false
+    },
+    "valuation": {
+      "method": "Monthly NAV of master fund",
+      "nav": 95300000,
+      "navPerToken": 1109.4,
+      "currency": "USD",
+      "frequency": "monthly",
+      "lastUpdated": "2026-09-30T16:00:00.000Z"
+    },
+    "income": {
+      "type": "Accumulating distributions",
+      "frequency": "monthly",
+      "targetYieldPct": 8.6
+    },
+    "servicer": "Securitize",
+    "ownershipModel": "transfer-agent",
+    "jurisdiction": "VG",
+    "regimes": [
+      "VG",
+      "AE-ADGM"
+    ],
+    "oracleMode": "manual",
+    "sponsorName": "Apollo Global Management",
+    "rules": {
+      "lockupDays": 90,
+      "holdingLimitPct": 15,
+      "minInvestment": 50000,
+      "eligibleClassifications": [
+        "professional",
+        "qualified-purchaser",
+        "institutional",
+        "market-counterparty"
+      ],
+      "blockedCountries": [
+        "US",
+        "KP",
+        "IR",
+        "SY"
+      ]
+    },
+    "createdAt": "2025-02-12T00:00:00Z",
+    "launchedAt": "2025-03-01T00:00:00Z",
+    "visual": "credit",
+    "highlights": [
+      "Apollo-managed master fund",
+      "Monthly subscriptions",
+      "Multi-chain units"
+    ],
+    "shareClasses": [
+      {
+        "id": "scl_12r6d7d",
+        "name": "Ordinary",
+        "currency": "USD",
+        "managementFeeBps": 75,
+        "minInvestment": 50000,
+        "eligibleClassifications": [
+          "professional",
+          "qualified-purchaser",
+          "institutional",
+          "market-counterparty"
+        ],
+        "tokenClassId": "tok_acred"
+      }
+    ],
+    "tokenClassIds": [
+      "tok_acred"
+    ],
+    "documents": [
+      {
+        "id": "adoc_12s2ab4",
+        "name": "Offering memorandum and supplement",
+        "kind": "offering-memorandum",
+        "version": "v3.2",
+        "status": "final",
+        "updatedAt": "2026-03-25T16:00:00.000Z",
+        "hash": "0x9f544da23d67fbd382e3c49f18b94b802162f40d8abd6c431aadd490c9dd7343",
+        "visibility": "public",
+        "sizeKb": 3681,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_12t291f",
+        "name": "Term sheet",
+        "kind": "term-sheet",
+        "version": "v2.0",
+        "status": "signed",
+        "updatedAt": "2026-06-20T16:00:00.000Z",
+        "hash": "0x2f06f69cee1b0e1ca0436631f3210ef7473c9cf3ba2fe702acb2442f6fc2e32d",
+        "visibility": "public",
+        "sizeKb": 1845,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_12ub57c",
+        "name": "Fund constitutional documents",
+        "kind": "spv-constitution",
+        "version": "v1.0",
+        "status": "signed",
+        "updatedAt": "2025-12-24T16:00:00.000Z",
+        "hash": "0x171f0676c02c42950ad943d202e739a0df91ea2096db22b44cc2ede60137076b",
+        "visibility": "holders",
+        "sizeKb": 3324,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_12vc305",
+        "name": "Legal opinion on token characterisation",
+        "kind": "legal-opinion",
+        "version": "v1.1",
+        "status": "signed",
+        "updatedAt": "2026-07-27T16:00:00.000Z",
+        "hash": "0x5536ac779995c48814b7559e9f466fcea574c55fa4cbcc7bb815d598c8015818",
+        "visibility": "internal",
+        "sizeKb": 2219,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_12w0975",
+        "name": "Latest valuation report",
+        "kind": "valuation-report",
+        "version": "Q3 2026",
+        "status": "final",
+        "updatedAt": "2026-09-09T16:00:00.000Z",
+        "hash": "0xd9f29a04db94e4898007cb91c2dbcc8d37ae234c8d334589562ef5f89478a68f",
+        "visibility": "holders",
+        "sizeKb": 2403,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_12x0d84",
+        "name": "Q2 2026 investor report",
+        "kind": "investor-report",
+        "version": "Q2 2026",
+        "status": "final",
+        "updatedAt": "2026-07-21T16:00:00.000Z",
+        "hash": "0xd53c4d6ecb115d1fa5753aa844f06e55eafa49a18ad6421d02c071f71e97f689",
+        "visibility": "holders",
+        "sizeKb": 464,
+        "uploadedBy": "Sara Kim"
+      }
+    ],
+    "policyPackIds": [
+      "pol_global"
+    ],
+    "aum": 95300000,
+    "investorsCount": 17,
+    "navHistory": [
+      {
+        "date": "2025-09-01T16:00:00.000Z",
+        "nav": 1013.5
+      },
+      {
+        "date": "2025-10-01T16:00:00.000Z",
+        "nav": 1020.95
+      },
+      {
+        "date": "2025-10-31T16:00:00.000Z",
+        "nav": 1024.92
+      },
+      {
+        "date": "2025-11-30T16:00:00.000Z",
+        "nav": 1032.65
+      },
+      {
+        "date": "2025-12-30T16:00:00.000Z",
+        "nav": 1046.29
+      },
+      {
+        "date": "2026-01-29T16:00:00.000Z",
+        "nav": 1047.63
+      },
+      {
+        "date": "2026-02-28T16:00:00.000Z",
+        "nav": 1051.12
+      },
+      {
+        "date": "2026-03-30T16:00:00.000Z",
+        "nav": 1063.81
+      },
+      {
+        "date": "2026-04-29T16:00:00.000Z",
+        "nav": 1073.78
+      },
+      {
+        "date": "2026-05-29T16:00:00.000Z",
+        "nav": 1077.18
+      },
+      {
+        "date": "2026-06-28T16:00:00.000Z",
+        "nav": 1080.62
+      },
+      {
+        "date": "2026-07-28T16:00:00.000Z",
+        "nav": 1091.58
+      },
+      {
+        "date": "2026-08-27T16:00:00.000Z",
+        "nav": 1100.89
+      },
+      {
+        "date": "2026-09-26T16:00:00.000Z",
+        "nav": 1107.02
+      },
+      {
+        "date": "2026-10-06T16:00:00.000Z",
+        "nav": 1109.4
+      }
+    ],
+    "tokenomics": {
+      "allocation": [
+        {
+          "label": "Offered to investors",
+          "pct": 90
+        },
+        {
+          "label": "Sponsor co-investment",
+          "pct": 10
+        }
+      ],
+      "fees": [
+        {
+          "label": "Subscription fee",
+          "value": "Up to 1.00%"
+        },
+        {
+          "label": "Management fee",
+          "value": "0.75% a year"
+        }
+      ],
+      "lockups": [
+        {
+          "label": "All investors",
+          "detail": "90 days from subscription"
+        }
+      ],
+      "distributionPolicy": "Accumulating distributions, paid monthly.",
+      "redemption": "Periodic redemption windows, subject to limits.",
+      "transferRules": "Transfers between verified, whitelisted wallets only. Holding limit 15% per investor."
+    },
+    "media": {
+      "cover": "/media/assets/acred-cover.webp",
+      "gallery": [
+        "/media/assets/acred-cover.webp"
+      ],
+      "videos": [
+        {
+          "youtubeId": "M0w-yOJx6-g",
+          "title": "What a tokenized future looks like",
+          "source": "Securitize"
+        }
+      ],
+      "credits": "9 West 57th Street, New York. Ajay Suresh, CC BY 2.0"
+    }
+  },
+  {
+    "id": "ast_hlpaf",
+    "tenantId": "tnt_srh",
+    "name": "Hamilton Lane Global Private Assets Fund",
+    "shortName": "Hamilton Lane GPA",
+    "template": "private-equity",
+    "status": "live",
+    "issuerId": "iss_hl",
+    "description": "Evergreen private markets fund investing across direct equity, secondaries and co-investments, with monthly subscriptions and quarterly liquidity. Tokenised units for professional investors.",
+    "underlying": {
+      "description": "Diversified portfolio of private equity, secondaries and co-investments",
+      "appraisedValue": 64000000,
+      "appraiser": "Monthly NAV, IPEV guidelines",
+      "metrics": [
+        {
+          "label": "Strategies",
+          "value": "Direct equity, secondaries, co-investments"
+        },
+        {
+          "label": "Subscriptions",
+          "value": "Monthly"
+        },
+        {
+          "label": "Liquidity",
+          "value": "Quarterly, up to 5% of NAV"
+        },
+        {
+          "label": "Vintage diversification",
+          "value": "2014 to 2026"
+        }
+      ]
+    },
+    "legalEntity": {
+      "name": "Hamilton Lane Global Private Assets Fund",
+      "structure": "Fund",
+      "jurisdiction": "EU-LU",
+      "registrationNumber": "B259102"
+    },
+    "instrument": {
+      "type": "fund-unit",
+      "votingRights": false
+    },
+    "valuation": {
+      "method": "Monthly NAV (IPEV guidelines)",
+      "nav": 64000000,
+      "navPerToken": 1.312,
+      "currency": "USD",
+      "frequency": "monthly",
+      "lastUpdated": "2026-09-30T16:00:00.000Z"
+    },
+    "income": {
+      "type": "Capital growth",
+      "frequency": "annual",
+      "targetYieldPct": 11.5
+    },
+    "servicer": "State Street Bank International",
+    "ownershipModel": "transfer-agent",
+    "jurisdiction": "EU-LU",
+    "regimes": [
+      "EU-LU",
+      "EU",
+      "AE-DIFC"
+    ],
+    "oracleMode": "manual",
+    "sponsorName": "Hamilton Lane",
+    "rules": {
+      "lockupDays": 365,
+      "holdingLimitPct": 10,
+      "minInvestment": 25000,
+      "eligibleClassifications": [
+        "professional",
+        "qualified-purchaser",
+        "institutional"
+      ],
+      "blockedCountries": [
+        "US",
+        "KP",
+        "IR",
+        "SY"
+      ]
+    },
+    "createdAt": "2025-03-10T00:00:00Z",
+    "launchedAt": "2025-05-02T00:00:00Z",
+    "visual": "growth",
+    "highlights": [
+      "Evergreen access to private equity",
+      "Monthly entry",
+      "Quarterly liquidity"
+    ],
+    "shareClasses": [
+      {
+        "id": "scl_130e75d",
+        "name": "Ordinary",
+        "currency": "USD",
+        "managementFeeBps": 175,
+        "performanceFeeBps": 1250,
+        "minInvestment": 25000,
+        "eligibleClassifications": [
+          "professional",
+          "qualified-purchaser",
+          "institutional"
+        ],
+        "tokenClassId": "tok_hlgpa"
+      }
+    ],
+    "tokenClassIds": [
+      "tok_hlgpa"
+    ],
+    "documents": [
+      {
+        "id": "adoc_13192b2",
+        "name": "Offering memorandum and supplement",
+        "kind": "offering-memorandum",
+        "version": "v3.2",
+        "status": "final",
+        "updatedAt": "2026-03-29T16:00:00.000Z",
+        "hash": "0x2642294f4e47d5c002457a86e5e3543e4252f98389c8ca81671c078d709e774e",
+        "visibility": "public",
+        "sizeKb": 2926,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_132e72a",
+        "name": "Term sheet",
+        "kind": "term-sheet",
+        "version": "v2.0",
+        "status": "signed",
+        "updatedAt": "2026-04-12T16:00:00.000Z",
+        "hash": "0x915d3f1f3ceeb149f399da1d9e7400ea97cff302e0e8c3610457a7c65c70c5d2",
+        "visibility": "public",
+        "sizeKb": 1784,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_1335260",
+        "name": "Fund constitutional documents",
+        "kind": "spv-constitution",
+        "version": "v1.0",
+        "status": "signed",
+        "updatedAt": "2026-03-23T16:00:00.000Z",
+        "hash": "0x7628df5c0d72a2842f3e24cce8dcf78fbaa05440f81e36d943dc463c879e54aa",
+        "visibility": "holders",
+        "sizeKb": 3996,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_1344c54",
+        "name": "Legal opinion on token characterisation",
+        "kind": "legal-opinion",
+        "version": "v1.1",
+        "status": "signed",
+        "updatedAt": "2026-06-30T16:00:00.000Z",
+        "hash": "0x91b68342e5d9d21013811dc3cc048dfb80fb2f12044229d222d88fbc9b6b6d8f",
+        "visibility": "internal",
+        "sizeKb": 219,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_13593ef",
+        "name": "Latest valuation report",
+        "kind": "valuation-report",
+        "version": "Q3 2026",
+        "status": "final",
+        "updatedAt": "2026-09-10T16:00:00.000Z",
+        "hash": "0x8fd633cb2b569c18642323fcdc2aa83b9819178d104bcf1b2a926906a30666b5",
+        "visibility": "holders",
+        "sizeKb": 1131,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_136d2e5",
+        "name": "Q2 2026 investor report",
+        "kind": "investor-report",
+        "version": "Q2 2026",
+        "status": "final",
+        "updatedAt": "2026-08-04T16:00:00.000Z",
+        "hash": "0x0727bb68e385c4643ee194fec66568cea997299e846abf7875e7255c4aef93e1",
+        "visibility": "holders",
+        "sizeKb": 3538,
+        "uploadedBy": "Sara Kim"
+      }
+    ],
+    "policyPackIds": [
+      "pol_global",
+      "pol_eu"
+    ],
+    "aum": 64000000,
+    "investorsCount": 18,
+    "navHistory": [
+      {
+        "date": "2025-09-01T16:00:00.000Z",
+        "nav": 1.155
+      },
+      {
+        "date": "2025-10-01T16:00:00.000Z",
+        "nav": 1.1411
+      },
+      {
+        "date": "2025-10-31T16:00:00.000Z",
+        "nav": 1.1458
+      },
+      {
+        "date": "2025-11-30T16:00:00.000Z",
+        "nav": 1.1849
+      },
+      {
+        "date": "2025-12-30T16:00:00.000Z",
+        "nav": 1.1922
+      },
+      {
+        "date": "2026-01-29T16:00:00.000Z",
+        "nav": 1.2148
+      },
+      {
+        "date": "2026-02-28T16:00:00.000Z",
+        "nav": 1.2363
+      },
+      {
+        "date": "2026-03-30T16:00:00.000Z",
+        "nav": 1.2392
+      },
+      {
+        "date": "2026-04-29T16:00:00.000Z",
+        "nav": 1.2417
+      },
+      {
+        "date": "2026-05-29T16:00:00.000Z",
+        "nav": 1.247
+      },
+      {
+        "date": "2026-06-28T16:00:00.000Z",
+        "nav": 1.2708
+      },
+      {
+        "date": "2026-07-28T16:00:00.000Z",
+        "nav": 1.2934
+      },
+      {
+        "date": "2026-08-27T16:00:00.000Z",
+        "nav": 1.2985
+      },
+      {
+        "date": "2026-09-26T16:00:00.000Z",
+        "nav": 1.3071
+      },
+      {
+        "date": "2026-10-06T16:00:00.000Z",
+        "nav": 1.312
+      }
+    ],
+    "tokenomics": {
+      "allocation": [
+        {
+          "label": "Offered to investors",
+          "pct": 90
+        },
+        {
+          "label": "Sponsor co-investment",
+          "pct": 10
+        }
+      ],
+      "fees": [
+        {
+          "label": "Subscription fee",
+          "value": "Up to 1.00%"
+        },
+        {
+          "label": "Management fee",
+          "value": "1.75% a year"
+        },
+        {
+          "label": "Performance fee",
+          "value": "12.5% over an 8% hurdle"
+        }
+      ],
+      "lockups": [
+        {
+          "label": "All investors",
+          "detail": "365 days from subscription"
+        }
+      ],
+      "distributionPolicy": "Capital growth, paid annual.",
+      "redemption": "Periodic redemption windows, subject to limits.",
+      "transferRules": "Transfers between verified, whitelisted wallets only. Holding limit 10% per investor."
+    },
+    "media": {
+      "cover": "/media/assets/hlpaf-cover.webp",
+      "gallery": [
+        "/media/assets/hlpaf-cover.webp"
+      ],
+      "videos": [
+        {
+          "youtubeId": "0fe8D4a1KS0",
+          "title": "Hamilton Lane Global Private Assets Fund",
+          "source": "Hamilton Lane"
+        }
+      ],
+      "credits": "Kirchberg, Luxembourg. European Parliament"
+    }
+  },
+  {
+    "id": "ast_kafd",
+    "tenantId": "tnt_srh",
+    "name": "KAFD Grade-A Office Income Fund",
+    "shortName": "KAFD Offices",
+    "template": "real-estate",
+    "status": "in-review",
+    "issuerId": "iss_kafd",
+    "description": "Grade-A office floors in the King Abdullah Financial District, let to regional headquarters tenants. Riyadh prime office occupancy reached 97% in Q2 2026. Pending CMA approval.",
+    "underlying": {
+      "description": "Twelve office floors across two KAFD towers, 41,200 sqm NLA",
+      "location": "King Abdullah Financial District, Riyadh",
+      "appraisedValue": 520000000,
+      "appraiser": "JLL (draft)",
+      "metrics": [
+        {
+          "label": "Occupancy",
+          "value": "97%"
+        },
+        {
+          "label": "WALE",
+          "value": "5.4 years"
+        },
+        {
+          "label": "Prime rent growth (KAFD)",
+          "value": "3% year on year"
+        },
+        {
+          "label": "Target distribution yield",
+          "value": "6.9%"
+        }
+      ]
+    },
+    "legalEntity": {
+      "name": "KAFD Grade-A Office Income Fund",
+      "structure": "Fund",
+      "jurisdiction": "SA",
+      "registrationNumber": "CMA-REF-1147"
+    },
+    "instrument": {
+      "type": "fund-unit",
+      "votingRights": true
+    },
+    "valuation": {
+      "method": "Semi-annual independent valuation",
+      "nav": 520000000,
+      "navPerToken": 10,
+      "currency": "SAR",
+      "frequency": "quarterly",
+      "lastUpdated": "2026-09-21T16:00:00.000Z"
+    },
+    "income": {
+      "type": "Rental distributions",
+      "frequency": "quarterly",
+      "targetYieldPct": 6.9
+    },
+    "servicer": "Riyad Capital",
+    "ownershipModel": "hybrid",
+    "jurisdiction": "SA",
+    "regimes": [
+      "SA"
+    ],
+    "oracleMode": "manual",
+    "sponsorName": "Riyad Capital",
+    "rules": {
+      "lockupDays": 365,
+      "holdingLimitPct": 10,
+      "minInvestment": 100000,
+      "eligibleClassifications": [
+        "professional",
+        "institutional",
+        "qualified-purchaser"
+      ],
+      "blockedCountries": [
+        "US",
+        "KP",
+        "IR",
+        "SY"
+      ]
+    },
+    "createdAt": "2026-06-22T00:00:00Z",
+    "visual": "tower",
+    "highlights": [
+      "Regional headquarters tenants",
+      "97% occupied market",
+      "Quarterly income"
+    ],
+    "shareClasses": [
+      {
+        "id": "scl_1393e2f",
+        "name": "Ordinary",
+        "currency": "SAR",
+        "managementFeeBps": 75,
+        "minInvestment": 100000,
+        "eligibleClassifications": [
+          "professional",
+          "institutional",
+          "qualified-purchaser"
+        ],
+        "tokenClassId": "tok_kafd"
+      }
+    ],
+    "tokenClassIds": [
+      "tok_kafd"
+    ],
+    "documents": [
+      {
+        "id": "adoc_13a2521",
+        "name": "Information memorandum",
+        "kind": "offering-memorandum",
+        "version": "v3.2",
+        "status": "final",
+        "updatedAt": "2026-06-20T16:00:00.000Z",
+        "hash": "0x8eee6b7b60379902382c234aecfbf60683dd66478eafb9103ed3021ff55ede61",
+        "visibility": "public",
+        "sizeKb": 528,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_13be208",
+        "name": "Term sheet",
+        "kind": "term-sheet",
+        "version": "v2.0",
+        "status": "signed",
+        "updatedAt": "2026-04-29T16:00:00.000Z",
+        "hash": "0x07d3516b0980cc6fe0eacd19cbbfac28b47e4a6f52e14fd0582d0d5d596d741d",
+        "visibility": "public",
+        "sizeKb": 501,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_13c37fa",
+        "name": "Fund constitutional documents",
+        "kind": "spv-constitution",
+        "version": "v1.0",
+        "status": "signed",
+        "updatedAt": "2026-04-11T16:00:00.000Z",
+        "hash": "0x79e498664462183dd2d5c32ceea8c75171613928e0009cd9f1628bd02dba024d",
+        "visibility": "holders",
+        "sizeKb": 1357,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_13de6ba",
+        "name": "Legal opinion on token characterisation",
+        "kind": "legal-opinion",
+        "version": "v1.1",
+        "status": "signed",
+        "updatedAt": "2026-04-06T16:00:00.000Z",
+        "hash": "0xbc04b8d4267ce5b310ca314b8e12e8ecc27c6a324fecf6df027b5f63bf766c1b",
+        "visibility": "internal",
+        "sizeKb": 665,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_13ebf2d",
+        "name": "Latest valuation report",
+        "kind": "valuation-report",
+        "version": "Q3 2026",
+        "status": "draft",
+        "updatedAt": "2026-09-08T16:00:00.000Z",
+        "hash": "0xbb92830d9bf7732c3f818341412df6f6f905ef8ee0dff6a0c1224c14f50b6386",
+        "visibility": "holders",
+        "sizeKb": 216,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_13f97a9",
+        "name": "Lease and title documents",
+        "kind": "title-deed",
+        "version": "v1.0",
+        "status": "signed",
+        "updatedAt": "2026-05-22T16:00:00.000Z",
+        "hash": "0x6c81793da054b63719adba9f99ee0621f22618f24fb3964534ee4d64cc40467e",
+        "visibility": "internal",
+        "sizeKb": 3548,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_13gf4c5",
+        "name": "Buildings insurance schedule",
+        "kind": "insurance",
+        "version": "2026/27",
+        "status": "final",
+        "updatedAt": "2026-07-21T16:00:00.000Z",
+        "hash": "0x8b08b57af7dd01e442c3edd6c6c80da725bfdf06f41327f66b4315657cc655bf",
+        "visibility": "holders",
+        "sizeKb": 680,
+        "uploadedBy": "Layla Haddad"
+      }
+    ],
+    "policyPackIds": [
+      "pol_global",
+      "pol_cma"
+    ],
+    "aum": 0,
+    "investorsCount": 0,
+    "navHistory": [
+      {
+        "date": "2026-09-21T16:00:00.000Z",
+        "nav": 10
+      }
+    ],
+    "tokenomics": {
+      "allocation": [
+        {
+          "label": "Offered to investors",
+          "pct": 90
+        },
+        {
+          "label": "Sponsor co-investment",
+          "pct": 10
+        }
+      ],
+      "fees": [
+        {
+          "label": "Subscription fee",
+          "value": "Up to 1.00%"
+        },
+        {
+          "label": "Management fee",
+          "value": "0.75% a year"
+        }
+      ],
+      "lockups": [
+        {
+          "label": "All investors",
+          "detail": "365 days from subscription"
+        }
+      ],
+      "distributionPolicy": "Rental distributions, paid quarterly.",
+      "redemption": "Periodic redemption windows, subject to limits.",
+      "transferRules": "Transfers between verified, whitelisted wallets only. Holding limit 10% per investor."
+    },
+    "media": {
+      "cover": "/media/assets/kafd-cover.webp",
+      "gallery": [
+        "/media/assets/kafd-cover.webp",
+        "/media/assets/kafd-2.webp"
+      ],
+      "credits": "B.alotaby, CC BY-SA 4.0; Faisal Arif, CC BY-SA 4.0 (Wikimedia Commons)"
+    }
+  },
+  {
+    "id": "ast_mbr6",
+    "tenantId": "tnt_srh",
+    "name": "MBR Solar Park Phase 6 Notes",
+    "shortName": "MBR Solar 6",
+    "template": "infrastructure",
+    "status": "structuring",
+    "issuerId": "iss_mbr",
+    "description": "Amortising notes financing part of the 1,800 MW sixth phase of the Mohammed bin Rashid Al Maktoum Solar Park, built by Masdar with DEWA as offtaker. Structuring in progress.",
+    "underlying": {
+      "description": "Senior amortising notes secured on project revenues under a 25-year PPA",
+      "location": "Seih Al Dahal, Dubai",
+      "appraisedValue": 150000000,
+      "metrics": [
+        {
+          "label": "Phase capacity",
+          "value": "1,800 MW"
+        },
+        {
+          "label": "Park target",
+          "value": "5,000 MW by 2030"
+        },
+        {
+          "label": "PPA tenor",
+          "value": "25 years"
+        }
+      ]
+    },
+    "legalEntity": {
+      "name": "MBR Solar Phase 6 Notes Issuer Ltd",
+      "structure": "SPV",
+      "jurisdiction": "AE-ADGM",
+      "registrationNumber": "Pending"
+    },
+    "instrument": {
+      "type": "note",
+      "couponPct": 7.25,
+      "maturity": "2036-12-31T00:00:00Z",
+      "seniority": "senior",
+      "votingRights": false
+    },
+    "valuation": {
+      "method": "Discounted cash flow on contracted revenue",
+      "nav": 0,
+      "navPerToken": 1000,
+      "currency": "USD",
+      "frequency": "quarterly",
+      "lastUpdated": "2026-10-03T16:00:00.000Z"
+    },
+    "income": {
+      "type": "Interest plus amortisation",
+      "frequency": "semi-annual",
+      "targetYieldPct": 7.25
+    },
+    "servicer": "SRH Registrar Ltd",
+    "ownershipModel": "csd",
+    "jurisdiction": "AE-ADGM",
+    "regimes": [
+      "AE-ADGM"
+    ],
+    "oracleMode": "manual",
+    "sponsorName": "Masdar",
+    "rules": {
+      "lockupDays": 0,
+      "holdingLimitPct": 20,
+      "minInvestment": 100000,
+      "eligibleClassifications": [
+        "professional",
+        "institutional"
+      ],
+      "blockedCountries": [
+        "US",
+        "KP",
+        "IR",
+        "SY"
+      ]
+    },
+    "createdAt": "2026-09-14T00:00:00Z",
+    "visual": "solar",
+    "shareClasses": [
+      {
+        "id": "scl_13hd406",
+        "name": "Ordinary",
+        "currency": "USD",
+        "managementFeeBps": 75,
+        "minInvestment": 100000,
+        "eligibleClassifications": [
+          "professional",
+          "institutional"
+        ]
+      }
+    ],
+    "tokenClassIds": [],
+    "documents": [
+      {
+        "id": "adoc_13i50c0",
+        "name": "Information memorandum",
+        "kind": "offering-memorandum",
+        "version": "v3.2",
+        "status": "final",
+        "updatedAt": "2026-06-16T16:00:00.000Z",
+        "hash": "0x25514f4df5a2549a080b8c1a15fc036a5f525283fc1fb714f58035b65fd4129a",
+        "visibility": "public",
+        "sizeKb": 3731,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_13j3e07",
+        "name": "Term sheet",
+        "kind": "term-sheet",
+        "version": "v2.0",
+        "status": "signed",
+        "updatedAt": "2026-04-09T16:00:00.000Z",
+        "hash": "0x6893a61743114630d774bd14555244959986e493b82e35982b28385cb1d4fdce",
+        "visibility": "public",
+        "sizeKb": 2444,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_13kcf76",
+        "name": "SPV constitutional documents",
+        "kind": "spv-constitution",
+        "version": "v1.0",
+        "status": "signed",
+        "updatedAt": "2026-04-03T16:00:00.000Z",
+        "hash": "0xba08e6d58cf60a6cf1ede1360871819bc82ed4faaa680cb9cf89305caba8a925",
+        "visibility": "holders",
+        "sizeKb": 1913,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_13l4efe",
+        "name": "Legal opinion on token characterisation",
+        "kind": "legal-opinion",
+        "version": "v1.1",
+        "status": "signed",
+        "updatedAt": "2026-08-26T16:00:00.000Z",
+        "hash": "0x13e0371edccc5778625ba7325e711980d8473bb4ba03e8028d0767dc22559cfc",
+        "visibility": "internal",
+        "sizeKb": 2857,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_13m137e",
+        "name": "Latest valuation report",
+        "kind": "valuation-report",
+        "version": "Q3 2026",
+        "status": "draft",
+        "updatedAt": "2026-09-03T16:00:00.000Z",
+        "hash": "0x3138c9060eb84a4d23bc20074f35c71600ab15d7a564f7ee49ee26fa49a0a326",
+        "visibility": "holders",
+        "sizeKb": 956,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_13n7d05",
+        "name": "Independent engineer report (DNV)",
+        "kind": "technical-report",
+        "version": "v1.0",
+        "status": "draft",
+        "updatedAt": "2026-07-04T16:00:00.000Z",
+        "hash": "0xb9fc2f7f22822aa893ad6bfb60780b9ad75110c1717360e95e524fb03f1b65cd",
+        "visibility": "holders",
+        "sizeKb": 2864,
+        "uploadedBy": "Layla Haddad"
+      }
+    ],
+    "policyPackIds": [
+      "pol_global",
+      "pol_adgm"
+    ],
+    "aum": 0,
+    "investorsCount": 0,
+    "navHistory": [
+      {
+        "date": "2026-10-03T16:00:00.000Z",
+        "nav": 1000
+      }
+    ],
+    "debt": {
+      "faceValue": 1000,
+      "couponPct": 7.25,
+      "couponFrequency": "semi-annual",
+      "issueDate": "2027-01-15T00:00:00Z",
+      "maturity": "2036-12-31T00:00:00Z",
+      "yieldPct": 7.25,
+      "issuePrice": 1000,
+      "dayCount": "30/360",
+      "amortising": true
+    },
+    "media": {
+      "cover": "/media/assets/mbr6-cover.webp",
+      "gallery": [
+        "/media/assets/mbr6-cover.webp",
+        "/media/assets/mbr6-2.webp"
+      ],
+      "videos": [
+        {
+          "youtubeId": "_cFzAd6FDZA",
+          "title": "Mohammed bin Rashid Al Maktoum Solar Park",
+          "source": "Dubai Electricity and Water Authority"
+        }
+      ],
+      "credits": "Dubai Media Office; Wikimedia Commons"
+    }
+  },
+  {
+    "id": "ast_bbr",
+    "tenantId": "tnt_srh",
+    "name": "Business Bay Residences",
+    "shortName": "Business Bay",
+    "template": "spv-shares",
+    "status": "live",
+    "issuerId": "iss_bbr",
+    "description": "Shares in an SPV that owns six furnished apartments in Business Bay, Dubai, title registered with the Dubai Land Department. Entry from AED 2,000.",
+    "underlying": {
+      "description": "Six one and two bedroom apartments let on 12-month tenancies",
+      "location": "Business Bay, Dubai, UAE",
+      "appraisedValue": 14700000,
+      "appraiser": "Cavendish Maxwell",
+      "metrics": [
+        {
+          "label": "Apartments",
+          "value": "6"
+        },
+        {
+          "label": "Occupancy",
+          "value": "100%"
+        },
+        {
+          "label": "Gross rental yield",
+          "value": "7.8%"
+        },
+        {
+          "label": "Title",
+          "value": "DLD registered"
+        }
+      ]
+    },
+    "legalEntity": {
+      "name": "Business Bay Residences SPV Ltd",
+      "structure": "SPV",
+      "jurisdiction": "AE-VARA",
+      "registrationNumber": "DLD-SPV-2026-0418"
+    },
+    "instrument": {
+      "type": "equity",
+      "votingRights": true
+    },
+    "valuation": {
+      "method": "Quarterly valuation, net asset value of the SPV",
+      "nav": 13200000,
+      "navPerToken": 10.42,
+      "currency": "AED",
+      "frequency": "quarterly",
+      "lastUpdated": "2026-09-24T16:00:00.000Z"
+    },
+    "income": {
+      "type": "Dividends from net rent",
+      "frequency": "quarterly",
+      "targetYieldPct": 6.1
+    },
+    "servicer": "Betterhomes",
+    "ownershipModel": "transfer-agent",
+    "jurisdiction": "AE-VARA",
+    "regimes": [
+      "AE-VARA"
+    ],
+    "oracleMode": "manual",
+    "rules": {
+      "lockupDays": 90,
+      "holdingLimitPct": 20,
+      "minInvestment": 2000,
+      "eligibleClassifications": [
+        "retail",
+        "professional",
+        "accredited",
+        "qualified-purchaser",
+        "institutional",
+        "market-counterparty"
+      ],
+      "blockedCountries": [
+        "US",
+        "KP",
+        "IR",
+        "SY"
+      ]
+    },
+    "createdAt": "2026-06-01T00:00:00Z",
+    "launchedAt": "2026-07-20T00:00:00Z",
+    "visual": "tower",
+    "profile": [
+      {
+        "label": "Property type",
+        "value": "Residential apartments"
+      },
+      {
+        "label": "Units",
+        "value": "6"
+      },
+      {
+        "label": "Shares in issue",
+        "value": "1,410,000 at completion"
+      },
+      {
+        "label": "Registrar",
+        "value": "Dubai Land Department"
+      }
+    ],
+    "highlights": [
+      "From AED 2,000",
+      "DLD registered title",
+      "Quarterly dividends"
+    ],
+    "shareClasses": [
+      {
+        "id": "scl_13p83ec",
+        "name": "Ordinary",
+        "currency": "AED",
+        "managementFeeBps": 75,
+        "minInvestment": 2000,
+        "eligibleClassifications": [
+          "retail",
+          "professional",
+          "accredited",
+          "qualified-purchaser",
+          "institutional",
+          "market-counterparty"
+        ],
+        "tokenClassId": "tok_bbrs"
+      }
+    ],
+    "tokenClassIds": [
+      "tok_bbrs"
+    ],
+    "documents": [
+      {
+        "id": "adoc_13q655d",
+        "name": "Information memorandum",
+        "kind": "offering-memorandum",
+        "version": "v3.2",
+        "status": "final",
+        "updatedAt": "2026-05-14T16:00:00.000Z",
+        "hash": "0x3fd6150ca1e0326c8d1d02fd78ba8489c6b4a39b3537cd5effe5191fde269b38",
+        "visibility": "public",
+        "sizeKb": 1588,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_13r4f23",
+        "name": "Term sheet",
+        "kind": "term-sheet",
+        "version": "v2.0",
+        "status": "signed",
+        "updatedAt": "2026-04-17T16:00:00.000Z",
+        "hash": "0x2303c76c58abfb14d4227772a79e1efeef7a1936dc88be152dac127dd6d88d11",
+        "visibility": "public",
+        "sizeKb": 2031,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_13sfdd6",
+        "name": "SPV constitutional documents",
+        "kind": "spv-constitution",
+        "version": "v1.0",
+        "status": "signed",
+        "updatedAt": "2026-05-25T16:00:00.000Z",
+        "hash": "0xbc7e6a5fa6dbac665933df0a290a905ff7731b7a5609870e8d6792e4a14cec4a",
+        "visibility": "holders",
+        "sizeKb": 3347,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_13t125f",
+        "name": "Legal opinion on token characterisation",
+        "kind": "legal-opinion",
+        "version": "v1.1",
+        "status": "signed",
+        "updatedAt": "2026-06-10T16:00:00.000Z",
+        "hash": "0x5bf37292da01451c3f0fa48a06e0b0dbc13d91a7a5210b9bdd1fa3be3dab7a6d",
+        "visibility": "internal",
+        "sizeKb": 1943,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_13u5919",
+        "name": "Latest valuation report",
+        "kind": "valuation-report",
+        "version": "Q3 2026",
+        "status": "final",
+        "updatedAt": "2026-09-16T16:00:00.000Z",
+        "hash": "0xc63f706d7c06225adc14dabcecae9ce93884db334b0211d83c724568fd75fb71",
+        "visibility": "holders",
+        "sizeKb": 445,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_13va4de",
+        "name": "DLD title deeds (6 units)",
+        "kind": "title-deed",
+        "version": "v1.0",
+        "status": "signed",
+        "updatedAt": "2026-07-18T16:00:00.000Z",
+        "hash": "0x75e484a6e2e89359e42b880177f3480bc68e0b695f4bcc2b84be2ebd78244f79",
+        "visibility": "internal",
+        "sizeKb": 1195,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_13w969f",
+        "name": "Buildings insurance schedule",
+        "kind": "insurance",
+        "version": "2026/27",
+        "status": "final",
+        "updatedAt": "2026-08-25T16:00:00.000Z",
+        "hash": "0xbe5a6c50a0bdb709f2ba8b02805efef15bc370d373ecd24f94822e28fe098f30",
+        "visibility": "holders",
+        "sizeKb": 2173,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_13x044f",
+        "name": "Q2 2026 investor report",
+        "kind": "investor-report",
+        "version": "Q2 2026",
+        "status": "final",
+        "updatedAt": "2026-07-17T16:00:00.000Z",
+        "hash": "0xb8b750e65c97f2ed16c6a82f1321b664f22d98c81ec3b849fa5e3960469cf332",
+        "visibility": "holders",
+        "sizeKb": 1842,
+        "uploadedBy": "Sara Kim"
+      }
+    ],
+    "policyPackIds": [
+      "pol_global",
+      "pol_vara"
+    ],
+    "aum": 13200000,
+    "investorsCount": 15,
+    "navHistory": [
+      {
+        "date": "2026-07-20T00:00:00.000Z",
+        "nav": 10
+      },
+      {
+        "date": "2026-07-27T00:00:00.000Z",
+        "nav": 10.06
+      },
+      {
+        "date": "2026-08-03T00:00:00.000Z",
+        "nav": 10.07
+      },
+      {
+        "date": "2026-08-10T00:00:00.000Z",
+        "nav": 10.04
+      },
+      {
+        "date": "2026-08-17T00:00:00.000Z",
+        "nav": 10.16
+      },
+      {
+        "date": "2026-08-24T00:00:00.000Z",
+        "nav": 10.22
+      },
+      {
+        "date": "2026-08-31T00:00:00.000Z",
+        "nav": 10.25
+      },
+      {
+        "date": "2026-09-07T00:00:00.000Z",
+        "nav": 10.23
+      },
+      {
+        "date": "2026-09-14T00:00:00.000Z",
+        "nav": 10.21
+      },
+      {
+        "date": "2026-09-21T00:00:00.000Z",
+        "nav": 10.35
+      },
+      {
+        "date": "2026-09-28T00:00:00.000Z",
+        "nav": 10.39
+      },
+      {
+        "date": "2026-10-05T00:00:00.000Z",
+        "nav": 10.41
+      },
+      {
+        "date": "2026-10-06T16:00:00.000Z",
+        "nav": 10.42
+      }
+    ],
+    "tokenomics": {
+      "allocation": [
+        {
+          "label": "Offered to investors",
+          "pct": 90
+        },
+        {
+          "label": "Sponsor co-investment",
+          "pct": 10
+        }
+      ],
+      "fees": [
+        {
+          "label": "Subscription fee",
+          "value": "Up to 1.00%"
+        },
+        {
+          "label": "Management fee",
+          "value": "0.75% a year"
+        }
+      ],
+      "lockups": [
+        {
+          "label": "All investors",
+          "detail": "90 days from subscription"
+        }
+      ],
+      "distributionPolicy": "Dividends from net rent, paid quarterly.",
+      "redemption": "Periodic redemption windows, subject to limits.",
+      "transferRules": "Transfers between verified, whitelisted wallets only. Holding limit 20% per investor."
+    },
+    "media": {
+      "cover": "/media/assets/bbr-cover.webp",
+      "gallery": [
+        "/media/assets/bbr-cover.webp",
+        "/media/assets/bbr-2.webp"
+      ],
+      "videos": [
+        {
+          "youtubeId": "BNtmqdorVFg",
+          "title": "UAE launches first official tokenised real estate project",
+          "source": "Dubai Eye 103.8"
+        }
+      ],
+      "credits": "Savills; Wikimedia Commons"
+    }
+  },
+  {
+    "id": "ast_xyz_res",
+    "tenantId": "tnt_xyz",
+    "name": "Dubai Marina Serviced Residences",
+    "shortName": "Marina Residences",
+    "template": "real-estate",
+    "status": "live",
+    "issuerId": "iss_xyz",
+    "description": "Income units over 212 furnished rental apartments in Dubai Marina, managed short and mid-term lets. Distributed by Talara Securities under its own licence.",
+    "underlying": {
+      "description": "212 serviced apartments",
+      "location": "Dubai Marina, UAE",
+      "appraisedValue": 58000000,
+      "metrics": [
+        {
+          "label": "Occupancy",
+          "value": "88%"
+        },
+        {
+          "label": "Average daily rate",
+          "value": "AED 690"
+        }
+      ]
+    },
+    "legalEntity": {
+      "name": "Talara Structured Products SPV, Cell 3",
+      "structure": "SPV",
+      "jurisdiction": "AE-DIFC",
+      "registrationNumber": "CL9004-C3"
+    },
+    "instrument": {
+      "type": "revenue-share",
+      "votingRights": false
+    },
+    "valuation": {
+      "method": "Quarterly appraisal",
+      "nav": 31200000,
+      "navPerToken": 5.2,
+      "currency": "USD",
+      "frequency": "quarterly",
+      "lastUpdated": "2026-09-26T16:00:00.000Z"
+    },
+    "income": {
+      "type": "Net rental revenue share",
+      "frequency": "monthly",
+      "targetYieldPct": 8.4
+    },
+    "servicer": "Talara Property Services",
+    "ownershipModel": "custodian",
+    "jurisdiction": "AE-DIFC",
+    "regimes": [
+      "AE-DIFC"
+    ],
+    "rules": {
+      "lockupDays": 90,
+      "holdingLimitPct": 10,
+      "minInvestment": 5000,
+      "eligibleClassifications": [
+        "professional",
+        "accredited",
+        "qualified-purchaser",
+        "institutional",
+        "market-counterparty"
+      ],
+      "blockedCountries": [
+        "US",
+        "KP",
+        "IR",
+        "SY"
+      ]
+    },
+    "createdAt": "2026-05-25T00:00:00Z",
+    "launchedAt": "2026-07-01T00:00:00Z",
+    "visual": "tower",
+    "shareClasses": [
+      {
+        "id": "scl_13zdece",
+        "name": "Ordinary",
+        "currency": "USD",
+        "managementFeeBps": 75,
+        "minInvestment": 5000,
+        "eligibleClassifications": [
+          "professional",
+          "accredited",
+          "qualified-purchaser",
+          "institutional",
+          "market-counterparty"
+        ],
+        "tokenClassId": "tok_xmcr"
+      }
+    ],
+    "tokenClassIds": [
+      "tok_xmcr"
+    ],
+    "documents": [
+      {
+        "id": "adoc_1407de2",
+        "name": "Information memorandum",
+        "kind": "offering-memorandum",
+        "version": "v3.2",
+        "status": "final",
+        "updatedAt": "2026-04-30T16:00:00.000Z",
+        "hash": "0x8102190462b11aaff32450286c322681a4c7e25df2eca0fe0e28819e0d4c28e8",
+        "visibility": "public",
+        "sizeKb": 2027,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_141019c",
+        "name": "Term sheet",
+        "kind": "term-sheet",
+        "version": "v2.0",
+        "status": "signed",
+        "updatedAt": "2026-05-16T16:00:00.000Z",
+        "hash": "0x3c6820950fc8f11d054c0a0595bb9c4f4f5c9c57c08b92b3ddf9f42dbf801420",
+        "visibility": "public",
+        "sizeKb": 863,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_142c95b",
+        "name": "SPV constitutional documents",
+        "kind": "spv-constitution",
+        "version": "v1.0",
+        "status": "signed",
+        "updatedAt": "2026-02-24T16:00:00.000Z",
+        "hash": "0xb7c7e72ec78312e813b7cfed9ae1d7838a8b8792e3af95c7df1a254fd128cb40",
+        "visibility": "holders",
+        "sizeKb": 182,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_143eba9",
+        "name": "Legal opinion on token characterisation",
+        "kind": "legal-opinion",
+        "version": "v1.1",
+        "status": "signed",
+        "updatedAt": "2026-06-25T16:00:00.000Z",
+        "hash": "0xa12efe41cd1947fb45c41293832fab91d85292881562214708a931540ae87fdd",
+        "visibility": "internal",
+        "sizeKb": 285,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_144963e",
+        "name": "Latest valuation report",
+        "kind": "valuation-report",
+        "version": "Q3 2026",
+        "status": "final",
+        "updatedAt": "2026-09-28T16:00:00.000Z",
+        "hash": "0xde2fc95970c204d17f0119f42ae2e8e9f715a2e709e14f2948e7624050497859",
+        "visibility": "holders",
+        "sizeKb": 881,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_1459bb1",
+        "name": "Lease and title documents",
+        "kind": "title-deed",
+        "version": "v1.0",
+        "status": "signed",
+        "updatedAt": "2026-05-11T16:00:00.000Z",
+        "hash": "0x8698a4e9ac8af4097840e816ab22cf6afaf52583544a6996eec6d574bc85f9de",
+        "visibility": "internal",
+        "sizeKb": 1895,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_1460954",
+        "name": "Buildings insurance schedule",
+        "kind": "insurance",
+        "version": "2026/27",
+        "status": "final",
+        "updatedAt": "2026-08-15T16:00:00.000Z",
+        "hash": "0x123134b862d2d9bc33a905a468e4fd882aa0640b0ad847e277ef7352a5332c4e",
+        "visibility": "holders",
+        "sizeKb": 1016,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_14731f4",
+        "name": "Q2 2026 investor report",
+        "kind": "investor-report",
+        "version": "Q2 2026",
+        "status": "final",
+        "updatedAt": "2026-08-06T16:00:00.000Z",
+        "hash": "0x9e750748ecce7cd5c0e55a65dbc4ddeebaff42905063aa9fb46cc21ea6657c4e",
+        "visibility": "holders",
+        "sizeKb": 1958,
+        "uploadedBy": "Sara Kim"
+      }
+    ],
+    "policyPackIds": [
+      "pol_global",
+      "pol_difc"
+    ],
+    "aum": 31200000,
+    "investorsCount": 3,
+    "navHistory": [
+      {
+        "date": "2026-07-01T00:00:00.000Z",
+        "nav": 4.9524
+      },
+      {
+        "date": "2026-07-15T00:00:00.000Z",
+        "nav": 4.968
+      },
+      {
+        "date": "2026-07-29T00:00:00.000Z",
+        "nav": 5.0202
+      },
+      {
+        "date": "2026-08-12T00:00:00.000Z",
+        "nav": 5.0996
+      },
+      {
+        "date": "2026-08-26T00:00:00.000Z",
+        "nav": 5.1353
+      },
+      {
+        "date": "2026-09-09T00:00:00.000Z",
+        "nav": 5.1486
+      },
+      {
+        "date": "2026-09-23T00:00:00.000Z",
+        "nav": 5.1554
+      },
+      {
+        "date": "2026-10-06T16:00:00.000Z",
+        "nav": 5.2
+      }
+    ],
+    "tokenomics": {
+      "allocation": [
+        {
+          "label": "Offered to investors",
+          "pct": 90
+        },
+        {
+          "label": "Sponsor co-investment",
+          "pct": 10
+        }
+      ],
+      "fees": [
+        {
+          "label": "Subscription fee",
+          "value": "Up to 1.00%"
+        },
+        {
+          "label": "Management fee",
+          "value": "0.75% a year"
+        }
+      ],
+      "lockups": [
+        {
+          "label": "All investors",
+          "detail": "90 days from subscription"
+        }
+      ],
+      "distributionPolicy": "Net rental revenue share, paid monthly.",
+      "redemption": "Periodic redemption windows, subject to limits.",
+      "transferRules": "Transfers between verified, whitelisted wallets only. Holding limit 10% per investor."
+    },
+    "media": {
+      "cover": "/media/assets/marina-cover.webp",
+      "gallery": [
+        "/media/assets/marina-cover.webp",
+        "/media/assets/marina-interior.webp"
+      ]
+    }
+  },
+  {
+    "id": "ast_xyz_zero",
+    "tenantId": "tnt_xyz",
+    "name": "Talara Zero Coupon Note 2029",
+    "shortName": "Talara Zero 29",
+    "template": "bond",
+    "status": "live",
+    "issuerId": "iss_xyz",
+    "description": "Three-year zero-coupon note issued at a discount and redeemed at par in June 2029. The return comes from the discount: 6.10% a year compounded.",
+    "underlying": {
+      "description": "Senior unsecured zero-coupon note",
+      "appraisedValue": 25000000,
+      "metrics": [
+        {
+          "label": "Issue price",
+          "value": "83.72 per 100"
+        },
+        {
+          "label": "Redemption",
+          "value": "100 at maturity"
+        },
+        {
+          "label": "Yield to maturity",
+          "value": "6.10%"
+        }
+      ]
+    },
+    "legalEntity": {
+      "name": "Talara Structured Products SPV, Cell 5",
+      "structure": "SPV",
+      "jurisdiction": "AE-DIFC",
+      "registrationNumber": "CL9004-C5"
+    },
+    "instrument": {
+      "type": "debt",
+      "couponPct": 0,
+      "maturity": "2029-06-30T00:00:00Z",
+      "seniority": "senior",
+      "votingRights": false
+    },
+    "valuation": {
+      "method": "Accreted value at yield to maturity",
+      "nav": 21267500,
+      "navPerToken": 85.07,
+      "currency": "USD",
+      "frequency": "daily",
+      "lastUpdated": "2026-10-06T16:00:00.000Z"
+    },
+    "income": {
+      "type": "Discount accretion, paid at maturity",
+      "frequency": "annual",
+      "targetYieldPct": 6.1
+    },
+    "servicer": "Talara Securities LLC",
+    "ownershipModel": "custodian",
+    "jurisdiction": "AE-DIFC",
+    "regimes": [
+      "AE-DIFC"
+    ],
+    "rules": {
+      "lockupDays": 0,
+      "holdingLimitPct": 25,
+      "minInvestment": 10000,
+      "eligibleClassifications": [
+        "professional",
+        "accredited",
+        "qualified-purchaser",
+        "institutional",
+        "market-counterparty"
+      ],
+      "blockedCountries": [
+        "US",
+        "KP",
+        "IR",
+        "SY"
+      ]
+    },
+    "createdAt": "2026-06-01T00:00:00Z",
+    "launchedAt": "2026-06-30T00:00:00Z",
+    "visual": "credit",
+    "shareClasses": [
+      {
+        "id": "scl_149c3fc",
+        "name": "Ordinary",
+        "currency": "USD",
+        "managementFeeBps": 75,
+        "minInvestment": 10000,
+        "eligibleClassifications": [
+          "professional",
+          "accredited",
+          "qualified-purchaser",
+          "institutional",
+          "market-counterparty"
+        ],
+        "tokenClassId": "tok_tz29"
+      }
+    ],
+    "tokenClassIds": [
+      "tok_tz29"
+    ],
+    "documents": [
+      {
+        "id": "adoc_14ac94e",
+        "name": "Information memorandum",
+        "kind": "offering-memorandum",
+        "version": "v3.2",
+        "status": "final",
+        "updatedAt": "2026-07-25T16:00:00.000Z",
+        "hash": "0x1352c325df67c9424a274853f6b36431062437219cb2846c2f49a41b18823c5c",
+        "visibility": "public",
+        "sizeKb": 3213,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_14be9ce",
+        "name": "Term sheet",
+        "kind": "term-sheet",
+        "version": "v2.0",
+        "status": "signed",
+        "updatedAt": "2026-05-31T16:00:00.000Z",
+        "hash": "0xe698baec0db90f67ed5fd3c7ca85d826effa476b5a5122b0370501c092874ea9",
+        "visibility": "public",
+        "sizeKb": 3330,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_14c11e8",
+        "name": "SPV constitutional documents",
+        "kind": "spv-constitution",
+        "version": "v1.0",
+        "status": "signed",
+        "updatedAt": "2025-12-12T16:00:00.000Z",
+        "hash": "0x2538ac5b6d10e74df7931c7b818a7a4ea924eef77c26ffd2eebdfa0408cf6c93",
+        "visibility": "holders",
+        "sizeKb": 2997,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_14d97e0",
+        "name": "Legal opinion on token characterisation",
+        "kind": "legal-opinion",
+        "version": "v1.1",
+        "status": "signed",
+        "updatedAt": "2026-02-08T16:00:00.000Z",
+        "hash": "0xbd07512730a62fe01963b3e70d254e314d3bb0059eb4bae5c600723710baab43",
+        "visibility": "internal",
+        "sizeKb": 3753,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_14e4a6f",
+        "name": "Latest valuation report",
+        "kind": "valuation-report",
+        "version": "Q3 2026",
+        "status": "final",
+        "updatedAt": "2026-09-16T16:00:00.000Z",
+        "hash": "0x5e1b6c403efde9944f4cc5a1a473936a3c79b9054f60588e00e5d97414784fa4",
+        "visibility": "holders",
+        "sizeKb": 1256,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_14f6214",
+        "name": "Q2 2026 investor report",
+        "kind": "investor-report",
+        "version": "Q2 2026",
+        "status": "final",
+        "updatedAt": "2026-07-17T16:00:00.000Z",
+        "hash": "0x128be38a45f5ad5c37113f063cbc92ca93ac5392421f18108d0b177f3daded18",
+        "visibility": "holders",
+        "sizeKb": 1266,
+        "uploadedBy": "Sara Kim"
+      }
+    ],
+    "policyPackIds": [
+      "pol_global",
+      "pol_difc"
+    ],
+    "aum": 21267500,
+    "investorsCount": 3,
+    "navHistory": [
+      {
+        "date": "2026-06-30T00:00:00.000Z",
+        "nav": 83.72
+      },
+      {
+        "date": "2026-07-04T00:00:00.000Z",
+        "nav": 83.73
+      },
+      {
+        "date": "2026-07-08T00:00:00.000Z",
+        "nav": 83.78
+      },
+      {
+        "date": "2026-07-12T00:00:00.000Z",
+        "nav": 83.94
+      },
+      {
+        "date": "2026-07-16T00:00:00.000Z",
+        "nav": 83.95
+      },
+      {
+        "date": "2026-07-20T00:00:00.000Z",
+        "nav": 84.07
+      },
+      {
+        "date": "2026-07-24T00:00:00.000Z",
+        "nav": 84.08
+      },
+      {
+        "date": "2026-07-28T00:00:00.000Z",
+        "nav": 84.22
+      },
+      {
+        "date": "2026-08-01T00:00:00.000Z",
+        "nav": 84.18
+      },
+      {
+        "date": "2026-08-05T00:00:00.000Z",
+        "nav": 84.24
+      },
+      {
+        "date": "2026-08-09T00:00:00.000Z",
+        "nav": 84.38
+      },
+      {
+        "date": "2026-08-13T00:00:00.000Z",
+        "nav": 84.33
+      },
+      {
+        "date": "2026-08-17T00:00:00.000Z",
+        "nav": 84.48
+      },
+      {
+        "date": "2026-08-21T00:00:00.000Z",
+        "nav": 84.38
+      },
+      {
+        "date": "2026-08-25T00:00:00.000Z",
+        "nav": 84.42
+      },
+      {
+        "date": "2026-08-29T00:00:00.000Z",
+        "nav": 84.52
+      },
+      {
+        "date": "2026-09-02T00:00:00.000Z",
+        "nav": 84.5
+      },
+      {
+        "date": "2026-09-06T00:00:00.000Z",
+        "nav": 84.72
+      },
+      {
+        "date": "2026-09-10T00:00:00.000Z",
+        "nav": 84.65
+      },
+      {
+        "date": "2026-09-14T00:00:00.000Z",
+        "nav": 84.72
+      },
+      {
+        "date": "2026-09-18T00:00:00.000Z",
+        "nav": 84.83
+      },
+      {
+        "date": "2026-09-22T00:00:00.000Z",
+        "nav": 84.81
+      },
+      {
+        "date": "2026-09-26T00:00:00.000Z",
+        "nav": 84.99
+      },
+      {
+        "date": "2026-09-30T00:00:00.000Z",
+        "nav": 85.02
+      },
+      {
+        "date": "2026-10-04T00:00:00.000Z",
+        "nav": 85.16
+      },
+      {
+        "date": "2026-10-06T16:00:00.000Z",
+        "nav": 85.07
+      }
+    ],
+    "debt": {
+      "faceValue": 100,
+      "couponPct": 0,
+      "couponFrequency": "none",
+      "issueDate": "2026-06-30T00:00:00Z",
+      "maturity": "2029-06-30T00:00:00Z",
+      "yieldPct": 6.1,
+      "issuePrice": 83.72,
+      "dayCount": "ACT/365"
+    },
+    "tokenomics": {
+      "allocation": [
+        {
+          "label": "Offered to investors",
+          "pct": 90
+        },
+        {
+          "label": "Sponsor co-investment",
+          "pct": 10
+        }
+      ],
+      "fees": [
+        {
+          "label": "Subscription fee",
+          "value": "Up to 1.00%"
+        },
+        {
+          "label": "Management fee",
+          "value": "0.75% a year"
+        }
+      ],
+      "lockups": [
+        {
+          "label": "None",
+          "detail": "Units can be redeemed or transferred at any time"
+        }
+      ],
+      "distributionPolicy": "Discount accretion, paid at maturity, paid annual.",
+      "redemption": "Repaid at face value on 2029-06-30.",
+      "transferRules": "Transfers between verified, whitelisted wallets only. Holding limit 25% per investor."
+    },
+    "media": {
+      "cover": "/media/assets/bond28-cover.webp",
+      "gallery": [
+        "/media/assets/bond28-cover.webp"
+      ]
+    }
+  },
+  {
+    "id": "ast_ngt_pc",
+    "tenantId": "tnt_ngt",
+    "name": "Northgate Senior Private Credit Fund",
+    "shortName": "Northgate Credit",
+    "template": "private-credit",
+    "status": "live",
+    "issuerId": "iss_ngt",
+    "description": "Senior secured lending to mid-market Saudi corporates. Deployed in a dedicated environment with customer-managed keys.",
+    "underlying": {
+      "description": "Portfolio of 18 senior secured loans",
+      "appraisedValue": 92000000,
+      "metrics": [
+        {
+          "label": "Loans",
+          "value": "18"
+        },
+        {
+          "label": "Weighted LTV",
+          "value": "46%"
+        }
+      ]
+    },
+    "legalEntity": {
+      "name": "Northgate Senior Credit Fund",
+      "structure": "Fund",
+      "jurisdiction": "SA",
+      "registrationNumber": "CMA-FND-5512"
+    },
+    "instrument": {
+      "type": "fund-unit",
+      "votingRights": false
+    },
+    "valuation": {
+      "method": "Monthly NAV",
+      "nav": 92000000,
+      "navPerToken": 10.47,
+      "currency": "SAR",
+      "frequency": "monthly",
+      "lastUpdated": "2026-09-30T16:00:00.000Z"
+    },
+    "income": {
+      "type": "Quarterly distributions",
+      "frequency": "quarterly",
+      "targetYieldPct": 9.8
+    },
+    "servicer": "Northgate fund administration",
+    "ownershipModel": "hybrid",
+    "jurisdiction": "SA",
+    "regimes": [
+      "SA"
+    ],
+    "rules": {
+      "lockupDays": 365,
+      "holdingLimitPct": 15,
+      "minInvestment": 200000,
+      "eligibleClassifications": [
+        "professional",
+        "institutional"
+      ],
+      "blockedCountries": [
+        "US",
+        "KP",
+        "IR",
+        "SY"
+      ]
+    },
+    "createdAt": "2026-01-30T00:00:00Z",
+    "launchedAt": "2026-04-01T00:00:00Z",
+    "visual": "credit",
+    "shareClasses": [
+      {
+        "id": "scl_14h981d",
+        "name": "Ordinary",
+        "currency": "SAR",
+        "managementFeeBps": 75,
+        "minInvestment": 200000,
+        "eligibleClassifications": [
+          "professional",
+          "institutional"
+        ],
+        "tokenClassId": "tok_nspc"
+      }
+    ],
+    "tokenClassIds": [
+      "tok_nspc"
+    ],
+    "documents": [
+      {
+        "id": "adoc_14ie899",
+        "name": "Offering memorandum and supplement",
+        "kind": "offering-memorandum",
+        "version": "v3.2",
+        "status": "final",
+        "updatedAt": "2026-05-31T16:00:00.000Z",
+        "hash": "0x54fa98e66bfd67edd8a1d93c6f543564ddebe99278445622088e7b9ba253061a",
+        "visibility": "public",
+        "sizeKb": 3220,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_14jead9",
+        "name": "Term sheet",
+        "kind": "term-sheet",
+        "version": "v2.0",
+        "status": "signed",
+        "updatedAt": "2026-03-26T16:00:00.000Z",
+        "hash": "0x4319c41bdb0b8557ebab025e69c4eb712a3e59b37d1a68f1513a8a1d09ea6e41",
+        "visibility": "public",
+        "sizeKb": 2710,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_14k64ae",
+        "name": "Fund constitutional documents",
+        "kind": "spv-constitution",
+        "version": "v1.0",
+        "status": "signed",
+        "updatedAt": "2026-02-23T16:00:00.000Z",
+        "hash": "0x4213e2a1b43046e25ae6084e8d820fe31c382d5659f6328033407d4c18f58f0b",
+        "visibility": "holders",
+        "sizeKb": 824,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_14l3f1b",
+        "name": "Legal opinion on token characterisation",
+        "kind": "legal-opinion",
+        "version": "v1.1",
+        "status": "signed",
+        "updatedAt": "2026-03-10T16:00:00.000Z",
+        "hash": "0x630d1c9009c9f2c4d00a216e098daeb400f18bb8ba9ab2ce7b937e120bbeacc0",
+        "visibility": "internal",
+        "sizeKb": 3257,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_14mf952",
+        "name": "Latest valuation report",
+        "kind": "valuation-report",
+        "version": "Q3 2026",
+        "status": "final",
+        "updatedAt": "2026-09-03T16:00:00.000Z",
+        "hash": "0x57c789c1939b7411a83587741db0d470095ab5f7e422dd31fc91c86926c8696d",
+        "visibility": "holders",
+        "sizeKb": 1983,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_14nfd1b",
+        "name": "Q2 2026 investor report",
+        "kind": "investor-report",
+        "version": "Q2 2026",
+        "status": "final",
+        "updatedAt": "2026-08-01T16:00:00.000Z",
+        "hash": "0x7ee69a5f873da5d7fc5e414931b11c41b35c8c34ef44b1878f85a2383d4c8524",
+        "visibility": "holders",
+        "sizeKb": 3082,
+        "uploadedBy": "Sara Kim"
+      }
+    ],
+    "policyPackIds": [
+      "pol_global",
+      "pol_cma"
+    ],
+    "aum": 92000000,
+    "investorsCount": 3,
+    "navHistory": [
+      {
+        "date": "2026-04-01T00:00:00.000Z",
+        "nav": 10.07
+      },
+      {
+        "date": "2026-04-15T00:00:00.000Z",
+        "nav": 10.12
+      },
+      {
+        "date": "2026-04-29T00:00:00.000Z",
+        "nav": 10.17
+      },
+      {
+        "date": "2026-05-13T00:00:00.000Z",
+        "nav": 10.12
+      },
+      {
+        "date": "2026-05-27T00:00:00.000Z",
+        "nav": 10.08
+      },
+      {
+        "date": "2026-06-10T00:00:00.000Z",
+        "nav": 10.12
+      },
+      {
+        "date": "2026-06-24T00:00:00.000Z",
+        "nav": 10.25
+      },
+      {
+        "date": "2026-07-08T00:00:00.000Z",
+        "nav": 10.39
+      },
+      {
+        "date": "2026-07-22T00:00:00.000Z",
+        "nav": 10.37
+      },
+      {
+        "date": "2026-08-05T00:00:00.000Z",
+        "nav": 10.34
+      },
+      {
+        "date": "2026-08-19T00:00:00.000Z",
+        "nav": 10.27
+      },
+      {
+        "date": "2026-09-02T00:00:00.000Z",
+        "nav": 10.35
+      },
+      {
+        "date": "2026-09-16T00:00:00.000Z",
+        "nav": 10.4
+      },
+      {
+        "date": "2026-09-30T00:00:00.000Z",
+        "nav": 10.47
+      },
+      {
+        "date": "2026-10-06T16:00:00.000Z",
+        "nav": 10.47
+      }
+    ],
+    "tokenomics": {
+      "allocation": [
+        {
+          "label": "Offered to investors",
+          "pct": 90
+        },
+        {
+          "label": "Sponsor co-investment",
+          "pct": 10
+        }
+      ],
+      "fees": [
+        {
+          "label": "Subscription fee",
+          "value": "Up to 1.00%"
+        },
+        {
+          "label": "Management fee",
+          "value": "0.75% a year"
+        }
+      ],
+      "lockups": [
+        {
+          "label": "All investors",
+          "detail": "365 days from subscription"
+        }
+      ],
+      "distributionPolicy": "Quarterly distributions, paid quarterly.",
+      "redemption": "Periodic redemption windows, subject to limits.",
+      "transferRules": "Transfers between verified, whitelisted wallets only. Holding limit 15% per investor."
+    },
+    "media": {
+      "cover": "/media/assets/nspc-cover.webp",
+      "gallery": [
+        "/media/assets/nspc-cover.webp"
+      ]
+    }
+  },
+  {
+    "id": "ast_ngt_rcv",
+    "tenantId": "tnt_ngt",
+    "name": "Lahore Export Receivables 2026-A",
+    "shortName": "Receivables 26-A",
+    "template": "receivables",
+    "status": "live",
+    "issuerId": "iss_ngt",
+    "description": "Short-tenor receivables purchased from Pakistani exporters, dollar-denominated, with first loss retained by the originator.",
+    "underlying": {
+      "description": "Export receivables, 30 to 120 day tenor",
+      "location": "Lahore, Pakistan",
+      "appraisedValue": 18000000,
+      "metrics": [
+        {
+          "label": "Originators",
+          "value": "9"
+        },
+        {
+          "label": "First loss retained",
+          "value": "10%"
+        }
+      ]
+    },
+    "legalEntity": {
+      "name": "Northgate Receivables Vehicle 26-A",
+      "structure": "SPV",
+      "jurisdiction": "SA",
+      "registrationNumber": "CMA-SPV-0213"
+    },
+    "instrument": {
+      "type": "note",
+      "couponPct": 12,
+      "maturity": "2027-03-31T00:00:00Z",
+      "seniority": "senior",
+      "votingRights": false
+    },
+    "valuation": {
+      "method": "Amortised cost",
+      "nav": 17600000,
+      "navPerToken": 98.9,
+      "currency": "USD",
+      "frequency": "monthly",
+      "lastUpdated": "2026-09-30T16:00:00.000Z"
+    },
+    "income": {
+      "type": "Interest",
+      "frequency": "monthly",
+      "targetYieldPct": 12
+    },
+    "servicer": "Indus Trade Servicing",
+    "ownershipModel": "on-chain",
+    "jurisdiction": "SA",
+    "regimes": [
+      "SA",
+      "PK"
+    ],
+    "rules": {
+      "lockupDays": 30,
+      "holdingLimitPct": 25,
+      "minInvestment": 100000,
+      "eligibleClassifications": [
+        "professional",
+        "institutional"
+      ],
+      "blockedCountries": [
+        "US",
+        "KP",
+        "IR",
+        "SY"
+      ]
+    },
+    "createdAt": "2026-04-05T00:00:00Z",
+    "launchedAt": "2026-05-01T00:00:00Z",
+    "visual": "receivables",
+    "shareClasses": [
+      {
+        "id": "scl_14p2efe",
+        "name": "Ordinary",
+        "currency": "USD",
+        "managementFeeBps": 75,
+        "minInvestment": 100000,
+        "eligibleClassifications": [
+          "professional",
+          "institutional"
+        ],
+        "tokenClassId": "tok_lrp26a"
+      }
+    ],
+    "tokenClassIds": [
+      "tok_lrp26a"
+    ],
+    "documents": [
+      {
+        "id": "adoc_14q9b3f",
+        "name": "Information memorandum",
+        "kind": "offering-memorandum",
+        "version": "v3.2",
+        "status": "final",
+        "updatedAt": "2026-07-02T16:00:00.000Z",
+        "hash": "0x521ce4290470eb7e9a9025c214cb5ecdcf98ebad9f5b788cdb12980396c30e03",
+        "visibility": "public",
+        "sizeKb": 4006,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_14rc4b8",
+        "name": "Term sheet",
+        "kind": "term-sheet",
+        "version": "v2.0",
+        "status": "signed",
+        "updatedAt": "2026-06-03T16:00:00.000Z",
+        "hash": "0xd1a4f590a9619134b4350aa5ce2fec107bccbc201718ef9b062784916ac5c84f",
+        "visibility": "public",
+        "sizeKb": 1205,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_14s5f2d",
+        "name": "SPV constitutional documents",
+        "kind": "spv-constitution",
+        "version": "v1.0",
+        "status": "signed",
+        "updatedAt": "2026-01-17T16:00:00.000Z",
+        "hash": "0x1341525417da7bb4065ab429b5aa14de6db8fe17cee344f0e5acbdad0ba5568b",
+        "visibility": "holders",
+        "sizeKb": 2340,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_14t1ff4",
+        "name": "Legal opinion on token characterisation",
+        "kind": "legal-opinion",
+        "version": "v1.1",
+        "status": "signed",
+        "updatedAt": "2026-08-04T16:00:00.000Z",
+        "hash": "0xd0fcda10267db781f0479f9dba6f2fd4a8a7c303ae468837b0f30a76916c53ab",
+        "visibility": "internal",
+        "sizeKb": 819,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_14u5091",
+        "name": "Latest valuation report",
+        "kind": "valuation-report",
+        "version": "Q3 2026",
+        "status": "final",
+        "updatedAt": "2026-09-06T16:00:00.000Z",
+        "hash": "0x5c9f4bed3e0d149fa186e91daf39ac039a41808f3bfc8db224f935fc07cb0938",
+        "visibility": "holders",
+        "sizeKb": 1215,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_14v9571",
+        "name": "Q2 2026 investor report",
+        "kind": "investor-report",
+        "version": "Q2 2026",
+        "status": "final",
+        "updatedAt": "2026-07-05T16:00:00.000Z",
+        "hash": "0x08247f07895a554a56c079418f98b3addfc33caaba0db8b8d9273c6ce2b8d7c4",
+        "visibility": "holders",
+        "sizeKb": 3081,
+        "uploadedBy": "Sara Kim"
+      }
+    ],
+    "policyPackIds": [
+      "pol_global",
+      "pol_cma"
+    ],
+    "aum": 17600000,
+    "investorsCount": 3,
+    "navHistory": [
+      {
+        "date": "2026-05-01T00:00:00.000Z",
+        "nav": 100
+      },
+      {
+        "date": "2026-05-15T00:00:00.000Z",
+        "nav": 99.86
+      },
+      {
+        "date": "2026-05-29T00:00:00.000Z",
+        "nav": 99.76
+      },
+      {
+        "date": "2026-06-12T00:00:00.000Z",
+        "nav": 99.86
+      },
+      {
+        "date": "2026-06-26T00:00:00.000Z",
+        "nav": 100.05
+      },
+      {
+        "date": "2026-07-10T00:00:00.000Z",
+        "nav": 99.12
+      },
+      {
+        "date": "2026-07-24T00:00:00.000Z",
+        "nav": 99.18
+      },
+      {
+        "date": "2026-08-07T00:00:00.000Z",
+        "nav": 99.32
+      },
+      {
+        "date": "2026-08-21T00:00:00.000Z",
+        "nav": 99.62
+      },
+      {
+        "date": "2026-09-04T00:00:00.000Z",
+        "nav": 98.99
+      },
+      {
+        "date": "2026-09-18T00:00:00.000Z",
+        "nav": 98.82
+      },
+      {
+        "date": "2026-10-02T00:00:00.000Z",
+        "nav": 98.94
+      },
+      {
+        "date": "2026-10-06T16:00:00.000Z",
+        "nav": 98.9
+      }
+    ],
+    "debt": {
+      "faceValue": 100,
+      "couponPct": 12,
+      "couponFrequency": "monthly",
+      "issueDate": "2026-05-01T00:00:00Z",
+      "maturity": "2027-03-31T00:00:00Z",
+      "yieldPct": 12.4,
+      "issuePrice": 100,
+      "dayCount": "ACT/360"
+    },
+    "tokenomics": {
+      "allocation": [
+        {
+          "label": "Offered to investors",
+          "pct": 90
+        },
+        {
+          "label": "Sponsor co-investment",
+          "pct": 10
+        }
+      ],
+      "fees": [
+        {
+          "label": "Subscription fee",
+          "value": "Up to 1.00%"
+        },
+        {
+          "label": "Management fee",
+          "value": "0.75% a year"
+        }
+      ],
+      "lockups": [
+        {
+          "label": "All investors",
+          "detail": "30 days from subscription"
+        }
+      ],
+      "distributionPolicy": "Interest, paid monthly.",
+      "redemption": "Repaid at face value on 2027-03-31.",
+      "transferRules": "Transfers between verified, whitelisted wallets only. Holding limit 25% per investor."
+    },
+    "media": {
+      "cover": "/media/assets/lrp-cover.webp",
+      "gallery": [
+        "/media/assets/lrp-cover.webp"
+      ]
+    }
+  },
+  {
+    "id": "ast_mrd_dep",
+    "tenantId": "tnt_mrd",
+    "name": "Meridian Tokenized Deposit Note",
+    "shortName": "Meridian Deposit",
+    "template": "bond",
+    "status": "live",
+    "issuerId": "iss_mrd",
+    "description": "Bank-issued tokenised deposit note used for intraday settlement between Meridian corporate clients. Issued through SRH APIs only.",
+    "underlying": {
+      "description": "Deposit liabilities of Meridian Bank",
+      "appraisedValue": 120000000,
+      "metrics": [
+        {
+          "label": "Corporate clients",
+          "value": "37"
+        }
+      ]
+    },
+    "legalEntity": {
+      "name": "Meridian Bank B.S.C.",
+      "structure": "Corporate",
+      "jurisdiction": "BH",
+      "registrationNumber": "CR-11203"
+    },
+    "instrument": {
+      "type": "note",
+      "couponPct": 3.1,
+      "votingRights": false
+    },
+    "valuation": {
+      "method": "Par",
+      "nav": 120000000,
+      "navPerToken": 1,
+      "currency": "USD",
+      "frequency": "daily",
+      "lastUpdated": "2026-10-06T16:00:00.000Z"
+    },
+    "income": {
+      "type": "Daily accrued interest",
+      "frequency": "daily-accrual",
+      "targetYieldPct": 3.1
+    },
+    "servicer": "Meridian Treasury Ops",
+    "ownershipModel": "custodian",
+    "jurisdiction": "BH",
+    "regimes": [
+      "BH"
+    ],
+    "rules": {
+      "lockupDays": 0,
+      "holdingLimitPct": 100,
+      "minInvestment": 1,
+      "eligibleClassifications": [
+        "institutional",
+        "market-counterparty",
+        "professional"
+      ],
+      "blockedCountries": [
+        "KP",
+        "IR",
+        "SY"
+      ]
+    },
+    "createdAt": "2026-03-05T00:00:00Z",
+    "launchedAt": "2026-04-15T00:00:00Z",
+    "visual": "treasury",
+    "shareClasses": [
+      {
+        "id": "scl_14y2b44",
+        "name": "Ordinary",
+        "currency": "USD",
+        "managementFeeBps": 75,
+        "minInvestment": 1,
+        "eligibleClassifications": [
+          "institutional",
+          "market-counterparty",
+          "professional"
+        ],
+        "tokenClassId": "tok_mtdn"
+      }
+    ],
+    "tokenClassIds": [
+      "tok_mtdn"
+    ],
+    "documents": [
+      {
+        "id": "adoc_14z4f88",
+        "name": "Information memorandum",
+        "kind": "offering-memorandum",
+        "version": "v3.2",
+        "status": "final",
+        "updatedAt": "2026-06-10T16:00:00.000Z",
+        "hash": "0xbb4d44f725fe9a80bf72453363cba9d8e71d670f82bf7935e1a94d1ecbdc6407",
+        "visibility": "public",
+        "sizeKb": 2291,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_1509b70",
+        "name": "Term sheet",
+        "kind": "term-sheet",
+        "version": "v2.0",
+        "status": "signed",
+        "updatedAt": "2026-09-10T16:00:00.000Z",
+        "hash": "0x02a5a25e52b2120ce41ed44f1f1713aa7b3d61517c921fc839635e4bd084a474",
+        "visibility": "public",
+        "sizeKb": 3696,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_1516777",
+        "name": "Corporate constitutional documents",
+        "kind": "spv-constitution",
+        "version": "v1.0",
+        "status": "signed",
+        "updatedAt": "2026-03-14T16:00:00.000Z",
+        "hash": "0x6cec340342534ff1f4e5336ec73102e6cd724bd15c12dc8b3e89a09116e0e812",
+        "visibility": "holders",
+        "sizeKb": 574,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_1522101",
+        "name": "Legal opinion on token characterisation",
+        "kind": "legal-opinion",
+        "version": "v1.1",
+        "status": "signed",
+        "updatedAt": "2026-05-01T16:00:00.000Z",
+        "hash": "0x4254df95650ae0f391045a6563bf29361bf2777ef2c39257aeb193bf7cca2d21",
+        "visibility": "internal",
+        "sizeKb": 3764,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_1537f71",
+        "name": "Latest valuation report",
+        "kind": "valuation-report",
+        "version": "Q3 2026",
+        "status": "final",
+        "updatedAt": "2026-09-02T16:00:00.000Z",
+        "hash": "0x5b7a2e3e4ea821a74dcc6643bacb79a7c9c254d922400c3ac086ed0bc4785fd8",
+        "visibility": "holders",
+        "sizeKb": 416,
+        "uploadedBy": "Layla Haddad"
+      },
+      {
+        "id": "adoc_154eef5",
+        "name": "Q2 2026 investor report",
+        "kind": "investor-report",
+        "version": "Q2 2026",
+        "status": "final",
+        "updatedAt": "2026-07-25T16:00:00.000Z",
+        "hash": "0xf1ed0d5e7e73c7a0084d60bf7f24991dd020f983b348a9a6c75f90f1195836c5",
+        "visibility": "holders",
+        "sizeKb": 4068,
+        "uploadedBy": "Sara Kim"
+      }
+    ],
+    "policyPackIds": [
+      "pol_global",
+      "pol_cbb"
+    ],
+    "aum": 120000000,
+    "investorsCount": 1,
+    "navHistory": [
+      {
+        "date": "2026-04-15T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-04-22T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-04-29T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-05-06T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-05-13T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-05-20T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-05-27T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-06-03T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-06-10T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-06-17T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-06-24T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-07-01T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-07-08T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-07-15T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-07-22T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-07-29T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-08-05T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-08-12T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-08-19T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-08-26T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-09-02T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-09-09T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-09-16T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-09-23T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-09-30T00:00:00.000Z",
+        "nav": 1
+      },
+      {
+        "date": "2026-10-06T16:00:00.000Z",
+        "nav": 1
+      }
+    ],
+    "tokenomics": {
+      "allocation": [
+        {
+          "label": "Offered to investors",
+          "pct": 90
+        },
+        {
+          "label": "Sponsor co-investment",
+          "pct": 10
+        }
+      ],
+      "fees": [
+        {
+          "label": "Subscription fee",
+          "value": "Up to 1.00%"
+        },
+        {
+          "label": "Management fee",
+          "value": "0.75% a year"
+        }
+      ],
+      "lockups": [
+        {
+          "label": "None",
+          "detail": "Units can be redeemed or transferred at any time"
+        }
+      ],
+      "distributionPolicy": "Yield accrues daily into the NAV.",
+      "redemption": "Periodic redemption windows, subject to limits.",
+      "transferRules": "Transfers between verified, whitelisted wallets only. Holding limit 100% per investor."
+    },
+    "media": {
+      "cover": "/media/assets/mtdn-cover.webp",
+      "gallery": [
+        "/media/assets/mtdn-cover.webp"
+      ]
+    }
+  }
+]

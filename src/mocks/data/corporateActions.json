@@ -1,0 +1,116 @@
+[
+  {
+    "id": "ca_1aw0b86",
+    "assetId": "ast_wpk",
+    "kind": "vote",
+    "title": "Approve 2027/28 room rent schedule",
+    "status": "open",
+    "effectiveDate": "2026-10-15T16:00:00.000Z",
+    "detail": "The University proposes a 3.5% rise in weekly rents for the 2027/28 contract year, in line with the lease's index cap. Simple majority of senior and ordinary units, 30% quorum.",
+    "votes": {
+      "for": 44.6,
+      "against": 5.9,
+      "abstain": 1.8,
+      "quorumPct": 30
+    }
+  },
+  {
+    "id": "ca_1ax20e2",
+    "assetId": "ast_wpk",
+    "kind": "distribution",
+    "title": "First quarterly income distribution",
+    "status": "scheduled",
+    "effectiveDate": "2026-10-10T16:00:00.000Z",
+    "detail": "Senior units first under the waterfall, ordinary units from the balance. Paid in GBP by SWIFT, or in USDC on request."
+  },
+  {
+    "id": "ca_1ay82a8",
+    "assetId": "ast_tbill",
+    "kind": "nav-update",
+    "title": "Daily NAV struck at 1.0458",
+    "status": "executed",
+    "effectiveDate": "2026-10-06T16:00:00.000Z",
+    "detail": "NAV calculated by Apex Group and published on-chain by Chainlink across 4 networks."
+  },
+  {
+    "id": "ca_1azccb9",
+    "assetId": "ast_ads",
+    "kind": "coupon",
+    "title": "Periodic distribution of USD 27.00 per certificate",
+    "status": "scheduled",
+    "effectiveDate": "2026-12-31T00:00:00Z",
+    "detail": "Semi-annual profit at 5.40% a year on USD 1,000 face value, from the Ijara rentals."
+  },
+  {
+    "id": "ca_1b0cd2b",
+    "assetId": "ast_ads",
+    "kind": "maturity",
+    "title": "Scheduled dissolution",
+    "status": "scheduled",
+    "effectiveDate": "2031-06-30T00:00:00Z",
+    "detail": "Dissolution at face value with the final periodic distribution."
+  },
+  {
+    "id": "ca_1b1c630",
+    "assetId": "ast_acred",
+    "kind": "tender-offer",
+    "title": "Q4 2026 quarterly repurchase offer",
+    "status": "open",
+    "effectiveDate": "2026-10-24T16:00:00.000Z",
+    "detail": "The fund offers to repurchase up to 5% of units at the December NAV. Requests are pro-rated if oversubscribed."
+  },
+  {
+    "id": "ca_1b2c8d1",
+    "assetId": "ast_hlpaf",
+    "kind": "notice",
+    "title": "Q3 investor letter and capital account statements",
+    "status": "executed",
+    "effectiveDate": "2026-10-02T16:00:00.000Z",
+    "detail": "Statements generated for all unit holders and delivered to the investor portal."
+  },
+  {
+    "id": "ca_1b37b1f",
+    "assetId": "ast_vgld",
+    "kind": "notice",
+    "title": "Semi-annual bar audit completed",
+    "status": "executed",
+    "effectiveDate": "2026-09-18T16:00:00.000Z",
+    "detail": "Inspectorate counted 27 bars at Brink's Dubai and matched serial numbers and weights to the register. No differences."
+  },
+  {
+    "id": "ca_1b4381b",
+    "assetId": "ast_bbr",
+    "kind": "distribution",
+    "title": "Q3 dividend from net rent",
+    "status": "scheduled",
+    "effectiveDate": "2026-10-28T16:00:00.000Z",
+    "detail": "AED 0.159 per share, paid to the bank account or wallet on file."
+  },
+  {
+    "id": "ca_1b5e124",
+    "assetId": "ast_bbr",
+    "kind": "buyback",
+    "title": "Sponsor liquidity facility",
+    "status": "scheduled",
+    "effectiveDate": "2027-02-03T16:00:00.000Z",
+    "detail": "The sponsor will buy up to 2% of shares at NAV after the 90-day lock-up."
+  },
+  {
+    "id": "ca_1b60d20",
+    "assetId": "ast_xyz_zero",
+    "kind": "maturity",
+    "title": "Redemption at par",
+    "status": "scheduled",
+    "effectiveDate": "2029-06-30T00:00:00Z",
+    "detail": "Each note is redeemed at 100. No interim payments."
+  },
+  {
+    "id": "ca_1b72137",
+    "assetId": "ast_ngt_rcv",
+    "kind": "maturity",
+    "title": "Final maturity",
+    "status": "scheduled",
+    "effectiveDate": "2027-03-31T00:00:00Z",
+    "detail": "Final interest and principal from collected receivables."
+  }
+]

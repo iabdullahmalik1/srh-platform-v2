@@ -1,0 +1,1321 @@
+[
+  {
+    "id": "tok_srht",
+    "assetId": "ast_tbill",
+    "symbol": "SRHT",
+    "name": "SRH Short Duration Treasury Fund Token",
+    "standard": "ERC-3643",
+    "decimals": 6,
+    "canonicalSupply": 141385231,
+    "maxSupply": 239051444,
+    "status": "active",
+    "deployments": [
+      {
+        "id": "dep_11a3b8c",
+        "chain": "ethereum",
+        "contractAddress": "0x183e66475e37aa8fc5cb699e3da95c86297c9c11",
+        "supply": 77761876,
+        "holders": 10,
+        "status": "live",
+        "deployedAt": "2025-07-01T00:00:00Z",
+        "lastBlock": 23419453,
+        "gasSpendUsd": 3606.82
+      },
+      {
+        "id": "dep_11bec3f",
+        "chain": "polygon",
+        "contractAddress": "0xb8a83efbe776a79609b4a0168168f09b6074f970",
+        "supply": 21207785,
+        "holders": 1,
+        "status": "live",
+        "deployedAt": "2025-07-01T00:00:00Z",
+        "lastBlock": 75713395,
+        "gasSpendUsd": 1870.82
+      },
+      {
+        "id": "dep_11c7243",
+        "chain": "base",
+        "contractAddress": "0x77a58d006e44131ae8a1ceaa0b7a0aec718bab89",
+        "supply": 21207785,
+        "holders": 4,
+        "status": "live",
+        "deployedAt": "2025-07-01T00:00:00Z",
+        "lastBlock": 57459963,
+        "gasSpendUsd": 2787.3
+      },
+      {
+        "id": "dep_11d0931",
+        "chain": "solana",
+        "contractAddress": "KC6CjwWRBb8RBUPmCLS4XyfdyRiPAdtvgdtroEETQQ9h",
+        "supply": 21207785,
+        "holders": 2,
+        "status": "live",
+        "deployedAt": "2025-07-01T00:00:00Z",
+        "lastBlock": 323369628,
+        "gasSpendUsd": 216.25
+      }
+    ],
+    "issuance": {
+      "status": "verified",
+      "checks": [
+        {
+          "key": "legal-docs",
+          "label": "Offering documents signed and filed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2025-06-28T00:00:00.000Z"
+        },
+        {
+          "key": "spv",
+          "label": "Issuer entity incorporated, registry extract on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2025-06-28T00:00:00.000Z"
+        },
+        {
+          "key": "title",
+          "label": "Fund units or assets held by the custodian",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2025-06-28T00:00:00.000Z"
+        },
+        {
+          "key": "valuation",
+          "label": "Independent valuation on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2025-06-28T00:00:00.000Z"
+        },
+        {
+          "key": "regulator",
+          "label": "Regulatory approval or exemption confirmed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2025-06-28T00:00:00.000Z"
+        },
+        {
+          "key": "contract",
+          "label": "Token contract configuration reviewed (supply, controls, identity registry)",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2025-06-28T00:00:00.000Z"
+        }
+      ],
+      "verifiedBy": "Omar Siddiqui",
+      "verifiedAt": "2025-06-28T00:00:00.000Z"
+    },
+    "controls": {
+      "pausable": true,
+      "freezable": true,
+      "forcedTransfer": true,
+      "recovery": true,
+      "mintable": true,
+      "burnable": true
+    },
+    "identityRegistry": "0xa0dab01adf4f2e30708f948315f063bb0b1bf2e0",
+    "complianceModule": "0x8b7bd730610c6777278c2822aa8dd34d58928ac9",
+    "createdAt": "2025-05-10T00:00:00Z"
+  },
+  {
+    "id": "tok_wpks",
+    "assetId": "ast_wpk",
+    "symbol": "WPKS",
+    "name": "Whitworth Park Student Residences Senior Units",
+    "standard": "ERC-3643",
+    "tier": "senior",
+    "targetReturnPct": 6.25,
+    "rights": "6.25% preferred income, paid quarterly, first in the waterfall",
+    "decimals": 0,
+    "canonicalSupply": 1642300,
+    "maxSupply": 2500000,
+    "status": "active",
+    "deployments": [
+      {
+        "id": "dep_11m6373",
+        "chain": "ethereum",
+        "contractAddress": "0x40692c163df9a4d73f3540e07c6f9e3357268dbe",
+        "supply": 903265,
+        "holders": 6,
+        "status": "live",
+        "deployedAt": "2026-08-18T00:00:00Z",
+        "lastBlock": 23458366,
+        "gasSpendUsd": 3983.02
+      },
+      {
+        "id": "dep_11n1ac2",
+        "chain": "polygon",
+        "contractAddress": "0x7a2d777ee395c12c91e5a195141b6fa99e1bff77",
+        "supply": 739035,
+        "holders": 2,
+        "status": "live",
+        "deployedAt": "2026-08-18T00:00:00Z",
+        "lastBlock": 43423254,
+        "gasSpendUsd": 1238.03
+      }
+    ],
+    "issuance": {
+      "status": "verified",
+      "checks": [
+        {
+          "key": "legal-docs",
+          "label": "Offering documents signed and filed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-08-15T00:00:00.000Z"
+        },
+        {
+          "key": "spv",
+          "label": "Issuer entity incorporated, registry extract on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-08-15T00:00:00.000Z"
+        },
+        {
+          "key": "title",
+          "label": "Title or lease registered in the SPV's name",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-08-15T00:00:00.000Z"
+        },
+        {
+          "key": "valuation",
+          "label": "Independent valuation on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-08-15T00:00:00.000Z"
+        },
+        {
+          "key": "regulator",
+          "label": "Regulatory approval or exemption confirmed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-08-15T00:00:00.000Z"
+        },
+        {
+          "key": "contract",
+          "label": "Token contract configuration reviewed (supply, controls, identity registry)",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-08-15T00:00:00.000Z"
+        }
+      ],
+      "verifiedBy": "Omar Siddiqui",
+      "verifiedAt": "2026-08-15T00:00:00.000Z"
+    },
+    "controls": {
+      "pausable": true,
+      "freezable": true,
+      "forcedTransfer": true,
+      "recovery": true,
+      "mintable": true,
+      "burnable": true
+    },
+    "identityRegistry": "0x1296eeff8efcc0b709aebaee04ca94dc0466fd28",
+    "complianceModule": "0xfce467d4b90c42f12aac1fd451701875f7a2e9e0",
+    "createdAt": "2026-05-06T00:00:00Z"
+  },
+  {
+    "id": "tok_wpko",
+    "assetId": "ast_wpk",
+    "symbol": "WPKO",
+    "name": "Whitworth Park Ordinary Units",
+    "standard": "ERC-3643",
+    "tier": "ordinary",
+    "targetReturnPct": 9.4,
+    "rights": "Residual income and capital growth after senior units",
+    "decimals": 0,
+    "canonicalSupply": 1500000,
+    "maxSupply": 2250000,
+    "status": "active",
+    "deployments": [
+      {
+        "id": "dep_11o9dac",
+        "chain": "ethereum",
+        "contractAddress": "0xf12f023deeb7910c58c2977fedb6dae975e17804",
+        "supply": 825000,
+        "holders": 4,
+        "status": "live",
+        "deployedAt": "2026-08-18T00:00:00Z",
+        "lastBlock": 23541251,
+        "gasSpendUsd": 586.24
+      },
+      {
+        "id": "dep_11p795e",
+        "chain": "polygon",
+        "contractAddress": "0xac1984d9a2e4a59b62cfe957773a656738c29b0d",
+        "supply": 675000,
+        "holders": 3,
+        "status": "live",
+        "deployedAt": "2026-08-18T00:00:00Z",
+        "lastBlock": 47272078,
+        "gasSpendUsd": 4036.43
+      }
+    ],
+    "issuance": {
+      "status": "verified",
+      "checks": [
+        {
+          "key": "legal-docs",
+          "label": "Offering documents signed and filed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-08-15T00:00:00.000Z"
+        },
+        {
+          "key": "spv",
+          "label": "Issuer entity incorporated, registry extract on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-08-15T00:00:00.000Z"
+        },
+        {
+          "key": "title",
+          "label": "Title or lease registered in the SPV's name",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-08-15T00:00:00.000Z"
+        },
+        {
+          "key": "valuation",
+          "label": "Independent valuation on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-08-15T00:00:00.000Z"
+        },
+        {
+          "key": "regulator",
+          "label": "Regulatory approval or exemption confirmed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-08-15T00:00:00.000Z"
+        },
+        {
+          "key": "contract",
+          "label": "Token contract configuration reviewed (supply, controls, identity registry)",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-08-15T00:00:00.000Z"
+        }
+      ],
+      "verifiedBy": "Omar Siddiqui",
+      "verifiedAt": "2026-08-15T00:00:00.000Z"
+    },
+    "controls": {
+      "pausable": true,
+      "freezable": true,
+      "forcedTransfer": true,
+      "recovery": true,
+      "mintable": true,
+      "burnable": true
+    },
+    "identityRegistry": "0x107ded33fe3f79c0e77460aa959281e7a0f15cc0",
+    "complianceModule": "0x41190a4bb13bf9193a3aac8f6fd54fa8fe8e4696",
+    "createdAt": "2026-05-06T00:00:00Z"
+  },
+  {
+    "id": "tok_srhg",
+    "assetId": "ast_vgld",
+    "symbol": "SRHG",
+    "name": "SRH Allocated Gold",
+    "standard": "ERC-3643",
+    "decimals": 3,
+    "canonicalSupply": 343046,
+    "maxSupply": 1096491,
+    "status": "active",
+    "deployments": [
+      {
+        "id": "dep_120f073",
+        "chain": "ethereum",
+        "contractAddress": "0xaaf2b7befe8a057c4d49ab38cfd18032e1ea33cb",
+        "supply": 188675,
+        "holders": 6,
+        "status": "live",
+        "deployedAt": "2025-01-15T00:00:00Z",
+        "lastBlock": 23579845,
+        "gasSpendUsd": 116.85
+      },
+      {
+        "id": "dep_121dc26",
+        "chain": "solana",
+        "contractAddress": "j5mQvyZucXBzCWfZkaTcmZgLSAJJp61iryGdFLwviTUC",
+        "supply": 154371,
+        "holders": 5,
+        "status": "live",
+        "deployedAt": "2025-01-15T00:00:00Z",
+        "lastBlock": 314782252,
+        "gasSpendUsd": 1876.03
+      }
+    ],
+    "issuance": {
+      "status": "verified",
+      "checks": [
+        {
+          "key": "legal-docs",
+          "label": "Offering documents signed and filed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2025-01-12T00:00:00.000Z"
+        },
+        {
+          "key": "spv",
+          "label": "Issuer entity incorporated, registry extract on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2025-01-12T00:00:00.000Z"
+        },
+        {
+          "key": "title",
+          "label": "Vault certificate and bar list reconciled",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2025-01-12T00:00:00.000Z"
+        },
+        {
+          "key": "valuation",
+          "label": "Independent valuation on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2025-01-12T00:00:00.000Z"
+        },
+        {
+          "key": "regulator",
+          "label": "Regulatory approval or exemption confirmed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2025-01-12T00:00:00.000Z"
+        },
+        {
+          "key": "contract",
+          "label": "Token contract configuration reviewed (supply, controls, identity registry)",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2025-01-12T00:00:00.000Z"
+        }
+      ],
+      "verifiedBy": "Omar Siddiqui",
+      "verifiedAt": "2025-01-12T00:00:00.000Z"
+    },
+    "controls": {
+      "pausable": true,
+      "freezable": true,
+      "forcedTransfer": true,
+      "recovery": true,
+      "mintable": true,
+      "burnable": true
+    },
+    "identityRegistry": "0x8815625a44ffeb76987686f33149a35cc07c82e8",
+    "complianceModule": "0xb1b7d9ff606aeb7f99fc3a6698f8562e75455fac",
+    "createdAt": "2024-12-09T00:00:00Z"
+  },
+  {
+    "id": "tok_ads31",
+    "assetId": "ast_ads",
+    "symbol": "ADS31",
+    "name": "Al Dhafra Solar Green Sukuk 2031",
+    "standard": "ERC-3643",
+    "decimals": 0,
+    "canonicalSupply": 75000,
+    "maxSupply": 75000,
+    "status": "active",
+    "deployments": [
+      {
+        "id": "dep_12c6a13",
+        "chain": "ethereum",
+        "contractAddress": "0x7fd3279e61db7a56dced2b7b4b6c4c7b29b0e82d",
+        "supply": 41250,
+        "holders": 5,
+        "status": "live",
+        "deployedAt": "2026-03-02T00:00:00Z",
+        "lastBlock": 23572317,
+        "gasSpendUsd": 1250.76
+      },
+      {
+        "id": "dep_12d4737",
+        "chain": "base",
+        "contractAddress": "0x768b68297fd134a76d636881f14bd18ab8962e97",
+        "supply": 33750,
+        "holders": 3,
+        "status": "live",
+        "deployedAt": "2026-03-02T00:00:00Z",
+        "lastBlock": 40650628,
+        "gasSpendUsd": 337.67
+      }
+    ],
+    "issuance": {
+      "status": "verified",
+      "checks": [
+        {
+          "key": "legal-docs",
+          "label": "Offering documents signed and filed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-02-27T00:00:00.000Z"
+        },
+        {
+          "key": "spv",
+          "label": "Issuer entity incorporated, registry extract on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-02-27T00:00:00.000Z"
+        },
+        {
+          "key": "title",
+          "label": "Title, lease or custody confirmation in the issuer's name",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-02-27T00:00:00.000Z"
+        },
+        {
+          "key": "valuation",
+          "label": "Independent valuation on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-02-27T00:00:00.000Z"
+        },
+        {
+          "key": "regulator",
+          "label": "Regulatory approval or exemption confirmed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-02-27T00:00:00.000Z"
+        },
+        {
+          "key": "contract",
+          "label": "Token contract configuration reviewed (supply, controls, identity registry)",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-02-27T00:00:00.000Z"
+        }
+      ],
+      "verifiedBy": "Omar Siddiqui",
+      "verifiedAt": "2026-02-27T00:00:00.000Z"
+    },
+    "controls": {
+      "pausable": true,
+      "freezable": true,
+      "forcedTransfer": true,
+      "recovery": true,
+      "mintable": true,
+      "burnable": true
+    },
+    "identityRegistry": "0x8df76123e89bc73c099cf6a823b6ae1494907cd9",
+    "complianceModule": "0xe39e12c3cc4008ef78df9bcc1a335ba9ad4917b0",
+    "createdAt": "2025-12-18T00:00:00Z"
+  },
+  {
+    "id": "tok_acred",
+    "assetId": "ast_acred",
+    "symbol": "ACRED",
+    "name": "Apollo Diversified Credit (ACRED)",
+    "standard": "ERC-3643",
+    "decimals": 0,
+    "canonicalSupply": 85903,
+    "maxSupply": 135209,
+    "status": "active",
+    "deployments": [
+      {
+        "id": "dep_12ndb63",
+        "chain": "ethereum",
+        "contractAddress": "0x01202ed7c4b34408ec3bf0f58dce2e67fd1b2ef4",
+        "supply": 47248,
+        "holders": 9,
+        "status": "live",
+        "deployedAt": "2025-03-01T00:00:00Z",
+        "lastBlock": 23599089,
+        "gasSpendUsd": 1560.08
+      },
+      {
+        "id": "dep_12oc498",
+        "chain": "solana",
+        "contractAddress": "xj1Q7ovbYL1wjD4zH5VmYxgDLW6YHnzYUbtVFstkFbTu",
+        "supply": 12885,
+        "holders": 4,
+        "status": "live",
+        "deployedAt": "2025-03-01T00:00:00Z",
+        "lastBlock": 313331092,
+        "gasSpendUsd": 1391.29
+      },
+      {
+        "id": "dep_12p6352",
+        "chain": "polygon",
+        "contractAddress": "0xcee2348b217775a6b2a36bd0965b3f2d65e61c43",
+        "supply": 12885,
+        "holders": 2,
+        "status": "live",
+        "deployedAt": "2025-03-01T00:00:00Z",
+        "lastBlock": 69762607,
+        "gasSpendUsd": 1279.92
+      },
+      {
+        "id": "dep_12q1bef",
+        "chain": "avalanche",
+        "contractAddress": "0xc96025f00022e9eb28a82bfa716bc5800653a24a",
+        "supply": 12885,
+        "holders": 2,
+        "status": "live",
+        "deployedAt": "2025-03-01T00:00:00Z",
+        "lastBlock": 78422406,
+        "gasSpendUsd": 3240.37
+      }
+    ],
+    "issuance": {
+      "status": "verified",
+      "checks": [
+        {
+          "key": "legal-docs",
+          "label": "Offering documents signed and filed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2025-02-26T00:00:00.000Z"
+        },
+        {
+          "key": "spv",
+          "label": "Issuer entity incorporated, registry extract on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2025-02-26T00:00:00.000Z"
+        },
+        {
+          "key": "title",
+          "label": "Fund units or assets held by the custodian",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2025-02-26T00:00:00.000Z"
+        },
+        {
+          "key": "valuation",
+          "label": "Independent valuation on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2025-02-26T00:00:00.000Z"
+        },
+        {
+          "key": "regulator",
+          "label": "Regulatory approval or exemption confirmed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2025-02-26T00:00:00.000Z"
+        },
+        {
+          "key": "contract",
+          "label": "Token contract configuration reviewed (supply, controls, identity registry)",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2025-02-26T00:00:00.000Z"
+        }
+      ],
+      "verifiedBy": "Omar Siddiqui",
+      "verifiedAt": "2025-02-26T00:00:00.000Z"
+    },
+    "controls": {
+      "pausable": true,
+      "freezable": true,
+      "forcedTransfer": true,
+      "recovery": true,
+      "mintable": true,
+      "burnable": true
+    },
+    "identityRegistry": "0x24e8264a868f8239c72a3912f08d3d2983e4168b",
+    "complianceModule": "0x8c8c4987d98d3e6dfe5b760bcc8d5afbcef225ca",
+    "createdAt": "2025-02-12T00:00:00Z"
+  },
+  {
+    "id": "tok_hlgpa",
+    "assetId": "ast_hlpaf",
+    "symbol": "HLGPA",
+    "name": "Hamilton Lane Global Private Assets Fund",
+    "standard": "ERC-3643",
+    "decimals": 0,
+    "canonicalSupply": 48780488,
+    "maxSupply": 91463415,
+    "status": "active",
+    "deployments": [
+      {
+        "id": "dep_12y9c65",
+        "chain": "ethereum",
+        "contractAddress": "0x4d3716dc26138846b4b4b36e6bfca62aff14be87",
+        "supply": 26829268,
+        "holders": 9,
+        "status": "live",
+        "deployedAt": "2025-05-02T00:00:00Z",
+        "lastBlock": 23467655,
+        "gasSpendUsd": 1956.84
+      },
+      {
+        "id": "dep_12z4372",
+        "chain": "polygon",
+        "contractAddress": "0xa5a312eca46c4b483b08886df2214185236ec787",
+        "supply": 21951220,
+        "holders": 9,
+        "status": "live",
+        "deployedAt": "2025-05-02T00:00:00Z",
+        "lastBlock": 72713914,
+        "gasSpendUsd": 2177.86
+      }
+    ],
+    "issuance": {
+      "status": "verified",
+      "checks": [
+        {
+          "key": "legal-docs",
+          "label": "Offering documents signed and filed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2025-04-29T00:00:00.000Z"
+        },
+        {
+          "key": "spv",
+          "label": "Issuer entity incorporated, registry extract on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2025-04-29T00:00:00.000Z"
+        },
+        {
+          "key": "title",
+          "label": "Fund units or assets held by the custodian",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2025-04-29T00:00:00.000Z"
+        },
+        {
+          "key": "valuation",
+          "label": "Independent valuation on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2025-04-29T00:00:00.000Z"
+        },
+        {
+          "key": "regulator",
+          "label": "Regulatory approval or exemption confirmed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2025-04-29T00:00:00.000Z"
+        },
+        {
+          "key": "contract",
+          "label": "Token contract configuration reviewed (supply, controls, identity registry)",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2025-04-29T00:00:00.000Z"
+        }
+      ],
+      "verifiedBy": "Omar Siddiqui",
+      "verifiedAt": "2025-04-29T00:00:00.000Z"
+    },
+    "controls": {
+      "pausable": true,
+      "freezable": true,
+      "forcedTransfer": true,
+      "recovery": true,
+      "mintable": true,
+      "burnable": true
+    },
+    "identityRegistry": "0x742e68cbb3297bac3e69910aa74b38f9bddc23de",
+    "complianceModule": "0x3cdffbe18b157bc9383a84f891415613461ea80b",
+    "createdAt": "2025-03-10T00:00:00Z"
+  },
+  {
+    "id": "tok_kafd",
+    "assetId": "ast_kafd",
+    "symbol": "KAFD",
+    "name": "KAFD Grade-A Office Income Fund",
+    "standard": "ERC-3643",
+    "decimals": 0,
+    "canonicalSupply": 0,
+    "maxSupply": 20000000,
+    "status": "active",
+    "deployments": [
+      {
+        "id": "dep_137b1b1",
+        "chain": "ethereum",
+        "contractAddress": "0xeed31dc18b1874f7bf0bd0015483fdd9f505f0e2",
+        "supply": 0,
+        "holders": 0,
+        "status": "pending",
+        "deployedAt": "2026-10-04T16:00:00.000Z",
+        "lastBlock": 23432052,
+        "gasSpendUsd": 1742.3
+      },
+      {
+        "id": "dep_1389c23",
+        "chain": "base",
+        "contractAddress": "0xe96b43d53ca7046732f91c343b6993403e8c09dd",
+        "supply": 0,
+        "holders": 0,
+        "status": "pending",
+        "deployedAt": "2026-10-04T16:00:00.000Z",
+        "lastBlock": 60097092,
+        "gasSpendUsd": 1374.37
+      }
+    ],
+    "issuance": {
+      "status": "pending",
+      "checks": [
+        {
+          "key": "legal-docs",
+          "label": "Offering documents signed and filed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-10-03T16:00:00.000Z"
+        },
+        {
+          "key": "spv",
+          "label": "Issuer entity incorporated, registry extract on file",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-09-28T16:00:00.000Z"
+        },
+        {
+          "key": "title",
+          "label": "Title or lease registered in the SPV's name",
+          "status": "pending"
+        },
+        {
+          "key": "valuation",
+          "label": "Independent valuation on file",
+          "status": "pending",
+          "note": "Final JLL report expected this month"
+        },
+        {
+          "key": "regulator",
+          "label": "Regulatory approval or exemption confirmed",
+          "status": "pending",
+          "note": "CMA approval pending"
+        },
+        {
+          "key": "contract",
+          "label": "Token contract configuration reviewed (supply, controls, identity registry)",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-10-04T16:00:00.000Z"
+        }
+      ]
+    },
+    "controls": {
+      "pausable": true,
+      "freezable": true,
+      "forcedTransfer": true,
+      "recovery": true,
+      "mintable": true,
+      "burnable": true
+    },
+    "identityRegistry": "0xb23352e0013484b2b7fa8e3212464e30f25beecc",
+    "complianceModule": "0x97c3340cf2f9c9f80c47402434fe6c665aa5cf7e",
+    "createdAt": "2026-06-22T00:00:00Z"
+  },
+  {
+    "id": "tok_bbrs",
+    "assetId": "ast_bbr",
+    "symbol": "BBRS",
+    "name": "Business Bay Residences",
+    "standard": "ERC-3643",
+    "decimals": 0,
+    "canonicalSupply": 1266800,
+    "maxSupply": 1410754,
+    "status": "active",
+    "deployments": [
+      {
+        "id": "dep_13o8675",
+        "chain": "polygon",
+        "contractAddress": "0x9662cfe207a319d42a69e9a479a3bfa59543a9b9",
+        "supply": 1266800,
+        "holders": 15,
+        "status": "live",
+        "deployedAt": "2026-07-20T00:00:00Z",
+        "lastBlock": 45980961,
+        "gasSpendUsd": 1006.97
+      }
+    ],
+    "issuance": {
+      "status": "verified",
+      "checks": [
+        {
+          "key": "legal-docs",
+          "label": "Offering documents signed and filed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-07-17T00:00:00.000Z"
+        },
+        {
+          "key": "spv",
+          "label": "Issuer entity incorporated, registry extract on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-07-17T00:00:00.000Z"
+        },
+        {
+          "key": "title",
+          "label": "Title or lease registered in the SPV's name",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-07-17T00:00:00.000Z"
+        },
+        {
+          "key": "valuation",
+          "label": "Independent valuation on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-07-17T00:00:00.000Z"
+        },
+        {
+          "key": "regulator",
+          "label": "Regulatory approval or exemption confirmed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-07-17T00:00:00.000Z"
+        },
+        {
+          "key": "contract",
+          "label": "Token contract configuration reviewed (supply, controls, identity registry)",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-07-17T00:00:00.000Z"
+        }
+      ],
+      "verifiedBy": "Omar Siddiqui",
+      "verifiedAt": "2026-07-17T00:00:00.000Z"
+    },
+    "controls": {
+      "pausable": true,
+      "freezable": true,
+      "forcedTransfer": true,
+      "recovery": true,
+      "mintable": true,
+      "burnable": true
+    },
+    "identityRegistry": "0x36884c06edcbf546424b86b0c7b1681e303693d4",
+    "complianceModule": "0x109aff4f1380470ce468983dc833559ede37d243",
+    "createdAt": "2026-06-01T00:00:00Z"
+  },
+  {
+    "id": "tok_xmcr",
+    "assetId": "ast_xyz_res",
+    "symbol": "XMCR",
+    "name": "Dubai Marina Serviced Residences",
+    "standard": "ERC-3643",
+    "decimals": 0,
+    "canonicalSupply": 6000000,
+    "maxSupply": 7692308,
+    "status": "active",
+    "deployments": [
+      {
+        "id": "dep_13yc63d",
+        "chain": "polygon",
+        "contractAddress": "0xf212a37ad094c80cd2a40bebf57dbfeac8232441",
+        "supply": 6000000,
+        "holders": 3,
+        "status": "live",
+        "deployedAt": "2026-07-01T00:00:00Z",
+        "lastBlock": 78176036,
+        "gasSpendUsd": 732.61
+      }
+    ],
+    "issuance": {
+      "status": "verified",
+      "checks": [
+        {
+          "key": "legal-docs",
+          "label": "Offering documents signed and filed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-06-28T00:00:00.000Z"
+        },
+        {
+          "key": "spv",
+          "label": "Issuer entity incorporated, registry extract on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-06-28T00:00:00.000Z"
+        },
+        {
+          "key": "title",
+          "label": "Title or lease registered in the SPV's name",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-06-28T00:00:00.000Z"
+        },
+        {
+          "key": "valuation",
+          "label": "Independent valuation on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-06-28T00:00:00.000Z"
+        },
+        {
+          "key": "regulator",
+          "label": "Regulatory approval or exemption confirmed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-06-28T00:00:00.000Z"
+        },
+        {
+          "key": "contract",
+          "label": "Token contract configuration reviewed (supply, controls, identity registry)",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-06-28T00:00:00.000Z"
+        }
+      ],
+      "verifiedBy": "Omar Siddiqui",
+      "verifiedAt": "2026-06-28T00:00:00.000Z"
+    },
+    "controls": {
+      "pausable": true,
+      "freezable": true,
+      "forcedTransfer": true,
+      "recovery": true,
+      "mintable": true,
+      "burnable": true
+    },
+    "identityRegistry": "0xb96f30d9296178853315b3e825216a7b844bdd10",
+    "complianceModule": "0xadf39003f3981a57160def02b6a0d4c28f15eb83",
+    "createdAt": "2026-05-25T00:00:00Z"
+  },
+  {
+    "id": "tok_tz29",
+    "assetId": "ast_xyz_zero",
+    "symbol": "TZ29",
+    "name": "Talara Zero Coupon Note 2029",
+    "standard": "ERC-3643",
+    "decimals": 0,
+    "canonicalSupply": 250000,
+    "maxSupply": 298614,
+    "status": "active",
+    "deployments": [
+      {
+        "id": "dep_1481bb9",
+        "chain": "polygon",
+        "contractAddress": "0x530584f9b6f7c48867bd6551ea5ca18bb0ac9a7e",
+        "supply": 250000,
+        "holders": 3,
+        "status": "live",
+        "deployedAt": "2026-06-30T00:00:00Z",
+        "lastBlock": 50478537,
+        "gasSpendUsd": 2951.58
+      }
+    ],
+    "issuance": {
+      "status": "verified",
+      "checks": [
+        {
+          "key": "legal-docs",
+          "label": "Offering documents signed and filed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-06-27T00:00:00.000Z"
+        },
+        {
+          "key": "spv",
+          "label": "Issuer entity incorporated, registry extract on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-06-27T00:00:00.000Z"
+        },
+        {
+          "key": "title",
+          "label": "Title, lease or custody confirmation in the issuer's name",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-06-27T00:00:00.000Z"
+        },
+        {
+          "key": "valuation",
+          "label": "Independent valuation on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-06-27T00:00:00.000Z"
+        },
+        {
+          "key": "regulator",
+          "label": "Regulatory approval or exemption confirmed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-06-27T00:00:00.000Z"
+        },
+        {
+          "key": "contract",
+          "label": "Token contract configuration reviewed (supply, controls, identity registry)",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-06-27T00:00:00.000Z"
+        }
+      ],
+      "verifiedBy": "Omar Siddiqui",
+      "verifiedAt": "2026-06-27T00:00:00.000Z"
+    },
+    "controls": {
+      "pausable": true,
+      "freezable": true,
+      "forcedTransfer": true,
+      "recovery": true,
+      "mintable": true,
+      "burnable": true
+    },
+    "identityRegistry": "0x35c1d47ffe681b61f009596652dfd64f7a1fb2af",
+    "complianceModule": "0xaa9a8ef383d2c0098ddcad214b148be0f5fa69f0",
+    "createdAt": "2026-06-01T00:00:00Z"
+  },
+  {
+    "id": "tok_nspc",
+    "assetId": "ast_ngt_pc",
+    "symbol": "NSPC",
+    "name": "Northgate Senior Private Credit Fund",
+    "standard": "ERC-3643",
+    "decimals": 0,
+    "canonicalSupply": 8786000,
+    "maxSupply": 14326648,
+    "status": "active",
+    "deployments": [
+      {
+        "id": "dep_14g83a3",
+        "chain": "ethereum",
+        "contractAddress": "0x50d60b635eab2dc1ee5f92a77a1097ed920f9a06",
+        "supply": 8786000,
+        "holders": 3,
+        "status": "live",
+        "deployedAt": "2026-04-01T00:00:00Z",
+        "lastBlock": 23428331,
+        "gasSpendUsd": 2013.48
+      }
+    ],
+    "issuance": {
+      "status": "verified",
+      "checks": [
+        {
+          "key": "legal-docs",
+          "label": "Offering documents signed and filed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-03-29T00:00:00.000Z"
+        },
+        {
+          "key": "spv",
+          "label": "Issuer entity incorporated, registry extract on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-03-29T00:00:00.000Z"
+        },
+        {
+          "key": "title",
+          "label": "Fund units or assets held by the custodian",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-03-29T00:00:00.000Z"
+        },
+        {
+          "key": "valuation",
+          "label": "Independent valuation on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-03-29T00:00:00.000Z"
+        },
+        {
+          "key": "regulator",
+          "label": "Regulatory approval or exemption confirmed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-03-29T00:00:00.000Z"
+        },
+        {
+          "key": "contract",
+          "label": "Token contract configuration reviewed (supply, controls, identity registry)",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-03-29T00:00:00.000Z"
+        }
+      ],
+      "verifiedBy": "Omar Siddiqui",
+      "verifiedAt": "2026-03-29T00:00:00.000Z"
+    },
+    "controls": {
+      "pausable": true,
+      "freezable": true,
+      "forcedTransfer": true,
+      "recovery": true,
+      "mintable": true,
+      "burnable": true
+    },
+    "identityRegistry": "0xd6e27d220ca2cffbf08ed0871b6ecaf78aa2a622",
+    "complianceModule": "0xd64d25d92935ae3dab87eec19215477fd0990417",
+    "createdAt": "2026-01-30T00:00:00Z"
+  },
+  {
+    "id": "tok_lrp26a",
+    "assetId": "ast_ngt_rcv",
+    "symbol": "LRP26A",
+    "name": "Lahore Export Receivables 2026-A",
+    "standard": "ERC-1400",
+    "decimals": 0,
+    "canonicalSupply": 177957,
+    "maxSupply": 180000,
+    "status": "active",
+    "deployments": [
+      {
+        "id": "dep_14o0b8f",
+        "chain": "ethereum",
+        "contractAddress": "0x98ada098613d108a2ea26f77f92cfd03a10d1cbd",
+        "supply": 177957,
+        "holders": 3,
+        "status": "live",
+        "deployedAt": "2026-05-01T00:00:00Z",
+        "lastBlock": 23567531,
+        "gasSpendUsd": 1608.09
+      }
+    ],
+    "issuance": {
+      "status": "verified",
+      "checks": [
+        {
+          "key": "legal-docs",
+          "label": "Offering documents signed and filed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-04-28T00:00:00.000Z"
+        },
+        {
+          "key": "spv",
+          "label": "Issuer entity incorporated, registry extract on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-04-28T00:00:00.000Z"
+        },
+        {
+          "key": "title",
+          "label": "Title, lease or custody confirmation in the issuer's name",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-04-28T00:00:00.000Z"
+        },
+        {
+          "key": "valuation",
+          "label": "Independent valuation on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-04-28T00:00:00.000Z"
+        },
+        {
+          "key": "regulator",
+          "label": "Regulatory approval or exemption confirmed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-04-28T00:00:00.000Z"
+        },
+        {
+          "key": "contract",
+          "label": "Token contract configuration reviewed (supply, controls, identity registry)",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-04-28T00:00:00.000Z"
+        }
+      ],
+      "verifiedBy": "Omar Siddiqui",
+      "verifiedAt": "2026-04-28T00:00:00.000Z"
+    },
+    "controls": {
+      "pausable": true,
+      "freezable": true,
+      "forcedTransfer": true,
+      "recovery": true,
+      "mintable": true,
+      "burnable": true
+    },
+    "identityRegistry": "0xc755e9bd58bfaa111710f9b43e2c05a5ab10e9c7",
+    "complianceModule": "0x7ad91da9316346e7fb3e639f023cd6e12cc8ef4c",
+    "createdAt": "2026-04-05T00:00:00Z"
+  },
+  {
+    "id": "tok_mtdn",
+    "assetId": "ast_mrd_dep",
+    "symbol": "MTDN",
+    "name": "Meridian Tokenized Deposit Note",
+    "standard": "ERC-20 Permissioned",
+    "decimals": 6,
+    "canonicalSupply": 66000000,
+    "maxSupply": 180000000,
+    "status": "active",
+    "deployments": [
+      {
+        "id": "dep_14waf50",
+        "chain": "base",
+        "contractAddress": "0x94423c2240f48073fa5dad6884ee477f2f2bd1c2",
+        "supply": 66000000,
+        "holders": 1,
+        "status": "live",
+        "deployedAt": "2026-04-15T00:00:00Z",
+        "lastBlock": 71309729,
+        "gasSpendUsd": 844.45
+      },
+      {
+        "id": "dep_14x9851",
+        "chain": "ethereum",
+        "contractAddress": "0x1379557430bf7ed56209e32ec14d7325ea639454",
+        "supply": 0,
+        "holders": 0,
+        "status": "live",
+        "deployedAt": "2026-04-15T00:00:00Z",
+        "lastBlock": 23522433,
+        "gasSpendUsd": 228.15
+      }
+    ],
+    "issuance": {
+      "status": "verified",
+      "checks": [
+        {
+          "key": "legal-docs",
+          "label": "Offering documents signed and filed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-04-12T00:00:00.000Z"
+        },
+        {
+          "key": "spv",
+          "label": "Issuer entity incorporated, registry extract on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-04-12T00:00:00.000Z"
+        },
+        {
+          "key": "title",
+          "label": "Title, lease or custody confirmation in the issuer's name",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-04-12T00:00:00.000Z"
+        },
+        {
+          "key": "valuation",
+          "label": "Independent valuation on file",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-04-12T00:00:00.000Z"
+        },
+        {
+          "key": "regulator",
+          "label": "Regulatory approval or exemption confirmed",
+          "status": "verified",
+          "by": "Layla Haddad",
+          "at": "2026-04-12T00:00:00.000Z"
+        },
+        {
+          "key": "contract",
+          "label": "Token contract configuration reviewed (supply, controls, identity registry)",
+          "status": "verified",
+          "by": "Omar Siddiqui",
+          "at": "2026-04-12T00:00:00.000Z"
+        }
+      ],
+      "verifiedBy": "Omar Siddiqui",
+      "verifiedAt": "2026-04-12T00:00:00.000Z"
+    },
+    "controls": {
+      "pausable": true,
+      "freezable": true,
+      "forcedTransfer": true,
+      "recovery": true,
+      "mintable": true,
+      "burnable": true
+    },
+    "identityRegistry": "0x60baca6e4aa0d2271ce29a6271640071df4361ed",
+    "complianceModule": "0x52ca2a849220f0b8451d8ea7cd9e6cfb5d54ef9b",
+    "createdAt": "2026-03-05T00:00:00Z"
+  }
+]

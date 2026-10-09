@@ -1,0 +1,155 @@
+[
+  {
+    "id": "cus_1",
+    "custodian": "Komainu",
+    "type": "omnibus",
+    "label": "Client omnibus, Ethereum",
+    "chain": "ethereum",
+    "address": "0x5c0354a733f1992c801f018e6f42f1f94979a0ed",
+    "balanceUsd": 182400000,
+    "assetsHeld": 6,
+    "signingPolicy": {
+      "quorum": 3,
+      "signers": 5,
+      "dailyLimitUsd": 25000000,
+      "whitelistOnly": true
+    },
+    "status": "active"
+  },
+  {
+    "id": "cus_2",
+    "custodian": "Komainu",
+    "type": "segregated",
+    "label": "Tidewater Pension Trust segregated",
+    "chain": "ethereum",
+    "address": "0x63390f22d648fe42298377e74f937ce5abfd855e",
+    "balanceUsd": 14900000,
+    "assetsHeld": 3,
+    "signingPolicy": {
+      "quorum": 2,
+      "signers": 3,
+      "dailyLimitUsd": 5000000,
+      "whitelistOnly": true
+    },
+    "status": "active"
+  },
+  {
+    "id": "cus_3",
+    "custodian": "Fireblocks",
+    "type": "mpc-vault",
+    "label": "Issuer treasury, Polygon",
+    "chain": "polygon",
+    "address": "0xae66c70153e0c6ba6689ca4e37b1780bda15121f",
+    "balanceUsd": 48200000,
+    "assetsHeld": 3,
+    "signingPolicy": {
+      "quorum": 2,
+      "signers": 3,
+      "dailyLimitUsd": 10000000,
+      "whitelistOnly": true
+    },
+    "status": "active"
+  },
+  {
+    "id": "cus_4",
+    "custodian": "Fireblocks",
+    "type": "mpc-vault",
+    "label": "Distribution payer, Base",
+    "chain": "base",
+    "address": "0x03a8d42cbb340e2e90ad5da4afe33f6dc5815cf6",
+    "balanceUsd": 3100000,
+    "assetsHeld": 1,
+    "signingPolicy": {
+      "quorum": 2,
+      "signers": 4,
+      "dailyLimitUsd": 2000000,
+      "whitelistOnly": true
+    },
+    "status": "active"
+  },
+  {
+    "id": "cus_5",
+    "custodian": "Thales Luna HSM",
+    "type": "hsm-vault",
+    "label": "Token admin keys (mint, pause, freeze)",
+    "chain": "ethereum",
+    "address": "0x36c23f617b1d3f3ab1ee3433683d3ebbcf113f5d",
+    "balanceUsd": 0,
+    "assetsHeld": 0,
+    "signingPolicy": {
+      "quorum": 3,
+      "signers": 5,
+      "dailyLimitUsd": 0,
+      "whitelistOnly": true
+    },
+    "status": "active"
+  },
+  {
+    "id": "cus_6",
+    "custodian": "Copper",
+    "type": "omnibus",
+    "label": "Client omnibus, Solana",
+    "chain": "solana",
+    "address": "a5ubHfWkMFWpJkEP7u259aq89DbBrZKHihczTiCtLexc",
+    "balanceUsd": 39600000,
+    "assetsHeld": 2,
+    "signingPolicy": {
+      "quorum": 3,
+      "signers": 5,
+      "dailyLimitUsd": 10000000,
+      "whitelistOnly": true
+    },
+    "status": "active"
+  },
+  {
+    "id": "cus_7",
+    "custodian": "Fireblocks",
+    "type": "mpc-vault",
+    "label": "Gas treasury (multi-chain)",
+    "chain": "ethereum",
+    "address": "0xd3701f2d6eef31f80cc29118201e00bc752a0237",
+    "balanceUsd": 84300,
+    "assetsHeld": 0,
+    "signingPolicy": {
+      "quorum": 2,
+      "signers": 3,
+      "dailyLimitUsd": 50000,
+      "whitelistOnly": false
+    },
+    "status": "active"
+  },
+  {
+    "id": "cus_8",
+    "custodian": "Komainu",
+    "type": "segregated",
+    "label": "Restricted account (sanctions hold)",
+    "chain": "ethereum",
+    "address": "0xa4e1072c26711c4d908a797c856563fd9f5e1627",
+    "balanceUsd": 412000,
+    "assetsHeld": 1,
+    "signingPolicy": {
+      "quorum": 4,
+      "signers": 5,
+      "dailyLimitUsd": 0,
+      "whitelistOnly": true
+    },
+    "status": "frozen"
+  },
+  {
+    "id": "cus_9",
+    "custodian": "BitGo",
+    "type": "segregated",
+    "label": "US feeder settlement wallet",
+    "chain": "avalanche",
+    "address": "0xafaf88aecb071590c9fd37ed563109d158af1ba7",
+    "balanceUsd": 6250000,
+    "assetsHeld": 1,
+    "signingPolicy": {
+      "quorum": 2,
+      "signers": 3,
+      "dailyLimitUsd": 3000000,
+      "whitelistOnly": true
+    },
+    "status": "active"
+  }
+]

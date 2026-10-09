@@ -1,0 +1,5360 @@
+[
+  {
+    "id": "aud_1md314b",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-06T15:00:00.000Z",
+    "actor": {
+      "name": "Layla Haddad",
+      "role": "operations",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "approval.approved",
+    "objectType": "TokenClass",
+    "objectId": "tok_srht",
+    "reason": "Mint 1,842,105.26 SRHT on Base",
+    "previousState": "pending",
+    "newState": "approved",
+    "approvedBy": "Layla Haddad",
+    "ip": "10.20.4.22",
+    "prevHash": "0xc8555e309bed15e1819f513bb5b70fce8b9d8e883f25ec58432bea3a85158e4f",
+    "hash": "0x2d1384b6d314e13bd7f76fdff7fd5de58b7e1aab5b08ef53d2643bd52d2f8794"
+  },
+  {
+    "id": "aud_1mj34fe",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-06T14:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "approval.approved",
+    "objectType": "Investor",
+    "objectId": "inv_zainabmalik",
+    "reason": "Accept bank account with name mismatch",
+    "previousState": "pending",
+    "newState": "approved",
+    "approvedBy": "Omar Siddiqui",
+    "ip": "10.20.4.22",
+    "prevHash": "0x3688ecaa25890dc8b9156234b646c3c868d163a24a9b4e2f43a9f7b0b993dc7f",
+    "hash": "0xc8555e309bed15e1819f513bb5b70fce8b9d8e883f25ec58432bea3a85158e4f"
+  },
+  {
+    "id": "aud_1gb7037",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-06T12:43:00.000Z",
+    "actor": {
+      "name": "Checkout.com webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40397",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "Checkout.com",
+    "ip": "10.20.0.1",
+    "prevHash": "0x6b59ab1add073e02db4a9d8d62970996aeef5ba442268d4f3eb71edf178783c5",
+    "hash": "0x3688ecaa25890dc8b9156234b646c3c868d163a24a9b4e2f43a9f7b0b993dc7f"
+  },
+  {
+    "id": "aud_1ga0d44",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-06T12:42:00.000Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40397",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0xc83764ad6aa1a93c2320c952e8a7eb48cbaca86e087db1c6dda8ef8e7aa757cb",
+    "hash": "0x6b59ab1add073e02db4a9d8d62970996aeef5ba442268d4f3eb71edf178783c5"
+  },
+  {
+    "id": "aud_1g90e1c",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-06T12:39:00.000Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40397",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0x212c7cb2bdd7cbe5016e24ca5da64db0bbf7b2d69dd06f4eb46e0a92a8346f05",
+    "hash": "0xc83764ad6aa1a93c2320c952e8a7eb48cbaca86e087db1c6dda8ef8e7aa757cb"
+  },
+  {
+    "id": "aud_1g8e4ba",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-06T12:38:00.000Z",
+    "actor": {
+      "name": "Priya Nair",
+      "role": "investor",
+      "organization": "Priya Nair"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40397",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "94.200.13.77",
+    "prevHash": "0x1eccf60f269623b07474a30310c0c51aa3056da9a9fb9603805416a881376cc7",
+    "hash": "0x212c7cb2bdd7cbe5016e24ca5da64db0bbf7b2d69dd06f4eb46e0a92a8346f05"
+  },
+  {
+    "id": "aud_1mf7730",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-06T12:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "approval.approved",
+    "objectType": "Investor",
+    "objectId": "inv_kestrelopportuniti",
+    "reason": "Freeze wallets holding SRHG and SRHT",
+    "previousState": "pending",
+    "newState": "approved",
+    "approvedBy": "Omar Siddiqui",
+    "ip": "10.20.4.22",
+    "prevHash": "0x4c9fe0ce7e8e67fc822630689b827da2ac3877ca106c4e7796631b7889cec3a0",
+    "hash": "0x1eccf60f269623b07474a30310c0c51aa3056da9a9fb9603805416a881376cc7"
+  },
+  {
+    "id": "aud_1ml0c41",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-06T10:00:00.000Z",
+    "actor": {
+      "name": "Layla Haddad",
+      "role": "operations",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "approval.approved",
+    "objectType": "Asset",
+    "objectId": "ast_mbr6",
+    "reason": "Move MBR Solar 6 to review",
+    "previousState": "pending",
+    "newState": "approved",
+    "approvedBy": "Layla Haddad",
+    "ip": "10.20.4.18",
+    "prevHash": "0xa37a7ae9dd4ca71333365323d16608c1f60a405d3004e4ff3cb2d65801ccf440",
+    "hash": "0x4c9fe0ce7e8e67fc822630689b827da2ac3877ca106c4e7796631b7889cec3a0"
+  },
+  {
+    "id": "aud_1h443e2",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-06T09:06:00.660Z",
+    "actor": {
+      "name": "Settlement engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.settled",
+    "objectType": "Order",
+    "objectId": "ord_40375",
+    "reason": "Lifecycle progression",
+    "previousState": "allocated",
+    "newState": "settled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x1a7ad90af751cec79f945032ea1b14254ab1240e3694b9e574be4e840b843e8e",
+    "hash": "0xa37a7ae9dd4ca71333365323d16608c1f60a405d3004e4ff3cb2d65801ccf440"
+  },
+  {
+    "id": "aud_1h317a1",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-06T08:18:00.660Z",
+    "actor": {
+      "name": "Allocation service",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.allocated",
+    "objectType": "Order",
+    "objectId": "ord_40375",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-confirmed",
+    "newState": "allocated",
+    "ip": "10.20.0.1",
+    "prevHash": "0xf89e56aaf775cbbd544bbe69cae8c7a3c1d149b6d7c4314100f301078db99c3b",
+    "hash": "0x1a7ad90af751cec79f945032ea1b14254ab1240e3694b9e574be4e840b843e8e"
+  },
+  {
+    "id": "aud_1h2a286",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-06T07:48:00.660Z",
+    "actor": {
+      "name": "Bank adapter webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40375",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "Emirates NBD",
+    "ip": "10.20.0.1",
+    "prevHash": "0x0e7e3bfe9fcaa9511e4b4eba97ead0db098d41ad4f6b960c946cf00d97ec8b6f",
+    "hash": "0xf89e56aaf775cbbd544bbe69cae8c7a3c1d149b6d7c4314100f301078db99c3b"
+  },
+  {
+    "id": "aud_1gdc13d",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-06T04:34:56.638Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40290",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0x4864d07d434aa489307b33a67a280f3645293dbec21c876bb64b66bd5dbdaf9b",
+    "hash": "0x0e7e3bfe9fcaa9511e4b4eba97ead0db098d41ad4f6b960c946cf00d97ec8b6f"
+  },
+  {
+    "id": "aud_1gcede5",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-06T04:28:56.638Z",
+    "actor": {
+      "name": "Indus Growth Partners",
+      "role": "investor",
+      "organization": "Indus Growth Partners"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40290",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "94.200.13.77",
+    "prevHash": "0x461a59aa696ad65475afa358acd6976434894d4d4fa51a04853e727808de9445",
+    "hash": "0x4864d07d434aa489307b33a67a280f3645293dbec21c876bb64b66bd5dbdaf9b"
+  },
+  {
+    "id": "aud_1gh2091",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-06T03:34:48.694Z",
+    "actor": {
+      "name": "Checkout.com webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40325",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "Checkout.com",
+    "ip": "10.20.0.1",
+    "prevHash": "0x3eeb47ec932053caef5788604564f9b2a2e5fc50e1a9487e25e9f826321a6090",
+    "hash": "0x461a59aa696ad65475afa358acd6976434894d4d4fa51a04853e727808de9445"
+  },
+  {
+    "id": "aud_1gg263d",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-06T03:32:48.694Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40325",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0x538aa46a8665639b54b0cc17495ab252e2bbdbbd718969536c6d96a4010aa9b8",
+    "hash": "0x3eeb47ec932053caef5788604564f9b2a2e5fc50e1a9487e25e9f826321a6090"
+  },
+  {
+    "id": "aud_1gf72b5",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-06T03:29:48.694Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40325",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0x3944e8708c546076eb6bf4f3ed0cbbadb61a5377a3aa41a4973135ec9d11e559",
+    "hash": "0x538aa46a8665639b54b0cc17495ab252e2bbdbbd718969536c6d96a4010aa9b8"
+  },
+  {
+    "id": "aud_1ge8484",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-06T03:24:48.694Z",
+    "actor": {
+      "name": "Desert Rose Private Office",
+      "role": "investor",
+      "organization": "Desert Rose Private Office"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40325",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "185.42.11.6",
+    "prevHash": "0x98021802e1b36e90e7194b553b2801bba0872fdc5e02a8b21284fdc8f688204d",
+    "hash": "0x3944e8708c546076eb6bf4f3ed0cbbadb61a5377a3aa41a4973135ec9d11e559"
+  },
+  {
+    "id": "aud_1hi81f0",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-06T02:11:48.266Z",
+    "actor": {
+      "name": "Blockchain transaction manager",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.minted",
+    "objectType": "Order",
+    "objectId": "ord_40362",
+    "reason": "Lifecycle progression",
+    "previousState": "settled",
+    "newState": "minted",
+    "txHash": "0xeca29c512b0b0e2673f743b5c8fb9dfc1bccda4c6e50e4a3b2737f80d4c34dcc",
+    "ip": "10.20.0.1",
+    "prevHash": "0x2fdb344e27e1397bea55a73a4d1d4064701e3cf8079b559afca70abcbb96b620",
+    "hash": "0x98021802e1b36e90e7194b553b2801bba0872fdc5e02a8b21284fdc8f688204d"
+  },
+  {
+    "id": "aud_1hhc060",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-06T02:03:48.266Z",
+    "actor": {
+      "name": "Settlement engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.settled",
+    "objectType": "Order",
+    "objectId": "ord_40362",
+    "reason": "Lifecycle progression",
+    "previousState": "allocated",
+    "newState": "settled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x5e06a795d028d612a31ecd4874d3c9227b04953ae42c8cea9267f1eb6e06a4c8",
+    "hash": "0x2fdb344e27e1397bea55a73a4d1d4064701e3cf8079b559afca70abcbb96b620"
+  },
+  {
+    "id": "aud_1hg74e8",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-06T01:13:48.266Z",
+    "actor": {
+      "name": "Allocation service",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.allocated",
+    "objectType": "Order",
+    "objectId": "ord_40362",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-confirmed",
+    "newState": "allocated",
+    "ip": "10.20.0.1",
+    "prevHash": "0x03d399f10ee78599aaee818ad66c2b014976f6a10f2b3ea98328ceb8c29e387d",
+    "hash": "0x5e06a795d028d612a31ecd4874d3c9227b04953ae42c8cea9267f1eb6e06a4c8"
+  },
+  {
+    "id": "aud_1hf9fe7",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-06T00:41:48.266Z",
+    "actor": {
+      "name": "Bank adapter webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40362",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "Emirates NBD",
+    "ip": "10.20.0.1",
+    "prevHash": "0x9024082f4c8c5d963ed0ade23e21e6646977bf6f7a4212c17ca157860d91121b",
+    "hash": "0x03d399f10ee78599aaee818ad66c2b014976f6a10f2b3ea98328ceb8c29e387d"
+  },
+  {
+    "id": "aud_1gn50c8",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T21:16:14.806Z",
+    "actor": {
+      "name": "Settlement engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.settled",
+    "objectType": "Order",
+    "objectId": "ord_40346",
+    "reason": "Lifecycle progression",
+    "previousState": "allocated",
+    "newState": "settled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x8e3090470b185d3fb5b825d918c1bf96ebba4face5072067a596124aef497e97",
+    "hash": "0x9024082f4c8c5d963ed0ade23e21e6646977bf6f7a4212c17ca157860d91121b"
+  },
+  {
+    "id": "aud_1gm462c",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T20:30:14.806Z",
+    "actor": {
+      "name": "Allocation service",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.allocated",
+    "objectType": "Order",
+    "objectId": "ord_40346",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-confirmed",
+    "newState": "allocated",
+    "ip": "10.20.0.1",
+    "prevHash": "0x59429e906edbd751d077a1087927929743cec3cd24c79edbbb5c5ba7a03478e5",
+    "hash": "0x8e3090470b185d3fb5b825d918c1bf96ebba4face5072067a596124aef497e97"
+  },
+  {
+    "id": "aud_1gld500",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T20:00:14.806Z",
+    "actor": {
+      "name": "Bank adapter webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40346",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "Fireblocks Network (USDT)",
+    "ip": "10.20.0.1",
+    "prevHash": "0x505cc7712abca3f844205bbd6c2d76e9a9649c3514a6fd3eaf6d4a6dd7b49baa",
+    "hash": "0x59429e906edbd751d077a1087927929743cec3cd24c79edbbb5c5ba7a03478e5"
+  },
+  {
+    "id": "aud_1gk1832",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T19:51:14.806Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40346",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0x9fe9b6542afb432ae083c583dbf3c0849ea9d6c326bbbf24bd22d7c5cb77971c",
+    "hash": "0x505cc7712abca3f844205bbd6c2d76e9a9649c3514a6fd3eaf6d4a6dd7b49baa"
+  },
+  {
+    "id": "aud_1gj120e",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T19:49:14.806Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40346",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0xe3ebfb6e83b567bd5dc738bf5b867e5b751f7b0ece8edf26e856881da391546b",
+    "hash": "0x9fe9b6542afb432ae083c583dbf3c0849ea9d6c326bbbf24bd22d7c5cb77971c"
+  },
+  {
+    "id": "aud_1gie1c4",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T19:46:14.806Z",
+    "actor": {
+      "name": "Ahmed Al Mansoori",
+      "role": "investor",
+      "organization": "Ahmed Al Mansoori"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40346",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "185.42.11.6",
+    "prevHash": "0xc4ed133078d23f8742eab956c540c5e89ae48921007a49d10dfe5b461d36a607",
+    "hash": "0xe3ebfb6e83b567bd5dc738bf5b867e5b751f7b0ece8edf26e856881da391546b"
+  },
+  {
+    "id": "aud_1gscc10",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T16:06:24.067Z",
+    "actor": {
+      "name": "Allocation service",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.allocated",
+    "objectType": "Order",
+    "objectId": "ord_40337",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-confirmed",
+    "newState": "allocated",
+    "ip": "10.20.0.1",
+    "prevHash": "0x21b5114bcf146467e65ce8cc2b81b4c7b5455d67735215f3ec616f5f9f573ed4",
+    "hash": "0xc4ed133078d23f8742eab956c540c5e89ae48921007a49d10dfe5b461d36a607"
+  },
+  {
+    "id": "aud_1gr0111",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T15:34:24.067Z",
+    "actor": {
+      "name": "Checkout.com webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40337",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "Checkout.com",
+    "ip": "10.20.0.1",
+    "prevHash": "0xf5a773c9ac65032a60612e564fd3d5e2a83bfafd475d77b276219a8061bf5aff",
+    "hash": "0x21b5114bcf146467e65ce8cc2b81b4c7b5455d67735215f3ec616f5f9f573ed4"
+  },
+  {
+    "id": "aud_1gq20b6",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T15:29:24.067Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40337",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0xc32a37d45280cb0183d6dcfc4e32e389218b63dfa423b4cdf5d963f24aa005c8",
+    "hash": "0xf5a773c9ac65032a60612e564fd3d5e2a83bfafd475d77b276219a8061bf5aff"
+  },
+  {
+    "id": "aud_1gpbad3",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T15:22:24.067Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40337",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0x1d07e1fa875bca0f566fb8e81ed0c8d3f20e8c1c99c7cf54d59a643cc6c79da4",
+    "hash": "0xc32a37d45280cb0183d6dcfc4e32e389218b63dfa423b4cdf5d963f24aa005c8"
+  },
+  {
+    "id": "aud_1go84f4",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T15:21:24.067Z",
+    "actor": {
+      "name": "Tariq Mahmood",
+      "role": "investor",
+      "organization": "Tariq Mahmood"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40337",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "185.42.11.6",
+    "prevHash": "0x3756c99968fc216cd04a9f74a6f59465c88dfd833b807fab6c3f64de22f7036f",
+    "hash": "0x1d07e1fa875bca0f566fb8e81ed0c8d3f20e8c1c99c7cf54d59a643cc6c79da4"
+  },
+  {
+    "id": "aud_1nu3f16",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T15:00:00.000Z",
+    "actor": {
+      "name": "Daniel Reyes",
+      "role": "platform-admin",
+      "organization": "SRH Inc"
+    },
+    "action": "tenant.module_enabled",
+    "objectType": "Tenant",
+    "objectId": "tnt_xyz",
+    "reason": "Talara Securities contract amendment 3: enable Asset Servicing",
+    "previousState": "disabled",
+    "newState": "enabled",
+    "approvedBy": "Layla Haddad",
+    "ip": "10.20.4.18",
+    "prevHash": "0x50076c7dae62693079999d427718b53994e6dd48d542b71fc5532de5c420d457",
+    "hash": "0x3756c99968fc216cd04a9f74a6f59465c88dfd833b807fab6c3f64de22f7036f"
+  },
+  {
+    "id": "aud_1mkde59",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T15:00:00.000Z",
+    "actor": {
+      "name": "Layla Haddad",
+      "role": "operations",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "approval.approved",
+    "objectType": "Asset",
+    "objectId": "ast_bbr",
+    "reason": "Q3 valuation for Business Bay Residences",
+    "previousState": "pending",
+    "newState": "approved",
+    "approvedBy": "Layla Haddad",
+    "ip": "10.20.4.18",
+    "prevHash": "0x3b12c2f9309015a59db7e52514a9a67f03a3b3165868c1e7cbb0db50ee81529a",
+    "hash": "0x50076c7dae62693079999d427718b53994e6dd48d542b71fc5532de5c420d457"
+  },
+  {
+    "id": "aud_1me1ceb",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T14:00:00.000Z",
+    "actor": {
+      "name": "Sara Kim",
+      "role": "issuer-admin",
+      "organization": "Whitworth Park Residences SPV Ltd"
+    },
+    "action": "approval.approved",
+    "objectType": "Distribution",
+    "objectId": "dst_wpk_q3",
+    "reason": "Approve first quarterly distribution, Whitworth Park",
+    "previousState": "pending",
+    "newState": "approved",
+    "approvedBy": "Sara Kim",
+    "ip": "10.20.4.22",
+    "prevHash": "0x7c9b3129fb6c2aa75e295b4c95c610b90b3b4d04ccbfd09894bd8e272a61b23e",
+    "hash": "0x3b12c2f9309015a59db7e52514a9a67f03a3b3165868c1e7cbb0db50ee81529a"
+  },
+  {
+    "id": "aud_1gub15d",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T10:08:09.792Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40280",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0x35a7871ea29cc0d21d93fdefc6cb2043f707a5c7abccbf01efc958123050b936",
+    "hash": "0x7c9b3129fb6c2aa75e295b4c95c610b90b3b4d04ccbfd09894bd8e272a61b23e"
+  },
+  {
+    "id": "aud_1gt9771",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T10:02:09.792Z",
+    "actor": {
+      "name": "Leila Karimi",
+      "role": "investor",
+      "organization": "Leila Karimi"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40280",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "185.42.11.6",
+    "prevHash": "0x0da7f455d7dfd55b8d2d287a55bd094f632c9da04570d979cd74b52485120657",
+    "hash": "0x35a7871ea29cc0d21d93fdefc6cb2043f707a5c7abccbf01efc958123050b936"
+  },
+  {
+    "id": "aud_1gw44dc",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T09:27:47.018Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40388",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0x05b51094c6a4036fa787ecdcc12b414aef49692b091d1e233138468b5e9c439b",
+    "hash": "0x0da7f455d7dfd55b8d2d287a55bd094f632c9da04570d979cd74b52485120657"
+  },
+  {
+    "id": "aud_1gv7835",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T09:22:47.018Z",
+    "actor": {
+      "name": "Zainab Malik",
+      "role": "investor",
+      "organization": "Zainab Malik"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40388",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "185.42.11.6",
+    "prevHash": "0xcce23c79585e21112f6f559f03ac4c17ec76d20ddc1b8c2440210729cdd98e95",
+    "hash": "0x05b51094c6a4036fa787ecdcc12b414aef49692b091d1e233138468b5e9c439b"
+  },
+  {
+    "id": "aud_1ht42bf",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T07:15:37.406Z",
+    "actor": {
+      "name": "Bank adapter webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40316",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "HSBC",
+    "ip": "10.20.0.1",
+    "prevHash": "0xbee61cd6d04f2f33e2b51c9bc22ec36cb70d1ad311deed910b4fb6562c06f240",
+    "hash": "0xcce23c79585e21112f6f559f03ac4c17ec76d20ddc1b8c2440210729cdd98e95"
+  },
+  {
+    "id": "aud_1h1474e",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T05:44:00.660Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40375",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0xebc685e3ed84ae861ff61d625f894c06a22513eaae5762bd618fc42795e82c33",
+    "hash": "0xbee61cd6d04f2f33e2b51c9bc22ec36cb70d1ad311deed910b4fb6562c06f240"
+  },
+  {
+    "id": "aud_1gya52f",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T05:41:04.096Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40380",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0xc40043cb19a91c221ca283fe734ac095cae5a86961fb7c6f513476b8c19266c7",
+    "hash": "0xebc685e3ed84ae861ff61d625f894c06a22513eaae5762bd618fc42795e82c33"
+  },
+  {
+    "id": "aud_1h0a560",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T05:37:00.660Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40375",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0xd7235bf9e683fa7bb1c35bfd6160873474050dc7c1d3b8d8f5b648c56c241cf0",
+    "hash": "0xc40043cb19a91c221ca283fe734ac095cae5a86961fb7c6f513476b8c19266c7"
+  },
+  {
+    "id": "aud_1gx0568",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T05:36:04.096Z",
+    "actor": {
+      "name": "Mei Lin Tan",
+      "role": "investor",
+      "organization": "Mei Lin Tan"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40380",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "185.42.11.6",
+    "prevHash": "0x01499fd5bed414d62a08b14503ecd66d7a61b645efb8f5ed2d383d538ec0e2fa",
+    "hash": "0xd7235bf9e683fa7bb1c35bfd6160873474050dc7c1d3b8d8f5b648c56c241cf0"
+  },
+  {
+    "id": "aud_1gz6cf6",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T05:33:00.660Z",
+    "actor": {
+      "name": "Leila Karimi",
+      "role": "investor",
+      "organization": "Leila Karimi"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40375",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "185.42.11.6",
+    "prevHash": "0x65b64f7c10a876637d9c304ec1cebb3b1a505915e8ee130a753cc2fb14c551b5",
+    "hash": "0x01499fd5bed414d62a08b14503ecd66d7a61b645efb8f5ed2d383d538ec0e2fa"
+  },
+  {
+    "id": "aud_1h748fd",
+    "tenantId": "tnt_ngt",
+    "at": "2026-10-05T01:44:11.623Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40368",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0xfa39774875d3659de659b0a90cd0c5f925d6aaaa0d8342cdc7054c3727adbd2d",
+    "hash": "0x65b64f7c10a876637d9c304ec1cebb3b1a505915e8ee130a753cc2fb14c551b5"
+  },
+  {
+    "id": "aud_1h6006a",
+    "tenantId": "tnt_ngt",
+    "at": "2026-10-05T01:39:11.623Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40368",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0x1b158fa88598d359207e4ca797db0d1017bc603f7f70a40df8b65b391b6a2471",
+    "hash": "0xfa39774875d3659de659b0a90cd0c5f925d6aaaa0d8342cdc7054c3727adbd2d"
+  },
+  {
+    "id": "aud_1h5b3b4",
+    "tenantId": "tnt_ngt",
+    "at": "2026-10-05T01:37:11.623Z",
+    "actor": {
+      "name": "Granite Hill Capital",
+      "role": "investor",
+      "organization": "Granite Hill Capital"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40368",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "94.200.13.77",
+    "prevHash": "0x7c45a800ff2e91da75a369f15a34bb890326282bf191eaa28cd4d90151579309",
+    "hash": "0x1b158fa88598d359207e4ca797db0d1017bc603f7f70a40df8b65b391b6a2471"
+  },
+  {
+    "id": "aud_1haf6d9",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T01:31:03.251Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40303",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0xc3ed082b386412efb819f6c16e694ee4bfdbcebae7f56bc4396977b537ef0536",
+    "hash": "0x7c45a800ff2e91da75a369f15a34bb890326282bf191eaa28cd4d90151579309"
+  },
+  {
+    "id": "aud_1h9d7af",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T01:26:03.251Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40303",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0x11c27c1cf60bf9aa8e69bd4b62ed908ae9c200d1090ad76e17f1ae99347d2d05",
+    "hash": "0xc3ed082b386412efb819f6c16e694ee4bfdbcebae7f56bc4396977b537ef0536"
+  },
+  {
+    "id": "aud_1h80944",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T01:25:03.251Z",
+    "actor": {
+      "name": "Tariq Mahmood",
+      "role": "investor",
+      "organization": "Tariq Mahmood"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40303",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "94.200.13.77",
+    "prevHash": "0xab9b32c71a812f14dd81e92521572ce18110af7d7e50d9f688630d37b6283032",
+    "hash": "0x11c27c1cf60bf9aa8e69bd4b62ed908ae9c200d1090ad76e17f1ae99347d2d05"
+  },
+  {
+    "id": "aud_1hb27df",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-05T00:07:23.353Z",
+    "actor": {
+      "name": "Ahmed Al Mansoori",
+      "role": "investor",
+      "organization": "Ahmed Al Mansoori"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40278",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "94.200.13.77",
+    "prevHash": "0xa9fa95882a6f3f6b5f95d8b9c0ce4de161b53c4a32318f8122d4dbb6485ca61b",
+    "hash": "0xab9b32c71a812f14dd81e92521572ce18110af7d7e50d9f688630d37b6283032"
+  },
+  {
+    "id": "aud_1he3982",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-04T22:41:48.266Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40362",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0x9632c0f51022781c16a302639293c40a2fbcb4123ece85dc6eb55b77a5f0de4a",
+    "hash": "0xa9fa95882a6f3f6b5f95d8b9c0ce4de161b53c4a32318f8122d4dbb6485ca61b"
+  },
+  {
+    "id": "aud_1hd68a8",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-04T22:36:48.266Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40362",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0x10ee8d580ae3967b611c18330a3718fa81e5f6dd267a7c04af0e36985e43f2bf",
+    "hash": "0x9632c0f51022781c16a302639293c40a2fbcb4123ece85dc6eb55b77a5f0de4a"
+  },
+  {
+    "id": "aud_1hc0065",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-04T22:35:48.266Z",
+    "actor": {
+      "name": "Sable Creek Family Trust",
+      "role": "investor",
+      "organization": "Sable Creek Family Trust"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40362",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "185.42.11.6",
+    "prevHash": "0xf6ae3693e582b4c9b5343bade133d4731aeb721afe3f1394b8b0155ddaee2eaf",
+    "hash": "0x10ee8d580ae3967b611c18330a3718fa81e5f6dd267a7c04af0e36985e43f2bf"
+  },
+  {
+    "id": "aud_1i46675",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-04T17:14:42.185Z",
+    "actor": {
+      "name": "Allocation service",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.allocated",
+    "objectType": "Order",
+    "objectId": "ord_40331",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-confirmed",
+    "newState": "allocated",
+    "ip": "10.20.0.1",
+    "prevHash": "0x5913a6acb45bc75d7213fbb25edba7364be51865b10f44fc442ac1c4376c3d48",
+    "hash": "0xf6ae3693e582b4c9b5343bade133d4731aeb721afe3f1394b8b0155ddaee2eaf"
+  },
+  {
+    "id": "aud_1i367cb",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-04T16:44:42.185Z",
+    "actor": {
+      "name": "Bank adapter webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40331",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "Emirates NBD",
+    "ip": "10.20.0.1",
+    "prevHash": "0x6a8663e9aae60d5ad199e505fd3bf224019eb3d2fbb5693fca62b5fde73619e6",
+    "hash": "0x5913a6acb45bc75d7213fbb25edba7364be51865b10f44fc442ac1c4376c3d48"
+  },
+  {
+    "id": "aud_1nvc38f",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-04T16:00:00.000Z",
+    "actor": {
+      "name": "Daniel Reyes",
+      "role": "platform-admin",
+      "organization": "SRH Inc"
+    },
+    "action": "auth.role_granted",
+    "objectType": "User",
+    "objectId": "usr_new_ops",
+    "reason": "New operations analyst onboarding",
+    "previousState": "none",
+    "newState": "operations",
+    "approvedBy": "Layla Haddad",
+    "ip": "10.20.4.18",
+    "prevHash": "0x6be52f95127b74381956334bc58a1309ffd236f7079114cb83c4a09bfcc1a78f",
+    "hash": "0x6a8663e9aae60d5ad199e505fd3bf224019eb3d2fbb5693fca62b5fde73619e6"
+  },
+  {
+    "id": "aud_1mgaa27",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-04T15:00:00.000Z",
+    "actor": {
+      "name": "Layla Haddad",
+      "role": "operations",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "approval.approved",
+    "objectType": "Holding",
+    "objectId": "hld_estate",
+    "reason": "Forced transfer 1,250 SRHG (estate succession)",
+    "previousState": "pending",
+    "newState": "approved",
+    "approvedBy": "Layla Haddad",
+    "ip": "10.20.4.22",
+    "prevHash": "0x062e31f8421a5d0e5834f58ca536fd2f69eeee497b5f39bd8d9987c8e6e55441",
+    "hash": "0x6be52f95127b74381956334bc58a1309ffd236f7079114cb83c4a09bfcc1a78f"
+  },
+  {
+    "id": "aud_1hp8e87",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-04T09:05:53.593Z",
+    "actor": {
+      "name": "Blockchain transaction manager",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.minted",
+    "objectType": "Order",
+    "objectId": "ord_40355",
+    "reason": "Lifecycle progression",
+    "previousState": "settled",
+    "newState": "minted",
+    "txHash": "0xc5e757fd7b1898656242515aa590316b33e33205ad04044700ee9f1d6a9e5524",
+    "ip": "10.20.0.1",
+    "prevHash": "0xe7d88994297d56fc4b758df8c6288a356933962c37174e46c218bd2d890b7097",
+    "hash": "0x062e31f8421a5d0e5834f58ca536fd2f69eeee497b5f39bd8d9987c8e6e55441"
+  },
+  {
+    "id": "aud_1hoe982",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-04T09:00:53.593Z",
+    "actor": {
+      "name": "Settlement engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.settled",
+    "objectType": "Order",
+    "objectId": "ord_40355",
+    "reason": "Lifecycle progression",
+    "previousState": "allocated",
+    "newState": "settled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x0b48632e36ced21931922517c688933860a786336f8e820e389469852ff3d385",
+    "hash": "0xe7d88994297d56fc4b758df8c6288a356933962c37174e46c218bd2d890b7097"
+  },
+  {
+    "id": "aud_1hn882b",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-04T08:12:53.593Z",
+    "actor": {
+      "name": "Allocation service",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.allocated",
+    "objectType": "Order",
+    "objectId": "ord_40355",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-confirmed",
+    "newState": "allocated",
+    "ip": "10.20.0.1",
+    "prevHash": "0xed7ac8208551e725a0504cee8cec3291277d6bbb837d5fdc4dd7527bbd148533",
+    "hash": "0x0b48632e36ced21931922517c688933860a786336f8e820e389469852ff3d385"
+  },
+  {
+    "id": "aud_1hm7d89",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-04T07:38:53.593Z",
+    "actor": {
+      "name": "Bank adapter webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40355",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "Circle (USDC)",
+    "ip": "10.20.0.1",
+    "prevHash": "0x929768809c13f268ad6c226d2bbb6c1572a8523add7d3fe01003ad6b9c2e4dac",
+    "hash": "0xed7ac8208551e725a0504cee8cec3291277d6bbb837d5fdc4dd7527bbd148533"
+  },
+  {
+    "id": "aud_1hl9fd3",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-04T07:29:53.593Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40355",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0x8ca889d2d495dfaae1a9153ac5210f2017431346445d65b5de8731bbcd3ca2f1",
+    "hash": "0x929768809c13f268ad6c226d2bbb6c1572a8523add7d3fe01003ad6b9c2e4dac"
+  },
+  {
+    "id": "aud_1hkab54",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-04T07:26:53.593Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40355",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0xeca5c9286f2f7735455df74027fb4a1a7e22757a5ae7869c512a37fc9e684926",
+    "hash": "0x8ca889d2d495dfaae1a9153ac5210f2017431346445d65b5de8731bbcd3ca2f1"
+  },
+  {
+    "id": "aud_1hja1b2",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-04T07:24:53.593Z",
+    "actor": {
+      "name": "Priya Nair",
+      "role": "investor",
+      "organization": "Priya Nair"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40355",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "94.200.13.77",
+    "prevHash": "0x006b902dcb9fa6b6feed4cf75e13af817522b8f9bb1aaeb0731b7af83e95875e",
+    "hash": "0xeca5c9286f2f7735455df74027fb4a1a7e22757a5ae7869c512a37fc9e684926"
+  },
+  {
+    "id": "aud_1hw4298",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-04T05:19:33.704Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40298",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0x448fcc826e7365de9cf28e88ff8e6a5e2788f9bdfcc2e5054014d87b325a047e",
+    "hash": "0x006b902dcb9fa6b6feed4cf75e13af817522b8f9bb1aaeb0731b7af83e95875e"
+  },
+  {
+    "id": "aud_1hv2c77",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-04T05:16:33.704Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40298",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0xf4800c1261bab47d3d5ac4a9d9790779614831071646f8268e01a215d8ea3d9c",
+    "hash": "0x448fcc826e7365de9cf28e88ff8e6a5e2788f9bdfcc2e5054014d87b325a047e"
+  },
+  {
+    "id": "aud_1hsf1b0",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-04T05:15:37.406Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40316",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0xee839301f3bd14e0c9e2f9ad1b1f55bf9969bff2407df7429281e6e50d804b76",
+    "hash": "0xf4800c1261bab47d3d5ac4a9d9790779614831071646f8268e01a215d8ea3d9c"
+  },
+  {
+    "id": "aud_1hr0b7f",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-04T05:13:37.406Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40316",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0xa1779286a934a44f70b620105ae3cb92e697b7260d9bb3a03be3cc23368c1303",
+    "hash": "0xee839301f3bd14e0c9e2f9ad1b1f55bf9969bff2407df7429281e6e50d804b76"
+  },
+  {
+    "id": "aud_1hqf641",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-04T05:11:37.406Z",
+    "actor": {
+      "name": "Priya Nair",
+      "role": "investor",
+      "organization": "Priya Nair"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40316",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "185.42.11.6",
+    "prevHash": "0xd12c83aea9a6c55d1b55e4de77df1703d30aaa787d738084909f778885d18788",
+    "hash": "0xa1779286a934a44f70b620105ae3cb92e697b7260d9bb3a03be3cc23368c1303"
+  },
+  {
+    "id": "aud_1hu6812",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-04T05:10:33.704Z",
+    "actor": {
+      "name": "Bluewater Treasury Ltd",
+      "role": "investor",
+      "organization": "Bluewater Treasury Ltd"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40298",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "185.42.11.6",
+    "prevHash": "0xe61491170db114ba9303607140e69e89b86635a4bb5ae9cb43b1f5c0845506bb",
+    "hash": "0xd12c83aea9a6c55d1b55e4de77df1703d30aaa787d738084909f778885d18788"
+  },
+  {
+    "id": "aud_1mhaec1",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-03T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "approval.approved",
+    "objectType": "PolicyPack",
+    "objectId": "pol_global",
+    "reason": "Raise wallet risk threshold from 60 to 70",
+    "previousState": "pending",
+    "newState": "approved",
+    "approvedBy": "Omar Siddiqui",
+    "ip": "10.20.4.22",
+    "prevHash": "0x20f25f2230fc8507548db5e84806d96340692ad24bfd7a0816e51e0a65e7acaa",
+    "hash": "0xe61491170db114ba9303607140e69e89b86635a4bb5ae9cb43b1f5c0845506bb"
+  },
+  {
+    "id": "aud_1hza6ec",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-03T15:49:11.838Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40310",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0x58fc8f611d47baf3e3ab7392ad0b95b60f0556f1871a34960ed0ba5ad148a65f",
+    "hash": "0x20f25f2230fc8507548db5e84806d96340692ad24bfd7a0816e51e0a65e7acaa"
+  },
+  {
+    "id": "aud_1hy6f86",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-03T15:42:11.838Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40310",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0xff899cea0d37c4727e9a7d0cf6638ab164845261205b5e3c66b64c9ae0ed6eff",
+    "hash": "0x58fc8f611d47baf3e3ab7392ad0b95b60f0556f1871a34960ed0ba5ad148a65f"
+  },
+  {
+    "id": "aud_1hxc4b1",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-03T15:39:11.838Z",
+    "actor": {
+      "name": "Leila Karimi",
+      "role": "investor",
+      "organization": "Leila Karimi"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40310",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "185.42.11.6",
+    "prevHash": "0xf97a40207a0aedbe279a6932d543ecb5a8a578bd05b2e9944b2d702ec95adc7b",
+    "hash": "0xff899cea0d37c4727e9a7d0cf6638ab164845261205b5e3c66b64c9ae0ed6eff"
+  },
+  {
+    "id": "aud_1i22a44",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-03T14:39:42.185Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40331",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0x945ae76bbe1babd71c30cce272accfb2a342101ae13795693ab66a07b531ce6e",
+    "hash": "0xf97a40207a0aedbe279a6932d543ecb5a8a578bd05b2e9944b2d702ec95adc7b"
+  },
+  {
+    "id": "aud_1i17d51",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-03T14:33:42.185Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40331",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0x9912fe06953772abbe60a639408c9a202a97f2760837ad49fc415a07201d1042",
+    "hash": "0x945ae76bbe1babd71c30cce272accfb2a342101ae13795693ab66a07b531ce6e"
+  },
+  {
+    "id": "aud_1i05996",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-03T14:29:42.185Z",
+    "actor": {
+      "name": "Al Noor Family Office",
+      "role": "investor",
+      "organization": "Al Noor Family Office"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40331",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "185.42.11.6",
+    "prevHash": "0x26aea9f823ad71b03f964264025d7b2e993c49f25fcbd020275e92c778678c94",
+    "hash": "0x9912fe06953772abbe60a639408c9a202a97f2760837ad49fc415a07201d1042"
+  },
+  {
+    "id": "aud_1i614ac",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-02T23:09:00.000Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40430",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0x781a16c9bdb0e34464637addd642f1b814d04623eadd6853064b1bf15016fe4e",
+    "hash": "0x26aea9f823ad71b03f964264025d7b2e993c49f25fcbd020275e92c778678c94"
+  },
+  {
+    "id": "aud_1i5def6",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-02T23:03:00.000Z",
+    "actor": {
+      "name": "Omar Farouk",
+      "role": "investor",
+      "organization": "Omar Farouk"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40430",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "185.42.11.6",
+    "prevHash": "0xeaa9ef4ee32844bdf6d8be2102d05df0f13c949f934fd846cec226b65f661f5a",
+    "hash": "0x781a16c9bdb0e34464637addd642f1b814d04623eadd6853064b1bf15016fe4e"
+  },
+  {
+    "id": "aud_1micdb8",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-02T16:00:00.000Z",
+    "actor": {
+      "name": "Layla Haddad",
+      "role": "operations",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "approval.approved",
+    "objectType": "Asset",
+    "objectId": "ast_kafd",
+    "reason": "Launch KAFD Grade-A Office Income Fund",
+    "previousState": "pending",
+    "newState": "approved",
+    "approvedBy": "Layla Haddad",
+    "ip": "10.20.4.22",
+    "prevHash": "0x1c76cbddd494f199e5768230bcabf73d5a976e4f12d45f4483dd54f1be2fa69e",
+    "hash": "0xeaa9ef4ee32844bdf6d8be2102d05df0f13c949f934fd846cec226b65f661f5a"
+  },
+  {
+    "id": "aud_1ie777d",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-01T05:49:00.000Z",
+    "actor": {
+      "name": "Reconciliation engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.reconciled",
+    "objectType": "Order",
+    "objectId": "ord_40002",
+    "reason": "Lifecycle progression",
+    "previousState": "minted",
+    "newState": "reconciled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x1f13283973a958b956ac315173bd46cd8e9a61a9d2a887cb69f723d79dffa8bf",
+    "hash": "0x1c76cbddd494f199e5768230bcabf73d5a976e4f12d45f4483dd54f1be2fa69e"
+  },
+  {
+    "id": "aud_1id9602",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-01T03:45:00.000Z",
+    "actor": {
+      "name": "Blockchain transaction manager",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.minted",
+    "objectType": "Order",
+    "objectId": "ord_40002",
+    "reason": "Lifecycle progression",
+    "previousState": "settled",
+    "newState": "minted",
+    "txHash": "0xd96e64a9a5de53a9fdc6696bda9379329da2800e04aab813008a6cb0f87b9b35",
+    "ip": "10.20.0.1",
+    "prevHash": "0x582c9453665d920da4fc51fcd031896e1dc2f5894577a3527a9fb50a23d785e6",
+    "hash": "0x1f13283973a958b956ac315173bd46cd8e9a61a9d2a887cb69f723d79dffa8bf"
+  },
+  {
+    "id": "aud_1ic1055",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-01T03:39:00.000Z",
+    "actor": {
+      "name": "Settlement engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.settled",
+    "objectType": "Order",
+    "objectId": "ord_40002",
+    "reason": "Lifecycle progression",
+    "previousState": "allocated",
+    "newState": "settled",
+    "ip": "10.20.0.1",
+    "prevHash": "0xa3d6cabaafc7173b754fa2189b3e1be9160a4ba1d2eb7623714db9c1d01b9b3d",
+    "hash": "0x582c9453665d920da4fc51fcd031896e1dc2f5894577a3527a9fb50a23d785e6"
+  },
+  {
+    "id": "aud_1im5591",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-01T02:56:00.000Z",
+    "actor": {
+      "name": "Reconciliation engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.reconciled",
+    "objectType": "Order",
+    "objectId": "ord_40416",
+    "reason": "Lifecycle progression",
+    "previousState": "minted",
+    "newState": "reconciled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x75f5d0fdfaac1c13a7444b0489f85db14ce03f5fa8befbf4d3772771e46de8d0",
+    "hash": "0xa3d6cabaafc7173b754fa2189b3e1be9160a4ba1d2eb7623714db9c1d01b9b3d"
+  },
+  {
+    "id": "aud_1iba492",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-01T02:50:00.000Z",
+    "actor": {
+      "name": "Allocation service",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.allocated",
+    "objectType": "Order",
+    "objectId": "ord_40002",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-confirmed",
+    "newState": "allocated",
+    "ip": "10.20.0.1",
+    "prevHash": "0x41514bea4f779aec1b84964b62b9d1be1c6a795afa7f10697ee60bd2cbd67c90",
+    "hash": "0x75f5d0fdfaac1c13a7444b0489f85db14ce03f5fa8befbf4d3772771e46de8d0"
+  },
+  {
+    "id": "aud_1ia7f7a",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-01T02:19:00.000Z",
+    "actor": {
+      "name": "Bank adapter webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40002",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "AE Coin",
+    "ip": "10.20.0.1",
+    "prevHash": "0x409c9558a1c6d1bc9152d86ee47bebf9dbc5abcc95c7f7d88a415d9b7c2b71e6",
+    "hash": "0x41514bea4f779aec1b84964b62b9d1be1c6a795afa7f10697ee60bd2cbd67c90"
+  },
+  {
+    "id": "aud_1i9860c",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-01T02:10:00.000Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40002",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0x8e9df7fcf68903a777d909453bb0a3b6236af7807e1eb4aba52737483f148b83",
+    "hash": "0x409c9558a1c6d1bc9152d86ee47bebf9dbc5abcc95c7f7d88a415d9b7c2b71e6"
+  },
+  {
+    "id": "aud_1i85c0e",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-01T02:06:00.000Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40002",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0xa99ca10965aedb2e1d7bb510e14c568c3cd0e7fab11ff66406c8ef3d19f4f67a",
+    "hash": "0x8e9df7fcf68903a777d909453bb0a3b6236af7807e1eb4aba52737483f148b83"
+  },
+  {
+    "id": "aud_1i724ec",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-01T02:04:00.000Z",
+    "actor": {
+      "name": "Pearl Coast Holdings",
+      "role": "investor",
+      "organization": "Pearl Coast Holdings"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40002",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "94.200.13.77",
+    "prevHash": "0x890469e19e2e6bc98cf08d67f056bfe5fb7d1a0331f2a6180cf42e3263b7e52f",
+    "hash": "0xa99ca10965aedb2e1d7bb510e14c568c3cd0e7fab11ff66406c8ef3d19f4f67a"
+  },
+  {
+    "id": "aud_1il575a",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-01T00:52:00.000Z",
+    "actor": {
+      "name": "Blockchain transaction manager",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.minted",
+    "objectType": "Order",
+    "objectId": "ord_40416",
+    "reason": "Lifecycle progression",
+    "previousState": "settled",
+    "newState": "minted",
+    "txHash": "0x3b81a14474d4bb425ce269852313205a5c65b95ad7b722ff72aa97a6e14d2dc3",
+    "ip": "10.20.0.1",
+    "prevHash": "0x210d75a81cedb7e3a7230109787d3513730d7b4e6777adcbdbb199fdd3469d0e",
+    "hash": "0x890469e19e2e6bc98cf08d67f056bfe5fb7d1a0331f2a6180cf42e3263b7e52f"
+  },
+  {
+    "id": "aud_1ik8927",
+    "tenantId": "tnt_srh",
+    "at": "2026-10-01T00:44:00.000Z",
+    "actor": {
+      "name": "Settlement engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.settled",
+    "objectType": "Order",
+    "objectId": "ord_40416",
+    "reason": "Lifecycle progression",
+    "previousState": "allocated",
+    "newState": "settled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x33af200416b96599b003223380d53f51a253a794dae576f239b3db6f51073700",
+    "hash": "0x210d75a81cedb7e3a7230109787d3513730d7b4e6777adcbdbb199fdd3469d0e"
+  },
+  {
+    "id": "aud_1ijb159",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-30T23:57:00.000Z",
+    "actor": {
+      "name": "Allocation service",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.allocated",
+    "objectType": "Order",
+    "objectId": "ord_40416",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-confirmed",
+    "newState": "allocated",
+    "ip": "10.20.0.1",
+    "prevHash": "0x9d49c3cfadc32633399145b3f5c78a026f4416d99cfde64ec106e2f49052cb31",
+    "hash": "0x33af200416b96599b003223380d53f51a253a794dae576f239b3db6f51073700"
+  },
+  {
+    "id": "aud_1iia11c",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-30T23:23:00.000Z",
+    "actor": {
+      "name": "Checkout.com webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40416",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "Checkout.com",
+    "ip": "10.20.0.1",
+    "prevHash": "0xba0969b0b17a5cfa846282e1f7ca170907b99a0dea57d64209f0a88c842c8d91",
+    "hash": "0x9d49c3cfadc32633399145b3f5c78a026f4416d99cfde64ec106e2f49052cb31"
+  },
+  {
+    "id": "aud_1ihfb08",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-30T23:17:00.000Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40416",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0x18e717a726736ff66e0515c554a479eb22e8fc28b257b4a5833d4107a3747538",
+    "hash": "0xba0969b0b17a5cfa846282e1f7ca170907b99a0dea57d64209f0a88c842c8d91"
+  },
+  {
+    "id": "aud_1igd873",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-30T23:10:00.000Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40416",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0x4f305d3b2fe746d9010c3386d657e5ff25a5cdce3830c6053b020201c181f485",
+    "hash": "0x18e717a726736ff66e0515c554a479eb22e8fc28b257b4a5833d4107a3747538"
+  },
+  {
+    "id": "aud_1ife8f0",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-30T23:05:00.000Z",
+    "actor": {
+      "name": "Pearl Coast Holdings",
+      "role": "investor",
+      "organization": "Pearl Coast Holdings"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40416",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "94.200.13.77",
+    "prevHash": "0x6b476235c5cf114f41ab17a03f468bcbff97390aecddfb6be8cd6d6e33d9335c",
+    "hash": "0x4f305d3b2fe746d9010c3386d657e5ff25a5cdce3830c6053b020201c181f485"
+  },
+  {
+    "id": "aud_1mob78d",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-30T16:00:00.000Z",
+    "actor": {
+      "name": "Layla Haddad",
+      "role": "operations",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "approval.approved",
+    "objectType": "CustodyAccount",
+    "objectId": "cus_7",
+    "reason": "Top up gas treasury 25 ETH",
+    "previousState": "pending",
+    "newState": "approved",
+    "approvedBy": "Layla Haddad",
+    "txHash": "0x03c8def96b7c427ace3d7090723b354accc12f0e30ac3d2e9cf2c723e5d85e44",
+    "ip": "10.20.4.22",
+    "prevHash": "0x7518eb505cff391bf84f3f1e0e40523c98de01dfbd2ea41f8ba8f25a0c10970a",
+    "hash": "0x6b476235c5cf114f41ab17a03f468bcbff97390aecddfb6be8cd6d6e33d9335c"
+  },
+  {
+    "id": "aud_1mn8630",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-30T16:00:00.000Z",
+    "actor": {
+      "name": "Daniel Reyes",
+      "role": "platform-admin",
+      "organization": "SRH Inc"
+    },
+    "action": "approval.approved",
+    "objectType": "CustodyAccount",
+    "objectId": "cus_7",
+    "reason": "Top up gas treasury 25 ETH",
+    "previousState": "pending",
+    "newState": "approved",
+    "approvedBy": "Daniel Reyes",
+    "txHash": "0x03c8def96b7c427ace3d7090723b354accc12f0e30ac3d2e9cf2c723e5d85e44",
+    "ip": "10.20.4.22",
+    "prevHash": "0x3a75048f59bdf63352160f02bcfd0af8435964987b34c3ca15cb16bca0e76f27",
+    "hash": "0x7518eb505cff391bf84f3f1e0e40523c98de01dfbd2ea41f8ba8f25a0c10970a"
+  },
+  {
+    "id": "aud_1iu4bd1",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-30T02:37:00.000Z",
+    "actor": {
+      "name": "Reconciliation engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.reconciled",
+    "objectType": "Order",
+    "objectId": "ord_40253",
+    "reason": "Lifecycle progression",
+    "previousState": "minted",
+    "newState": "reconciled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x498730c3575a880cae22e83fe9edf1fd571726884a06037ff5dfc1e81b104e76",
+    "hash": "0x3a75048f59bdf63352160f02bcfd0af8435964987b34c3ca15cb16bca0e76f27"
+  },
+  {
+    "id": "aud_1it012e",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-30T00:37:00.000Z",
+    "actor": {
+      "name": "Blockchain transaction manager",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.minted",
+    "objectType": "Order",
+    "objectId": "ord_40253",
+    "reason": "Lifecycle progression",
+    "previousState": "settled",
+    "newState": "minted",
+    "txHash": "0xccb56cf57ccd7de7bed5ddbde7021f1f64238fabe1e4509e43bf60966a779426",
+    "ip": "10.20.0.1",
+    "prevHash": "0xc09fdb6960635042346ef21e4295c15d2575098aebe0af7467e49529f9d75b06",
+    "hash": "0x498730c3575a880cae22e83fe9edf1fd571726884a06037ff5dfc1e81b104e76"
+  },
+  {
+    "id": "aud_1isd69e",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-30T00:29:00.000Z",
+    "actor": {
+      "name": "Settlement engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.settled",
+    "objectType": "Order",
+    "objectId": "ord_40253",
+    "reason": "Lifecycle progression",
+    "previousState": "allocated",
+    "newState": "settled",
+    "ip": "10.20.0.1",
+    "prevHash": "0xcf6c1d7b18bbe00abdbaa5e79ed438aba4e5a737d293971f6d2168ac8ebc9131",
+    "hash": "0xc09fdb6960635042346ef21e4295c15d2575098aebe0af7467e49529f9d75b06"
+  },
+  {
+    "id": "aud_1ir3a0c",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-29T23:43:00.000Z",
+    "actor": {
+      "name": "Allocation service",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.allocated",
+    "objectType": "Order",
+    "objectId": "ord_40253",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-confirmed",
+    "newState": "allocated",
+    "ip": "10.20.0.1",
+    "prevHash": "0x4c346bee611b6ecec60c42e0c2bfbff4fc737292dcc6620dd0779453f459487c",
+    "hash": "0xcf6c1d7b18bbe00abdbaa5e79ed438aba4e5a737d293971f6d2168ac8ebc9131"
+  },
+  {
+    "id": "aud_1iq646b",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-29T23:13:00.000Z",
+    "actor": {
+      "name": "Bank adapter webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40253",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "Emirates NBD",
+    "ip": "10.20.0.1",
+    "prevHash": "0x0b3aa6f12fcc9a7d8ef32ee6ff8c2e86f225926391c3379f460acbc21067fb0a",
+    "hash": "0x4c346bee611b6ecec60c42e0c2bfbff4fc737292dcc6620dd0779453f459487c"
+  },
+  {
+    "id": "aud_1ipec97",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-28T21:09:00.000Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40253",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0xec1f6acf69d18b5e35903f569e0eb69f494f44ca2a26ff305a0858acbdfa7d73",
+    "hash": "0x0b3aa6f12fcc9a7d8ef32ee6ff8c2e86f225926391c3379f460acbc21067fb0a"
+  },
+  {
+    "id": "aud_1io93b2",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-28T21:07:00.000Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40253",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0x9c96fdab38c9e3af761d0e83984211b6f02c7042fe1c15665dd778701a5ebfee",
+    "hash": "0xec1f6acf69d18b5e35903f569e0eb69f494f44ca2a26ff305a0858acbdfa7d73"
+  },
+  {
+    "id": "aud_1inde05",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-28T21:03:00.000Z",
+    "actor": {
+      "name": "Priya Nair",
+      "role": "investor",
+      "organization": "Priya Nair"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40253",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "185.42.11.6",
+    "prevHash": "0x03abab0088324121abcee6d14d4a6877af5bac96d6fa4cb3752f136907723a51",
+    "hash": "0x9c96fdab38c9e3af761d0e83984211b6f02c7042fe1c15665dd778701a5ebfee"
+  },
+  {
+    "id": "aud_1j2a3da",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-28T09:40:00.000Z",
+    "actor": {
+      "name": "Reconciliation engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.reconciled",
+    "objectType": "Order",
+    "objectId": "ord_40127",
+    "reason": "Lifecycle progression",
+    "previousState": "minted",
+    "newState": "reconciled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x373f4df36dc4688dc8c51c7df070db1d5bef33130cc6c7bc42e1b3bceb751ebe",
+    "hash": "0x03abab0088324121abcee6d14d4a6877af5bac96d6fa4cb3752f136907723a51"
+  },
+  {
+    "id": "aud_1j16c3d",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-28T07:40:00.000Z",
+    "actor": {
+      "name": "Blockchain transaction manager",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.minted",
+    "objectType": "Order",
+    "objectId": "ord_40127",
+    "reason": "Lifecycle progression",
+    "previousState": "settled",
+    "newState": "minted",
+    "txHash": "0xcf39bad1cd5c0cece8907aafc023722087c97b3231d3dc23ac39a1371da5e6bc",
+    "ip": "10.20.0.1",
+    "prevHash": "0x6c16ce63ac0084e890d41e59616192c68f2bcbfce03f98549ce22fd8b769eaf6",
+    "hash": "0x373f4df36dc4688dc8c51c7df070db1d5bef33130cc6c7bc42e1b3bceb751ebe"
+  },
+  {
+    "id": "aud_1j0ad09",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-28T07:36:00.000Z",
+    "actor": {
+      "name": "Settlement engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.settled",
+    "objectType": "Order",
+    "objectId": "ord_40127",
+    "reason": "Lifecycle progression",
+    "previousState": "allocated",
+    "newState": "settled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x4e9eca8111af6b1abb27b13e271142624f4af39431fa2a1c7ba4e64297e0f23c",
+    "hash": "0x6c16ce63ac0084e890d41e59616192c68f2bcbfce03f98549ce22fd8b769eaf6"
+  },
+  {
+    "id": "aud_1izd6e0",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-28T06:48:00.000Z",
+    "actor": {
+      "name": "Allocation service",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.allocated",
+    "objectType": "Order",
+    "objectId": "ord_40127",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-confirmed",
+    "newState": "allocated",
+    "ip": "10.20.0.1",
+    "prevHash": "0x8ee5526b433f2c50e3333b598feb01ace3aa2d8353c9c739d81853c7c8237c0a",
+    "hash": "0x4e9eca8111af6b1abb27b13e271142624f4af39431fa2a1c7ba4e64297e0f23c"
+  },
+  {
+    "id": "aud_1iyfb9b",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-28T06:18:00.000Z",
+    "actor": {
+      "name": "Bank adapter webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40127",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "AE Coin",
+    "ip": "10.20.0.1",
+    "prevHash": "0x8de164dc3cd51a2e770adba970752ab65c15806b682a7387d729cfbbb9d9e384",
+    "hash": "0x8ee5526b433f2c50e3333b598feb01ace3aa2d8353c9c739d81853c7c8237c0a"
+  },
+  {
+    "id": "aud_1ix4431",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-28T06:11:00.000Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40127",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0x6335c80e4bc1d943b63bfefa2faf1e30c4d1a2fdb53d032955ac454941f3170f",
+    "hash": "0x8de164dc3cd51a2e770adba970752ab65c15806b682a7387d729cfbbb9d9e384"
+  },
+  {
+    "id": "aud_1iwae48",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-28T06:07:00.000Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40127",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0x5c6206936964aacd1a37e5bf69eae6d546fbe65113469d9cd402122f008937e1",
+    "hash": "0x6335c80e4bc1d943b63bfefa2faf1e30c4d1a2fdb53d032955ac454941f3170f"
+  },
+  {
+    "id": "aud_1ivee64",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-28T06:03:00.000Z",
+    "actor": {
+      "name": "Ahmed Al Mansoori",
+      "role": "investor",
+      "organization": "Ahmed Al Mansoori"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40127",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "94.200.13.77",
+    "prevHash": "0x93696a5e549dfbef298f25057412efbf113cf06c982b9b84d74612ad77215fb8",
+    "hash": "0x5c6206936964aacd1a37e5bf69eae6d546fbe65113469d9cd402122f008937e1"
+  },
+  {
+    "id": "aud_1nrf27b",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-27T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "policy.published",
+    "objectType": "PolicyPack",
+    "objectId": "pol_us",
+    "reason": "Policy pack US Reg D / Reg S pack published",
+    "previousState": "draft",
+    "newState": "v0.9.0",
+    "approvedBy": "Daniel Reyes",
+    "ip": "10.20.4.22",
+    "prevHash": "0x43cf02efd1064ee49ec0bd15a67169c2a8ee77fd2cf6b787fbca4c991d05ec23",
+    "hash": "0x93696a5e549dfbef298f25057412efbf113cf06c982b9b84d74612ad77215fb8"
+  },
+  {
+    "id": "aud_1mr6c8f",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-27T16:00:00.000Z",
+    "actor": {
+      "name": "HSM quorum 3/5",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "approval.approved",
+    "objectType": "TokenClass",
+    "objectId": "tok_acred",
+    "reason": "Pause ACRED transfers on Avalanche during upgrade",
+    "previousState": "pending",
+    "newState": "approved",
+    "approvedBy": "HSM quorum 3/5",
+    "txHash": "0xb1d49444569ecdc92b143169b13bb935711a347ac7171786a5a9624a8292de32",
+    "ip": "10.20.4.18",
+    "prevHash": "0x251dac10586f58e35425b769dbf7328e26fb379835df4bd9970f02b5e76f12cd",
+    "hash": "0x43cf02efd1064ee49ec0bd15a67169c2a8ee77fd2cf6b787fbca4c991d05ec23"
+  },
+  {
+    "id": "aud_1mqb42c",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-27T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "approval.approved",
+    "objectType": "TokenClass",
+    "objectId": "tok_acred",
+    "reason": "Pause ACRED transfers on Avalanche during upgrade",
+    "previousState": "pending",
+    "newState": "approved",
+    "approvedBy": "Omar Siddiqui",
+    "txHash": "0xb1d49444569ecdc92b143169b13bb935711a347ac7171786a5a9624a8292de32",
+    "ip": "10.20.4.22",
+    "prevHash": "0x33311e9575c8f2cfa453120f3e12a49d35e0b877570d031300b77790b534531d",
+    "hash": "0x251dac10586f58e35425b769dbf7328e26fb379835df4bd9970f02b5e76f12cd"
+  },
+  {
+    "id": "aud_1mpfa5f",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-27T16:00:00.000Z",
+    "actor": {
+      "name": "Daniel Reyes",
+      "role": "platform-admin",
+      "organization": "SRH Inc"
+    },
+    "action": "approval.approved",
+    "objectType": "TokenClass",
+    "objectId": "tok_acred",
+    "reason": "Pause ACRED transfers on Avalanche during upgrade",
+    "previousState": "pending",
+    "newState": "approved",
+    "approvedBy": "Daniel Reyes",
+    "txHash": "0xb1d49444569ecdc92b143169b13bb935711a347ac7171786a5a9624a8292de32",
+    "ip": "10.20.4.18",
+    "prevHash": "0x920a4d8c4afcb67dbe643d394261b3c7a413aa2dcc00813ccf8a02ecc8e44e0e",
+    "hash": "0x33311e9575c8f2cfa453120f3e12a49d35e0b877570d031300b77790b534531d"
+  },
+  {
+    "id": "aud_1j45e2d",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-26T09:07:00.000Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40437",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0xd9642aeaa647600625a3fa8058b80c16d945b2a79db71297e58e73ab0bf2c7da",
+    "hash": "0x920a4d8c4afcb67dbe643d394261b3c7a413aa2dcc00813ccf8a02ecc8e44e0e"
+  },
+  {
+    "id": "aud_1j3c7a5",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-26T09:04:00.000Z",
+    "actor": {
+      "name": "Arjun Mehta",
+      "role": "investor",
+      "organization": "Arjun Mehta"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40437",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "94.200.13.77",
+    "prevHash": "0xfe1d9b85145b2e99c8644a3067f4d27e65275f8194d5672949b4307574acdcf9",
+    "hash": "0xd9642aeaa647600625a3fa8058b80c16d945b2a79db71297e58e73ab0bf2c7da"
+  },
+  {
+    "id": "aud_1j6ac7b",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-25T16:05:00.000Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40444",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0xff6504056a6fe7ba23fe3433466f8d68b0e837eab1849f21014013e95a5f200b",
+    "hash": "0xfe1d9b85145b2e99c8644a3067f4d27e65275f8194d5672949b4307574acdcf9"
+  },
+  {
+    "id": "aud_1j56639",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-25T16:02:00.000Z",
+    "actor": {
+      "name": "Marcus Bauer",
+      "role": "investor",
+      "organization": "Marcus Bauer"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40444",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "94.200.13.77",
+    "prevHash": "0x3bbc0903c3b027496f4c6c71f1fd49d084d967ecdcdebcb5cb4712b2c9a2bd84",
+    "hash": "0xff6504056a6fe7ba23fe3433466f8d68b0e837eab1849f21014013e95a5f200b"
+  },
+  {
+    "id": "aud_1j8a613",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-25T04:03:00.000Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40426",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0x32c15923dfe6793034502446099ff543a72d9fc1b5b488d4788cdac736e11607",
+    "hash": "0x3bbc0903c3b027496f4c6c71f1fd49d084d967ecdcdebcb5cb4712b2c9a2bd84"
+  },
+  {
+    "id": "aud_1j7c535",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-25T04:01:00.000Z",
+    "actor": {
+      "name": "Yousef Haddad",
+      "role": "investor",
+      "organization": "Yousef Haddad"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40426",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "94.200.13.77",
+    "prevHash": "0x236794586077b78793c098a80ad4808cd2cd794fd39b113179d203516c35db96",
+    "hash": "0x32c15923dfe6793034502446099ff543a72d9fc1b5b488d4788cdac736e11607"
+  },
+  {
+    "id": "aud_1mt6de5",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-24T16:00:00.000Z",
+    "actor": {
+      "name": "HSM quorum 3/5",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "approval.approved",
+    "objectType": "TokenClass",
+    "objectId": "tok_srht",
+    "reason": "Burn 120,000 SRHT for same-day redemptions",
+    "previousState": "pending",
+    "newState": "approved",
+    "approvedBy": "HSM quorum 3/5",
+    "txHash": "0x300bdd74cefde454b0f43a0ab54445c49e02cd41298aae25d274a585a59486ca",
+    "ip": "10.20.4.18",
+    "prevHash": "0x05287d62c21451d70c9ef0075dd4a422b6673f3123ce6acc7d9bdabd4ef5fe31",
+    "hash": "0x236794586077b78793c098a80ad4808cd2cd794fd39b113179d203516c35db96"
+  },
+  {
+    "id": "aud_1ms9a8b",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-24T16:00:00.000Z",
+    "actor": {
+      "name": "Layla Haddad",
+      "role": "operations",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "approval.approved",
+    "objectType": "TokenClass",
+    "objectId": "tok_srht",
+    "reason": "Burn 120,000 SRHT for same-day redemptions",
+    "previousState": "pending",
+    "newState": "approved",
+    "approvedBy": "Layla Haddad",
+    "txHash": "0x300bdd74cefde454b0f43a0ab54445c49e02cd41298aae25d274a585a59486ca",
+    "ip": "10.20.4.18",
+    "prevHash": "0x5323e97d45998b871ff4a1b2eab473bb15ddcc93df3d4a597e30316cabed346d",
+    "hash": "0x05287d62c21451d70c9ef0075dd4a422b6673f3123ce6acc7d9bdabd4ef5fe31"
+  },
+  {
+    "id": "aud_1jg274d",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-24T10:44:00.000Z",
+    "actor": {
+      "name": "Reconciliation engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.reconciled",
+    "objectType": "Order",
+    "objectId": "ord_40403",
+    "reason": "Lifecycle progression",
+    "previousState": "minted",
+    "newState": "reconciled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x9cda6fbf36e270b07c04552ddb883636b8bdefa5e344b28eecc546f25842b3d2",
+    "hash": "0x5323e97d45998b871ff4a1b2eab473bb15ddcc93df3d4a597e30316cabed346d"
+  },
+  {
+    "id": "aud_1jfcab9",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-24T08:41:00.000Z",
+    "actor": {
+      "name": "Blockchain transaction manager",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.minted",
+    "objectType": "Order",
+    "objectId": "ord_40403",
+    "reason": "Lifecycle progression",
+    "previousState": "settled",
+    "newState": "minted",
+    "txHash": "0x6d185e7f34c631b46c54021536088e18b57b4108a97912d2593c626ec7ff132f",
+    "ip": "10.20.0.1",
+    "prevHash": "0xb22ea3b17193e20eafa98103721ed2d0062b368da6df3deebab1b6ef77cf01ab",
+    "hash": "0x9cda6fbf36e270b07c04552ddb883636b8bdefa5e344b28eecc546f25842b3d2"
+  },
+  {
+    "id": "aud_1je92f1",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-24T08:38:00.000Z",
+    "actor": {
+      "name": "Settlement engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.settled",
+    "objectType": "Order",
+    "objectId": "ord_40403",
+    "reason": "Lifecycle progression",
+    "previousState": "allocated",
+    "newState": "settled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x58afb455da6a80f577002b9be2abdfe750db70df09d57bb6b34bf6a9bd1711cf",
+    "hash": "0xb22ea3b17193e20eafa98103721ed2d0062b368da6df3deebab1b6ef77cf01ab"
+  },
+  {
+    "id": "aud_1jd78c8",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-24T07:50:00.000Z",
+    "actor": {
+      "name": "Allocation service",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.allocated",
+    "objectType": "Order",
+    "objectId": "ord_40403",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-confirmed",
+    "newState": "allocated",
+    "ip": "10.20.0.1",
+    "prevHash": "0xd9eadd2eefdc7135993e116857dbee17f027058044422279c2bd9e56ca57e4c0",
+    "hash": "0x58afb455da6a80f577002b9be2abdfe750db70df09d57bb6b34bf6a9bd1711cf"
+  },
+  {
+    "id": "aud_1jc2747",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-24T07:18:00.000Z",
+    "actor": {
+      "name": "Checkout.com webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40403",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "Checkout.com",
+    "ip": "10.20.0.1",
+    "prevHash": "0xfea807447fe0431f298c068acbf511873de44ed123cbc91cbc53a1f9d3067601",
+    "hash": "0xd9eadd2eefdc7135993e116857dbee17f027058044422279c2bd9e56ca57e4c0"
+  },
+  {
+    "id": "aud_1jb542a",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-24T07:12:00.000Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40403",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0x36cea724d6c1b810fff9c9fab521b88350e6fbab3b48b597c670de35d9d12ced",
+    "hash": "0xfea807447fe0431f298c068acbf511873de44ed123cbc91cbc53a1f9d3067601"
+  },
+  {
+    "id": "aud_1ja5366",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-24T07:10:00.000Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40403",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0xaf0d925e56b27a991a35e4178ace0e2e2e68646cc1b59197ae054229cc4aaac4",
+    "hash": "0x36cea724d6c1b810fff9c9fab521b88350e6fbab3b48b597c670de35d9d12ced"
+  },
+  {
+    "id": "aud_1j92b22",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-24T07:05:00.000Z",
+    "actor": {
+      "name": "Westmarch Pension Scheme",
+      "role": "investor",
+      "organization": "Westmarch Pension Scheme"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40403",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "185.42.11.6",
+    "prevHash": "0xd6bbc5114297a991db37cf378bc3f439d99d91de1f9998349234f51ba2e8d1b9",
+    "hash": "0xaf0d925e56b27a991a35e4178ace0e2e2e68646cc1b59197ae054229cc4aaac4"
+  },
+  {
+    "id": "aud_1jo514f",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-24T00:51:00.000Z",
+    "actor": {
+      "name": "Reconciliation engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.reconciled",
+    "objectType": "Order",
+    "objectId": "ord_40100",
+    "reason": "Lifecycle progression",
+    "previousState": "minted",
+    "newState": "reconciled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x6a1e2fe2e46ccb384416444681638395f7f35cf587938e8a98aaea8b97527076",
+    "hash": "0xd6bbc5114297a991db37cf378bc3f439d99d91de1f9998349234f51ba2e8d1b9"
+  },
+  {
+    "id": "aud_1jn135d",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-23T22:49:00.000Z",
+    "actor": {
+      "name": "Blockchain transaction manager",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.minted",
+    "objectType": "Order",
+    "objectId": "ord_40100",
+    "reason": "Lifecycle progression",
+    "previousState": "settled",
+    "newState": "minted",
+    "txHash": "0xf03e00ae6ae0e27623e5c96b8ffebd3c7067b681c9af1d157fb7200cf255ce22",
+    "ip": "10.20.0.1",
+    "prevHash": "0x4b3ef937d4e87c41d9ca5fc6d6c5b7c1e95fe8f2cfdeb8ad7f3957b5a1e1a6af",
+    "hash": "0x6a1e2fe2e46ccb384416444681638395f7f35cf587938e8a98aaea8b97527076"
+  },
+  {
+    "id": "aud_1jm4ae4",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-23T22:45:00.000Z",
+    "actor": {
+      "name": "Settlement engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.settled",
+    "objectType": "Order",
+    "objectId": "ord_40100",
+    "reason": "Lifecycle progression",
+    "previousState": "allocated",
+    "newState": "settled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x0acac268778b448f2097fa113ff2202602e3eebbb1207604c92e0743ce26216b",
+    "hash": "0x4b3ef937d4e87c41d9ca5fc6d6c5b7c1e95fe8f2cfdeb8ad7f3957b5a1e1a6af"
+  },
+  {
+    "id": "aud_1jla4e5",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-23T21:55:00.000Z",
+    "actor": {
+      "name": "Allocation service",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.allocated",
+    "objectType": "Order",
+    "objectId": "ord_40100",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-confirmed",
+    "newState": "allocated",
+    "ip": "10.20.0.1",
+    "prevHash": "0x9e5b3b66f6ae4ef7e8cf2b4ff26b238f2d033de878f7da144fb748a3ba9a963d",
+    "hash": "0x0acac268778b448f2097fa113ff2202602e3eebbb1207604c92e0743ce26216b"
+  },
+  {
+    "id": "aud_1jk437e",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-23T21:22:00.000Z",
+    "actor": {
+      "name": "Bank adapter webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40100",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "AE Coin",
+    "ip": "10.20.0.1",
+    "prevHash": "0x3501a7d2edb7fa25c0ec66bae8463e8fa0d871f2c3d0adfffc758a657fd18046",
+    "hash": "0x9e5b3b66f6ae4ef7e8cf2b4ff26b238f2d033de878f7da144fb748a3ba9a963d"
+  },
+  {
+    "id": "aud_1jjb089",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-23T21:13:00.000Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40100",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0x19df325d47d63f91c4abb1f986282891cbf2b9201ad1319ca8bedb2d9bceed2a",
+    "hash": "0x3501a7d2edb7fa25c0ec66bae8463e8fa0d871f2c3d0adfffc758a657fd18046"
+  },
+  {
+    "id": "aud_1ji983f",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-23T21:09:00.000Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40100",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0x057cf456f689244ae1e3781ec47c9d6cba1b2fde20d66d0a4988bd14af39ba6a",
+    "hash": "0x19df325d47d63f91c4abb1f986282891cbf2b9201ad1319ca8bedb2d9bceed2a"
+  },
+  {
+    "id": "aud_1jhd7df",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-23T21:04:00.000Z",
+    "actor": {
+      "name": "Bluewater Treasury Ltd",
+      "role": "investor",
+      "organization": "Bluewater Treasury Ltd"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40100",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "185.42.11.6",
+    "prevHash": "0x251fab890c489b613326e910aab1e87eb9d79e88bbfef74a33787ac91f3dd558",
+    "hash": "0x057cf456f689244ae1e3781ec47c9d6cba1b2fde20d66d0a4988bd14af39ba6a"
+  },
+  {
+    "id": "aud_1nwb911",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-22T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "verification.waived",
+    "objectType": "Investor",
+    "objectId": "inv_priyanair",
+    "reason": "Address supplied by Singpass Myinfo",
+    "previousState": "missing",
+    "newState": "waived",
+    "ip": "10.20.4.22",
+    "prevHash": "0xb4f0d06092c9cb7f19b226f21ddbb7861127325375ecf3b89b6c59f2a69d6a43",
+    "hash": "0x251fab890c489b613326e910aab1e87eb9d79e88bbfef74a33787ac91f3dd558"
+  },
+  {
+    "id": "aud_1mmb3d0",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-22T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "approval.approved",
+    "objectType": "Investor",
+    "objectId": "inv_priyanair",
+    "reason": "Waive proof of address upload",
+    "previousState": "pending",
+    "newState": "approved",
+    "approvedBy": "Omar Siddiqui",
+    "ip": "10.20.4.22",
+    "prevHash": "0xdda80b624f89cc4ee797302e4895962f3833680e884d0e56f547c48fe1e63faa",
+    "hash": "0xb4f0d06092c9cb7f19b226f21ddbb7861127325375ecf3b89b6c59f2a69d6a43"
+  },
+  {
+    "id": "aud_1jwec34",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-19T09:44:00.000Z",
+    "actor": {
+      "name": "Reconciliation engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.reconciled",
+    "objectType": "Order",
+    "objectId": "ord_40118",
+    "reason": "Lifecycle progression",
+    "previousState": "minted",
+    "newState": "reconciled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x9163a978f783e6ad73f175c7a3fb8869ab01e70c8e9707b9009aea5c51e9ff2c",
+    "hash": "0xdda80b624f89cc4ee797302e4895962f3833680e884d0e56f547c48fe1e63faa"
+  },
+  {
+    "id": "aud_1jv36fe",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-19T07:42:00.000Z",
+    "actor": {
+      "name": "Blockchain transaction manager",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.minted",
+    "objectType": "Order",
+    "objectId": "ord_40118",
+    "reason": "Lifecycle progression",
+    "previousState": "settled",
+    "newState": "minted",
+    "txHash": "0xf740c5964a8d369f6d0338d8ae62083a129c1e4fdf7bcaf7067e157ca9bc2513",
+    "ip": "10.20.0.1",
+    "prevHash": "0xdd570f25518b7046323f3148cc747069068bca89983597532c4acbb82c2210e1",
+    "hash": "0x9163a978f783e6ad73f175c7a3fb8869ab01e70c8e9707b9009aea5c51e9ff2c"
+  },
+  {
+    "id": "aud_1ju5b3a",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-19T07:37:00.000Z",
+    "actor": {
+      "name": "Settlement engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.settled",
+    "objectType": "Order",
+    "objectId": "ord_40118",
+    "reason": "Lifecycle progression",
+    "previousState": "allocated",
+    "newState": "settled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x3fcff0e657861859943272a99bd8cc1d30e41568908aedb6aa1c7b45609301da",
+    "hash": "0xdd570f25518b7046323f3148cc747069068bca89983597532c4acbb82c2210e1"
+  },
+  {
+    "id": "aud_1jt4235",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-19T06:50:00.000Z",
+    "actor": {
+      "name": "Allocation service",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.allocated",
+    "objectType": "Order",
+    "objectId": "ord_40118",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-confirmed",
+    "newState": "allocated",
+    "ip": "10.20.0.1",
+    "prevHash": "0x54c30eba6d5aa21d15fe5e291cb5051d228795fb91169e01d4cb7f7ea170be4a",
+    "hash": "0x3fcff0e657861859943272a99bd8cc1d30e41568908aedb6aa1c7b45609301da"
+  },
+  {
+    "id": "aud_1jsf67b",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-19T06:19:00.000Z",
+    "actor": {
+      "name": "Bank adapter webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40118",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "AE Coin",
+    "ip": "10.20.0.1",
+    "prevHash": "0xc2fc07658f6e51aeca62fe01cea95c1db23bd8421dbccde36588c7faea082e0b",
+    "hash": "0x54c30eba6d5aa21d15fe5e291cb5051d228795fb91169e01d4cb7f7ea170be4a"
+  },
+  {
+    "id": "aud_1jr635c",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-19T06:14:00.000Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40118",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0xc24c5862b04c49f43d89f5e7674fc40078ae732b1a962d9d7bc508f388d73778",
+    "hash": "0xc2fc07658f6e51aeca62fe01cea95c1db23bd8421dbccde36588c7faea082e0b"
+  },
+  {
+    "id": "aud_1jq37fd",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-19T06:07:00.000Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40118",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0x6cd9e22b37f2ea25b1f9b023a1ba6ebbdd4d020d4a0192e2ac9a5ec8e5cd6ebe",
+    "hash": "0xc24c5862b04c49f43d89f5e7674fc40078ae732b1a962d9d7bc508f388d73778"
+  },
+  {
+    "id": "aud_1jp5a17",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-19T06:01:00.000Z",
+    "actor": {
+      "name": "Tariq Mahmood",
+      "role": "investor",
+      "organization": "Tariq Mahmood"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40118",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "94.200.13.77",
+    "prevHash": "0x14a978c61fc2cebc5a79f487f86531f6e829eeec2694c435da208b54b34245bd",
+    "hash": "0x6cd9e22b37f2ea25b1f9b023a1ba6ebbdd4d020d4a0192e2ac9a5ec8e5cd6ebe"
+  },
+  {
+    "id": "aud_1n4ce3d",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-16T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "screening.alert_confirmed",
+    "objectType": "ScreeningAlert",
+    "objectId": "alt_916",
+    "reason": "Confirmed. Account restricted and SAR filed.",
+    "previousState": "open",
+    "newState": "confirmed",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.4.22",
+    "prevHash": "0x1b9080681db2073752deeecb1c6d6e111e5f28206505f96d3f66a28ad19c4b8b",
+    "hash": "0x14a978c61fc2cebc5a79f487f86531f6e829eeec2694c435da208b54b34245bd"
+  },
+  {
+    "id": "aud_1k49f57",
+    "tenantId": "tnt_xyz",
+    "at": "2026-09-14T12:47:00.000Z",
+    "actor": {
+      "name": "Reconciliation engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.reconciled",
+    "objectType": "Order",
+    "objectId": "ord_40223",
+    "reason": "Lifecycle progression",
+    "previousState": "minted",
+    "newState": "reconciled",
+    "ip": "10.20.0.1",
+    "prevHash": "0xf27c5d438bb24f40d8248b040fe8e3269718cf6a9975ae16961b48b961d3ad04",
+    "hash": "0x1b9080681db2073752deeecb1c6d6e111e5f28206505f96d3f66a28ad19c4b8b"
+  },
+  {
+    "id": "aud_1k38b2f",
+    "tenantId": "tnt_xyz",
+    "at": "2026-09-14T10:42:00.000Z",
+    "actor": {
+      "name": "Blockchain transaction manager",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.minted",
+    "objectType": "Order",
+    "objectId": "ord_40223",
+    "reason": "Lifecycle progression",
+    "previousState": "settled",
+    "newState": "minted",
+    "txHash": "0x44c1a55602ea0ac758fd1170374fd4fa1284cc4867696dda2e39bbfb6c457fef",
+    "ip": "10.20.0.1",
+    "prevHash": "0x790b3acaea3109f1361f60c538841b5e7ac1251bb4176e0dc9d814617d8c5775",
+    "hash": "0xf27c5d438bb24f40d8248b040fe8e3269718cf6a9975ae16961b48b961d3ad04"
+  },
+  {
+    "id": "aud_1k2724c",
+    "tenantId": "tnt_xyz",
+    "at": "2026-09-14T10:39:00.000Z",
+    "actor": {
+      "name": "Settlement engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.settled",
+    "objectType": "Order",
+    "objectId": "ord_40223",
+    "reason": "Lifecycle progression",
+    "previousState": "allocated",
+    "newState": "settled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x558c86f9573e246afdfbd6dbfb06e0ae7a4cca4d9fae02bf12887814e837f1ac",
+    "hash": "0x790b3acaea3109f1361f60c538841b5e7ac1251bb4176e0dc9d814617d8c5775"
+  },
+  {
+    "id": "aud_1k14489",
+    "tenantId": "tnt_xyz",
+    "at": "2026-09-14T09:52:00.000Z",
+    "actor": {
+      "name": "Allocation service",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.allocated",
+    "objectType": "Order",
+    "objectId": "ord_40223",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-confirmed",
+    "newState": "allocated",
+    "ip": "10.20.0.1",
+    "prevHash": "0x1c551538b868012709bd68481f1c35eb8bbcbff8a6ff5d5b735975bd9e650060",
+    "hash": "0x558c86f9573e246afdfbd6dbfb06e0ae7a4cca4d9fae02bf12887814e837f1ac"
+  },
+  {
+    "id": "aud_1k0f150",
+    "tenantId": "tnt_xyz",
+    "at": "2026-09-14T09:20:00.000Z",
+    "actor": {
+      "name": "Checkout.com webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40223",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "Checkout.com",
+    "ip": "10.20.0.1",
+    "prevHash": "0x517b142114141a5fb3e6224b54a504559803e5ee576ef33aca92b90f09186ae1",
+    "hash": "0x1c551538b868012709bd68481f1c35eb8bbcbff8a6ff5d5b735975bd9e650060"
+  },
+  {
+    "id": "aud_1jz4a03",
+    "tenantId": "tnt_xyz",
+    "at": "2026-09-14T09:14:00.000Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40223",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0xbaa4b80df1c4578f53ac5cbcac46d13d91c4a9e468943c250798983da470e714",
+    "hash": "0x517b142114141a5fb3e6224b54a504559803e5ee576ef33aca92b90f09186ae1"
+  },
+  {
+    "id": "aud_1jyd383",
+    "tenantId": "tnt_xyz",
+    "at": "2026-09-14T09:08:00.000Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40223",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0x429e81fc8b3db3d8ff3f9cdb1b2c9a68d5b5d1d98d28829f80d5d60c4a355c80",
+    "hash": "0xbaa4b80df1c4578f53ac5cbcac46d13d91c4a9e468943c250798983da470e714"
+  },
+  {
+    "id": "aud_1jx36ef",
+    "tenantId": "tnt_xyz",
+    "at": "2026-09-14T09:02:00.000Z",
+    "actor": {
+      "name": "Crescent Bay Capital",
+      "role": "investor",
+      "organization": "Crescent Bay Capital"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40223",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "94.200.13.77",
+    "prevHash": "0x110b6431201db3400bca1cc54b48a37e5ed90b87969c0fda3aca56eb48ac0ea3",
+    "hash": "0x429e81fc8b3db3d8ff3f9cdb1b2c9a68d5b5d1d98d28829f80d5d60c4a355c80"
+  },
+  {
+    "id": "aud_1kc429e",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-14T01:34:00.000Z",
+    "actor": {
+      "name": "Reconciliation engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.reconciled",
+    "objectType": "Order",
+    "objectId": "ord_40145",
+    "reason": "Lifecycle progression",
+    "previousState": "minted",
+    "newState": "reconciled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x8f4fbc32108e67529a3c8ca340f69b1b965c89af666f255d108de418f6ae4b5d",
+    "hash": "0x110b6431201db3400bca1cc54b48a37e5ed90b87969c0fda3aca56eb48ac0ea3"
+  },
+  {
+    "id": "aud_1kba042",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-13T23:32:00.000Z",
+    "actor": {
+      "name": "Blockchain transaction manager",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.minted",
+    "objectType": "Order",
+    "objectId": "ord_40145",
+    "reason": "Lifecycle progression",
+    "previousState": "settled",
+    "newState": "minted",
+    "txHash": "0xe8f03fe89ea9911ce1b1b4f99d68f63ff26b02dba790af1fabe9053ec231f184",
+    "ip": "10.20.0.1",
+    "prevHash": "0xe6762f23ac991e8381ed16af3630104c49b57f61634768edd403185d75532ac3",
+    "hash": "0x8f4fbc32108e67529a3c8ca340f69b1b965c89af666f255d108de418f6ae4b5d"
+  },
+  {
+    "id": "aud_1kaafce",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-13T23:26:00.000Z",
+    "actor": {
+      "name": "Settlement engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.settled",
+    "objectType": "Order",
+    "objectId": "ord_40145",
+    "reason": "Lifecycle progression",
+    "previousState": "allocated",
+    "newState": "settled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x29cfb30e3f1825a26489a0e8f1783b771e6b6766fd28166975ac99db5b83d0db",
+    "hash": "0xe6762f23ac991e8381ed16af3630104c49b57f61634768edd403185d75532ac3"
+  },
+  {
+    "id": "aud_1k9d832",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-13T22:40:00.000Z",
+    "actor": {
+      "name": "Allocation service",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.allocated",
+    "objectType": "Order",
+    "objectId": "ord_40145",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-confirmed",
+    "newState": "allocated",
+    "ip": "10.20.0.1",
+    "prevHash": "0x1b63039a5bbb1da5632d859525df99ca8682ad54e0232e694133428c288e8dc6",
+    "hash": "0x29cfb30e3f1825a26489a0e8f1783b771e6b6766fd28166975ac99db5b83d0db"
+  },
+  {
+    "id": "aud_1k8a3b6",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-13T22:10:00.000Z",
+    "actor": {
+      "name": "Bank adapter webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40145",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "HSBC",
+    "ip": "10.20.0.1",
+    "prevHash": "0xcc395afe84d7769b28b0412849b5ed2c149a9a11cab85446fb99749ab6b0b54c",
+    "hash": "0x1b63039a5bbb1da5632d859525df99ca8682ad54e0232e694133428c288e8dc6"
+  },
+  {
+    "id": "aud_1my985e",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-13T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "screening.alert_cleared",
+    "objectType": "ScreeningAlert",
+    "objectId": "alt_910",
+    "reason": "False positive. Identifiers do not match.",
+    "previousState": "open",
+    "newState": "cleared",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.4.22",
+    "prevHash": "0x0a8c13ca637e3caaa8d57db3cf1e5214f17a7084227538d75364c136bfb8a3cb",
+    "hash": "0xcc395afe84d7769b28b0412849b5ed2c149a9a11cab85446fb99749ab6b0b54c"
+  },
+  {
+    "id": "aud_1k77692",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-12T20:09:00.000Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40145",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0xf9b2a7421ab7af1f348a0b8530d6c98dd6363fbedaa8c834bd357980c445ba69",
+    "hash": "0x0a8c13ca637e3caaa8d57db3cf1e5214f17a7084227538d75364c136bfb8a3cb"
+  },
+  {
+    "id": "aud_1k6d984",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-12T20:07:00.000Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40145",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0x4af4b8d9231f5253732148d890621ceecb36309b969caf63fffd39d57cff90e1",
+    "hash": "0xf9b2a7421ab7af1f348a0b8530d6c98dd6363fbedaa8c834bd357980c445ba69"
+  },
+  {
+    "id": "aud_1k5d595",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-12T20:02:00.000Z",
+    "actor": {
+      "name": "Ahmed Al Mansoori",
+      "role": "investor",
+      "organization": "Ahmed Al Mansoori"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40145",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "94.200.13.77",
+    "prevHash": "0xa0abd66f80959fdd69d4432682fe39758fc1aa979c3dde693d0d1c7c629ff9fc",
+    "hash": "0x4af4b8d9231f5253732148d890621ceecb36309b969caf63fffd39d57cff90e1"
+  },
+  {
+    "id": "aud_1kk114a",
+    "tenantId": "tnt_xyz",
+    "at": "2026-09-12T05:44:00.000Z",
+    "actor": {
+      "name": "Reconciliation engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.reconciled",
+    "objectType": "Order",
+    "objectId": "ord_40172",
+    "reason": "Lifecycle progression",
+    "previousState": "minted",
+    "newState": "reconciled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x6e144882f49db3c2e711beddfd74eb8b3f9f5211b1eda87feeefe8b7075a0268",
+    "hash": "0xa0abd66f80959fdd69d4432682fe39758fc1aa979c3dde693d0d1c7c629ff9fc"
+  },
+  {
+    "id": "aud_1kjfb30",
+    "tenantId": "tnt_xyz",
+    "at": "2026-09-12T03:43:00.000Z",
+    "actor": {
+      "name": "Blockchain transaction manager",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.minted",
+    "objectType": "Order",
+    "objectId": "ord_40172",
+    "reason": "Lifecycle progression",
+    "previousState": "settled",
+    "newState": "minted",
+    "txHash": "0xd9740d51161a04dc8f7d3fae8d7748054cb2bf7a503fa045b325b6d7e1016767",
+    "ip": "10.20.0.1",
+    "prevHash": "0xa5893d9b079e91aa9ce5275d79b78637dda094dd25c107ba761979303efa4c16",
+    "hash": "0x6e144882f49db3c2e711beddfd74eb8b3f9f5211b1eda87feeefe8b7075a0268"
+  },
+  {
+    "id": "aud_1ki306a",
+    "tenantId": "tnt_xyz",
+    "at": "2026-09-12T03:35:00.000Z",
+    "actor": {
+      "name": "Settlement engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.settled",
+    "objectType": "Order",
+    "objectId": "ord_40172",
+    "reason": "Lifecycle progression",
+    "previousState": "allocated",
+    "newState": "settled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x54a9ed659bb164e71d828b54ab02def37965e4cd6279cade16c8264bad04380d",
+    "hash": "0xa5893d9b079e91aa9ce5275d79b78637dda094dd25c107ba761979303efa4c16"
+  },
+  {
+    "id": "aud_1khe144",
+    "tenantId": "tnt_xyz",
+    "at": "2026-09-12T02:47:00.000Z",
+    "actor": {
+      "name": "Allocation service",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.allocated",
+    "objectType": "Order",
+    "objectId": "ord_40172",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-confirmed",
+    "newState": "allocated",
+    "ip": "10.20.0.1",
+    "prevHash": "0x99c9a148aa94a7fb18c6c211cfceca4301170890e60cfb567189cdda5a44f9d7",
+    "hash": "0x54a9ed659bb164e71d828b54ab02def37965e4cd6279cade16c8264bad04380d"
+  },
+  {
+    "id": "aud_1kgba75",
+    "tenantId": "tnt_xyz",
+    "at": "2026-09-12T02:12:00.000Z",
+    "actor": {
+      "name": "Bank adapter webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40172",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "Emirates NBD",
+    "ip": "10.20.0.1",
+    "prevHash": "0x6766f1bba60df3557a436c5584e8a74b17203498a9420ceaf1b05fd67d72f2e5",
+    "hash": "0x99c9a148aa94a7fb18c6c211cfceca4301170890e60cfb567189cdda5a44f9d7"
+  },
+  {
+    "id": "aud_1n02e8d",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-11T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "screening.alert_cleared",
+    "objectType": "ScreeningAlert",
+    "objectId": "alt_912",
+    "reason": "False positive. Identifiers do not match.",
+    "previousState": "open",
+    "newState": "cleared",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.4.22",
+    "prevHash": "0x72689371548b369212ebd0c99d4313c376e9558b7767486378048c65c1465544",
+    "hash": "0x6766f1bba60df3557a436c5584e8a74b17203498a9420ceaf1b05fd67d72f2e5"
+  },
+  {
+    "id": "aud_1ksd1db",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-11T06:39:00.000Z",
+    "actor": {
+      "name": "Reconciliation engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.reconciled",
+    "objectType": "Order",
+    "objectId": "ord_40162",
+    "reason": "Lifecycle progression",
+    "previousState": "minted",
+    "newState": "reconciled",
+    "ip": "10.20.0.1",
+    "prevHash": "0xe3d1341d5666cda442a4da530628fc4a82e9e46eb3605deed54658d41c9713c1",
+    "hash": "0x72689371548b369212ebd0c99d4313c376e9558b7767486378048c65c1465544"
+  },
+  {
+    "id": "aud_1kr36d7",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-11T04:38:00.000Z",
+    "actor": {
+      "name": "Blockchain transaction manager",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.minted",
+    "objectType": "Order",
+    "objectId": "ord_40162",
+    "reason": "Lifecycle progression",
+    "previousState": "settled",
+    "newState": "minted",
+    "txHash": "0x76135bd48ebf5bb31f8d698dad4753db98428b4f80d4559f985978a0a6922327",
+    "ip": "10.20.0.1",
+    "prevHash": "0xdb080dd7fb4a4a7c65c08c1bcabf1a486f49b1e7c74a6ef3b2647f0a87b9fb15",
+    "hash": "0xe3d1341d5666cda442a4da530628fc4a82e9e46eb3605deed54658d41c9713c1"
+  },
+  {
+    "id": "aud_1kqc158",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-11T04:33:00.000Z",
+    "actor": {
+      "name": "Settlement engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.settled",
+    "objectType": "Order",
+    "objectId": "ord_40162",
+    "reason": "Lifecycle progression",
+    "previousState": "allocated",
+    "newState": "settled",
+    "ip": "10.20.0.1",
+    "prevHash": "0xaf6ed4aa7b1d5b6948bfdc7e39aa142ed3cd2504af5190e54223448e8debe7ed",
+    "hash": "0xdb080dd7fb4a4a7c65c08c1bcabf1a486f49b1e7c74a6ef3b2647f0a87b9fb15"
+  },
+  {
+    "id": "aud_1kp4da8",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-11T03:43:00.000Z",
+    "actor": {
+      "name": "Allocation service",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.allocated",
+    "objectType": "Order",
+    "objectId": "ord_40162",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-confirmed",
+    "newState": "allocated",
+    "ip": "10.20.0.1",
+    "prevHash": "0xf9f8f64ee3b19b790a720765c73aa4dda03cabfb849904fc46a0b8fe83a7a78b",
+    "hash": "0xaf6ed4aa7b1d5b6948bfdc7e39aa142ed3cd2504af5190e54223448e8debe7ed"
+  },
+  {
+    "id": "aud_1ko5614",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-11T03:12:00.000Z",
+    "actor": {
+      "name": "Bank adapter webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40162",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "Emirates NBD",
+    "ip": "10.20.0.1",
+    "prevHash": "0xab920de54cceca966c6a6bda262f3e46a26f4f3df3821796825dd719c621002d",
+    "hash": "0xf9f8f64ee3b19b790a720765c73aa4dda03cabfb849904fc46a0b8fe83a7a78b"
+  },
+  {
+    "id": "aud_1kf353b",
+    "tenantId": "tnt_xyz",
+    "at": "2026-09-11T00:10:00.000Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40172",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0xc53a3dd0f478ce2f387bc38dc785cb4f347cfe98c04bed1a73c87e7abec67ba2",
+    "hash": "0xab920de54cceca966c6a6bda262f3e46a26f4f3df3821796825dd719c621002d"
+  },
+  {
+    "id": "aud_1kefcf0",
+    "tenantId": "tnt_xyz",
+    "at": "2026-09-11T00:03:00.000Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40172",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0x65b176285ef90455f04cbfa5d169e235211594615b3be9f8a3c391894034e009",
+    "hash": "0xc53a3dd0f478ce2f387bc38dc785cb4f347cfe98c04bed1a73c87e7abec67ba2"
+  },
+  {
+    "id": "aud_1kd04c1",
+    "tenantId": "tnt_xyz",
+    "at": "2026-09-11T00:02:00.000Z",
+    "actor": {
+      "name": "Northlight Insurance Co",
+      "role": "investor",
+      "organization": "Northlight Insurance Co"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40172",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "185.42.11.6",
+    "prevHash": "0x2548523f6f17dbf7fae39311f50c3862036a0039975244516b2acbb3b691c690",
+    "hash": "0x65b176285ef90455f04cbfa5d169e235211594615b3be9f8a3c391894034e009"
+  },
+  {
+    "id": "aud_1kn5b10",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-10T01:08:00.000Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40162",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0x7c81583615b3031c497909e11fd0f187e3827d860e162951cb7893608437fd1f",
+    "hash": "0x2548523f6f17dbf7fae39311f50c3862036a0039975244516b2acbb3b691c690"
+  },
+  {
+    "id": "aud_1kma19c",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-10T01:06:00.000Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40162",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0x63befb03c99438175f99ece06cf612ed8495f06a9ab5ca6069fb4b993402d8e3",
+    "hash": "0x7c81583615b3031c497909e11fd0f187e3827d860e162951cb7893608437fd1f"
+  },
+  {
+    "id": "aud_1kl99eb",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-10T01:05:00.000Z",
+    "actor": {
+      "name": "Harbour Gate Asset Management",
+      "role": "investor",
+      "organization": "Harbour Gate Asset Management"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40162",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "94.200.13.77",
+    "prevHash": "0x69aef210d29fe516d4bfafb88361688c5621554098e5e665e3f53a45ee74c344",
+    "hash": "0x63befb03c99438175f99ece06cf612ed8495f06a9ab5ca6069fb4b993402d8e3"
+  },
+  {
+    "id": "aud_1mw935f",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-09T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "screening.alert_cleared",
+    "objectType": "ScreeningAlert",
+    "objectId": "alt_908",
+    "reason": "False positive. Identifiers do not match.",
+    "previousState": "open",
+    "newState": "cleared",
+    "provider": "Chainalysis",
+    "ip": "10.20.4.22",
+    "prevHash": "0xd0505d7bc2effb98586454b30ebac5ddf6684b688bd31e76aa8e9b1bb718c935",
+    "hash": "0x69aef210d29fe516d4bfafb88361688c5621554098e5e665e3f53a45ee74c344"
+  },
+  {
+    "id": "aud_1lg67bc",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-09T02:39:00.000Z",
+    "actor": {
+      "name": "Reconciliation engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.reconciled",
+    "objectType": "Order",
+    "objectId": "ord_40016",
+    "reason": "Lifecycle progression",
+    "previousState": "minted",
+    "newState": "reconciled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x31db1265f58c26c675d8aebe485a4de5276fc93eb6d204614b38cb07529f6696",
+    "hash": "0xd0505d7bc2effb98586454b30ebac5ddf6684b688bd31e76aa8e9b1bb718c935"
+  },
+  {
+    "id": "aud_1lf9e92",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-09T00:37:00.000Z",
+    "actor": {
+      "name": "Blockchain transaction manager",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.minted",
+    "objectType": "Order",
+    "objectId": "ord_40016",
+    "reason": "Lifecycle progression",
+    "previousState": "settled",
+    "newState": "minted",
+    "txHash": "0x8c7cef88f9acbfe4f5a3767c3ccf3a532a69a919620ed968dc0b821c84e2d8d1",
+    "ip": "10.20.0.1",
+    "prevHash": "0x3ebe0da0adedb9013c04c87e4060685dcbe03ef65e89c177e08ca8ad0f15a0d0",
+    "hash": "0x31db1265f58c26c675d8aebe485a4de5276fc93eb6d204614b38cb07529f6696"
+  },
+  {
+    "id": "aud_1lec91b",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-09T00:30:00.000Z",
+    "actor": {
+      "name": "Settlement engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.settled",
+    "objectType": "Order",
+    "objectId": "ord_40016",
+    "reason": "Lifecycle progression",
+    "previousState": "allocated",
+    "newState": "settled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x7a8bfc9fbd0187a371a9ebb90d13d1210a9d0f69008b91f18abdd8f020bfe619",
+    "hash": "0x3ebe0da0adedb9013c04c87e4060685dcbe03ef65e89c177e08ca8ad0f15a0d0"
+  },
+  {
+    "id": "aud_1l0ce70",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-08T23:52:00.000Z",
+    "actor": {
+      "name": "Reconciliation engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.reconciled",
+    "objectType": "Order",
+    "objectId": "ord_40148",
+    "reason": "Lifecycle progression",
+    "previousState": "minted",
+    "newState": "reconciled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x74a67e69c9d7f8e9ade6b8fadf481bf8e86d8876c9ca7903fc09424aa5a9dcc7",
+    "hash": "0x7a8bfc9fbd0187a371a9ebb90d13d1210a9d0f69008b91f18abdd8f020bfe619"
+  },
+  {
+    "id": "aud_1ld217c",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-08T23:42:00.000Z",
+    "actor": {
+      "name": "Allocation service",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.allocated",
+    "objectType": "Order",
+    "objectId": "ord_40016",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-confirmed",
+    "newState": "allocated",
+    "ip": "10.20.0.1",
+    "prevHash": "0xec7ceda325d137c02a8db75024ba632a153ad66db961e3e52c178352cbe71526",
+    "hash": "0x74a67e69c9d7f8e9ade6b8fadf481bf8e86d8876c9ca7903fc09424aa5a9dcc7"
+  },
+  {
+    "id": "aud_1lc29a7",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-08T23:11:00.000Z",
+    "actor": {
+      "name": "Bank adapter webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40016",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "Emirates NBD",
+    "ip": "10.20.0.1",
+    "prevHash": "0xf8b515f25bf1b976c09c81ca6e2198ae4c2af102841a35c08c4670aa45d97bf3",
+    "hash": "0xec7ceda325d137c02a8db75024ba632a153ad66db961e3e52c178352cbe71526"
+  },
+  {
+    "id": "aud_1kz6de2",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-08T21:49:00.000Z",
+    "actor": {
+      "name": "Blockchain transaction manager",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.minted",
+    "objectType": "Order",
+    "objectId": "ord_40148",
+    "reason": "Lifecycle progression",
+    "previousState": "settled",
+    "newState": "minted",
+    "txHash": "0x8f8a668b60f2c99337d69a6d8ed87f242c14e166d483faef18a0fff57298f14b",
+    "ip": "10.20.0.1",
+    "prevHash": "0xb648095f118216d4e9649d3589e7058e156b173699ba9b5c75f20307b076f9b8",
+    "hash": "0xf8b515f25bf1b976c09c81ca6e2198ae4c2af102841a35c08c4670aa45d97bf3"
+  },
+  {
+    "id": "aud_1ky1d58",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-08T21:41:00.000Z",
+    "actor": {
+      "name": "Settlement engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.settled",
+    "objectType": "Order",
+    "objectId": "ord_40148",
+    "reason": "Lifecycle progression",
+    "previousState": "allocated",
+    "newState": "settled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x7531ad4cdc52f7145f1b6515a6d6e6f1e963f6c5d6fa297f0a0d1b1de786d71d",
+    "hash": "0xb648095f118216d4e9649d3589e7058e156b173699ba9b5c75f20307b076f9b8"
+  },
+  {
+    "id": "aud_1kxc3c0",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-08T20:53:00.000Z",
+    "actor": {
+      "name": "Allocation service",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.allocated",
+    "objectType": "Order",
+    "objectId": "ord_40148",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-confirmed",
+    "newState": "allocated",
+    "ip": "10.20.0.1",
+    "prevHash": "0xc39d49850783c5ab1af6e34385ddcf89698231aee4ef473e3a58e1aa2a6a7e98",
+    "hash": "0x7531ad4cdc52f7145f1b6515a6d6e6f1e963f6c5d6fa297f0a0d1b1de786d71d"
+  },
+  {
+    "id": "aud_1kw00d3",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-08T20:23:00.000Z",
+    "actor": {
+      "name": "Bank adapter webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40148",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "AE Coin",
+    "ip": "10.20.0.1",
+    "prevHash": "0x36ca6baa94d75bdff2556db605fd825a99db3f2047c995253f7573870637fc99",
+    "hash": "0xc39d49850783c5ab1af6e34385ddcf89698231aee4ef473e3a58e1aa2a6a7e98"
+  },
+  {
+    "id": "aud_1kv3869",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-08T20:16:00.000Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40148",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0x73c55b85a6edc0241645a4a7b24d0b5f07c13c172e13576144c4978a2f6db3ae",
+    "hash": "0x36ca6baa94d75bdff2556db605fd825a99db3f2047c995253f7573870637fc99"
+  },
+  {
+    "id": "aud_1ku4342",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-08T20:10:00.000Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40148",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0xf580fc19f15737e8fc65eeed3e69d6a3e8d861ce746f2b9d1d0b9d32204abb2b",
+    "hash": "0x73c55b85a6edc0241645a4a7b24d0b5f07c13c172e13576144c4978a2f6db3ae"
+  },
+  {
+    "id": "aud_1kt8c36",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-08T20:04:00.000Z",
+    "actor": {
+      "name": "Westmarch Pension Scheme",
+      "role": "investor",
+      "organization": "Westmarch Pension Scheme"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40148",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "94.200.13.77",
+    "prevHash": "0xec18c484feda99eed6046f876b24ff5353db56c66f3a7d9f434658b2cf103604",
+    "hash": "0xf580fc19f15737e8fc65eeed3e69d6a3e8d861ce746f2b9d1d0b9d32204abb2b"
+  },
+  {
+    "id": "aud_1l87270",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-08T01:35:00.000Z",
+    "actor": {
+      "name": "Reconciliation engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.reconciled",
+    "objectType": "Order",
+    "objectId": "ord_40412",
+    "reason": "Lifecycle progression",
+    "previousState": "minted",
+    "newState": "reconciled",
+    "ip": "10.20.0.1",
+    "prevHash": "0xaa2c7276e6bc9e1c142154984c2267a2e98550e457a8ef9596c2ab4b73bd0605",
+    "hash": "0xec18c484feda99eed6046f876b24ff5353db56c66f3a7d9f434658b2cf103604"
+  },
+  {
+    "id": "aud_1l7768d",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-07T23:35:00.000Z",
+    "actor": {
+      "name": "Blockchain transaction manager",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.minted",
+    "objectType": "Order",
+    "objectId": "ord_40412",
+    "reason": "Lifecycle progression",
+    "previousState": "settled",
+    "newState": "minted",
+    "txHash": "0xa84e566cb2bade7c288eb01bf68ac0b21e4238e190ba8e4696f3f38047f56251",
+    "ip": "10.20.0.1",
+    "prevHash": "0x931945f76c18582684cb7ba3b441d8f68d9455814294cda7cd00f4a4f6b21e30",
+    "hash": "0xaa2c7276e6bc9e1c142154984c2267a2e98550e457a8ef9596c2ab4b73bd0605"
+  },
+  {
+    "id": "aud_1l6c98d",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-07T23:32:00.000Z",
+    "actor": {
+      "name": "Settlement engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.settled",
+    "objectType": "Order",
+    "objectId": "ord_40412",
+    "reason": "Lifecycle progression",
+    "previousState": "allocated",
+    "newState": "settled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x006280988ac48083b71ff46281d5bf110fb989c8ea70816e534541d6f5eaa720",
+    "hash": "0x931945f76c18582684cb7ba3b441d8f68d9455814294cda7cd00f4a4f6b21e30"
+  },
+  {
+    "id": "aud_1l5122a",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-07T22:42:00.000Z",
+    "actor": {
+      "name": "Allocation service",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.allocated",
+    "objectType": "Order",
+    "objectId": "ord_40412",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-confirmed",
+    "newState": "allocated",
+    "ip": "10.20.0.1",
+    "prevHash": "0x13d475abeb52782e885dd1300c212d51ea91fb6c812ba067debc4c04d0407129",
+    "hash": "0x006280988ac48083b71ff46281d5bf110fb989c8ea70816e534541d6f5eaa720"
+  },
+  {
+    "id": "aud_1l42b1f",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-07T22:08:00.000Z",
+    "actor": {
+      "name": "Checkout.com webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40412",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "Checkout.com",
+    "ip": "10.20.0.1",
+    "prevHash": "0xcc110392ced3e4bbaa0bca5dcf0140f5d50d42d7bf84f6a519ca5a68cd1b5ea5",
+    "hash": "0x13d475abeb52782e885dd1300c212d51ea91fb6c812ba067debc4c04d0407129"
+  },
+  {
+    "id": "aud_1l316a0",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-07T22:07:00.000Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40412",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0x6ca5421f61c6aa7084120fffc796b7a51ab083846b4faa343cdefdd2de68c940",
+    "hash": "0xcc110392ced3e4bbaa0bca5dcf0140f5d50d42d7bf84f6a519ca5a68cd1b5ea5"
+  },
+  {
+    "id": "aud_1l241c7",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-07T22:04:00.000Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40412",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0xab58fde332c8fa35cfc1090820c18c889fcd67b5c61f2322f535f1c8660534ec",
+    "hash": "0x6ca5421f61c6aa7084120fffc796b7a51ab083846b4faa343cdefdd2de68c940"
+  },
+  {
+    "id": "aud_1l1349b",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-07T22:01:00.000Z",
+    "actor": {
+      "name": "Pearl Coast Holdings",
+      "role": "investor",
+      "organization": "Pearl Coast Holdings"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40412",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "185.42.11.6",
+    "prevHash": "0x9897ec2705ebc874eb6ecb3588ee553151eb25c306624ccc508a276987d89b7f",
+    "hash": "0xab58fde332c8fa35cfc1090820c18c889fcd67b5c61f2322f535f1c8660534ec"
+  },
+  {
+    "id": "aud_1lb241e",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-07T21:10:00.000Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40016",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0x30a9601653972f44912cfb5d2e4a9d18cf730ff283a94bc368f38dcb4d98edf8",
+    "hash": "0x9897ec2705ebc874eb6ecb3588ee553151eb25c306624ccc508a276987d89b7f"
+  },
+  {
+    "id": "aud_1lae4f5",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-07T21:06:00.000Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40016",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0xd46adc5facf3494b93c3aea307f873f71b31ac66d55568de3a8551d9eec96327",
+    "hash": "0x30a9601653972f44912cfb5d2e4a9d18cf730ff283a94bc368f38dcb4d98edf8"
+  },
+  {
+    "id": "aud_1l9fdfe",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-07T21:00:00.000Z",
+    "actor": {
+      "name": "Indus Growth Partners",
+      "role": "investor",
+      "organization": "Indus Growth Partners"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40016",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "94.200.13.77",
+    "prevHash": "0xb30cd20441e57ae881d03528c3a03f6e4f461912bfc8b57450a22e7ef9c7a976",
+    "hash": "0xd46adc5facf3494b93c3aea307f873f71b31ac66d55568de3a8551d9eec96327"
+  },
+  {
+    "id": "aud_1mvdf16",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-07T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "approval.rejected",
+    "objectType": "TokenClass",
+    "objectId": "tok_srhg",
+    "reason": "Enable Base deployment for SRHG",
+    "previousState": "pending",
+    "newState": "rejected",
+    "approvedBy": "Omar Siddiqui",
+    "ip": "10.20.4.22",
+    "prevHash": "0x91dfef7fbaef6209fea716b7bc4fb34afe768bec31018b53cc7318887678c70c",
+    "hash": "0xb30cd20441e57ae881d03528c3a03f6e4f461912bfc8b57450a22e7ef9c7a976"
+  },
+  {
+    "id": "aud_1lob335",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-07T08:52:00.000Z",
+    "actor": {
+      "name": "Reconciliation engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.reconciled",
+    "objectType": "Order",
+    "objectId": "ord_40214",
+    "reason": "Lifecycle progression",
+    "previousState": "minted",
+    "newState": "reconciled",
+    "ip": "10.20.0.1",
+    "prevHash": "0xe976fb5ffd75f04013eabdf2e3957232de020e9c79cd5d06d8c744d9aacb0a4e",
+    "hash": "0x91dfef7fbaef6209fea716b7bc4fb34afe768bec31018b53cc7318887678c70c"
+  },
+  {
+    "id": "aud_1ln9e16",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-07T06:47:00.000Z",
+    "actor": {
+      "name": "Blockchain transaction manager",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.minted",
+    "objectType": "Order",
+    "objectId": "ord_40214",
+    "reason": "Lifecycle progression",
+    "previousState": "settled",
+    "newState": "minted",
+    "txHash": "0x4ddd96c991cebfd162241afa85851b02a047c9dab13be142630ec381dd53231d",
+    "ip": "10.20.0.1",
+    "prevHash": "0xcc1493da2dfa2070659bcccb7622b127d187fb4ea45a45331ff1cc27054f59b9",
+    "hash": "0xe976fb5ffd75f04013eabdf2e3957232de020e9c79cd5d06d8c744d9aacb0a4e"
+  },
+  {
+    "id": "aud_1lmc45e",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-07T06:43:00.000Z",
+    "actor": {
+      "name": "Settlement engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.settled",
+    "objectType": "Order",
+    "objectId": "ord_40214",
+    "reason": "Lifecycle progression",
+    "previousState": "allocated",
+    "newState": "settled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x7b874a2f9a7b3fcf1fa858a0b30db0e57f43966aa04c996f2dc2b2af74be670f",
+    "hash": "0xcc1493da2dfa2070659bcccb7622b127d187fb4ea45a45331ff1cc27054f59b9"
+  },
+  {
+    "id": "aud_1ll594f",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-07T05:54:00.000Z",
+    "actor": {
+      "name": "Allocation service",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.allocated",
+    "objectType": "Order",
+    "objectId": "ord_40214",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-confirmed",
+    "newState": "allocated",
+    "ip": "10.20.0.1",
+    "prevHash": "0x746ef8043f20082089d92493498634537925e6baadb769addd8a20fbeda2ba44",
+    "hash": "0x7b874a2f9a7b3fcf1fa858a0b30db0e57f43966aa04c996f2dc2b2af74be670f"
+  },
+  {
+    "id": "aud_1lkd5c9",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-07T05:19:00.000Z",
+    "actor": {
+      "name": "Bank adapter webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40214",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "AE Coin",
+    "ip": "10.20.0.1",
+    "prevHash": "0xcad34e29730f5e851272e8047f274fbfc7ce8dec158544368d1a406499bab251",
+    "hash": "0x746ef8043f20082089d92493498634537925e6baadb769addd8a20fbeda2ba44"
+  },
+  {
+    "id": "aud_1lj2aca",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-07T05:10:00.000Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40214",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0x1c1b628cae2ca4d70c5262a42e0b470088c040335e7bcc5a807392a08976f0e8",
+    "hash": "0xcad34e29730f5e851272e8047f274fbfc7ce8dec158544368d1a406499bab251"
+  },
+  {
+    "id": "aud_1lic631",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-07T05:08:00.000Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40214",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0x69f5ca96f88a329413709851e727ffcd52f343a04420337804422ba2cd69c8de",
+    "hash": "0x1c1b628cae2ca4d70c5262a42e0b470088c040335e7bcc5a807392a08976f0e8"
+  },
+  {
+    "id": "aud_1lhcc34",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-07T05:05:00.000Z",
+    "actor": {
+      "name": "Arjun Mehta",
+      "role": "investor",
+      "organization": "Arjun Mehta"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40214",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "185.42.11.6",
+    "prevHash": "0x4efb86ffadaa9e50b79050131e2fdf1e3d6c1b3a64446bce3f5f96dc244e399c",
+    "hash": "0x69f5ca96f88a329413709851e727ffcd52f343a04420337804422ba2cd69c8de"
+  },
+  {
+    "id": "aud_1mxc65f",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-06T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "screening.alert_cleared",
+    "objectType": "ScreeningAlert",
+    "objectId": "alt_909",
+    "reason": "False positive. Identifiers do not match.",
+    "previousState": "open",
+    "newState": "cleared",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.4.22",
+    "prevHash": "0xaf05253883a868d9911123bb84d5570f029ab72ac0139892317cb79e83434740",
+    "hash": "0x4efb86ffadaa9e50b79050131e2fdf1e3d6c1b3a64446bce3f5f96dc244e399c"
+  },
+  {
+    "id": "aud_1mu2a82",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-06T16:00:00.000Z",
+    "actor": {
+      "name": "Daniel Reyes",
+      "role": "platform-admin",
+      "organization": "SRH Inc"
+    },
+    "action": "approval.approved",
+    "objectType": "TokenClass",
+    "objectId": "tok_srhg",
+    "reason": "Enable Base deployment for SRHG",
+    "previousState": "pending",
+    "newState": "approved",
+    "approvedBy": "Daniel Reyes",
+    "ip": "10.20.4.22",
+    "prevHash": "0x408ef26d31a0faf13b2aa85945f78b6c1b16a40140084060ce6e8ab2d7113190",
+    "hash": "0xaf05253883a868d9911123bb84d5570f029ab72ac0139892317cb79e83434740"
+  },
+  {
+    "id": "aud_1m4674d",
+    "tenantId": "tnt_xyz",
+    "at": "2026-09-06T05:36:00.000Z",
+    "actor": {
+      "name": "Reconciliation engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.reconciled",
+    "objectType": "Order",
+    "objectId": "ord_40083",
+    "reason": "Lifecycle progression",
+    "previousState": "minted",
+    "newState": "reconciled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x6a586eee1c984920eab7fc198d9a6cd3d529f392b8b069d280118587133953ec",
+    "hash": "0x408ef26d31a0faf13b2aa85945f78b6c1b16a40140084060ce6e8ab2d7113190"
+  },
+  {
+    "id": "aud_1m3253d",
+    "tenantId": "tnt_xyz",
+    "at": "2026-09-06T03:31:00.000Z",
+    "actor": {
+      "name": "Blockchain transaction manager",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.minted",
+    "objectType": "Order",
+    "objectId": "ord_40083",
+    "reason": "Lifecycle progression",
+    "previousState": "settled",
+    "newState": "minted",
+    "txHash": "0xb882e0c17b8d52c00c9bd2719bacba3b8c9308b101b5cfc0ddcdca33485282d8",
+    "ip": "10.20.0.1",
+    "prevHash": "0x7634e9ca3a09fbe1cd7cb52f08ba4ead1a1e2e7c5e21ed051567c16cb161d266",
+    "hash": "0x6a586eee1c984920eab7fc198d9a6cd3d529f392b8b069d280118587133953ec"
+  },
+  {
+    "id": "aud_1m2da80",
+    "tenantId": "tnt_xyz",
+    "at": "2026-09-06T03:28:00.000Z",
+    "actor": {
+      "name": "Settlement engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.settled",
+    "objectType": "Order",
+    "objectId": "ord_40083",
+    "reason": "Lifecycle progression",
+    "previousState": "allocated",
+    "newState": "settled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x73bfff8798b5184a1c42efc891f742ea65b26b45a4ffe790ad00fdd6ecb6ec8b",
+    "hash": "0x7634e9ca3a09fbe1cd7cb52f08ba4ead1a1e2e7c5e21ed051567c16cb161d266"
+  },
+  {
+    "id": "aud_1m1b1f0",
+    "tenantId": "tnt_xyz",
+    "at": "2026-09-06T02:43:00.000Z",
+    "actor": {
+      "name": "Allocation service",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.allocated",
+    "objectType": "Order",
+    "objectId": "ord_40083",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-confirmed",
+    "newState": "allocated",
+    "ip": "10.20.0.1",
+    "prevHash": "0x2be756a9c93d5646cd0dd6d9825f5da1985e8fa681bdfa32066e1ac00f8a0257",
+    "hash": "0x73bfff8798b5184a1c42efc891f742ea65b26b45a4ffe790ad00fdd6ecb6ec8b"
+  },
+  {
+    "id": "aud_1m01174",
+    "tenantId": "tnt_xyz",
+    "at": "2026-09-06T02:13:00.000Z",
+    "actor": {
+      "name": "Bank adapter webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40083",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "Emirates NBD",
+    "ip": "10.20.0.1",
+    "prevHash": "0x0f26a0e9534b0dfa702c531a1e57460ad1e0552fe1f443fc5e0dff0fb88a6cdb",
+    "hash": "0x2be756a9c93d5646cd0dd6d9825f5da1985e8fa681bdfa32066e1ac00f8a0257"
+  },
+  {
+    "id": "aud_1lwb34f",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-05T08:49:00.000Z",
+    "actor": {
+      "name": "Reconciliation engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.reconciled",
+    "objectType": "Order",
+    "objectId": "ord_40052",
+    "reason": "Lifecycle progression",
+    "previousState": "minted",
+    "newState": "reconciled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x11f8454e3adba64db729d6d0b72dabc91299ad840e3a5b5be412a54296f4220b",
+    "hash": "0x0f26a0e9534b0dfa702c531a1e57460ad1e0552fe1f443fc5e0dff0fb88a6cdb"
+  },
+  {
+    "id": "aud_1lv142b",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-05T06:48:00.000Z",
+    "actor": {
+      "name": "Blockchain transaction manager",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.minted",
+    "objectType": "Order",
+    "objectId": "ord_40052",
+    "reason": "Lifecycle progression",
+    "previousState": "settled",
+    "newState": "minted",
+    "txHash": "0x0c3304950c1b9a2ef0aa618440176aabb0f69d828d61505dded7b2d6cc7da4bb",
+    "ip": "10.20.0.1",
+    "prevHash": "0xb7298d56b4b53c7affb1a0a8fcd7765fdd58bcc63641da5a55640e54ce38386b",
+    "hash": "0x11f8454e3adba64db729d6d0b72dabc91299ad840e3a5b5be412a54296f4220b"
+  },
+  {
+    "id": "aud_1lu3a39",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-05T06:42:00.000Z",
+    "actor": {
+      "name": "Settlement engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.settled",
+    "objectType": "Order",
+    "objectId": "ord_40052",
+    "reason": "Lifecycle progression",
+    "previousState": "allocated",
+    "newState": "settled",
+    "ip": "10.20.0.1",
+    "prevHash": "0xab4aba0a93b52444ef2c65e2f9fb171b840c87d0b7fbb7304f7fded290259776",
+    "hash": "0xb7298d56b4b53c7affb1a0a8fcd7765fdd58bcc63641da5a55640e54ce38386b"
+  },
+  {
+    "id": "aud_1ltc63e",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-05T05:54:00.000Z",
+    "actor": {
+      "name": "Allocation service",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.allocated",
+    "objectType": "Order",
+    "objectId": "ord_40052",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-confirmed",
+    "newState": "allocated",
+    "ip": "10.20.0.1",
+    "prevHash": "0xbfe9aef0379ebbf5ea2e219668cc2db607b7946aae6ee086448db72c47aaa00d",
+    "hash": "0xab4aba0a93b52444ef2c65e2f9fb171b840c87d0b7fbb7304f7fded290259776"
+  },
+  {
+    "id": "aud_1ls0d12",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-05T05:20:00.000Z",
+    "actor": {
+      "name": "Bank adapter webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40052",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "AE Coin",
+    "ip": "10.20.0.1",
+    "prevHash": "0x7cd1e4b0f64b0a73de3aa03fce1770807ff7984300d5e7cefd434b506220b7c4",
+    "hash": "0xbfe9aef0379ebbf5ea2e219668cc2db607b7946aae6ee086448db72c47aaa00d"
+  },
+  {
+    "id": "aud_1lrd5b8",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-05T05:13:00.000Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40052",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0x162df5bd296fda94f9b243105485cae8da9afe98d8275c2165b47c9eb4bce59c",
+    "hash": "0x7cd1e4b0f64b0a73de3aa03fce1770807ff7984300d5e7cefd434b506220b7c4"
+  },
+  {
+    "id": "aud_1lq7cf5",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-05T05:06:00.000Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40052",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0x3e821c76d85799e014cff3cdc011869754a7256eba0afba9c8ef684371fe8fd7",
+    "hash": "0x162df5bd296fda94f9b243105485cae8da9afe98d8275c2165b47c9eb4bce59c"
+  },
+  {
+    "id": "aud_1lpe189",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-05T05:02:00.000Z",
+    "actor": {
+      "name": "Sable Creek Family Trust",
+      "role": "investor",
+      "organization": "Sable Creek Family Trust"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40052",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "94.200.13.77",
+    "prevHash": "0xd7861a48c6617e26df13346add8cbedc10820c1e76852040ed871025d7edd2ff",
+    "hash": "0x3e821c76d85799e014cff3cdc011869754a7256eba0afba9c8ef684371fe8fd7"
+  },
+  {
+    "id": "aud_1lz842a",
+    "tenantId": "tnt_xyz",
+    "at": "2026-09-05T00:13:00.000Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40083",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0x7ff89b522b0e4d123bfb70ff7f3bd0125201c0b1187940b59dcbd7bec8cc4d5f",
+    "hash": "0xd7861a48c6617e26df13346add8cbedc10820c1e76852040ed871025d7edd2ff"
+  },
+  {
+    "id": "aud_1lyc8a5",
+    "tenantId": "tnt_xyz",
+    "at": "2026-09-05T00:06:00.000Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40083",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0xb04ed2738de09fb46408e5143bb4fa2d8b26b825b7f43d4916c3e65c18370041",
+    "hash": "0x7ff89b522b0e4d123bfb70ff7f3bd0125201c0b1187940b59dcbd7bec8cc4d5f"
+  },
+  {
+    "id": "aud_1lx3c86",
+    "tenantId": "tnt_xyz",
+    "at": "2026-09-05T00:05:00.000Z",
+    "actor": {
+      "name": "Noura Al Ketbi",
+      "role": "investor",
+      "organization": "Noura Al Ketbi"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40083",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "185.42.11.6",
+    "prevHash": "0xdf7c4c8b4109159d386f0297cf4100fd33507100239e500d775650ce12d01b1f",
+    "hash": "0xb04ed2738de09fb46408e5143bb4fa2d8b26b825b7f43d4916c3e65c18370041"
+  },
+  {
+    "id": "aud_1mcf8cc",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-04T08:46:00.000Z",
+    "actor": {
+      "name": "Reconciliation engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.reconciled",
+    "objectType": "Order",
+    "objectId": "ord_40045",
+    "reason": "Lifecycle progression",
+    "previousState": "minted",
+    "newState": "reconciled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x8b8fdee00ce42b23f1bfcb5efe7d97f930cfc764a5ec31989a16ac9e046c0f0c",
+    "hash": "0xdf7c4c8b4109159d386f0297cf4100fd33507100239e500d775650ce12d01b1f"
+  },
+  {
+    "id": "aud_1mb9177",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-04T06:45:00.000Z",
+    "actor": {
+      "name": "Blockchain transaction manager",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.minted",
+    "objectType": "Order",
+    "objectId": "ord_40045",
+    "reason": "Lifecycle progression",
+    "previousState": "settled",
+    "newState": "minted",
+    "txHash": "0x9e8f71a8c3f455bf1ed1107c9a264b5eb3c99921b20e646373681cf5f515b572",
+    "ip": "10.20.0.1",
+    "prevHash": "0xaf0b9b832f49af828f48c582aa5973f4a38d0b713d2f2479cbb2546dd7a57b8d",
+    "hash": "0x8b8fdee00ce42b23f1bfcb5efe7d97f930cfc764a5ec31989a16ac9e046c0f0c"
+  },
+  {
+    "id": "aud_1ma8d14",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-04T06:41:00.000Z",
+    "actor": {
+      "name": "Settlement engine",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.settled",
+    "objectType": "Order",
+    "objectId": "ord_40045",
+    "reason": "Lifecycle progression",
+    "previousState": "allocated",
+    "newState": "settled",
+    "ip": "10.20.0.1",
+    "prevHash": "0x36fa1cd6645f6d428e03d21ac455646c341f2ea1fce27a945a19544c210861c4",
+    "hash": "0xaf0b9b832f49af828f48c582aa5973f4a38d0b713d2f2479cbb2546dd7a57b8d"
+  },
+  {
+    "id": "aud_1m9892b",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-04T05:54:00.000Z",
+    "actor": {
+      "name": "Allocation service",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.allocated",
+    "objectType": "Order",
+    "objectId": "ord_40045",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-confirmed",
+    "newState": "allocated",
+    "ip": "10.20.0.1",
+    "prevHash": "0xd1a04a9eb54253d572cc5e92a235661d63608ff1f6cdbb929e7d8a69fa9dae2c",
+    "hash": "0x36fa1cd6645f6d428e03d21ac455646c341f2ea1fce27a945a19544c210861c4"
+  },
+  {
+    "id": "aud_1m86a9b",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-04T05:21:00.000Z",
+    "actor": {
+      "name": "Bank adapter webhook",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_confirmed",
+    "objectType": "Order",
+    "objectId": "ord_40045",
+    "reason": "Lifecycle progression",
+    "previousState": "payment-instructed",
+    "newState": "payment-confirmed",
+    "provider": "Emirates NBD",
+    "ip": "10.20.0.1",
+    "prevHash": "0x114236059a878621d93aa072d9d408bf422cc679c1501bf0b2e6956b5c1eb21c",
+    "hash": "0xd1a04a9eb54253d572cc5e92a235661d63608ff1f6cdbb929e7d8a69fa9dae2c"
+  },
+  {
+    "id": "aud_1m7acd1",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-03T03:16:00.000Z",
+    "actor": {
+      "name": "Payment orchestrator",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.payment_instructed",
+    "objectType": "Order",
+    "objectId": "ord_40045",
+    "reason": "Lifecycle progression",
+    "previousState": "eligibility",
+    "newState": "payment-instructed",
+    "ip": "10.20.0.1",
+    "prevHash": "0x80b6788132b5ed74e567c3400340dcee9c7ac4ab6cb4b420d2379124e65c6763",
+    "hash": "0x114236059a878621d93aa072d9d408bf422cc679c1501bf0b2e6956b5c1eb21c"
+  },
+  {
+    "id": "aud_1m622d8",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-03T03:09:00.000Z",
+    "actor": {
+      "name": "Compliance engine v4.2",
+      "role": "system",
+      "organization": "SRH Inc"
+    },
+    "action": "order.eligibility",
+    "objectType": "Order",
+    "objectId": "ord_40045",
+    "reason": "Lifecycle progression",
+    "previousState": "submitted",
+    "newState": "eligibility",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.0.1",
+    "prevHash": "0xe319fbf7666b6c7ce9a09af76331f01c88b4401149c82cde5d6356ee6a843b97",
+    "hash": "0x80b6788132b5ed74e567c3400340dcee9c7ac4ab6cb4b420d2379124e65c6763"
+  },
+  {
+    "id": "aud_1m59243",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-03T03:03:00.000Z",
+    "actor": {
+      "name": "Sophie Laurent",
+      "role": "investor",
+      "organization": "Sophie Laurent"
+    },
+    "action": "order.submitted",
+    "objectType": "Order",
+    "objectId": "ord_40045",
+    "reason": "Investor subscription",
+    "newState": "submitted",
+    "ip": "185.42.11.6",
+    "prevHash": "0x5b8abfa62227b1eac7537f9b920acd1292fce831ee09e45dd011354e9535e3f1",
+    "hash": "0xe319fbf7666b6c7ce9a09af76331f01c88b4401149c82cde5d6356ee6a843b97"
+  },
+  {
+    "id": "aud_1n1bd07",
+    "tenantId": "tnt_srh",
+    "at": "2026-09-01T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "screening.alert_cleared",
+    "objectType": "ScreeningAlert",
+    "objectId": "alt_913",
+    "reason": "False positive. Identifiers do not match.",
+    "previousState": "open",
+    "newState": "cleared",
+    "provider": "Chainalysis",
+    "ip": "10.20.4.22",
+    "prevHash": "0xccd15eb8289e9b7401c2fbe603ae96f09892beb15e7dfde1268826cb908b333b",
+    "hash": "0x5b8abfa62227b1eac7537f9b920acd1292fce831ee09e45dd011354e9535e3f1"
+  },
+  {
+    "id": "aud_1n521af",
+    "tenantId": "tnt_srh",
+    "at": "2026-08-30T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "screening.alert_confirmed",
+    "objectType": "ScreeningAlert",
+    "objectId": "alt_917",
+    "reason": "Confirmed. Account restricted and SAR filed.",
+    "previousState": "open",
+    "newState": "confirmed",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.4.22",
+    "prevHash": "0x661a0cdcfe53988adfd37e2cb92109488fe356ce3d6ada7820bf485fe79b40f9",
+    "hash": "0xccd15eb8289e9b7401c2fbe603ae96f09892beb15e7dfde1268826cb908b333b"
+  },
+  {
+    "id": "aud_1n37081",
+    "tenantId": "tnt_srh",
+    "at": "2026-08-26T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "screening.alert_cleared",
+    "objectType": "ScreeningAlert",
+    "objectId": "alt_915",
+    "reason": "False positive. Identifiers do not match.",
+    "previousState": "open",
+    "newState": "cleared",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.4.22",
+    "prevHash": "0x7f1420725f5057af3778a5e7208b9fedd29d6aa44da95d2aecde6d72640b49b0",
+    "hash": "0x661a0cdcfe53988adfd37e2cb92109488fe356ce3d6ada7820bf485fe79b40f9"
+  },
+  {
+    "id": "aud_1n245e6",
+    "tenantId": "tnt_srh",
+    "at": "2026-08-25T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "screening.alert_cleared",
+    "objectType": "ScreeningAlert",
+    "objectId": "alt_914",
+    "reason": "False positive. Identifiers do not match.",
+    "previousState": "open",
+    "newState": "cleared",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.4.22",
+    "prevHash": "0x18021b2037989e80a1c56bb38cbc500b527e84375d6a39322168f8c714a44cdc",
+    "hash": "0x7f1420725f5057af3778a5e7208b9fedd29d6aa44da95d2aecde6d72640b49b0"
+  },
+  {
+    "id": "aud_1n850f1",
+    "tenantId": "tnt_srh",
+    "at": "2026-08-15T00:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "issuance.verified",
+    "objectType": "TokenClass",
+    "objectId": "tok_wpko",
+    "reason": "Issuance checks complete for WPKO",
+    "previousState": "pending",
+    "newState": "verified",
+    "ip": "10.20.4.22",
+    "prevHash": "0xed505710d85b1c2d5bbd4d323ebdf95cef4eb4a9a3f4fbe1e3a03aa1ee454d35",
+    "hash": "0x18021b2037989e80a1c56bb38cbc500b527e84375d6a39322168f8c714a44cdc"
+  },
+  {
+    "id": "aud_1n7c47a",
+    "tenantId": "tnt_srh",
+    "at": "2026-08-15T00:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "issuance.verified",
+    "objectType": "TokenClass",
+    "objectId": "tok_wpks",
+    "reason": "Issuance checks complete for WPKS",
+    "previousState": "pending",
+    "newState": "verified",
+    "ip": "10.20.4.22",
+    "prevHash": "0x18f475859897cab930ded1509525203afc29f90b5267c58b76e0734e5d173311",
+    "hash": "0xed505710d85b1c2d5bbd4d323ebdf95cef4eb4a9a3f4fbe1e3a03aa1ee454d35"
+  },
+  {
+    "id": "aud_1mzad6f",
+    "tenantId": "tnt_srh",
+    "at": "2026-08-10T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "screening.alert_cleared",
+    "objectType": "ScreeningAlert",
+    "objectId": "alt_911",
+    "reason": "False positive. Identifiers do not match.",
+    "previousState": "open",
+    "newState": "cleared",
+    "provider": "ComplyAdvantage",
+    "ip": "10.20.4.22",
+    "prevHash": "0x87e3141c72df21d460add33b308ba4eec9a318ff5be49908bba91a33b6f2de47",
+    "hash": "0x18f475859897cab930ded1509525203afc29f90b5267c58b76e0734e5d173311"
+  },
+  {
+    "id": "aud_1nj88f9",
+    "tenantId": "tnt_srh",
+    "at": "2026-08-01T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "policy.published",
+    "objectType": "PolicyPack",
+    "objectId": "pol_global",
+    "reason": "Policy pack Global core rules published",
+    "previousState": "draft",
+    "newState": "v4.2.0",
+    "approvedBy": "Daniel Reyes",
+    "ip": "10.20.4.22",
+    "prevHash": "0x70f16f730d86686524ddbe1d97c156753de622d23b47b966e5baf5a1f853e624",
+    "hash": "0x87e3141c72df21d460add33b308ba4eec9a318ff5be49908bba91a33b6f2de47"
+  },
+  {
+    "id": "aud_1ndf7e3",
+    "tenantId": "tnt_srh",
+    "at": "2026-07-17T00:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "issuance.verified",
+    "objectType": "TokenClass",
+    "objectId": "tok_bbrs",
+    "reason": "Issuance checks complete for BBRS",
+    "previousState": "pending",
+    "newState": "verified",
+    "ip": "10.20.4.22",
+    "prevHash": "0x7c4be9ec2559acf11711895ce4904ac3405feb2dda4c00628a2d2dc9fdb2f5de",
+    "hash": "0x70f16f730d86686524ddbe1d97c156753de622d23b47b966e5baf5a1f853e624"
+  },
+  {
+    "id": "aud_1ne95dd",
+    "tenantId": "tnt_xyz",
+    "at": "2026-06-28T00:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "issuance.verified",
+    "objectType": "TokenClass",
+    "objectId": "tok_xmcr",
+    "reason": "Issuance checks complete for XMCR",
+    "previousState": "pending",
+    "newState": "verified",
+    "ip": "10.20.4.22",
+    "prevHash": "0x5d12029a0898ca2fd39c155b5eeead1bb6cf28c17bd6b0c0a17c13c7a98462ac",
+    "hash": "0x7c4be9ec2559acf11711895ce4904ac3405feb2dda4c00628a2d2dc9fdb2f5de"
+  },
+  {
+    "id": "aud_1nf3d3f",
+    "tenantId": "tnt_xyz",
+    "at": "2026-06-27T00:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "issuance.verified",
+    "objectType": "TokenClass",
+    "objectId": "tok_tz29",
+    "reason": "Issuance checks complete for TZ29",
+    "previousState": "pending",
+    "newState": "verified",
+    "ip": "10.20.4.22",
+    "prevHash": "0x2279bb109cf917b1013e902708d0554877849a3a8e3bd277be9f2ef78fd65444",
+    "hash": "0x5d12029a0898ca2fd39c155b5eeead1bb6cf28c17bd6b0c0a17c13c7a98462ac"
+  },
+  {
+    "id": "aud_1nkb274",
+    "tenantId": "tnt_srh",
+    "at": "2026-06-08T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "policy.published",
+    "objectType": "PolicyPack",
+    "objectId": "pol_adgm",
+    "reason": "Policy pack ADGM FSRA pack published",
+    "previousState": "draft",
+    "newState": "v2.1.0",
+    "approvedBy": "Daniel Reyes",
+    "ip": "10.20.4.22",
+    "prevHash": "0xc526543cd593bad9703d7543dab1febca62a938d53463e5d00475955a50e54b2",
+    "hash": "0x2279bb109cf917b1013e902708d0554877849a3a8e3bd277be9f2ef78fd65444"
+  },
+  {
+    "id": "aud_1ns72b8",
+    "tenantId": "tnt_srh",
+    "at": "2026-05-29T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "policy.published",
+    "objectType": "PolicyPack",
+    "objectId": "pol_uk",
+    "reason": "Policy pack UK FCA pack published",
+    "previousState": "draft",
+    "newState": "v1.0.2",
+    "approvedBy": "Daniel Reyes",
+    "ip": "10.20.4.22",
+    "prevHash": "0xfa03442c7f73584be2f265b194d6cc6c92f7058a0cccebcc5080a13bfd6de86e",
+    "hash": "0xc526543cd593bad9703d7543dab1febca62a938d53463e5d00475955a50e54b2"
+  },
+  {
+    "id": "aud_1nn5af2",
+    "tenantId": "tnt_srh",
+    "at": "2026-05-09T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "policy.published",
+    "objectType": "PolicyPack",
+    "objectId": "pol_cma",
+    "reason": "Policy pack Saudi CMA pack published",
+    "previousState": "draft",
+    "newState": "v1.0.4",
+    "approvedBy": "Daniel Reyes",
+    "ip": "10.20.4.22",
+    "prevHash": "0xdfccb7637cb245f691949defd02da318455a47d4add1d0e8d8d232be91ee0b1b",
+    "hash": "0xfa03442c7f73584be2f265b194d6cc6c92f7058a0cccebcc5080a13bfd6de86e"
+  },
+  {
+    "id": "aud_1nlb7b4",
+    "tenantId": "tnt_srh",
+    "at": "2026-04-29T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "policy.published",
+    "objectType": "PolicyPack",
+    "objectId": "pol_difc",
+    "reason": "Policy pack DIFC DFSA pack published",
+    "previousState": "draft",
+    "newState": "v1.8.0",
+    "approvedBy": "Daniel Reyes",
+    "ip": "10.20.4.22",
+    "prevHash": "0xbc04c3703365cf58a8fcd4f80f815934965217fbcc876759a817b2a333801e15",
+    "hash": "0xdfccb7637cb245f691949defd02da318455a47d4add1d0e8d8d232be91ee0b1b"
+  },
+  {
+    "id": "aud_1nhddd3",
+    "tenantId": "tnt_ngt",
+    "at": "2026-04-28T00:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "issuance.verified",
+    "objectType": "TokenClass",
+    "objectId": "tok_lrp26a",
+    "reason": "Issuance checks complete for LRP26A",
+    "previousState": "pending",
+    "newState": "verified",
+    "ip": "10.20.4.22",
+    "prevHash": "0xcb35da41f2b87bf772723ce470a3455b5337f050075adc8cfa04c63e0d139b2c",
+    "hash": "0xbc04c3703365cf58a8fcd4f80f815934965217fbcc876759a817b2a333801e15"
+  },
+  {
+    "id": "aud_1ni7292",
+    "tenantId": "tnt_mrd",
+    "at": "2026-04-12T00:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "issuance.verified",
+    "objectType": "TokenClass",
+    "objectId": "tok_mtdn",
+    "reason": "Issuance checks complete for MTDN",
+    "previousState": "pending",
+    "newState": "verified",
+    "ip": "10.20.4.22",
+    "prevHash": "0x70581427c6cb4326d76a08d02f6d8bb2929bfe390668aee83d353509d7b1c367",
+    "hash": "0xcb35da41f2b87bf772723ce470a3455b5337f050075adc8cfa04c63e0d139b2c"
+  },
+  {
+    "id": "aud_1ng3c4e",
+    "tenantId": "tnt_ngt",
+    "at": "2026-03-29T00:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "issuance.verified",
+    "objectType": "TokenClass",
+    "objectId": "tok_nspc",
+    "reason": "Issuance checks complete for NSPC",
+    "previousState": "pending",
+    "newState": "verified",
+    "ip": "10.20.4.22",
+    "prevHash": "0x95fc46b7917c1d0db44362fca629bcf393914ce6ed2305aecbfe8cf9a8461b4b",
+    "hash": "0x70581427c6cb4326d76a08d02f6d8bb2929bfe390668aee83d353509d7b1c367"
+  },
+  {
+    "id": "aud_1nq8a2e",
+    "tenantId": "tnt_srh",
+    "at": "2026-03-10T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "policy.published",
+    "objectType": "PolicyPack",
+    "objectId": "pol_cbb",
+    "reason": "Policy pack CBB pack published",
+    "previousState": "draft",
+    "newState": "v1.0.0",
+    "approvedBy": "Daniel Reyes",
+    "ip": "10.20.4.22",
+    "prevHash": "0x2720933ed9b79b7357b114e214c7c3a12e8010786c3f3ea552b04b77679f4575",
+    "hash": "0x95fc46b7917c1d0db44362fca629bcf393914ce6ed2305aecbfe8cf9a8461b4b"
+  },
+  {
+    "id": "aud_1na4ad0",
+    "tenantId": "tnt_srh",
+    "at": "2026-02-27T00:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "issuance.verified",
+    "objectType": "TokenClass",
+    "objectId": "tok_ads31",
+    "reason": "Issuance checks complete for ADS31",
+    "previousState": "pending",
+    "newState": "verified",
+    "ip": "10.20.4.22",
+    "prevHash": "0x294baad13b6c21d627828d935777e617a542ab0d1d958b27b64ba59872cd02be",
+    "hash": "0x2720933ed9b79b7357b114e214c7c3a12e8010786c3f3ea552b04b77679f4575"
+  },
+  {
+    "id": "aud_1nm9c2b",
+    "tenantId": "tnt_srh",
+    "at": "2026-02-08T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "policy.published",
+    "objectType": "PolicyPack",
+    "objectId": "pol_vara",
+    "reason": "Policy pack VARA virtual asset pack published",
+    "previousState": "draft",
+    "newState": "v1.3.0",
+    "approvedBy": "Daniel Reyes",
+    "ip": "10.20.4.22",
+    "prevHash": "0xec6ad47f4e9de0c3fa7bedd5b1e9b27679e004acdcdd8ecd53aed36f94b5e62f",
+    "hash": "0x294baad13b6c21d627828d935777e617a542ab0d1d958b27b64ba59872cd02be"
+  },
+  {
+    "id": "aud_1no2439",
+    "tenantId": "tnt_srh",
+    "at": "2026-01-09T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "policy.published",
+    "objectType": "PolicyPack",
+    "objectId": "pol_eu",
+    "reason": "Policy pack EU AIFMD and MiFID pack published",
+    "previousState": "draft",
+    "newState": "v2.0.1",
+    "approvedBy": "Daniel Reyes",
+    "ip": "10.20.4.22",
+    "prevHash": "0x7a185b2b68705ac63f5d2932e3cdc20ecd4c3eac01ceed03bb997278486b8c3b",
+    "hash": "0xec6ad47f4e9de0c3fa7bedd5b1e9b27679e004acdcdd8ecd53aed36f94b5e62f"
+  },
+  {
+    "id": "aud_1nta217",
+    "tenantId": "tnt_srh",
+    "at": "2025-12-30T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "policy.published",
+    "objectType": "PolicyPack",
+    "objectId": "pol_sharia",
+    "reason": "Policy pack Sharia compliance overlay published",
+    "previousState": "draft",
+    "newState": "v1.2.0",
+    "approvedBy": "Daniel Reyes",
+    "ip": "10.20.4.22",
+    "prevHash": "0x5f2e9e23c741527674aae7fcd2d8cf07b88c5a57db96d5bd6f6bc1c3dff914f3",
+    "hash": "0x7a185b2b68705ac63f5d2932e3cdc20ecd4c3eac01ceed03bb997278486b8c3b"
+  },
+  {
+    "id": "aud_1np554d",
+    "tenantId": "tnt_srh",
+    "at": "2025-09-01T16:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "policy.published",
+    "objectType": "PolicyPack",
+    "objectId": "pol_ch",
+    "reason": "Policy pack Swiss DLT pack published",
+    "previousState": "draft",
+    "newState": "v1.1.0",
+    "approvedBy": "Daniel Reyes",
+    "ip": "10.20.4.22",
+    "prevHash": "0x03c4d6de941852a5305f12d4e93a5e2e42308d199843b204a6f5c311cdd013f3",
+    "hash": "0x5f2e9e23c741527674aae7fcd2d8cf07b88c5a57db96d5bd6f6bc1c3dff914f3"
+  },
+  {
+    "id": "aud_1n67c13",
+    "tenantId": "tnt_srh",
+    "at": "2025-06-28T00:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "issuance.verified",
+    "objectType": "TokenClass",
+    "objectId": "tok_srht",
+    "reason": "Issuance checks complete for SRHT",
+    "previousState": "pending",
+    "newState": "verified",
+    "ip": "10.20.4.22",
+    "prevHash": "0x060669614ab6026b916f2d563267febb52bb724ecb6295054df6ce0331a7e1ba",
+    "hash": "0x03c4d6de941852a5305f12d4e93a5e2e42308d199843b204a6f5c311cdd013f3"
+  },
+  {
+    "id": "aud_1nc4dee",
+    "tenantId": "tnt_srh",
+    "at": "2025-04-29T00:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "issuance.verified",
+    "objectType": "TokenClass",
+    "objectId": "tok_hlgpa",
+    "reason": "Issuance checks complete for HLGPA",
+    "previousState": "pending",
+    "newState": "verified",
+    "ip": "10.20.4.22",
+    "prevHash": "0x09dbcfb9ebc47cf8ca15a19629d452abde0667d080b308c03c427a160042cdc0",
+    "hash": "0x060669614ab6026b916f2d563267febb52bb724ecb6295054df6ce0331a7e1ba"
+  },
+  {
+    "id": "aud_1nb196f",
+    "tenantId": "tnt_srh",
+    "at": "2025-02-26T00:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "issuance.verified",
+    "objectType": "TokenClass",
+    "objectId": "tok_acred",
+    "reason": "Issuance checks complete for ACRED",
+    "previousState": "pending",
+    "newState": "verified",
+    "ip": "10.20.4.22",
+    "prevHash": "0x48dc5938d032e2e160443f20b54ac3f4f75ca8fe32c41aa4091747d19d6092e4",
+    "hash": "0x09dbcfb9ebc47cf8ca15a19629d452abde0667d080b308c03c427a160042cdc0"
+  },
+  {
+    "id": "aud_1n975ac",
+    "tenantId": "tnt_srh",
+    "at": "2025-01-12T00:00:00.000Z",
+    "actor": {
+      "name": "Omar Siddiqui",
+      "role": "compliance-officer",
+      "organization": "SRH Markets Ltd"
+    },
+    "action": "issuance.verified",
+    "objectType": "TokenClass",
+    "objectId": "tok_srhg",
+    "reason": "Issuance checks complete for SRHG",
+    "previousState": "pending",
+    "newState": "verified",
+    "ip": "10.20.4.22",
+    "prevHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "hash": "0x48dc5938d032e2e160443f20b54ac3f4f75ca8fe32c41aa4091747d19d6092e4"
+  }
+]
